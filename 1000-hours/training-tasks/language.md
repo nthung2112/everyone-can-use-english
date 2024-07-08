@@ -1,45 +1,45 @@
-# 1. 基础语言能力
+# 1. Năng lực ngôn ngữ cơ bản
 
-你有没有认真想过，我们经常提起或者偶尔称赞的**文笔**或者**口才**指的到底是什么呢？
+Bạn đã từng nghĩ kỹ về điều mà chúng ta thường nhắc đến hoặc thỉnh thoảng khen ngợi như **văn phong** hoặc **khả năng diễn đạt** thực chất là gì chưa?
 
-文字是用来记录并传递感知的。所以，一个人能用的名词，往往局限在他能够感知的事物的总和之中，不管是抽象的还是具体的。他们能用的动词，就是这个集合里的事物能够发出或者承载的动作。
+Ngôn ngữ được sử dụng để ghi lại và truyền đạt cảm nhận. Vì vậy, những danh từ mà một người có thể sử dụng thường bị giới hạn trong tổng hợp những gì mà họ có thể cảm nhận được, bất kể là trừu tượng hay cụ thể. Động từ mà họ có thể dùng chính là những hành động mà tập hợp này có thể phát ra hoặc chứa đựng.
 
-**具体事物**，见过就知道，没见过就不知道也很容易理解。能用语言描述具体的事物及其对他们的感知，可以算作是**基础语言能力**了吧？
+**Sự vật cụ thể**, đã thấy thì biết, chưa thấy thì không biết cũng rất dễ hiểu. Có thể dùng ngôn ngữ để miêu tả sự vật cụ thể và cảm nhận của họ về chúng có thể được xem là **năng lực ngôn ngữ cơ bản** rồi chứ?
 
-这基础之上的才可以被称为**文采**或者**口才**吧？
+Chỉ khi có nền tảng này mới có thể được gọi là **văn phong** hoặc **khả năng diễn đạt** chứ?
 
-毫无疑问，**抽象事物**的数量一直在不断增加，并且发展得越来越快。亚里士多德显然是个天才，但他不知道**重力**的存在；发明了望远镜的伽利略当然好奇过天上到底有多少颗星星，可天才如他也无法想象许多年后有科学家想到了个用照片图像上的**景深**去估算恒星数量的方法；伽利略肯定也没听说过**进化**这个概念；达尔文不可能知道什么是**量子纠缠**或者**指数基金**。
+Không còn nghi ngờ gì nữa, số lượng **sự vật trừu tượng** luôn không ngừng tăng lên và phát triển ngày càng nhanh chóng. Aristotle rõ ràng là một thiên tài, nhưng ông không biết về sự tồn tại của **trọng lực**; Galileo, người phát minh ra kính viễn vọng, tất nhiên cũng tò mò về số lượng ngôi sao trên trời, nhưng thiên tài như ông cũng không thể tưởng tượng rằng nhiều năm sau có những nhà khoa học nghĩ ra cách sử dụng **độ sâu trường ảnh** trên hình ảnh để ước tính số lượng ngôi sao; Galileo chắc chắn cũng chưa từng nghe về khái niệm **tiến hóa**; Darwin không thể biết gì về **lượng tử rối** hoặc **quỹ chỉ số**.
 
-“幸福” 这样普遍的抽象概念虽然理解上并不统一，但大家好像早都知道，也不需要教育。但更多的抽象概念，比如，**适者生存**，**双盲测试**，**举证责任**，**基尼系数**，**皮格马利翁效应**，**梅特卡夫定律**，**摩尔定律**，**聚光灯效应**，**贝叶斯定理**…… 这些今天的人们可能习以为常的抽象概念，往往需要数年的教育或者自我教育才可以真正习得并熟练应用。
+Những khái niệm trừu tượng phổ biến như “hạnh phúc” mặc dù hiểu biết không thống nhất nhưng mọi người dường như đã biết từ lâu, không cần phải dạy. Nhưng nhiều khái niệm trừu tượng hơn, như **sự sống còn của người thích nghi**, **thử nghiệm mù đôi**, **trách nhiệm chứng minh**, **hệ số Gini**, **hiệu ứng Pygmalion**, **định luật Metcalfe**, **định luật Moore**, **hiệu ứng ánh đèn sân khấu**, **định lý Bayes**... những khái niệm trừu tượng mà mọi người ngày nay có thể thấy quen thuộc, thường cần nhiều năm giáo dục hoặc tự học mới có thể thực sự tiếp thu và sử dụng thành thạo.
 
-当人们讨论语言中的修辞现象的时候，会肤浅地把它划分到语言能力之中。可本质上来看，精彩且又准确的修辞，更多基于敏锐的观察和丰富且深入的思考。
+Khi mọi người thảo luận về hiện tượng tu từ trong ngôn ngữ, họ thường nông cạn phân loại nó vào năng lực ngôn ngữ. Nhưng từ bản chất, cách tu từ xuất sắc và chính xác hơn dựa trên sự quan sát sắc sảo và suy nghĩ phong phú và sâu sắc.
 
-先不说那些高级的**修辞**，单说对一个事物的**形容**，即，普通的形容词，人与人之间的差异也非常大。
+Không cần nói về những **phép tu từ** cao cấp, chỉ nói về việc **miêu tả** một sự vật, tức là các tính từ thông thường, cũng đã có sự khác biệt rất lớn giữa mọi người.
 
-如果一个人对一个他能够感知到的事物只有一方面的感知，那么针对这个事物，他可用的形容词也就只有一个，不可能是多个。比如，同样一部电视剧，很多人只有一个感受，“好看”；而另外一个人的描述却是，“这是一个画面华丽，情绪充沛，却故事单薄，人物拉垮，但反过来又因为这个时代的品味而大火特火的电视剧”。与其说这是文采，不如说这只是对同一事物更多角度的观察、感知与思考最终在语言上的体现。
+Nếu một người chỉ có một cảm nhận về một sự vật mà họ có thể cảm nhận được, thì đối với sự vật đó, người đó chỉ có một tính từ để miêu tả, không thể có nhiều hơn. Ví dụ, cùng xem một bộ phim truyền hình, nhiều người chỉ có một cảm nhận, "hay"; trong khi người khác lại mô tả, "Đây là một bộ phim có hình ảnh đẹp, cảm xúc phong phú, nhưng cốt truyện mỏng manh, nhân vật yếu, nhưng lại nổi tiếng nhờ gu thưởng thức của thời đại này". Thay vì gọi đó là văn phong, có lẽ đó chỉ là sự thể hiện trong ngôn ngữ của việc quan sát, cảm nhận và suy nghĩ từ nhiều góc độ khác nhau về cùng một sự vật.
 
-有人喜欢**押韵**，有人善用**类比**，有人擅用**隐喻**，有人以**排比**为乐，有人以**旁征博引**为荣。
+Có người thích **vần**, có người giỏi **so sánh**, có người giỏi **ẩn dụ**, có người thích **liệt kê**, có người tự hào về **dẫn chứng**.
 
-**押韵**虽然看起来更多是语言能力，但，不可否认的是，它来自更多的练习，甚至钻研，以及长期的积累。更为底层的，是足够的记忆力 —— 首先要有足够量的选择，然后才能在众多的选择中找到恰当的韵脚。比如，“只要掌握了这项能力，你就无往不利…… 所向披靡。”
+**Vần** mặc dù nhìn qua có vẻ nhiều hơn về năng lực ngôn ngữ, nhưng không thể phủ nhận rằng nó đến từ sự luyện tập, thậm chí nghiên cứu, và tích lũy lâu dài. Nền tảng là trí nhớ đủ tốt —— Trước hết phải có đủ lượng lựa chọn, sau đó mới có thể tìm ra vần thích hợp trong nhiều lựa chọn. Ví dụ, "chỉ cần nắm vững kỹ năng này, bạn sẽ không gì không thắng... không gì không phá được."
 
-一个人能用精确且又出人意料的**类比**，说明他能看到别人看不到的不同事物之间的关联，并且还能在众多的关联里挑出最准确最令人震惊的那个…… 这可是非常了不起甚至罕见的技能。
+Một người có thể sử dụng phép **so sánh** chính xác và bất ngờ, chứng tỏ họ có thể thấy mối liên hệ giữa các sự vật khác nhau mà người khác không thấy, và có thể chọn ra mối liên hệ chính xác và gây ấn tượng nhất trong nhiều mối liên hệ... Đây là một kỹ năng rất đáng ngưỡng mộ và hiếm có.
 
-一个人能不动声色地用好各种**隐喻**，往往来自整个文化的长期影响。比如，同样说，“他就是一颗**棋子**” — 这倒真是全球通用的一个隐喻，毕竟，**人生如棋**…… 但，接下来，这个 “棋子” 到底是什么呢？欧洲人可能在 *Knight*, *Bishop* 和 *Pawn* 中选择（国际象棋）；而中国人呢？车马炮，或者卒（中国象棋）。
+Một người có thể sử dụng các **ẩn dụ** một cách tự nhiên, thường là kết quả của ảnh hưởng văn hóa lâu dài. Ví dụ, cùng nói, "anh ta như một **quân cờ**" — Đây thực sự là một ẩn dụ toàn cầu, vì **cuộc sống như một ván cờ**... Nhưng, tiếp theo, quân cờ này là gì? Người châu Âu có thể chọn giữa _Knight_, _Bishop_ và _Pawn_ (cờ vua); còn người Trung Quốc? Xe, mã, pháo, hoặc tốt (cờ tướng).
 
-至于**排比**和**旁征博引**么，毫无疑问，都需要更多额外的功课，因为现编总是来不及的。
+Còn về **liệt kê** và **dẫn chứng** thì chắc chắn cần nhiều công sức bổ sung, vì sáng tác ngay tại chỗ luôn là không đủ.
 
-这些普遍被认为是或者属于文采或者口才，但，实际上，它们都不是**基础语言能力**，它们都是另外的技能，几乎各个都有各自独立且有系统的知识体系。
+Những điều này thường được coi là thuộc về văn phong hoặc khả năng diễn đạt, nhưng thực ra, chúng không phải là **năng lực ngôn ngữ cơ bản**, chúng đều là những kỹ năng khác, hầu hết đều có hệ thống kiến thức độc lập và có cấu trúc riêng.
 
-再比如，逻辑严谨，这更是一项终生的修炼。逻辑是一种既简单又困难的思考工具。你说它简单吧，它也的确就那么几十个概念。日常讨论中，无非是 “在 ‘因为’ 后面说清楚充分且必要的理由和根据”，或者 “在 ‘比如’ 后面给出精彩且又准确越多越好的例子”，看起来的确简单。你说它困难吧，还真是，就算练上一辈子也随时有可能突然之间阴沟里翻船。
+Ví dụ, logic chặt chẽ, đây là một quá trình rèn luyện suốt đời. Logic là một công cụ tư duy vừa đơn giản vừa khó khăn. Bạn nói nó đơn giản, thực sự chỉ có vài chục khái niệm. Trong thảo luận hàng ngày, chẳng qua là “sau ‘vì’ nói rõ lý do và căn cứ đầy đủ và cần thiết”, hoặc “sau ‘ví dụ’ đưa ra càng nhiều ví dụ hay và chính xác càng tốt”, nhìn qua thì thật đơn giản. Bạn nói nó khó, thực sự là, dù luyện cả đời cũng có thể bất ngờ bị thất bại bất cứ lúc nào.
 
-又比如，讲故事的方式，这简直是一门艺术。一切的事物都在一个网络里不断互动，描述它们语言竟然只有树状的语法，然后要想尽一切办法让对方线性地理解。先说什么后说什么，哪里要插叙，哪里要倒叙，哪里要抖包袱，要怎样才能做到情理之中却又意料之外……
+Ví dụ khác, cách kể chuyện, đây thực sự là một nghệ thuật. Mọi sự vật đều tương tác trong một mạng lưới liên tục, nhưng ngôn ngữ để miêu tả chúng chỉ có cú pháp dạng cây, sau đó phải tìm mọi cách để người khác hiểu theo tuyến tính. Nói cái gì trước cái gì sau, chỗ nào cần chèn thêm, chỗ nào cần kể lại, chỗ nào cần tạo bất ngờ, làm thế nào để hợp lý mà lại không ngờ tới...
 
-这些，还是跟基础语言能力全无关系。
+Những điều này không liên quan đến năng lực ngôn ngữ cơ bản.
 
-要非说说清楚 “基础语言能力” 指的到底是什么，大抵上可能包括以下几个方面：
+Nếu phải nói rõ "năng lực ngôn ngữ cơ bản" là gì, có lẽ bao gồm những khía cạnh sau:
 
-> * 足够的词汇量
-> * 足够的语法知识
-> * 符合文化的通用表达方式
+> - Vốn từ đủ rộng
+> - Kiến thức ngữ pháp đủ
+> - Cách biểu đạt phù hợp với văn hóa
 
-—— 仅此而已。至于以上提到的种种技巧或者能力，实际上都是基础语言能力之外的东西，但它们有着同样的特征，都是只能靠花时间和精力去积累才能发展出来的能力。
+—— Chỉ vậy thôi. Còn những kỹ năng hoặc năng lực đã đề cập ở trên, thực ra đều nằm ngoài năng lực ngôn ngữ cơ bản, nhưng chúng có đặc điểm chung, đều chỉ có thể phát triển bằng cách dành thời gian và công sức tích lũy.

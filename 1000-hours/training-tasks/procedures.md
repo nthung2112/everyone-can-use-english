@@ -1,121 +1,113 @@
-# 2. 训练方法
+# 2. Phương pháp huấn luyện
 
-请后续反复认真阅读《[语音塑造](/sounds-of-american-english/1-basics)》中的每一个章节。
+Hãy dành thời gian đọc kỹ từng chương trong "[Âm thanh tiếng Anh Mỹ](/sounds-of-american-english/1-basics)" nhiều lần.
 
-## 2.1 搞清每个单词的读音
+## 2.1. Hiểu rõ cách phát âm từng từ
 
-在挣扎着**读准**之前，**首先要避免读错**。这只是一个习惯，遇到任何不确定的词汇都要查词典 —— 当然，在有各种辅助工具的情况下（[GPT: Phonetic Transcriber](https://chat.openai.com/g/g-nWwuxUVqO-phonetic-transcriber)），甚至可以整句查询音标。
+Trước khi bạn có thể phát âm đúng, đừng bao giờ phát âm sai. Đây chỉ là một thói quen, bất cứ từ nào mà bạn không chắc chắn đều nên tra từ điển —— tất nhiên, trong trường hợp có các công cụ hỗ trợ như [GPT: Phonetic Transcriber](https://chat.openai.com/g/g-nWwuxUVqO-phonetic-transcriber), bạn có thể tra cả câu để xem các ký hiệu phát âm.
 
-望文生音非常可怕。我曾经在很多年里把 *facade* 读成 <span class="pho alt">ˈfækeɪd</span> （其实是 <span class="pho alt">fəˈsɑːd</span><span class="speak-word-inline" data-audio-uk="/audios/facade-uk.mp3" data-audio-us="/audios/facade-us.mp3"></span>）把 *specific* 读成 <span class="pho alt">ˈspesɪfɪk</span> （其实是 <span class="pho alt">spəˈsɪfɪk</span><span class="speak-word-inline" data-audio-uk="/audios/specific-uk.mp3" data-audio-us="/audios/specific-us.mp3"></span>）…… 不妨再猜猜 *plaid* 这个词怎么读？我在很长一段时间里误以为是 <span class="pho alt">pleɪd</span> …… 后来才发现并非如此 —— 其实是 <span class="pho alt">plæd</span>：<span class="speak-word-inline" data-audio-uk="/audios/plaid-uk.mp3" data-audio-us="/audios/plaid-us.mp3"></span>。
+Việc đoán chữ từ hình vẽ về âm thanh rất nguy hiểm. Tôi đã từng phát âm _facade_ thành <span class="pho alt">ˈfækeɪd</span> (thực ra là <span class="pho alt">fəˈsɑːd</span><span class="speak-word-inline" data-audio-uk="/audios/facade-uk.mp3" data-audio-us="/audios/facade-us.mp3"></span>) và _specific_ thành <span class="pho alt">ˈspesɪfɪk</span> (thực ra là <span class="pho alt">spəˈsɪfɪk</span><span class="speak-word-inline" data-audio-uk="/audios/specific-uk.mp3" data-audio-us="/audios/specific-us.mp3"></span>)... Bạn có thử đoán từ _plaid_ như thế nào? Tôi đã lầm tưởng nó là <span class="pho alt">pleɪd</span> trong một thời gian dài... Sau đó tôi mới phát hiện ra đó không phải —— thực ra là <span class="pho alt">plæd</span>:<span class="speak-word-inline" data-audio-uk="/audios/plaid-uk.mp3" data-audio-us="/audios/plaid-us.mp3"></span>.
 
-如果不养成这个习惯，那么读错的单词会越来越多，等于时时刻刻在为自己的牢墙添砖加瓦，到最后再也无法逃脱 —— Github 上有个[常见中国程序员发音错误的单词列表](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)，不妨去看看，当作自己的警钟。
+Nếu không luyện tập thói quen này, bạn sẽ phát âm sai nhiều từ hơn, tương đương với việc đang xây dựng một bức tường vững chắc cho chính mình, và rồi không thể thoát khỏi —— Trên Github có một [danh sách từ phát âm sai của lập trình viên Trung Quốc](https://github.com/shimohq/chinese-programmer-wrong-pronunciation), bạn nên xem xét nó như một lời cảnh tỉnh cho bản thân.
 
-遇到自己不熟悉发音的词汇，要单独反复大声朗读，直至自己的舌头和嘴唇都协调得非常轻松自然。每个人遇到的困难不一样。比如，Instagram 上就有个人[演示](https://www.instagram.com/reel/C1VmSpuIvTO/?igsh=czY3cDAzcGIxMGN4)过自己 *literally* 这个单词死活读不明白的尴尬<span class="speak-word-inline" data-audio-uk="/audios/literally-instagram.mp3"></span> —— 不过，这恰恰就是在自己的大脑里**新建连接新建网络**所要面临的困难，要通过练习克服的就是这个困难，并且还要通过短时间内足量重复把**新连接新网络**强化到**原有近似连接近似网络**无法竞争的地步……
+Đối mặt với những từ mà bạn không quen phát âm, hãy đọc to và lặp đi lặp lại, cho đến khi lưỡi và môi của bạn phối hợp một cách tự nhiên và dễ dàng. Mỗi người gặp khó khăn riêng. Ví dụ, có một người trên Instagram đã [thể hiện](https://www.instagram.com/reel/C1VmSpuIvTO/?igsh=czY3cDAzcGIxMGN4) việc không thể phát âm đúng từ _literally_ đến mức ngượng ngùng<span class="speak-word-inline" data-audio-uk="/audios/literally-instagram.mp3"></span> —— Tuy nhiên, điều này thực sự là khó khăn mà bạn phải đối mặt trong việc xây dựng và tạo mới các kết nối trong não bộ của mình, và bạn phải vượt qua nó bằng cách luyện tập, và qua đó, tăng cường các kết nối mới đủ mạnh để không thể bị đối thủ gần đối thủ cạnh tranh...
 
-## 2.2 放慢播放速度仔细听
+## 2.2. Giảm tốc độ phát lại để nghe kỹ
 
-要慢速听**很多遍**。从 2 大层面总计 7 个方面分别去分析，详情参见《[语音塑造](/sounds-of-american-english/1-basics)》：
+Hãy nghe kỹ **nhiều lần**. Phân tích từ 2 khía cạnh chính tổng cộng 7 khía cạnh chi tiết, xem thêm tại "[Âm thanh tiếng Anh Mỹ](/sounds-of-american-english/1-basics)":
 
-> * 韵律节奏
->   * 停顿（[2.4.1](/sounds-of-american-english/2.4.1-stop)）
->   * 高低（[2.5.1](/sounds-of-american-english/2.5.1-pitch)）
->   * 起伏（[2.5.2](/sounds-of-american-english/2.5.2-tone)）
->   * 轻重（[2.5.3](/sounds-of-american-english/2.5.3-emphasis)）
->   * 缓急（[2.5.4](/sounds-of-american-english/2.5.4-pace)）
-> * 音素变化
->   * 元音（[2.1](/sounds-of-american-english/2.1-vowels)）
->   * 辅音（[2.2](/sounds-of-american-english/2.2-consonants)）
+> - Nhịp điệu và nhịp độ
+>   - Dừng ( [2.4.1](/sounds-of-american-english/2.4.1-stop) )
+>   - Cao thấp ( [2.5.1](/sounds-of-american-english/2.5.1-pitch) )
+>   - Đều lên xuống ( [2.5.2](/sounds-of-american-english/2.5.2-tone) )
+>   - Nhẹ nặng ( [2.5.3](/sounds-of-american-english/2.5.3-emphasis) )
+>   - Chậm nhanh ( [2.5.4](/sounds-of-american-english/2.5.4-pace) )
+> - Thay đổi âm vị
+>   - Nguyên âm ( [2.1](/sounds-of-american-english/2.1-vowels) )
+>   - Phụ âm ( [2.2](/sounds-of-american-english/2.2-consonants) )
 
-**仔细听**的意思是说，按照以上的顺序，逐条分析，直至每个**音素**都认真分析过、认真体会过、认真尝试过。这一步最需要**注意力集中**，也是整个训练中最关键的部分 —— 这场训练，从另外一个角度来看，实际上都是**注意力训练**。
+**Nghe kỹ** có nghĩa là theo thứ tự trên, phân tích từng khía cạnh, cho đến khi bạn đã chi tiết phân tích từng **âm vị**, cảm nhận và thử nghiệm. Bước này yêu cầu **tập trung cao độ**, và là phần quan trọng nhất trong toàn bộ quá trình luyện tập —— từ một góc độ khác, đây thực sự là luyện tập **tập trung chú ý**.
 
-如果这一点没做到、没做好的话，就会出现 “**明明听到的是一回事，脑子里反应的却是另外一回事**”。
+Nếu bạn không làm tốt bước này, có thể xảy ra "Bạn nghe thấy điều gì, nhưng đầu óc bạn lại phản ứng điều khác".
 
-比如，假设过去你一直习惯于把 *recent* <span class="pho alt">ˈrisənt</span> 里的 <span class="pho alt">s</span> 读成了 <span class="pho alt">z</span>，而后在这一步中你并没有做到**仔细听并分析到音素级别**的话…… 那么接下来弄不好无论听多少遍，无论跟读多少遍，你都有可能依然**无法发现**你有一个音竟然读错了 —— 你的大脑会固执地用原有的连接和网络，乃至于自己毫无察觉。如果有人提醒，你会感觉特别奇怪，感觉上那么**明显**的差异，自己怎么就**竟然**一直没注意到？这里有个示例，<span class="speak-word-inline" data-audio-other="/audios/us/recent-z.mp3"></span>（*recent health tips*）—— 这是某位同学被发现之前完全没有意识到的错误。
+Ví dụ, giả sử bạn đã quen phát âm _recent_ <span class="pho alt">ˈrisənt</span> với <span class="pho alt">s</span> được đọc như <span class="pho alt">z</span>, nhưng bạn không nghe kỹ và phân tích đến cấp độ âm vị... Bước tiếp theo, dù bạn có nghe bao nhiêu lần và nói theo bao nhiêu lần, bạn có thể vẫn **không nhận ra** rằng bạn đã phát âm sai một âm —— Não bộ của bạn sẽ cứng đầu sử dụng các kết nối và mạng lưới hiện tại của nó, và bạn sẽ không nhận ra. Nếu có ai đó nhắc nhở bạn, bạn sẽ cảm thấy rất lạ lẫm, cảm thấy khác biệt rất **rõ ràng**, bạn làm sao mà **thực sự** không để ý đến điều đó? Ví dụ ở đây, <span class="speak-word-inline" data-audio-other="/audios/us/recent-z.mp3"></span> ( _recent health tips_ ) —— Đây là lỗi mà một số sinh viên không nhận ra trước khi được phát hiện.
 
-在这一步，每个单词都可以跟读一下，通过试验感觉自己的声音，认真找自己需要调整的地方。
+Ở bước này, bạn có thể thử nói sau mỗi từ, thử cảm nhận và điều chỉnh những nơi bạn cần phải thay đổi.
 
-在最初尚不熟悉的时候，可以把文本和音标打印出来，在纸上用笔做各种标记。
+Ở giai đoạn ban đầu, điều quan trọng là phân tích những gì bạn đã nghe được.
 
-> * 用 <span class="pho">|</span> 标注**可换气停顿**，用 <span class="pho">·</span> 标注**非换气停顿**；
-> * 在**音高**（*pitch*）被拔高的音节上标注一个 <span class="pho">^</span>；
-> * 在**重读**的单词可用加重字体作为标注；
-> * 需要读长的**元音**在下面或者上面画一段直线；
-> * 用箭头标注**声调**，比如，<span class="pho">→</span>、<span class="pho">↗</span>、<span class="pho">↘</span> 或 <span class="pho">⤻</span>；
-> * 在**连起来读得很快的几个词汇**下画波浪线；
-> * 格外需要注意并调整的**音素**，引出一个箭头之后写上各种必要的笔记……
+## 2.3. Đọc theo đoạn nhỏ
 
-这一步的仔细分析很重要，是后面所有练习步骤的必要前提。请注意，这一步分析，弄上半小时甚至一小时都不过分…… 因为**你不知道的你就注意不到**。
-
-## 2.3. 分段跟读
-
-这和我们练琴特别像。刚开始的时候，人家弹得轻松听着优美，我们自己的手指干脆不听话，笨得跟脚趾似的……
+Điều này rất giống với việc luyện chơi đàn piano. Khi mới bắt đầu, người ta chơi rất nhẹ nhàng và nghe rất hay, nhưng ngón tay của mình lại như không nghe lời, vụng về như những ngón chân...
 
 <video controls><source src="/videos/hc-gt-normal.mp4"></source></video>
 
-于是，只能放慢听，放慢速度练……
+Do đó, chỉ có thể nghe chậm lại, luyện tập chậm lại...
 
 <video controls><source src="/videos/hc-gt-slow.mp4"></source></video>
 
- 可即便放慢速度了也不行…… 于是，只能一小节一小节地练，练熟了一小节再去练下一小节，两个小节都练熟了之后吧，还得拼起来重复很多遍才能做到两个小节之间衔接自然…… 如此这般，一小节一小节地终于 “**爬**” 完之后，才算有资格可以进行**正式练习**了……
+Nhưng ngay cả khi đã giảm tốc độ, vẫn không làm được... Do đó, chỉ có thể luyện từng đoạn nhỏ, luyện từng đoạn nhỏ cho quen rồi mới luyện đoạn tiếp theo, khi hai đoạn đã quen rồi thì lại ghép chúng lại và lặp đi lặp lại nhiều lần cho đến khi kết nối tự nhiên... Cứ như vậy, từng đoạn một cho đến khi "leo" hết đoạn, rồi mới đủ khả năng để tiến hành luyện tập chính thức...
 
-自然语音中有**可换气停顿**的地方，就相当于是乐谱里的小节分界线。分段练习，实在难的小节，还可以继续拆分……
+Trong ngôn ngữ tự nhiên, có những nơi có thể nghỉ hơi, giống như các vạch chia đoạn trong bản nhạc. Luyện tập theo đoạn, nếu gặp đoạn khó, có thể chia nhỏ hơn...
 
-在跟读的时候，有必要**夸张**一点。声音也要正常地**大** —— 确实不用喊，嗓子的确需要保护。实际上，我们主要需要练的是嘴唇、舌头、气流振动的配合，主要练的还真不是声带。
+Khi đọc theo, cần phải **cường điệu** một chút. Âm thanh cũng cần phải to **bình thường** —— Thực ra không cần hét, cổ họng cần được bảo vệ. Thực tế, chúng ta chủ yếu cần luyện môi, lưỡi, và sự phối hợp của luồng khí, chủ yếu luyện không phải là dây thanh.
 
-跟读的时候，可以戴着耳机。一个比较好的方法是戴单只耳机 —— 这样，一方面录音听得更清楚，另外一方面也不妨碍听清自己的声音，还可以换着耳朵戴。
+Khi đọc theo, có thể đeo tai nghe. Một cách tốt là đeo một tai nghe —— Như vậy, một mặt giúp nghe rõ hơn bản ghi âm, mặt khác cũng không cản trở việc nghe rõ giọng của mình, và có thể thay đổi tai nghe.
 
-上一步中的**音素级分析**，在这一步中开始发挥作用，因为你可以注意到每一个细节。而后的过程，漫长且又难过 —— **短时间内足量重复** —— 要在大脑里创建新连接强化新连接，创建新网络强化新网络，防止旧连接旧网络被启用，防止近似连接近似网络劫持操作…… 时时刻刻感觉到自己的笨拙，苦恼于做不到、做不好 —— **非常难过，但必需忍受**。
+Việc **phân tích chi tiết từng âm vị** ở bước trước bắt đầu phát huy tác dụng trong bước này, vì bạn có thể chú ý đến từng chi tiết. Quá trình tiếp theo dài và khó —— **Lặp đi lặp lại trong thời gian ngắn** —— Cần phải tạo kết nối mới, củng cố kết nối mới, tạo mạng lưới mới, củng cố mạng lưới mới, ngăn chặn việc sử dụng kết nối cũ, ngăn chặn kết nối và mạng lưới gần tương tự chiếm quyền điều khiển... Luôn luôn cảm thấy mình vụng về, khó chịu vì không làm được, làm không tốt —— **Rất khó chịu, nhưng phải chịu đựng**.
 
-不要害怕自己的笨拙。
+Đừng sợ vụng về của mình.
 
-大家都一样，刚开始的时候就是很吃力，就是很生硬 —— 并且，这种笨拙必然要持续相当长一段时间…… 哪怕感觉上已经熟练，还是需要继续练习的 —— 做什么都一样。
+Mọi người đều như
 
-TED 上有一个讲座，Benjamin Zander 讲 [The transformative power of classical music](https://www.ted.com/talks/benjamin_zander_the_transformative_power_of_classical_music/transcript?language=en)，提到说 “没有人是音盲（*tune deaf*）” 所以每个人都可以练习演奏 —— 这很重要…… 不过，值得你在这里听听的是他模仿了不同时期孩子弹钢琴的情况，从生硬到熟练……
+nhau, khi mới bắt đầu đều rất khó khăn, đều rất cứng nhắc —— Và, sự vụng về này chắc chắn kéo dài một thời gian dài... Dù cảm thấy đã quen, vẫn cần tiếp tục luyện tập —— Làm bất cứ điều gì cũng vậy.
+
+Trên TED có một bài diễn thuyết, Benjamin Zander nói về [Sức mạnh biến đổi của âm nhạc cổ điển](https://www.ted.com/talks/benjamin_zander_the_transformative_power_of_classical_music/transcript?language=en), nói rằng "Không ai là không có khả năng cảm thụ âm nhạc" vì vậy ai cũng có thể luyện tập chơi nhạc —— Điều này rất quan trọng... Nhưng, điều đáng nghe ở đây là ông ấy đã mô phỏng cách trẻ em chơi đàn piano ở các giai đoạn khác nhau, từ cứng nhắc đến thành thạo...
 
 <audio controls><source src="/audios/benjamin-zander-on-kids-playing-piano.mp3"></source></audio>
 
-其实，无论干什么，每个人都得经历那其中的各个阶段。
+Thực tế, dù làm gì, ai cũng phải trải qua các giai đoạn đó.
 
-## 2.4. 完整跟读
+## 2.4. Đọc theo toàn văn
 
-终于，可以尝试**完整跟读**了。
+Cuối cùng, bạn có thể thử **đọc theo toàn văn**.
 
-在这个阶段里，千万不能误以为自己现在已经很熟练了就彻底过关了。
+Ở giai đoạn này, đừng hiểu lầm rằng bạn đã quen thuộc rồi và hoàn toàn vượt qua.
 
-完整跟读几遍之后，要录音。这时候，之前做的详细的标记就更起作用了。你会发现自己总是会在一些想象不到的地方一不小心就变成了过往自己说话的样子 —— 这就是近似连接近似网络和新建连接新建网络竞争胜出的结果。也许你需要换个颜色的笔再做一些**重点标记**。
+Sau khi đọc theo toàn văn vài lần, hãy ghi âm lại. Lúc này, các dấu hiệu bạn đã làm trước đó sẽ trở nên hữu ích hơn. Bạn sẽ nhận ra mình luôn dễ dàng trở lại cách nói của mình trước đây ở những chỗ không ngờ —— Đây là kết quả của việc các kết nối gần tương tự và mạng lưới mới cạnh tranh nhau. Có lẽ bạn cần dùng bút màu khác để làm thêm một số **dấu hiệu trọng điểm**.
 
-重复三五遍之后，就要再录一次音，再对比再调整。
+Sau khi lặp lại ba đến năm lần, hãy ghi âm lại, so sánh và điều chỉnh lại.
 
-**录音非常重要**。因为不录音的话，很多自己没弄明白的细节就被掩盖了。只要录音，没做好没做对的地方就无可遁形。倒不见得每一次跟读都要录音，但，一定要时不时录一次。
+**Ghi âm rất quan trọng**. Bởi vì nếu không ghi âm, nhiều chi tiết mà bạn chưa hiểu sẽ bị che giấu. Chỉ cần ghi âm, những chỗ chưa làm đúng sẽ lộ rõ. Không nhất thiết mỗi lần đọc theo đều phải ghi âm, nhưng, nhất định phải thỉnh thoảng ghi âm một lần.
 
-## 2.5. 背诵
+## 2.5. Học thuộc lòng
 
-**这一步格外重要，绝不能糊弄！**—— 这是两个核心任务之一。随着时间的推移，**记忆扩展**的重要性会逐步超过**语音塑造** —— 毕竟，**语音塑造**练一段时间之后就可以用一辈子；但，**记忆扩展**却是可以且最好长期持续进行的。
+**Bước này rất quan trọng, không thể qua loa!** —— Đây là một trong hai nhiệm vụ cốt lõi. Theo thời gian, **sự mở rộng trí nhớ** sẽ dần trở nên quan trọng hơn **việc hình thành âm thanh** —— Cuối cùng, **việc hình thành âm thanh** luyện tập một thời gian rồi có thể dùng cả đời; nhưng, **sự mở rộng trí nhớ** có thể và nên được duy trì lâu dài.
 
-切记：**记忆是一切语言能力的基础**。
+Hãy nhớ: **Trí nhớ là nền tảng của mọi khả năng ngôn ngữ**.
 
-这时候，你已经把整个文本读过不知道多少遍了 —— 背诵不应该有太多困难。
+Lúc này, bạn đã đọc toàn bộ văn bản không biết bao nhiêu lần rồi —— Học thuộc lòng không nên gặp quá nhiều khó khăn.
 
-然而，由于它并不是用你目前高度熟悉的语言书写的，所以你还真不一定能够一下子记住。要集中注意力短时间内重复多次才可以。
+Tuy nhiên, do nó không được viết bằng ngôn ngữ mà bạn rất quen thuộc, nên bạn không nhất định nhớ ngay được. Cần tập trung chú ý lặp đi lặp lại nhiều lần trong thời gian ngắn.
 
-刚开始的时候可能会感觉死活记不住…… 放心，**你的记忆力会越来越好的，只要你肯练**。
+Ban đầu có thể cảm thấy khó nhớ... Yên tâm, **trí nhớ của bạn sẽ ngày càng tốt hơn, miễn là bạn chịu luyện tập**.
 
-每隔一段时间要专门腾出一天复习之前的内容。比如，周日的时候，专门复习这一整周的所有内容。同样，到了月末，要腾出两三天专门复习这一整个月的内容。
+Cứ mỗi khoảng thời gian, hãy dành ra một ngày để ôn lại nội dung trước đó. Ví dụ, vào Chủ nhật, dành thời gian ôn lại tất cả nội dung trong tuần. Tương tự, đến cuối tháng, dành ra hai ba ngày để ôn lại toàn bộ nội dung trong tháng.
 
-## 2.6. 放松
+## 2.6. Thư giãn
 
-在此之前，你的所有努力都是要尽量用录音里的方式说出所有的文字。在这个过程中，为了保证练习效果，你可能一直相当夸张，这也非常必要。
+Trước đó, tất cả những nỗ lực của bạn là cố gắng nói mọi từ theo cách mà bản ghi âm nói. Trong quá trình này, để đảm bảo hiệu quả luyện tập, bạn có thể đã rất cường điệu, điều này cũng rất cần thiết.
 
-在练习的过程中，绝大多数人都会不由自主受到的影响有一部分来自于示范录音中的**音质**。
+Trong quá trình luyện tập, hầu hết mọi người đều bị ảnh hưởng một phần bởi **chất lượng âm thanh** trong bản ghi âm.
 
-无论是人工智能生成的所谓真人语音，还是有声书里的录音，抑或是影视剧里的台词 —— 这些录音中的朗读者**音质**也好**声线**也罢，都是训练有素的**表演**。绝大多数人在日常生活里并未受到过这方面的专业训练，肯定不影响日常交流，但，的确很难做到在音质上或者声线上模仿。
+Dù là giọng người thực tế được tạo ra bằng trí tuệ nhân tạo, hay bản ghi âm trong sách nói, hay lời thoại trong phim —— Giọng đọc trong những bản ghi âm này **chất lượng âm thanh** cũng như **giọng điệu** đều là những **biểu diễn được đào tạo bài bản**. Hầu hết mọi người trong cuộc sống hàng ngày chưa được đào tạo chuyên nghiệp về mặt này, chắc chắn không ảnh hưởng đến giao tiếp hàng ngày, nhưng, thực sự rất khó để mô phỏng chất lượng âm thanh hoặc giọng điệu.
 
-当你熟悉到一定程度之后，你可以尝试着放松自己的声音。这样多少可以摆脱音质或声线造成的影响。但，依然需要重点关注的是那两大方面：**韵律节奏**和**音素变化** —— 这些都与音质或声线无关。
+Khi bạn đã quen đến mức độ nhất định, bạn có thể thử thư giãn giọng của mình. Điều này có thể phần nào thoát khỏi ảnh hưởng của chất lượng âm thanh hoặc giọng điệu. Nhưng, vẫn cần tập trung vào hai khía cạnh chính: **nhịp điệu và nhịp độ** và **thay đổi âm vị** —— những điều này không liên quan đến chất lượng âm thanh hoặc giọng điệu.
 
-放松自己的嘴唇、舌头、呼吸，用尽量自然的方式反复朗读文本。重复几遍之后就录一次音…… 对比一下…… 也需要做调整…… 尝试背诵…… —— 重复以上步骤。
+Thư giãn môi, lưỡi, hơi thở, đọc lại văn bản một cách tự nhiên nhất có thể. Sau khi lặp lại vài lần, hãy ghi âm lại... So sánh... Cần điều chỉnh... Thử học thuộc lòng... —— Lặp lại các bước trên.
 
-## 2.7. 复盘
+## 2.7. Tổng kết
 
-一天至少三个小时，每周最多可以中止一天。
+Mỗi ngày ít nhất ba giờ, mỗi tuần có thể nghỉ một ngày.
 
-每天结束之前，要花 5～10 分钟做一下**复盘**，回忆并记录一下自己今天遇到的困难、已经克服的困难、尚未克服的困难、以及面对那些困难时所采用的方法…… 想一想还有什么方法可以试试？这些都要写下来。相信我，记录这个东西 ，总是会以想象不到的方式起想象不到的作用。
+Trước khi kết thúc mỗi ngày, hãy dành 5-10 phút để **tổng kết**, nhớ lại và ghi lại những khó khăn bạn gặp phải hôm nay, những khó khăn bạn đã vượt qua, những khó khăn bạn chưa vượt qua, và những phương pháp bạn đã sử dụng để đối mặt với những khó khăn đó... Nghĩ xem còn phương pháp nào khác có thể thử không? Hãy viết ra tất cả những điều này. Tin tôi đi, ghi lại những điều này sẽ có tác dụng bất ngờ theo những cách bất ngờ.

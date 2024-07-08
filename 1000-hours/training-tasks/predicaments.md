@@ -1,46 +1,47 @@
-# 2. 成年人的困境
+# 2. Khó khăn của người trưởng thành
 
-大家都知道学好一门外语肯定有说不尽的好处…… 但，到最后绝大多数人都失败了。在学校里的更惨，十几年的青春就那么消耗掉了，钱也花了不老少，离开学校的时候，别说第二语言能不能用了，连母语都没弄明白，写不出一篇像样可发表的文章，更别说大受欢迎的文章了 —— 甚至，连一份租房合同都有可能看不全看不懂乃至于最终要因为能力上的欠缺而蒙受金钱上的损失。
+Mọi người đều biết rằng học tốt một ngoại ngữ chắc chắn có vô vàn lợi ích... Nhưng cuối cùng, đại đa số đều thất bại. Những người học ở trường còn tệ hơn, mười mấy năm thanh xuân tiêu tốn hết, tiền cũng đã tiêu không ít, khi rời khỏi trường, đừng nói đến việc liệu có thể sử dụng được ngôn ngữ thứ hai hay không, ngay cả tiếng mẹ đẻ còn chưa hiểu rõ, viết không nổi một bài báo đáng đăng, chưa nói đến bài báo được yêu thích —— thậm chí, có thể không đọc hết và hiểu rõ một hợp đồng thuê nhà, dẫn đến việc thiếu năng lực và mất tiền bạc.
 
-没必要花更多的时间精力，尤其是我们那宝贵的注意力，去抱怨责怪或者批评那我们不得不选择的教育体制。其实，全世界都一样，两三百年前发明的现代教育体制，早已跟不上时代，在最近的三五十年里，它们做得最成功的只不过就是自证无能。
+Không cần phải tốn thêm thời gian, sức lực, đặc biệt là sự chú ý quý báu của chúng ta, để phàn nàn, trách móc hoặc chỉ trích hệ thống giáo dục mà chúng ta buộc phải lựa chọn. Thực ra, trên toàn thế giới cũng như vậy, hệ thống giáo dục hiện đại được phát minh từ hai, ba trăm năm trước đã không còn phù hợp với thời đại, trong ba đến năm mươi năm gần đây, thành công lớn nhất của nó chỉ là tự chứng minh sự vô dụng của mình.
 
-成年人学外语的确面临相对更大的困难。这是不可否认的事实：
+Người trưởng thành học ngoại ngữ thực sự gặp phải khó khăn lớn hơn tương đối. Đây là sự thật không thể phủ nhận:
 
-> 头脑越复杂的人学习越困难。
+> Người có đầu óc phức tạp càng học khó hơn.
 
-反过来，头脑简单的人学外语竟然更快更简单…… 为什么呢？因为他们头脑简单，所以，他们**想说的话**都相对很简单，学起来当然也更容易。头脑复杂一点的人呢？觉得见面打招呼说 “*Hello!*” 离开的时候说 “*Goodbye!*” 算不上是什么**说外语**。他们**想要说的话**相对更难表达，意义更深，篇幅更大，结构更复杂，逻辑更严谨…… 起码，他们不大可能满足于只说几个词而已，他们想把某件事儿或者某个想法说清楚 —— 可这相当于说，不仅是**突然之间**，也是**不知不觉之间**，他们把自己所面临的难度提高到**几乎不可能**的地步。
+Ngược lại, người có đầu óc đơn giản lại học ngoại ngữ nhanh hơn và dễ dàng hơn... Tại sao vậy? Vì đầu óc họ đơn giản, nên những **điều họ muốn nói** cũng tương đối đơn giản, học sẽ dễ dàng hơn. Người có đầu óc phức tạp hơn thì sao? Cảm thấy việc gặp mặt chào hỏi “_Hello!_” và khi rời đi nói “_Goodbye!_” không phải là **nói ngoại ngữ**. Những **điều họ muốn nói** tương đối khó diễn đạt hơn, ý nghĩa sâu sắc hơn, độ dài lớn hơn, cấu trúc phức tạp hơn, logic chặt chẽ hơn... Ít nhất, họ không dễ dàng chỉ nói vài từ, họ muốn diễn tả rõ ràng một sự việc hoặc một ý tưởng nào đó —— điều này tương đương với việc, không chỉ là **đột nhiên**, mà còn là **không biết từ khi nào**, họ đã nâng mức độ khó khăn mà họ phải đối mặt lên đến **gần như không thể**.
 
-正是这一点，构成了绝大多数成年人学外语的最大障碍。
+Chính điểm này tạo thành trở ngại lớn nhất cho đại đa số người trưởng thành học ngoại ngữ.
 
-反过来，小朋友在语言习得的时候，显得那么轻松，不费吹灰之力，其实也主要是出自同样的原因。因为他们的头脑相对更简单，与此同时，需要表达的内容相对少很多…… 并且，他们还没有负担，万一表达不清楚，他们会没有任何负担地换另外一个方式；另外，也没有人会怪罪他们表达不够清楚；如果语言不够的话，就肢体表达…… 如果还不行的话，下次再说。
+Ngược lại, trẻ em khi học ngôn ngữ, tỏ ra rất nhẹ nhàng, không tốn công sức, thực ra cũng chủ yếu vì cùng lý do. Vì đầu óc họ tương đối đơn giản, đồng thời, nội dung cần diễn đạt cũng ít hơn nhiều... Và, họ không có gánh nặng, nếu diễn đạt không rõ, họ sẽ không có gánh nặng mà thay đổi cách khác; ngoài ra, không ai trách họ diễn đạt không đủ rõ; nếu ngôn ngữ không đủ, thì dùng cử chỉ... Nếu vẫn không được, thì lần sau nói tiếp.
 
-成年人在说话的时候，除了发音过程中**音素**上的问题之外，其实还要面临并处理更多更复杂的问题。他们想要用更准确的词汇表达。比如，针对 “想” 这个动作，他们可能有很多选择，根据 Roget's Thesaurus，词汇丰富的人需要在以下 24 种说法里选择一个当时最为恰当的词汇：
+Người trưởng thành khi nói chuyện, ngoài vấn đề **âm tố** trong quá trình phát âm, thực ra còn phải đối mặt và xử lý nhiều vấn đề phức tạp hơn. Họ muốn dùng từ ngữ chính xác hơn để diễn đạt. Ví dụ, đối với hành động "nghĩ", họ có thể có nhiều lựa chọn, theo Roget's Thesaurus, người có vốn từ phong phú cần chọn từ phù hợp nhất trong 24 cách diễn đạt sau:
 
-> *appreciate consult fancy reason believe contemplate imagine reflect  cerebrate deliberate meditate ruminate cogitate digest muse speculate  conceive discuss ponder suppose consider dream realize weigh*
+> _appreciate consult fancy reason believe contemplate imagine reflect cerebrate deliberate meditate ruminate cogitate digest muse speculate conceive discuss ponder suppose consider dream realize weigh_
 
-不仅如此，他们拥有更多的语法知识，所以可能需要选择一个恰当的句型；他们能够识别应用环境，所以，在日常对话中使用一种腔调，但做学术报告的时候使用另外一种腔调；到最后，每个人都有不一样的风格，不同的词汇库，以及独特的表达法。也就是说，语言能力越强的人，在学外语的时候遇到的障碍越多，到最后有很多甚至可能是无法逾越的障碍。
+Không chỉ vậy, họ có nhiều kiến thức ngữ pháp hơn, nên có thể cần chọn một câu trúc phù hợp; họ có thể nhận biết môi trường ứng dụng, vì vậy, trong cuộc trò chuyện hàng ngày sử dụng một giọng điệu, nhưng khi làm báo cáo học thuật lại sử dụng một giọng điệu khác; cuối cùng, mỗi người có phong cách khác nhau, vốn từ khác nhau, và cách diễn đạt độc đáo. Nói cách khác, người có năng lực ngôn ngữ càng mạnh, khi học ngoại ngữ gặp phải nhiều trở ngại hơn, cuối cùng nhiều người thậm chí có thể gặp phải những trở ngại không thể vượt qua.
 
-比如，使用语言考究的人，在说话的时候，会不知不觉有意无意地使用很多比喻甚至隐喻 —— 问题在于，隐喻这个东西在各个文化中很可能是非常不一样的，虽然也有一些人类通用的隐喻。
+Ví dụ, người sử dụng ngôn ngữ tinh tế, khi nói chuyện, sẽ vô tình hay cố ý sử dụng nhiều phép ẩn dụ thậm chí là ẩn dụ —— vấn đề là, phép ẩn dụ trong các nền văn hóa khác nhau rất có thể rất khác nhau, mặc dù cũng có một số ẩn dụ chung của loài người.
 
-人们常常意识不到自己正在使用隐喻，因为比喻和隐喻实在是语言使用过程中再普遍不过的现象。有些隐喻是全球通用的，比如，生命/旅程，时间/金钱，爱情/火焰，知识/光明……
+Người ta thường không nhận ra rằng họ đang sử dụng phép ẩn dụ, vì phép ẩn dụ thực sự là hiện tượng phổ biến trong quá trình sử dụng ngôn ngữ. Có một số ẩn dụ là chung toàn cầu, ví dụ, sự sống/chuyến đi, thời gian/tiền bạc, tình yêu/ngọn lửa, kiến thức/ánh sáng...
 
-然而，有很多常见且又重要的比喻和隐喻其实并不通用，各个文化之间完全不一样的。中国人用英语形容一个人笨，说 “**笨得跟猪似的**”…… 其它文化的不见得听得懂 —— 他们可能会非常疑惑，“嗯？猪很聪明啊！你什么意思？” 猪，在生物界相对来看是非常聪明的动物，它们的智商可能仅次于海豚 —— 西方的纪录片里一直在普及这个知识。中国人习惯了用 “猪” 形容 “笨”，是因为大家从小就看过《西游记》，猪八戒是里面最笨的一个角色。另外，猪比狗聪明，可问题在于，猪的表现力相对太差。
+Tuy nhiên, có nhiều phép ẩn dụ phổ biến và quan trọng không chung, mỗi nền văn hóa hoàn toàn khác nhau. Người Trung Quốc khi mô tả một người ngu ngốc bằng tiếng Anh, nói “**ngu như heo**”... Các nền văn hóa khác có thể không hiểu —— họ có thể rất bối rối, “Hả? Heo rất thông minh! Bạn nói gì vậy?” Heo, trong giới động vật tương đối là loài rất thông minh, trí tuệ của chúng có thể chỉ đứng sau cá heo —— phim tài liệu phương Tây luôn phổ biến kiến thức này. Người Trung Quốc quen dùng “heo” để chỉ “ngu ngốc” vì từ nhỏ họ đã xem “Tây Du Ký”, Trư Bát Giới là nhân vật ngốc nhất trong đó. Ngoài ra, heo thông minh hơn chó, nhưng vấn đề là biểu hiện của heo tương đối kém.
 
-同样，用 “鸳鸯” 指代 “忠贞的爱情”，也基本上是中国文化的专属现象。其实呢，鸳鸯更换伴侣非常频繁，它们之间的所谓恋情有时只能持续几十分钟而已，只不过，从人类的角度，鸳鸯们都长得一模一样。
+Tương tự, dùng “uyên ương” để chỉ “tình yêu chung thủy” cũng chủ yếu là hiện tượng của văn hóa Trung Quốc. Thực ra, uyên ương thay đổi bạn tình rất thường xuyên, cái gọi là tình yêu của chúng có khi chỉ kéo dài vài chục phút, chỉ là, từ góc nhìn của con người, uyên ương đều trông giống hệt nhau.
 
-再比如，另外一些人说话的时候，已经习惯了使用一些更为高级的技巧。他们会想办法在句末押韵。当我写中文的时候，我会说，“学会了这种方式，以后就真的**所向披靡**，无往不利”。用英文说的时候，如果也要押韵的话，那么我就得使用完全不一样的词汇或者意向。比如，*“Once you master this **style**, you'll be unstoppa**ble**, success**ful** in every **trial**.*”
+Ví dụ khác, một số người khi nói chuyện, đã quen sử dụng những kỹ thuật cao cấp hơn. Họ sẽ cố gắng sử dụng vần ở cuối câu. Khi tôi viết tiếng Trung, tôi sẽ nói, “Học được cách này, sau này sẽ thực sự **vô địch thiên hạ**, không gì không thể.” Khi nói bằng tiếng Anh, nếu cũng muốn có vần, thì tôi phải sử dụng từ ngữ hoặc ý tưởng hoàn toàn khác. Ví dụ, _“Once you master this **style**, you'll be unstoppa**ble**, success**ful** in every **trial**._”
 
-更为普遍的是，我们说的每一句话，其实都来自于已有的输入。随着年龄的增加，已有的输入会越来越多，为我们提供越来越多越来越准的选择。比如，当我用中文说，“如果我没记错的话，……” —— 这是一个很常用的句型。当我用英文表达的时候，我会说，“*If my memory serves me well*, ...” 这是因为我的记忆之中有这样的选择供我使用。如果我过往的英文输入恰好没遇到过这种说法，我大概只能生硬地说，“*If didn't recall incorrectly*,...” —— 然而，这恰恰构成更高的难度，因为将外语的已有输入提高到母语的已有输入水平，显然对成年人来说更难，并且，弄不好越来越难。
+Phổ biến hơn là, mỗi câu chúng ta nói thực ra đều xuất phát từ những đầu vào có sẵn. Khi tuổi tác tăng lên, các đầu vào có sẵn càng ngày càng nhiều, cung cấp cho chúng ta càng nhiều lựa chọn chính xác hơn. Ví dụ, khi tôi nói tiếng Trung, “Nếu tôi nhớ không nhầm, ...” —— Đây là một câu trúc rất phổ biến. Khi tôi diễn đạt bằng tiếng Anh, tôi sẽ nói, “_If my memory serves me well_, ...” Vì trong ký ức của tôi có lựa chọn này để sử dụng. Nếu đầu vào tiếng Anh trước đây của tôi không có cách nói này, tôi có lẽ chỉ có thể nói cứng nhắc, “_If didn't recall incorrectly_,...” —— Tuy nhiên, điều này chính là tạo ra độ khó cao hơn, vì nâng đầu vào ngoại ngữ lên đến mức đầu vào của tiếng mẹ đẻ rõ ràng khó hơn đối với người trưởng thành, và, càng học càng khó.
 
-你可能没有想到的是，当我们在**第二语言习得**这个领域中提起 “成年人” 的时候，群体范围不一样，在这个领域中，**6 岁以上，就已经算是成年人了**……
+Bạn có thể không nghĩ tới điều này, khi chúng ta nhắc đến “người trưởng thành” trong lĩnh vực **tiếp thu ngôn ngữ thứ hai**, phạm vi nhóm người khác nhau, trong lĩnh vực này, **trên 6 tuổi đã được coi là người trưởng thành rồi**...
 
-小朋友 6 岁左右的时候，别管他们是否能够识字写字，他们都已经有足够的词汇量了，不是吗？并且，他们每天嘴里说的，绝大多数不仅都符合他们所在的文化中通用的表达方式，并且，基本上没有什么语法错误。
+Khi trẻ em khoảng 6 tuổi, dù chúng có thể biết đọc viết hay không, chúng đã có đủ vốn từ vựng rồi, phải không? Và, những gì chúng nói hàng ngày, phần lớn không chỉ phù hợp với cách diễn đạt chung trong văn hóa của chúng, mà cơ bản là không có lỗi ngữ pháp.
 
-所以，这时候他们已经相当完整地具备我们之前定义清楚的**基础语言能力**了。不仅如此，他们也会不知不觉地使用各种**修辞**，比如**类比**甚至**押韵**，更为严重的是，他们早就在不知不觉之间习惯了大量事实上基于特定文化的**隐喻** —— 不是他们故意学的，那只是**浸泡**的结果，文化上的全面浸泡。正如他们能在没上过语法课没读过语法书的情况下依然可以说没有什么语病的句子，也是浸泡的结果，正确语境的全面浸泡。
+Vì vậy, lúc này chúng đã có đầy đủ **năng lực ngôn ngữ cơ bản** mà chúng ta đã định nghĩa trước đó. Không chỉ vậy, chúng cũng sẽ vô tình sử dụng các **phép tu từ** khác nhau, chẳng hạn như **phép so sánh** thậm chí **vần**, nghiêm trọng hơn là, chúng đã vô tình quen với rất nhiều **ẩn dụ** dựa trên nền văn hóa đặc biệt —— không phải chúng cố tình học, mà chỉ là kết quả của **sự thấm nhuần**, sự thấm nhuần toàn diện của văn hóa. Giống như chúng có thể nói những câu không có lỗi ngữ pháp mà không cần học ngữ pháp, cũng là kết quả của sự thấm
 
-他们也拥有了相当惊人的**逻辑思考能力**，甚至，有些小朋友提前学会了基础文字，若是再有台联网的电脑，会用搜索引擎，他们说话**旁征博引**也就一点都不奇怪了，不是吗？
+nhuần, sự thấm nhuần toàn diện trong ngữ cảnh đúng.
 
-他们基础语言能力之外，能与基础语言能力组合着使用的各种能力越强，他们学外语的难度就越高 —— 因为每一个额外的能力都会增加**用另外一种语言同等效用地表达**的难度。额外叠加的能力越多，难度就越是呈几何级数地增加。
+Chúng cũng đã có năng lực **tư duy logic** đáng kinh ngạc, thậm chí, một số trẻ em đã học trước những chữ cái cơ bản, nếu có một máy tính kết nối mạng và biết sử dụng công cụ tìm kiếm, thì việc chúng nói **dẫn chứng** không còn gì là lạ nữa, phải không?
 
-6 岁就已经出现这种情况了，16 岁呢？26 岁呢？36 岁呢？—— 当然，有些人 16 岁之后，我们之前提到过的那些能力从未真正进一步发展过，从另外一个角度来看，也不见得一定是坏事，起码，他们学外语的难度并没有增加，或者说相对较低…… 又当然，在那种情况下，学外语干嘛呢？
+Năng lực ngôn ngữ cơ bản của chúng, kết hợp với các năng lực khác càng mạnh, thì việc học ngoại ngữ càng khó —— vì mỗi năng lực bổ sung đều tăng thêm độ khó trong **diễn đạt cùng mức độ bằng ngôn ngữ khác**. Năng lực bổ sung càng nhiều, độ khó càng tăng theo cấp số nhân.
 
+6 tuổi đã xuất hiện tình trạng này, 16 tuổi thì sao? 26 tuổi thì sao? 36 tuổi thì sao? —— Tất nhiên, có người sau 16 tuổi, những năng lực đã đề cập trước đó chưa bao giờ thực sự phát triển thêm, nhìn từ góc độ khác, cũng không hẳn là điều xấu, ít nhất, độ khó học ngoại ngữ của họ không tăng, hoặc nói là tương đối thấp... Cũng tất nhiên, trong trường hợp đó, học ngoại ngữ để làm gì?

@@ -1,3 +1,3 @@
-# 人工智能
+# AI
 
-人工智能在生活中的应用非常多，但，最有用的地方（无需附加上 “之一”）是用来提高我们的**语言使用能力**。毕竟，现在的人工智能都是基于**大语言模型**的，所以，它们天然在语言领域更为灵活更为强大。
+Trí tuệ nhân tạo có nhiều ứng dụng trong cuộc sống, nhưng nơi hữu ích nhất (không cần thêm "một") là cải thiện **khả năng sử dụng ngôn ngữ** của chúng ta. Xét cho cùng, trí tuệ nhân tạo hiện tại dựa trên các mô hình ngôn ngữ lớn\*\*, vì vậy chúng linh hoạt và mạnh mẽ hơn một cách tự nhiên trong lĩnh vực ngôn ngữ.

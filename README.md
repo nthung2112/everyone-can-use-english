@@ -1,10 +1,10 @@
-# 一千小时
+# One thousand hours
 
-## 在线阅读
+## Read online
 
 [1000h.org](https://1000h.org)
 
-## 本地阅读
+## Local reading
 
 ```
 yarn install
@@ -13,32 +13,32 @@ yarn docs:dev
 
 # Enjoy App
 
-## 使用说明
+## Instructions for use
 
-请参阅 https://1000h.org/enjoy-app/
+See https://1000h.org/enjoy-app/
 
-## 本地启动
+## Start local
 
 ```
 yarn install
 yarn enjoy:start
 ```
 
-# 语音塑造（新版）（2024）
+# Voice shaping (new version)（2024）
 
-请参阅 https://1000h.org/sounds-of-american-english/1-basics.html
+See https://1000h.org/sounds-of-american-english/1-basics.html
 
-# 人人都能用英语（2010）
+# Everyone can use English（2010）
 
-## 目录
+## Directory
 
-- [简介](./book/README.md)
-- [第一章：起点](./book/chapter1.md)
-- [第二章：口语](./book/chapter2.md)
-- [第三章：语音](./book/chapter3.md)
-- [第四章：朗读](./book/chapter4.md)
-- [第五章：词典](./book/chapter5.md)
-- [第六章：语法](./book/chapter6.md)
-- [第七章：精读](./book/chapter7.md)
-- [第八章：叮嘱](./book/chapter8.md)
-- [后记](./book/end.md)
+- [Brief introduction](./book/README.md)
+- [Chapter 1: Starting point](./book/chapter1.md)
+- [Chapter 2: Speaking](./book/chapter2.md)
+- [Chapter 3: Voice](./book/chapter3.md)
+- [Chapter 4: Reading aloud](./book/chapter4.md)
+- [Chapter 5: Dictionary](./book/chapter5.md)
+- [Chapter 6: Grammar](./book/chapter6.md)
+- [Chapter 7: Intensive Reading](./book/chapter7.md)
+- [Chapter 8: Advice](./book/chapter8.md)
+- [Postscript](./book/end.md)
