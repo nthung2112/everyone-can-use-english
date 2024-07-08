@@ -1,29 +1,29 @@
-# 4. 任务并不高级
+# 4. Nhiệm vụ không cao siêu
 
-**语音塑造**和**记忆扩展**这两个任务，是任何 6 岁以下的小朋友都已经可以做到的事情。我们自己当初就做到过，所以我们每个人其实都有足够的经验 —— 只不过，我们的记忆可能随着年龄的增加早就模糊了而已。
+**Hình thành âm thanh** và **mở rộng trí nhớ** là hai nhiệm vụ mà bất kỳ trẻ em dưới 6 tuổi nào cũng có thể thực hiện được. Chúng ta từng làm được khi còn nhỏ, nên mỗi người trong chúng ta thực ra đều có đủ kinh nghiệm – chỉ là ký ức của chúng ta có thể đã mờ nhạt theo thời gian mà thôi.
 
-小朋友 6 岁前后的时候，早已经**吐字清晰**。与此同时，他们的**记忆力惊人**，很多诗词他们其实并不了解其中的含义，甚至干脆不知道某些音节串起来到底是什么意思，但它们就是能够完整地记下来 —— 怎么做到呢？都一样，重复次数够多，别无其他。
+Khi trẻ em khoảng 6 tuổi, chúng đã có thể **phát âm rõ ràng**. Đồng thời, **trí nhớ của chúng rất đáng kinh ngạc**, nhiều bài thơ chúng thực sự không hiểu ý nghĩa, thậm chí không biết một số âm tiết gộp lại có nghĩa gì, nhưng chúng vẫn có thể ghi nhớ hoàn toàn – làm thế nào để làm được điều đó? Cũng đơn giản thôi, lặp lại đủ số lần, không có gì khác.
 
-不只是他们，我们自己小时候也那样。
+Không chỉ có chúng, chúng ta cũng từng như vậy khi còn nhỏ.
 
-因为观察到很多小朋友学语言看起来毫不费力，同时其实更是因为已经忘了自己小时候多么笨拙多么吃力，曾经有学者提出过**语言学习关键期**的概念 —— 声称人过了一定岁数之后，就会彻底失去学习新语言的能力。并且，还找来一只幼猫，把它的左眼蒙起来一段时间至其失明之后，再根据那只猫眼永远不能再用去旁证那所谓的语言学习关键期的理论。
+Vì quan sát thấy nhiều trẻ em học ngôn ngữ dường như không gặp khó khăn, và thực tế là đã quên đi sự vụng về và khó khăn của mình khi còn nhỏ, một số học giả đã đề xuất khái niệm **thời kỳ quan trọng để học ngôn ngữ** – tuyên bố rằng sau một độ tuổi nhất định, con người sẽ hoàn toàn mất khả năng học ngôn ngữ mới. Họ thậm chí còn mang đến một chú mèo con, bịt mắt trái của nó một thời gian cho đến khi nó bị mù, sau đó dùng mắt mèo không thể sử dụng được nữa để chứng minh lý thuyết về thời kỳ quan trọng để học ngôn ngữ.
 
-在接下来的许多年里，这个理论被广泛传播，刺激了一代又一代原本就极端焦虑的家长，各种事实上完全无效的早教方法层出不穷，甚至，有人还要把时间再往前推，早教已经不够用了，还要胎教……
+Trong nhiều năm tiếp theo, lý thuyết này được lan truyền rộng rãi, kích thích một thế hệ phụ huynh vốn đã cực kỳ lo lắng, dẫn đến sự xuất hiện của nhiều phương pháp giáo dục sớm hoàn toàn không hiệu quả. Thậm chí, có người còn đẩy thời gian học sớm lên trước, giáo dục sớm là không đủ, còn cần giáo dục từ trong bụng mẹ...
 
-幸运的是，现在**语言学习关键期**的说法已经被学者们从多个角度证明为是彻头彻尾的无稽之谈。小朋友学语言的时候，事实上并不轻松，他们 18 个月左右开始牙牙学语，前后要经过差不多 30 ～ 36 个月左右才能做到彻底吐字清晰。
+May mắn thay, hiện nay các học giả đã chứng minh từ nhiều góc độ rằng khái niệm **thời kỳ quan trọng để học ngôn ngữ** là hoàn toàn vô căn cứ. Thực tế, khi trẻ học ngôn ngữ không hề dễ dàng, chúng bắt đầu nói bập bẹ khoảng 18 tháng tuổi, và phải mất khoảng 30 đến 36 tháng để có thể phát âm rõ ràng hoàn toàn.
 
-关键在于，他们一路挣扎的过程中，并没有习得人们普遍误解的所谓**语言能力**，他们只是人家说什么就自己跟着说什么，他们也尽量思考，但，由于头脑简单，所以也事实上没办法给自己造成太大的语言表达困难。当然，他们根本就没机会像成年人那样被所谓的文采或者口才拖累。
+Điều quan trọng là, trong quá trình vật lộn, chúng không thực sự đạt được cái gọi là **khả năng ngôn ngữ** như mọi người thường hiểu lầm, chúng chỉ là nghe gì nói nấy, chúng cũng cố gắng suy nghĩ, nhưng do đầu óc đơn giản, nên thực tế không gặp khó khăn lớn trong việc biểu đạt ngôn ngữ. Tất nhiên, chúng cũng không có cơ hội bị cái gọi là văn chương hoặc khả năng hùng biện cản trở như người lớn.
 
-相对于成年人，他们也的确有一定的优势。大脑里没有**旧的近似网络**与**新建网络竞争**；他们认为一切都有学习的必要；他们处于父母的保护之中，也不知道这个世界的危险，所以，大脑在很多方面尚未给他们设定**安全阈值**；他们不在意甚至也不知道外界对他们的**关注**；他们做得不好也兴高采烈；他们的所有注意力都集中在自己正在模仿的动作上；他们无论干什么都不厌其烦地**重复**，并且还乐于不断**更换**各种奇怪的**方式**……
+So với người lớn, chúng cũng có một số lợi thế nhất định. Trong não chúng không có **mạng lưới cũ cạnh tranh với mạng lưới mới**; chúng cho rằng mọi thứ đều cần học hỏi; chúng được bảo vệ bởi cha mẹ, và không biết về những nguy hiểm của thế giới, do đó, não chúng chưa thiết lập **ngưỡng an toàn**; chúng không quan tâm và thậm chí không biết đến **sự chú ý của người khác**; chúng vẫn vui vẻ dù làm chưa tốt; chúng tập trung toàn bộ sự chú ý vào hành động đang bắt chước; chúng không bao giờ chán nản với việc **lặp lại**, và thậm chí còn vui vẻ **thay đổi** các **phương thức khác nhau**...
 
-原本随着年龄的增加，成年人的学习能力要变得越来越强才对。成年人理论上应该学什么都比小孩子学得快。成年人相对来看应该有更强的理解能力，应该有更强的自我控制能力，成年人可以学习甚至研究方法论，成年人还可以使用更多的辅助工具……
+Thực ra, với sự gia tăng tuổi tác, khả năng học tập của người lớn lẽ ra phải ngày càng mạnh mẽ hơn. Người lớn lý thuyết mà nói, nên học bất cứ điều gì nhanh hơn trẻ em. Người lớn tương đối có khả năng hiểu biết mạnh hơn, có khả năng tự kiểm soát mạnh hơn, có thể học và thậm chí nghiên cứu phương pháp luận, có thể sử dụng nhiều công cụ hỗ trợ hơn...
 
-相对来看，为什么到最后大部分成年人更可能失败呢？最合理的解释，大抵上应该是：
+So với trẻ em, tại sao cuối cùng phần lớn người lớn lại có khả năng thất bại hơn? Lời giải thích hợp lý nhất có lẽ là:
 
-> 绝大多数成年人虽然年龄增加了，但，在自学能力上从未有所进步，甚至，一直在退化……
+> Hầu hết người lớn, dù tuổi tác tăng lên, nhưng về khả năng tự học, chưa bao giờ tiến bộ, thậm chí, luôn thoái hóa...
 
-我们的训练任务，将要达到的重要效果之一，若是真讲出来，听着都有点好笑：
+Một trong những hiệu quả quan trọng mà nhiệm vụ huấn luyện của chúng ta cần đạt được, nếu thực sự nói ra, nghe có vẻ hơi buồn cười:
 
-> 找回我们自己学龄前的能力……
+> Tìm lại khả năng của chúng ta trước tuổi đi học...
 
-曾经，每个人都的确是天才，却最终大多都被教育成了笨蛋 —— 相信我，**人傻都是被教出来的**。
+Trước đây, mỗi người đều thực sự là thiên tài, nhưng cuối cùng hầu hết đều bị giáo dục trở thành ngu ngốc – hãy tin tôi, **người ngu đều do được dạy mà ra**.
