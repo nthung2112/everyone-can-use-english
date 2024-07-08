@@ -1,19 +1,19 @@
-# 简介
+# Giới thiệu
 
-所有智能助手均以 **对话** 的形式呈现，添加一个对话即添加一个智能助手。
+Tất cả các trợ lý thông minh đều được trình bày dưới dạng **đối thoại**, thêm một cuộc đối thoại tức là thêm một trợ lý thông minh.
 
-左侧栏点击 `智能助手` 即可进入。
+Nhấp vào `Trợ lý thông minh` ở thanh bên trái để vào.
 
-## 添加对话
+## Thêm đối thoại
 
-点击 `新对话` 按钮，弹窗出现预设的 AI 角色，可以快速创建有用的智能助手，也可以选择自定义。
+Nhấp vào nút `Đối thoại mới`, một cửa sổ bật lên với các vai trò AI được định sẵn, bạn có thể nhanh chóng tạo ra các trợ lý thông minh hữu ích hoặc chọn tùy chỉnh.
 
-创建对话前，需要先填写相关的配置，最重要的几项是：
+Trước khi tạo đối thoại, bạn cần điền các cấu hình liên quan, những mục quan trọng nhất là:
 
-- AI 类型，分为 [GPT](./gpt-conversation.md) 和 [TTS](./tts-conversation.md) 两种；
-- AI 引擎，每次新建都将加载 [默认 AI 引擎](./settings.md#默认-ai-引擎)，创建时可以修改，创建后无法修改；
-- 角色定义，[GPT](./tts-conversation.md) 类型时可以定义，即将 AI 赋予一个特定的角色以得到想要的回答；
+- Loại AI, chia thành [GPT](./gpt-conversation.md) và [TTS](./tts-conversation.md);
+- Công cụ AI, mỗi lần tạo mới sẽ tải [công cụ AI mặc định](./settings.md#默认-ai-引擎), có thể chỉnh sửa khi tạo, nhưng không thể thay đổi sau khi tạo;
+- Định nghĩa vai trò, loại [GPT](./tts-conversation.md) có thể định nghĩa, tức là gán cho AI một vai trò cụ thể để nhận được câu trả lời mong muốn;
 
-## 修改对话
+## Chỉnh sửa đối thoại
 
-在对话页面，右上角齿轮可以打开对话的配置，进行修改，或者删除。需要注意的是，AI 类型和 AI 引擎无法修改，需要变更时请新建一个对话。
+Trong trang đối thoại, nhấp vào bánh răng ở góc trên bên phải để mở cấu hình đối thoại và chỉnh sửa hoặc xóa. Lưu ý rằng, loại AI và công cụ AI không thể chỉnh sửa, nếu cần thay đổi, vui lòng tạo một đối thoại mới.

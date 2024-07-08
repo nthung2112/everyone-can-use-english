@@ -1,13 +1,13 @@
-# 美式英语语音基础教程
+# Khóa học Cơ bản về Phát âm Tiếng Anh Mỹ
 
-自然语音中最基础的、不可分割的单位是**音素**（*phonemes*）；音素构成**音节**（*syllables*）；音节构成**词汇**（*words*）；词汇构成**意群**（*thought groups*）；意群构成**句子**（*sentences*)；句子构成**语篇**（*discourse*）—— 而一方说出的语篇（无论长短、无论完整与否）要被对方听到并理解，这样才能启动**对话**（*dialogue*）
+Đơn vị cơ bản nhất và không thể chia cắt trong ngôn ngữ tự nhiên là **âm vị** (_phonemes_); âm vị cấu thành **âm tiết** (_syllables_); âm tiết cấu thành **từ vựng** (_words_); từ vựng cấu thành **cụm từ** (_thought groups_); cụm từ cấu thành **câu** (_sentences_); câu cấu thành **diễn ngôn** (_discourse_) – và một diễn ngôn do một bên nói ra (bất kể độ dài hay sự hoàn chỉnh) cần phải được bên kia nghe và hiểu để bắt đầu **đối thoại** (_dialogue_).
 
-The most fundamental and indivisible unit in natural speech is the *phoneme*; phonemes form *syllables*; syllables form *words*; words form *thought groups*; thought groups form *sentences*; sentences form *discourse* - and a discourse spoken by one party (regardless of its length or completeness) needs to be heard and understood by the other party to initiate a *dialogue*.
+The most fundamental and indivisible unit in natural speech is the _phoneme_; phonemes form _syllables_; syllables form _words_; words form _thought groups_; thought groups form _sentences_; sentences form _discourse_ - and a discourse spoken by one party (regardless of its length or completeness) needs to be heard and understood by the other party to initiate a _dialogue_.
 
-音素的准确与否，长期被认为是最重要的基础，甚至被认为是最关键的决定性因素。然而，在音素准确与否之上，更为重要的是说话的方式，即，语音的**韵律**（*prosody*）和**节奏**（*rhythm*）。所以，我们的教程将以**音节**为中心，主要关注**韵律**和**节奏** —— 当然，我们也只能从音素讲起。
+Độ chính xác của âm vị, từ lâu đã được coi là nền tảng quan trọng nhất, thậm chí được coi là yếu tố quyết định then chốt. Tuy nhiên, quan trọng hơn cả độ chính xác của âm vị là cách nói, tức là **ngữ điệu** (_prosody_) và **nhịp điệu** (_rhythm_) của giọng nói. Do đó, khóa học của chúng tôi sẽ tập trung vào **âm tiết** (_syllables_), chủ yếu tập trung vào **ngữ điệu** và **nhịp điệu** — tất nhiên, chúng tôi phải bắt đầu từ âm vị.
 
-The accuracy of phonemes has long been considered the most critical foundation, even regarded as the key determinant. However, more important than phoneme accuracy is the way of speaking, that is, the *prosody* and *rhythm* of speech. Therefore, our tutorial will center on *syllables*, primarily focusing on *prosody* and *rhythm*—of course, we have to start with phonemes.
+The accuracy of phonemes has long been considered the most critical foundation, even regarded as the key determinant. However, more important than phoneme accuracy is the way of speaking, that is, the _prosody_ and _rhythm_ of speech. Therefore, our tutorial will center on _syllables_, primarily focusing on _prosody_ and _rhythm_—of course, we have to start with phonemes.
 
-另外，这是一个**零基础教程**，所以，完全不用担心自己基础差。在教程里，我们从音素开始讲起，而音素，根据定义，就是自然语音的最基础内容 —— 实在不可能有什么比它更基础的了 —— 所以，在此之前不需要有任何预备知识。
+Ngoài ra, đây là một **khóa học cơ bản**, vì vậy hoàn toàn không cần lo lắng về việc mình có nền tảng yếu. Trong khóa học, chúng tôi sẽ bắt đầu từ âm vị, mà âm vị, theo định nghĩa, là nội dung cơ bản nhất của ngôn ngữ tự nhiên — thực sự không thể có gì cơ bản hơn thế — vì vậy, không cần có bất kỳ kiến thức chuẩn bị nào trước khi bắt đầu khóa học này.
 
-Moreover, this is a tutorial for beginners, meaning there's no need to worry if you feel that you lack the basics. We will start from phonemes, which, by definition, are the most fundamental elements of spoken language. There's nothing more basic than this, therefore, *there's no need for any prior knowledge to start this course*.
+Moreover, this is a tutorial for beginners, meaning there's no need to worry if you feel that you lack the basics. We will start from phonemes, which, by definition, are the most fundamental elements of spoken language. There's nothing more basic than this, therefore, _there's no need for any prior knowledge to start this course_.
