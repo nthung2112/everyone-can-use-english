@@ -1,17 +1,17 @@
-# 2. 音素详解
+# 2. Giải thích chi tiết về âm vị
 
-理论上来讲，把每个音素读准本身其实并不难；更何况每种语言都一样，从音素的数量上来看并不是很多，比如英语，总计就那么四十几个而已。
+Về lý thuyết, việc phát âm đúng từng âm vị không phải là quá khó; hơn nữa, mỗi ngôn ngữ đều như vậy, số lượng âm vị không nhiều, ví dụ như tiếng Anh, tổng cộng chỉ có hơn bốn mươi âm vị mà thôi.
 
 In theory, pronouncing each phoneme correctly isn't really a hard nut to crack; plus, like any other language, English doesn’t have that many of them—just over forty in total.
 
-主要的难点来自于两个方面。
+Khó khăn chính đến từ hai khía cạnh.
 
 However, there are two main challenges here.
 
-首先是在连贯的自然语音中，几乎每个音素都有这样那样的变化。于是，我们只能通过反复阅读材料，反复练习，反复自我纠正，将起初看起来极为繁杂的知识点逐一突破。
+Đầu tiên, trong ngôn ngữ tự nhiên mạch lạc, hầu như mỗi âm vị đều có những biến đổi này khác. Vì vậy, chúng ta chỉ có thể thông qua việc đọc tài liệu lặp đi lặp lại, luyện tập nhiều lần, tự chỉnh sửa liên tục, để lần lượt vượt qua những điểm kiến thức ban đầu trông rất phức tạp.
 
-Firstly, almost every single phoneme morphs here and there within fluent speech. So what can one do? The key lies within *repetition* – repeatedly read materials aloud, corrected by self-monitoring your pronunciation, focusing on those pesky shifting details until they become conquered hurdles rather than intimidating obstacles.
+Firstly, almost every single phoneme morphs here and there within fluent speech. So what can one do? The key lies within _repetition_ – repeatedly read materials aloud, corrected by self-monitoring your pronunciation, focusing on those pesky shifting details until they become conquered hurdles rather than intimidating obstacles.
 
-更大的困难来自于我们的大脑机制。随着年龄的增加，大脑会过滤母语中用不到的声音，以便提高语音识别的效率 —— 也恰恰是这一点造成了绝大多数成年人学外语的最大障碍。有些声音我们听不到、听不清楚，有些声音听到了却无法分辨，有些声音被我们自己在不知不觉中替换成了另外的样子…… 应对方式只有一个，集中注意力反复听，反复练 —— **注意力集中才是真正的关键**。
+Khó khăn lớn hơn đến từ cơ chế của não bộ chúng ta. Khi tuổi tác tăng lên, não bộ sẽ lọc bỏ những âm thanh không cần thiết trong tiếng mẹ đẻ để nâng cao hiệu quả nhận diện âm thanh - và chính điều này gây ra trở ngại lớn nhất cho hầu hết người trưởng thành khi học ngoại ngữ. Có những âm thanh chúng ta không nghe thấy, nghe không rõ, có những âm thanh nghe được nhưng không thể phân biệt, có những âm thanh bị chúng ta vô thức thay đổi thành âm khác... Cách đối phó duy nhất là tập trung chú ý lắng nghe nhiều lần, luyện tập nhiều lần - **tập trung chú ý mới là chìa khóa thực sự**.
 
-An even greater challenge stems from how our brain functions over time: as we age, our minds begin filtering out unnecessary sounds not present in native tongues as noises to enhance linguistic efficiency - which happens also to be a major obstacle for most adults learning foreign languages as some sounds go unheard or indistinct while others get mistakenly replaced unconsciously... The only weapon at hand? Again, *repetition* - repeately listen and practice, with full *attention*, which is another indispensbile key.
+An even greater challenge stems from how our brain functions over time: as we age, our minds begin filtering out unnecessary sounds not present in native tongues as noises to enhance linguistic efficiency - which happens also to be a major obstacle for most adults learning foreign languages as some sounds go unheard or indistinct while others get mistakenly replaced unconsciously... The only weapon at hand? Again, _repetition_ - repeately listen and practice, with full _attention_, which is another indispensbile key.

@@ -2,16 +2,16 @@
 outline [2, 3]
 ---
 
-# 1. 自我训练手册
+# 1. Tự học hướng dẫn
 
-这一年的集训拉练，核心任务只有两个，**语音塑造**和**记忆扩展**。这一年的另外一个衡量指标是**每天至少三个小时** 并且要做到 **一年内至少投入一千小时的注意力**。
+Trong năm huấn luyện và rèn luyện này, chỉ có hai nhiệm vụ chính: **định hình âm thanh** và **mở rộng trí nhớ**. Mục tiêu chính trong năm này là phải dành ít nhất ba giờ mỗi ngày và tập trung ít nhất một nghìn giờ trong năm.
 
-不要误以为最重要的收获只是**把英语变成第一语言**…… 在这个过程中，我们所积累并获得的，除了任务目标的达成之外，更重要的是（可能是很多人一生中第一次）**完整的自学经历**。
+Đừng nghĩ rằng thành quả quan trọng nhất chỉ là **biến tiếng Anh thành ngôn ngữ chính**... Trong quá trình này, điều chúng ta tích lũy và đạt được không chỉ là đáp ứng mục tiêu nhiệm vụ, mà còn là (có lẽ là lần đầu tiên trong đời nhiều người) **trải nghiệm tự học hoàn chỉnh**.
 
-不仅如此，还有更重要的东西 —— 这个完整的自学经历，肯定会改变一个人对整个教育的看法，进而影响各种选择，进而改变一个人甚至一家人的命运。
+Và không chỉ vậy, còn có điều quan trọng hơn nữa — trải nghiệm tự học hoàn chỉnh này sẽ chắc chắn thay đổi cách nhìn của một người đối với toàn bộ giáo dục, từ đó ảnh hưởng đến các lựa chọn và thay đổi cả số phận của một người hoặc cả gia đình.
 
-作为作者，我无法把自己只限制在英语教学这个领域。理论上来讲，我们用同样的方式可以学天下所有的东西，只要自己觉得有必要。
+Là một tác giả, tôi không thể giới hạn chính mình chỉ trong lĩnh vực giảng dạy tiếng Anh. Lí thuyết cho thấy, chúng ta có thể học được mọi thứ trên thế giới bằng cách tương tự, miễn là cảm thấy cần thiết.
 
 ![Don Quixote](/images/don-quixote.svg)
 
-某种意义上，这是我一个人与地球上整个教育体系的争斗，为了自家的孩子 —— 换个角度看，这其实是一个唐吉柯德的故事，一个疯子非要打败风车，任人评说。
+Theo một cách nhìn khác, đây là cuộc chiến của tôi với toàn bộ hệ thống giáo dục trên trái đất, vì lợi ích của con cái — hay có thể nói là một câu chuyện của Don Quixote, một kẻ điên cố gắng đánh bại những cánh cối xay gió, cho dù người ta nghĩ gì đi nữa.
