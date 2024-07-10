@@ -1,0 +1,1 @@
+import{_ as n,c as t,o as h,a4 as g}from"./chunks/framework.DHvAMLos.js";const k=JSON.parse('{"title":"Có nên rèn luyện trí não?","description":"","frontmatter":{},"headers":[],"relativePath":"why.md","filePath":"why.md"}'),c={name:"why.md"},i=g("",25),r=[i];function o(l,a,u,s,p,m){return h(),t("div",null,r)}const d=n(c,[["render",o]]);export{k as __pageData,d as default};

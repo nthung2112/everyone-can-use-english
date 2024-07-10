@@ -654,5 +654,6 @@ export default withMermaid(
       //   level: [2, 3, 4]
       // }
     },
+    outDir: '../docs',
   })
 );
