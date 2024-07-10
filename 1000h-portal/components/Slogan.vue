@@ -8,24 +8,17 @@
       <div
         class="slogan inline-block text-greyscale_2 text-[24px] md:text-[48px] px-6 md:px-12 lg:max-w-[800px]"
       >
-        用你的注意力填满一千小时就能练成任何你所需要的技能......
+        Fill up a thousand hours of your attention and you can develop any skill you need...
       </div>
     </div>
 
-    <div
-      class="hint flex justify-center text-greyscale_4 text-[14px] md:text-[18px]"
-    >
+    <div class="hint flex justify-center text-greyscale_4 text-[14px] md:text-[18px]">
       与
       <span class="flex text-greyscale_1 mr-1">
-        <img
-          src="/portal-static/icon/enjoy-app.svg"
-          width="24"
-          height="24"
-          class="mx-1"
-        />
+        <img src="/portal-static/icon/enjoy-app.svg" width="24" height="24" class="mx-1" />
         Enjoy App
       </span>
-      一起，享受这1000小时
+      Let’s enjoy these 1000 hours together
     </div>
 
     <div class="mt-6 max-sm:inline-flex max-sm:gap-4 max-sm:flex-col">
@@ -33,7 +26,7 @@
         <button
           class="action px-4 py-3 md:px-5 md:py-4 text-[14px] md:text-[16px] max-sm:w-[260px]"
         >
-          <span class="mr-1">开启我的 1000 小时</span>
+          <span class="mr-1">Start my 1000 hours</span>
 
           <img src="/portal-static/icon/arrow-right.svg" width="24" />
         </button>
@@ -60,7 +53,7 @@
 
 <script lang="ts">
 export default {
-  name: "Slogan",
+  name: 'Slogan',
 };
 </script>
 
@@ -68,7 +61,7 @@ export default {
 
 <style lang="scss" scoped>
 .slogan {
-  font-family: "Noto Serif SC", sans-serif;
+  font-family: 'Noto Serif SC', sans-serif;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -110,7 +103,7 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    background-image: url("/portal-static/images/bg-demo.png");
+    background-image: url('/portal-static/images/bg-demo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

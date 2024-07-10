@@ -46,52 +46,52 @@ export default withMermaid(
             text: 'Nhiệm vụ đào tạo',
             collapsed: true,
             items: [
-              { text: '1. 启动任务', link: '/training-tasks/kick-off' },
-              { text: '2. 训练方法', link: '/training-tasks/procedures' },
+              { text: '1. Bắt đầu nhiệm vụ', link: '/training-tasks/kick-off' },
+              { text: '2. Phương pháp đào tạo', link: '/training-tasks/procedures' },
               {
-                text: '3. 人工智能',
+                text: '3. Trí tuệ nhân tạo',
                 collapsed: false,
                 link: '/training-tasks/ai',
                 items: [
                   {
-                    text: '3.1. 基础语言能力',
+                    text: '3.1. Kỹ năng ngôn ngữ cơ bản',
                     link: '/training-tasks/language',
                   },
                   {
-                    text: '3.2. 成年人的困境',
+                    text: '3.2. Thế lưỡng nan của người lớn',
                     link: '/training-tasks/predicaments',
                   },
                   {
-                    text: '3.3. 人工智能辅助',
+                    text: '3.3. Hỗ trợ trí tuệ nhân tạo',
                     link: '/training-tasks/revolution',
                   },
-                  { text: '3.4. 任务并不高级', link: '/training-tasks/ground' },
-                  { text: '3.5. 效果非常惊人', link: '/training-tasks/wonder' },
+                  { text: '3.4 Nhiệm vụ không khó', link: '/training-tasks/ground' },
+                  { text: '3.5 Hiệu quả thật tuyệt vời', link: '/training-tasks/wonder' },
                 ],
               },
-              { text: '4. 意料之外', link: '/training-tasks/surprise' },
+              { text: '4. Bất ngờ', link: '/training-tasks/surprise' },
             ],
           },
           {
-            text: '语音塑造',
+            text: 'Định hình giọng nói',
             link: '/sounds-of-american-english/1-basics',
             collapsed: true,
             items: [
               {
-                text: '1. 基础',
+                text: '1. Cơ sở',
                 collapsed: true,
                 link: '/sounds-of-american-english/1-basics',
                 items: [
                   {
-                    text: '1.1. 字母',
+                    text: '1.1. Chữ cái',
                     link: '/sounds-of-american-english/1.1-alphabet',
                   },
                   {
-                    text: '1.2. 音素',
+                    text: '1.2. Đơn âm',
                     link: '/sounds-of-american-english/1.2-phonemes',
                   },
                   {
-                    text: '1.3. 口音',
+                    text: '1.3. Giọng nói',
                     link: '/sounds-of-american-english/1.3-accents',
                   },
                   {
@@ -101,7 +101,7 @@ export default withMermaid(
                 ],
               },
               {
-                text: '2. 详解',
+                text: '2. Giải thích chi tiết',
                 collapsed: true,
                 link: '/sounds-of-american-english/2-details',
                 items: [
@@ -153,7 +153,7 @@ export default withMermaid(
                     ],
                   },
                   {
-                    text: '2.2. 辅音',
+                    text: '2.2. Phụ âm',
                     collapsed: true,
                     link: '/sounds-of-american-english/2.2-consonants',
                     items: [
@@ -220,7 +220,7 @@ export default withMermaid(
                     ],
                   },
                   {
-                    text: '2.3. 音节',
+                    text: '2.3. Âm tiết',
                     collapsed: true,
                     link: '/sounds-of-american-english/2.3-syllables',
                     items: [
@@ -235,7 +235,7 @@ export default withMermaid(
                     ],
                   },
                   {
-                    text: '2.4. 连接',
+                    text: '2.4. Kết hợp',
                     collapsed: true,
                     link: '/sounds-of-american-english/2.4-linking',
                     items: [
@@ -258,7 +258,7 @@ export default withMermaid(
                     ],
                   },
                   {
-                    text: '2.5. 韵律',
+                    text: '2.5. Nhịp',
                     collapsed: true,
                     link: '/sounds-of-american-english/2.5-prosody',
                     items: [
@@ -283,7 +283,7 @@ export default withMermaid(
                 ],
               },
               {
-                text: '3. 收官',
+                text: '3. Tổng kết',
                 collapsed: true,
                 link: '/sounds-of-american-english/3-wrapping-up',
                 items: [
@@ -451,70 +451,70 @@ export default withMermaid(
           // },
 
           {
-            text: '大脑内部',
+            text: 'Bên trong não',
             collapsed: true,
             items: [
-              { text: '1. 小空间大世界', link: '/in-the-brain/01-inifinite' },
-              { text: '2. 一切都是连接', link: '/in-the-brain/02-links' },
-              { text: '3. 一切都是体育课', link: '/in-the-brain/03-sports' },
+              { text: '1. Không gian nhỏ, thế giới lớn', link: '/in-the-brain/01-inifinite' },
+              { text: '2. Mọi thứ đều được kết nối', link: '/in-the-brain/02-links' },
+              { text: '3. Mọi thứ đều là lớp thể dục', link: '/in-the-brain/03-sports' },
               {
-                text: '4. 一切都是语文课',
+                text: '4. Mọi thứ đều là một lớp học ngôn ngữ',
                 link: '/in-the-brain/04-literature',
               },
-              { text: '5. 一切都需要能量', link: '/in-the-brain/05-energy' },
+              { text: '5. Mọi thứ đều cần năng lượng', link: '/in-the-brain/05-energy' },
               {
-                text: '6. 用进废退循环利用',
+                text: '6. Sử dụng nó, vứt nó đi, tái chế nó',
                 link: '/in-the-brain/06-use-or-lose',
               },
               {
-                text: '7. 短时间内足量重复',
+                text: '7. Lặp lại đủ trong một khoảng thời gian ngắn',
                 link: '/in-the-brain/07-repitition',
               },
               {
-                text: '8. 新旧网络间的竞争',
+                text: '8. Cạnh tranh giữa mạng cũ và mạng mới',
                 link: '/in-the-brain/08-compitition',
               },
               {
-                text: '9. 注意不到就不存在',
+                text: '9. Nếu bạn không chú ý đến nó, nó không tồn tại.',
                 link: '/in-the-brain/09-unnoticed',
               },
               {
-                text: '10. 熟练就是卸载负担',
+                text: '10. Thành thạo là trút bỏ gánh nặng',
                 link: '/in-the-brain/10-unloading',
               },
-              { text: '11. 被关注是最大负担', link: '/in-the-brain/11-burden' },
+              { text: '11. Được chú ý là gánh nặng lớn nhất', link: '/in-the-brain/11-burden' },
               {
-                text: '12. 有限排它不可再生',
+                text: '12. Có giới hạn độc quyền không thể tái tạo',
                 link: '/in-the-brain/12-unreproducible',
               },
               {
-                text: '13. 一切都是化学反应',
+                text: '13. Mọi thứ đều là phản ứng hóa học',
                 link: '/in-the-brain/13-chemical',
               },
               {
-                text: '14. 安全阈值决定成果',
+                text: '14. Ngưỡng an toàn quyết định kết quả',
                 link: '/in-the-brain/14-threshold',
               },
             ],
           },
           {
-            text: '自我训练',
+            text: 'Tự đào tạo',
             collapsed: true,
             link: `/self-training/00-intro`,
             items: [
-              { text: '1. 用兵打仗', link: '/self-training/01-fight' },
-              { text: '2. 只能自学', link: '/self-training/02-last-resort' },
+              { text: '1. Chiến đấu với quân đội', link: '/self-training/01-fight' },
+              { text: '2. Tự học là có thể', link: '/self-training/02-last-resort' },
               {
-                text: '3. 生学硬练',
+                text: '3. Hãy học tập và rèn luyện chăm chỉ',
                 link: '/self-training/03-trials-and-errors',
               },
-              { text: '4. 走出迷宫', link: '/self-training/04-maze' },
-              { text: '5. 自我纠正', link: '/self-training/05-correction' },
-              { text: '6. 自主驱动', link: '/self-training/06-motives' },
-              { text: '7. 自我鼓励', link: '/self-training/07-encouraging' },
-              { text: '8. 自我监督', link: '/self-training/08-supervising' },
-              { text: '9. 自主计划', link: '/self-training/09-planning' },
-              { text: '10. 返璞归真', link: '/self-training/10-going-back' },
+              { text: '4. Thoát khỏi mê cung', link: '/self-training/04-maze' },
+              { text: '5. Tự điều chỉnh', link: '/self-training/05-correction' },
+              { text: '6. Ổ đĩa tự động', link: '/self-training/06-motives' },
+              { text: '7. Tự động viên', link: '/self-training/07-encouraging' },
+              { text: '8. Tự giám sát', link: '/self-training/08-supervising' },
+              { text: '9. Tự lập kế hoạch', link: '/self-training/09-planning' },
+              { text: '10. Trở lại vấn đề cơ bản', link: '/self-training/10-going-back' },
             ],
           },
           {
@@ -523,49 +523,49 @@ export default withMermaid(
             link: `/enjoy-app/`,
             items: [
               {
-                text: '快速开始',
+                text: 'Bắt đầu nhanh',
                 collapsed: false,
                 items: [
-                  { text: 'Enjoy 简介', link: '/enjoy-app/' },
-                  { text: '下载安装', link: '/enjoy-app/install' },
-                  { text: '软件设置', link: '/enjoy-app/settings' },
+                  { text: 'Giới thiệu Enjoy', link: '/enjoy-app/' },
+                  { text: 'Tải xuống và cài đặt', link: '/enjoy-app/install' },
+                  { text: 'Cài đặt phần mềm', link: '/enjoy-app/settings' },
                 ],
               },
               {
-                text: '跟读训练',
+                text: 'Đào tạo tiếp theo',
                 collapsed: false,
                 items: [
-                  { text: '音频资源', link: '/enjoy-app/audios' },
-                  { text: '视频资源', link: '/enjoy-app/videos' },
+                  { text: 'Tài nguyên âm thanh', link: '/enjoy-app/audios' },
+                  { text: 'Tài nguyên video', link: '/enjoy-app/videos' },
                 ],
               },
               {
-                text: '阅读文本',
+                text: 'Đọc văn bản',
                 collapsed: false,
                 items: [
-                  { text: '在线文章', link: '/enjoy-app/webpage' },
-                  { text: '本地电子书', link: '/enjoy-app/ebook' },
+                  { text: 'Bài viết trực tuyến', link: '/enjoy-app/webpage' },
+                  { text: 'Sách điện tử địa phương', link: '/enjoy-app/ebook' },
                 ],
               },
               {
-                text: '智能助手',
+                text: 'Trợ lý thông minh',
                 collapsed: false,
                 items: [
-                  { text: '简介', link: '/enjoy-app/ai-assistant' },
-                  { text: 'GPT 服务', link: '/enjoy-app/gpt-conversation' },
-                  { text: 'TTS 服务', link: '/enjoy-app/tts-conversation' },
+                  { text: 'Giới thiệu', link: '/enjoy-app/ai-assistant' },
+                  { text: 'Dịch vụ GPT', link: '/enjoy-app/gpt-conversation' },
+                  { text: 'Dịch vụ TTS', link: '/enjoy-app/tts-conversation' },
                 ],
               },
               {
-                text: '其他',
+                text: 'Khác',
                 collapsed: false,
                 items: [
                   {
-                    text: '常见问题',
+                    text: 'Các câu hỏi thường gặp',
                     link: '/enjoy-app/faq',
                   },
                   {
-                    text: '利用 AI 生成训练材料',
+                    text: 'Tận dụng AI để tạo tài liệu đào tạo',
                     link: '/enjoy-app/use-case-generate-audio-resources',
                   },
                 ],
@@ -576,56 +576,56 @@ export default withMermaid(
 
         '/enjoy-app/': [
           {
-            text: '快速开始',
+            text: 'Bắt đầu nhanh',
             collapsed: false,
             items: [
-              { text: 'Enjoy 简介', link: '/enjoy-app/' },
-              { text: '下载安装', link: '/enjoy-app/install' },
-              { text: '软件设置', link: '/enjoy-app/settings' },
-              { text: '版本更新', link: '/enjoy-app/changelog' },
+              { text: 'Giới thiệu Enjoy', link: '/enjoy-app/' },
+              { text: 'Tải xuống và cài đặt', link: '/enjoy-app/install' },
+              { text: 'Cài đặt phần mềm', link: '/enjoy-app/settings' },
+              { text: 'Cập nhật phiên bản', link: '/enjoy-app/changelog' },
             ],
           },
           {
-            text: '跟读训练',
+            text: 'Đào tạo tiếp theo',
             collapsed: false,
             items: [
-              { text: '音频资源', link: '/enjoy-app/audios' },
-              { text: '视频资源', link: '/enjoy-app/videos' },
+              { text: 'Tài nguyên âm thanh', link: '/enjoy-app/audios' },
+              { text: 'Tài nguyên video', link: '/enjoy-app/videos' },
             ],
           },
           {
-            text: '阅读文本',
+            text: 'Đọc văn bản',
             collapsed: false,
             items: [
-              { text: '在线文章', link: '/enjoy-app/webpage' },
-              { text: '本地电子书', link: '/enjoy-app/ebook' },
+              { text: 'Bài viết trực tuyến', link: '/enjoy-app/webpage' },
+              { text: 'Sách điện tử địa phương', link: '/enjoy-app/ebook' },
             ],
           },
           {
-            text: '智能助手',
+            text: 'Trợ lý thông minh',
             collapsed: false,
             items: [
-              { text: '简介', link: '/enjoy-app/ai-assistant' },
-              { text: 'GPT 服务', link: '/enjoy-app/gpt-conversation' },
-              { text: 'TTS 服务', link: '/enjoy-app/tts-conversation' },
+              { text: 'Giới thiệu', link: '/enjoy-app/ai-assistant' },
+              { text: 'Dịch vụ GPT', link: '/enjoy-app/gpt-conversation' },
+              { text: 'Dịch vụ TTS', link: '/enjoy-app/tts-conversation' },
             ],
           },
           {
-            text: '其他',
+            text: 'Khác',
             collapsed: false,
             items: [
               {
-                text: '常见问题',
+                text: 'Các câu hỏi thường gặp',
                 link: '/enjoy-app/faq',
               },
               {
-                text: '利用 AI 生成训练材料',
+                text: 'Tận dụng AI để tạo tài liệu đào tạo',
                 link: '/enjoy-app/use-case-generate-audio-resources',
               },
             ],
           },
           {
-            text: '返回',
+            text: 'Trở lại',
             link: '/intro',
           },
         ],
