@@ -655,5 +655,6 @@ export default withMermaid(
       // }
     },
     outDir: '../docs',
+    base: '/everyone-can-use-english',
   })
 );

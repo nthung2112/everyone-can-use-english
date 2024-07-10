@@ -1,1 +1,0 @@
-import{_ as n,c as h,o as t,a4 as g}from"./chunks/framework.DHvAMLos.js";const k=JSON.parse('{"title":"Điều gì tốt nhất cho trí não?","description":"","frontmatter":{},"headers":[],"relativePath":"what.md","filePath":"what.md"}'),c={name:"what.md"},i=g("",24),o=[i];function a(r,u,m,l,p,s){return t(),h("div",null,o)}const y=n(c,[["render",a]]);export{k as __pageData,y as default};
