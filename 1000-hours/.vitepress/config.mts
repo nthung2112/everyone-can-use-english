@@ -11,7 +11,7 @@ import ins from 'markdown-it-ins';
 export default withMermaid(
   // https://vitepress.dev/reference/site-config
   defineConfig({
-    title: '1000 hour',
+    title: '1000 Hour',
     description: 'Fill 1000 hours of focus and you can develop any skill you need...',
     head: [['link', { rel: 'icon', href: '/images/clock.svg' }]],
     themeConfig: {
@@ -34,20 +34,20 @@ export default withMermaid(
       sidebar: {
         '/': [
           {
-            text: 'Một mô tả ngắn gọn',
+            text: 'Mô tả ngắn gọn',
             collapsed: true,
             link: '/intro',
             items: [
-              { text: '1. Bạn có muốn rèn luyện trí não của mình không?', link: '/why' },
+              { text: '1. Bạn có muốn luyện tập trí não của bạn?', link: '/why' },
               { text: '2. Điều gì là tốt nhất cho bộ não của bạn?', link: '/what' },
             ],
           },
           {
-            text: 'Nhiệm vụ đào tạo',
+            text: 'Nhiệm vụ huấn luyện',
             collapsed: true,
             items: [
               { text: '1. Bắt đầu nhiệm vụ', link: '/training-tasks/kick-off' },
-              { text: '2. Phương pháp đào tạo', link: '/training-tasks/procedures' },
+              { text: '2. Phương pháp huấn luyện', link: '/training-tasks/procedures' },
               {
                 text: '3. Trí tuệ nhân tạo',
                 collapsed: false,
@@ -95,7 +95,7 @@ export default withMermaid(
                     link: '/sounds-of-american-english/1.3-accents',
                   },
                   {
-                    text: '1.4. 器官',
+                    text: '1.4. Phát âm',
                     link: '/sounds-of-american-english/1.4-articulators',
                   },
                 ],
@@ -106,16 +106,16 @@ export default withMermaid(
                 link: '/sounds-of-american-english/2-details',
                 items: [
                   {
-                    text: '2.1. 元音',
+                    text: '2.1. Nguyên âm',
                     collapsed: true,
                     link: '/sounds-of-american-english/2.1-vowels',
                     items: [
                       {
-                        text: '2.1.1. 口型',
+                        text: '2.1.1. Miệng',
                         link: '/sounds-of-american-english/2.1.1-lips',
                       },
                       {
-                        text: '2.1.2. 舌位',
+                        text: '2.1.2. Vị trí lưỡi',
                         link: '/sounds-of-american-english/2.1.2-tongue',
                       },
                       {
@@ -158,7 +158,7 @@ export default withMermaid(
                     link: '/sounds-of-american-english/2.2-consonants',
                     items: [
                       {
-                        text: '2.2.1. 分类',
+                        text: '2.2.1. Phân loại',
                         link: '/sounds-of-american-english/2.2.1-categorization',
                       },
                       {
@@ -225,11 +225,11 @@ export default withMermaid(
                     link: '/sounds-of-american-english/2.3-syllables',
                     items: [
                       {
-                        text: '2.3.1. 构成',
+                        text: '2.3.1. Cấu tạo',
                         link: '/sounds-of-american-english/2.3.1-structure',
                       },
                       {
-                        text: '2.3.2. 重音',
+                        text: '2.3.2. Nhấn mạnh',
                         link: '/sounds-of-american-english/2.3.2-stress',
                       },
                     ],
@@ -240,19 +240,19 @@ export default withMermaid(
                     link: '/sounds-of-american-english/2.4-linking',
                     items: [
                       {
-                        text: '2.4.1. 停顿',
+                        text: '2.4.1. Tạm ngừng',
                         link: '/sounds-of-american-english/2.4.1-stop',
                       },
                       {
-                        text: '2.4.2. 辅音 + 元音',
+                        text: '2.4.2. Phụ âm + Nguyên âm',
                         link: '/sounds-of-american-english/2.4.2-cv',
                       },
                       {
-                        text: '2.4.3. 辅音 + 辅音',
+                        text: '2.4.3. Phụ âm + Phụ âm',
                         link: '/sounds-of-american-english/2.4.3-cc',
                       },
                       {
-                        text: '2.4.4. 元音 + 元音',
+                        text: '2.4.4. Nguyên âm + Nguyên âm',
                         link: '/sounds-of-american-english/2.4.4-vv',
                       },
                     ],
@@ -263,19 +263,19 @@ export default withMermaid(
                     link: '/sounds-of-american-english/2.5-prosody',
                     items: [
                       {
-                        text: '2.5.1. 高低',
+                        text: '2.5.1. Cao hoặc thấp',
                         link: '/sounds-of-american-english/2.5.1-pitch',
                       },
                       {
-                        text: '2.5.2. 起伏',
+                        text: '2.5.2. Thăng trầm',
                         link: '/sounds-of-american-english/2.5.2-tone',
                       },
                       {
-                        text: '2.5.3. 轻重',
+                        text: '2.5.3. Sự nhấn mạnh',
                         link: '/sounds-of-american-english/2.5.3-emphasis',
                       },
                       {
-                        text: '2.5.4. 缓急',
+                        text: '2.5.4. Sự ưu tiên',
                         link: '/sounds-of-american-english/2.5.4-pace',
                       },
                     ],
@@ -288,11 +288,11 @@ export default withMermaid(
                 link: '/sounds-of-american-english/3-wrapping-up',
                 items: [
                   {
-                    text: '3.1. 流利',
+                    text: '3.1. Thông thạo',
                     link: '/sounds-of-american-english/3.1-fluency',
                   },
                   {
-                    text: '3.2. 情绪',
+                    text: '3.2. Tâm trạng',
                     link: '/sounds-of-american-english/3.2-emotions',
                   },
                 ],

@@ -36,9 +36,7 @@ Sử dụng ngôn ngữ tự nhiên đối với trí não giống như marathon
 
 Rõ ràng, so với sử dụng ngôn ngữ tự nhiên, chạy bộ có vẻ nhàm chán hơn. Thực tế, tất cả các môn thể thao so với sử dụng ngôn ngữ tự nhiên đều trở nên nhàm chán hơn nhiều, bởi vì ngôn ngữ tự nhiên là một mạng lưới lớn hơn và phức tạp hơn, được tạo thành từ nhiều nút hơn. Sử dụng không tốt thì thôi, sử dụng tốt thì có quá nhiều điều thú vị.
 
-**Chạy bộ** rèn luyện và
-
-sử dụng nhiều nhất là các cơ quan quan trọng nhất đối với vận động thể lực, **tim** và **phổi**. Còn **sử dụng ngôn ngữ tự nhiên** tương ứng với **chất trắng** và **chất xám** trong não. Những người có khả năng ngôn ngữ tốt hơn và người sử dụng nhiều ngôn ngữ, nhìn từ cấu trúc não của họ, họ đều có diện tích phủ chất trắng rộng hơn và mật độ chất xám cao hơn và thể tích chất xám lớn hơn - **đây không phải là bẩm sinh, mà chỉ có thể là kết quả của việc rèn luyện sau này**.
+**Chạy bộ** rèn luyện và sử dụng nhiều nhất là các cơ quan quan trọng nhất đối với vận động thể lực, **tim** và **phổi**. Còn **sử dụng ngôn ngữ tự nhiên** tương ứng với **chất trắng** và **chất xám** trong não. Những người có khả năng ngôn ngữ tốt hơn và người sử dụng nhiều ngôn ngữ, nhìn từ cấu trúc não của họ, họ đều có diện tích phủ chất trắng rộng hơn và mật độ chất xám cao hơn và thể tích chất xám lớn hơn - **đây không phải là bẩm sinh, mà chỉ có thể là kết quả của việc rèn luyện sau này**.
 
 Điểm mấu chốt là, chất trắng và chất xám không chỉ dùng để xử lý ngôn ngữ... Thực tế, con người dù làm gì cũng dùng và dựa vào chúng. Một trong những chức năng chính của chất trắng là phối hợp các phần khác nhau của não, **diện tích phủ** của nó càng rộng, **hiệu quả phối hợp** giữa các phần khác nhau của não càng cao. **Chất xám** là nơi hệ thần kinh trung ương xử lý thông tin sâu, **mật độ** của nó càng cao, **thể tích** của nó càng lớn, con người càng thông minh, vì ở đó đã lưu trữ, liên kết lẫn nhau và có thể xử lý thông tin nhiều hơn.
 
