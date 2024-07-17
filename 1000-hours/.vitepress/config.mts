@@ -13,7 +13,7 @@ export default withMermaid(
   defineConfig({
     title: '1000 Hour',
     description: 'Fill 1000 hours of focus and you can develop any skill you need...',
-    head: [['link', { rel: 'icon', href: '/images/clock.svg' }]],
+    head: [['link', { rel: 'icon', href: '/everyone-can-use-english/images/clock.svg' }]],
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
@@ -634,7 +634,7 @@ export default withMermaid(
       socialLinks: [
         {
           icon: 'github',
-          link: 'https://github.com/zuodaotech/everyone-can-use-english/tree/main/1000-hours',
+          link: 'https://github.com/nthung2112/everyone-can-use-english/tree/main/1000-hours',
         },
       ],
     },
