@@ -3,6 +3,8 @@ import { onMounted, watch } from "vue";
 import { useRouter } from 'vitepress';
 const router = useRouter();
 
+const baseUrl = import.meta.env.BASE_URL;
+
 watch(() => router.route.data.relativePath, (newVal, oldVal) => {
   if (newVal !== oldVal) {
     setTimeout(() => {
@@ -21,14 +23,14 @@ function buildPlayButton(parent, accent, gender, url) {
   labelEl.innerText = accent.toUpperCase();
   const audioEl = document.createElement('audio');
   audioEl.classList.add('audio')
-  audioEl.setAttribute('src', url)
+  audioEl.setAttribute('src', baseUrl + url)
   audioEl.setAttribute('controls', 'false')
   const iconEl = document.createElement('img');
   iconEl.classList.add('icon');
   const emojiEl = document.createElement('span');
   emojiEl.classList.add('emoji');
 
-  let svg = '/images/speaker-white.svg';
+  let svg = baseUrl + '/images/speaker-white.svg';
   let iconEmoji = '🇺🇸';
   if (accent === 'uk') {
     iconEmoji = '🇬🇧';
