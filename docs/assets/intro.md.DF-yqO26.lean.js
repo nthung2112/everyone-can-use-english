@@ -1,0 +1,1 @@
+import{_ as n,c as t,o as h,a5 as g}from"./chunks/framework.GA2e1Mwe.js";const b=JSON.parse('{"title":"Giải thích ngắn gọn","description":"","frontmatter":{},"headers":[],"relativePath":"intro.md","filePath":"intro.md"}'),c={name:"intro.md"},i=g("",40),o=[i];function r(s,u,a,m,p,l){return h(),t("div",null,o)}const v=n(c,[["render",r]]);export{b as __pageData,v as default};

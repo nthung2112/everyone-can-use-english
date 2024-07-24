@@ -1,0 +1,1 @@
+import{_ as a,c as e,o,a5 as n}from"./chunks/framework.GA2e1Mwe.js";const j=JSON.parse('{"title":"常见问题","description":"","frontmatter":{},"headers":[],"relativePath":"enjoy-app/faq.md","filePath":"enjoy-app/faq.md"}'),t={name:"enjoy-app/faq.md"},r=n("",32),p=[r];function i(l,h,c,s,d,f){return o(),e("div",null,p)}const E=a(t,[["render",i]]);export{j as __pageData,E as default};
