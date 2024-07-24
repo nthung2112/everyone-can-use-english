@@ -2,8 +2,7 @@
 // https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts
 import { contextBridge, ipcRenderer, IpcRendererEvent } from "electron";
 import { version } from "../package.json";
-import { callback } from "chart.js/dist/helpers/helpers.core";
-import { remove } from "lodash";
+import { Timeline } from "echogarden/dist/utilities/Timeline";
 
 contextBridge.exposeInMainWorld("__ENJOY_APP__", {
   app: {
@@ -37,7 +36,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     createIssue: (title: string, body: string) => {
       return ipcRenderer.invoke("app-create-issue", title, body);
     },
-    onCmdOutput: (callback: (event: IpcRendererEvent, data: string) => void) => {
+    onCmdOutput: (
+      callback: (event: IpcRendererEvent, data: string) => void
+    ) => {
       ipcRenderer.on("app-on-cmd-output", callback);
     },
     removeCmdOutputListeners: () => {
@@ -218,6 +219,12 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     setDefaultHotkeys: (records: Record<string, string>) => {
       return ipcRenderer.invoke("settings-set-default-hotkeys", records);
     },
+    getApiUrl: () => {
+      return ipcRenderer.invoke("settings-get-api-url");
+    },
+    setApiUrl: (url: string) => {
+      return ipcRenderer.invoke("settings-set-api-url", url);
+    },
   },
   path: {
     join: (...paths: string[]) => {
@@ -327,9 +334,6 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     upload: (id: string) => {
       return ipcRenderer.invoke("recordings-upload", id);
     },
-    assess: (id: string, language?: string) => {
-      return ipcRenderer.invoke("recordings-assess", id, language);
-    },
     stats: (params: { from: string; to: string }) => {
       return ipcRenderer.invoke("recordings-stats", params);
     },
@@ -399,6 +403,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     },
   },
   speeches: {
+    findOne: (where: any) => {
+      return ipcRenderer.invoke("speeches-find-one", where);
+    },
     create: (
       params: {
         sourceId: string;
@@ -432,6 +439,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
   echogarden: {
     align: (input: string, transcript: string, options: any) => {
       return ipcRenderer.invoke("echogarden-align", input, transcript, options);
+    },
+    alignSegments: (input: string, timeline: Timeline, options: any) => {
+      return ipcRenderer.invoke("echogarden-align-segments", input, timeline, options);
     },
     transcode: (input: string) => {
       return ipcRenderer.invoke("echogarden-transcode", input);
@@ -493,6 +503,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     ) => ipcRenderer.on("download-on-state", callback),
     start: (url: string, savePath?: string) => {
       return ipcRenderer.invoke("download-start", url, savePath);
+    },
+    printAsPdf: (content: string, savePath: string) => {
+      return ipcRenderer.invoke("print-as-pdf", content, savePath);
     },
     cancel: (filename: string) => {
       ipcRenderer.invoke("download-cancel", filename);

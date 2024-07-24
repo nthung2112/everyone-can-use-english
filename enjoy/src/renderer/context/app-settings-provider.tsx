@@ -4,10 +4,13 @@ import { Client } from "@/api";
 import i18n from "@renderer/i18n";
 import ahoy from "ahoy.js";
 import { type Consumer, createConsumer } from "@rails/actioncable";
+import * as Sentry from "@sentry/electron/renderer";
+import { SENTRY_DSN } from "@/constants";
 
 type AppSettingsProviderState = {
   webApi: Client;
   apiUrl?: string;
+  setApiUrl?: (url: string) => Promise<void>;
   user: UserType | null;
   initialized: boolean;
   version?: string;
@@ -59,41 +62,15 @@ export const AppSettingsProvider = ({
     IPA_MAPPINGS
   );
 
-  useEffect(() => {
-    fetchVersion();
-    fetchUser();
-    fetchLibraryPath();
-    fetchLanguages();
-    fetchProxyConfig();
-  }, []);
-
-  useEffect(() => {
-    if (!apiUrl) return;
-
-    setWebApi(
-      new Client({
-        baseUrl: apiUrl,
-        accessToken: user?.accessToken,
-        locale: language,
-      })
-    );
-  }, [user, apiUrl, language]);
-
-  useEffect(() => {
-    if (!apiUrl) return;
-
-    ahoy.configure({
-      urlPrefix: apiUrl,
+  const initSentry = () => {
+    EnjoyApp.app.isPackaged().then((isPackaged) => {
+      if (isPackaged) {
+        Sentry.init({
+          dsn: SENTRY_DSN,
+        });
+      }
     });
-  }, [apiUrl]);
-
-  useEffect(() => {
-    if (!webApi) return;
-
-    webApi.config("ipa_mappings").then((mappings) => {
-      if (mappings) setIpaMappings(mappings);
-    });
-  }, [webApi]);
+  };
 
   const fetchLanguages = async () => {
     const language = await EnjoyApp.settings.getLanguage();
@@ -152,8 +129,6 @@ export const AppSettingsProvider = ({
     client.me().then((user) => {
       if (user?.id) {
         login(Object.assign({}, currentUser, user));
-      } else {
-        logout();
       }
     });
   };
@@ -190,11 +165,54 @@ export const AppSettingsProvider = ({
     });
   };
 
+  const setApiUrlHandler = async (url: string) => {
+    EnjoyApp.settings.setApiUrl(url).then(() => {
+      EnjoyApp.app.reload();
+    });
+  };
+
   const createCable = async (token: string) => {
     const wsUrl = await EnjoyApp.app.wsUrl();
     const consumer = createConsumer(wsUrl + "/cable?token=" + token);
     setCable(consumer);
   };
+
+  useEffect(() => {
+    fetchVersion();
+    fetchUser();
+    fetchLibraryPath();
+    fetchLanguages();
+    fetchProxyConfig();
+    initSentry();
+  }, []);
+
+  useEffect(() => {
+    if (!apiUrl) return;
+
+    setWebApi(
+      new Client({
+        baseUrl: apiUrl,
+        accessToken: user?.accessToken,
+        locale: language,
+      })
+    );
+  }, [user, apiUrl, language]);
+
+  useEffect(() => {
+    if (!apiUrl) return;
+
+    ahoy.configure({
+      urlPrefix: apiUrl,
+    });
+  }, [apiUrl]);
+
+  useEffect(() => {
+    if (!webApi) return;
+
+    webApi.config("ipa_mappings").then((mappings) => {
+      if (mappings) setIpaMappings(mappings);
+    });
+  }, [webApi]);
 
   return (
     <AppSettingsProviderContext.Provider
@@ -209,6 +227,7 @@ export const AppSettingsProvider = ({
         version,
         webApi,
         apiUrl,
+        setApiUrl: setApiUrlHandler,
         user,
         login,
         logout,

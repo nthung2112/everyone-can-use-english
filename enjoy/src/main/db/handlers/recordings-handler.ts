@@ -15,6 +15,7 @@ import {
 import dayjs from "dayjs";
 import { t } from "i18next";
 import log from "@main/logger";
+import { NIL as NIL_UUID } from "uuid";
 
 const logger = log.scope("db/handlers/recordings-handler");
 
@@ -120,8 +121,13 @@ class RecordingsHandler {
       };
     }
   ) {
-    const { targetId, targetType, referenceId, referenceText, duration } =
-      options;
+    const {
+      targetId = NIL_UUID,
+      targetType = "None",
+      referenceId,
+      referenceText,
+      duration,
+    } = options;
     const recording = await Recording.createFromBlob(options.blob, {
       targetId,
       targetType,
@@ -161,21 +167,6 @@ class RecordingsHandler {
     }
 
     return await recording.upload();
-  }
-
-  private async assess(_event: IpcMainEvent, id: string, language?: string) {
-    const recording = await Recording.findOne({
-      where: {
-        id,
-      },
-    });
-
-    if (!recording) {
-      throw new Error(t("models.recording.notFound"));
-    }
-
-    const assessment = await recording.assess(language);
-    return assessment.toJSON();
   }
 
   private async stats(
@@ -312,10 +303,7 @@ class RecordingsHandler {
           model: PronunciationAssessment,
           attributes: [
             [
-              Sequelize.fn(
-                "MAX",
-                Sequelize.col("pronunciation_score")
-              ),
+              Sequelize.fn("MAX", Sequelize.col("pronunciation_score")),
               "pronunciationScore",
             ],
           ],
@@ -354,7 +342,6 @@ class RecordingsHandler {
     ipcMain.handle("recordings-create", this.create);
     ipcMain.handle("recordings-destroy", this.destroy);
     ipcMain.handle("recordings-upload", this.upload);
-    ipcMain.handle("recordings-assess", this.assess);
     ipcMain.handle("recordings-stats", this.stats);
     ipcMain.handle("recordings-group-by-date", this.groupByDate);
     ipcMain.handle("recordings-group-by-target", this.groupByTarget);

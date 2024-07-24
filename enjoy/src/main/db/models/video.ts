@@ -203,7 +203,7 @@ export class Video extends Model<Video> {
     if (this.isSynced) return;
 
     const webApi = new Client({
-      baseUrl: process.env.WEB_API_URL || WEB_API_URL,
+      baseUrl: settings.apiUrl(),
       accessToken: settings.getSync("user.accessToken") as string,
       logger,
     });
@@ -279,7 +279,7 @@ export class Video extends Model<Video> {
     });
 
     const webApi = new Client({
-      baseUrl: process.env.WEB_API_URL || WEB_API_URL,
+      baseUrl: settings.apiUrl(),
       accessToken: settings.getSync("user.accessToken") as string,
       logger: log.scope("video/cleanupFile"),
     });
@@ -327,7 +327,7 @@ export class Video extends Model<Video> {
       },
     });
     if (existing) {
-      throw new Error(t("videoAlreadyAddedToLibrary", { file: filePath }));
+      return existing;
     }
 
     // Generate ID

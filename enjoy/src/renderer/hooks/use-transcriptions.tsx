@@ -20,9 +20,9 @@ export const useTranscriptions = (media: AudioType | VideoType) => {
   const [transcribingProgress, setTranscribingProgress] = useState<number>(0);
   const [transcribing, setTranscribing] = useState<boolean>(false);
   const [transcribingOutput, setTranscribingOutput] = useState<string>("");
-  const [service, setService] = useState<WhisperConfigType["service"]>(
-    whisperConfig.service
-  );
+  const [service, setService] = useState<
+    WhisperConfigType["service"] | "upload"
+  >(whisperConfig.service);
 
   const onTransactionUpdate = (event: CustomEvent) => {
     if (!transcription) return;
@@ -63,7 +63,7 @@ export const useTranscriptions = (media: AudioType | VideoType) => {
   const generateTranscription = async (params?: {
     originalText?: string;
     language?: string;
-    service?: WhisperConfigType["service"];
+    service?: WhisperConfigType["service"] | "upload";
     isolate?: boolean;
   }) => {
     let {
@@ -87,7 +87,7 @@ export const useTranscriptions = (media: AudioType | VideoType) => {
           }
         }
       }
-      const { engine, model, alignmentResult, tokenId } = await transcribe(
+      const { engine, model, transcript, timeline, tokenId } = await transcribe(
         media.src,
         {
           targetId: media.id,
@@ -99,18 +99,7 @@ export const useTranscriptions = (media: AudioType | VideoType) => {
         }
       );
 
-      let timeline: TimelineEntry[] = [];
-      alignmentResult.timeline.forEach((t) => {
-        if (t.type === "sentence") {
-          timeline.push(t);
-        } else {
-          t.timeline.forEach((st) => {
-            timeline.push(st);
-          });
-        }
-      });
-
-      timeline = preProcessTranscription(timeline);
+      const processedTimeline = preProcessTranscription(timeline);
       if (media.language !== language) {
         if (media.mediaType === "Video") {
           await EnjoyApp.videos.update(media.id, {
@@ -126,8 +115,8 @@ export const useTranscriptions = (media: AudioType | VideoType) => {
       await EnjoyApp.transcriptions.update(transcription.id, {
         state: "finished",
         result: {
-          timeline: timeline,
-          transcript: alignmentResult.transcript,
+          timeline: processedTimeline,
+          transcript,
           originalText,
           tokenId,
         },
@@ -190,7 +179,7 @@ export const useTranscriptions = (media: AudioType | VideoType) => {
             }
 
             for (let k = j + 1; k <= sentence.timeline.length - 1; k++) {
-              if (word.includes(sentence.timeline[k].text.toLowerCase())) {
+              while (word.includes(sentence.timeline[k]?.text?.toLowerCase())) {
                 let connector = "";
                 if (match[0] === "-") {
                   connector = "-";
@@ -204,9 +193,8 @@ export const useTranscriptions = (media: AudioType | VideoType) => {
                 ];
                 token.endTime = sentence.timeline[k].endTime;
                 sentence.timeline.splice(k, 1);
-              } else {
-                break;
               }
+              break;
             }
           });
         }
@@ -218,46 +206,6 @@ export const useTranscriptions = (media: AudioType | VideoType) => {
       );
     }
     return timeline;
-  };
-
-  const findTranscriptionFromWebApi = async () => {
-    if (!transcription) {
-      await findOrCreateTranscription();
-    }
-
-    const res = await webApi.transcriptions({
-      targetMd5: media.md5,
-    });
-
-    const transcript = (res?.transcriptions || []).filter((t) =>
-      ["base", "small", "medium", "large", "whisper-1", "original"].includes(
-        t.model
-      )
-    )?.[0];
-
-    if (!transcript) {
-      return Promise.reject("Transcription not found");
-    }
-
-    if (!transcript.result["timeline"]) {
-      return Promise.reject("Transcription not aligned");
-    }
-
-    return EnjoyApp.transcriptions.update(transcription.id, {
-      state: "finished",
-      result: transcript.result,
-      engine: transcript.engine,
-      model: transcript.model,
-    });
-  };
-
-  const findOrGenerateTranscription = async () => {
-    try {
-      await findTranscriptionFromWebApi();
-    } catch (err) {
-      console.warn(err);
-      await generateTranscription();
-    }
   };
 
   /*

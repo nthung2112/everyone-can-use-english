@@ -240,10 +240,11 @@ export const MediaCaption = () => {
   useEffect(() => {
     if (!caption) return;
 
-    const index = caption.timeline.findIndex(
+    let index = caption.timeline.findIndex(
       (w) => currentTime >= w.startTime && currentTime < w.endTime
     );
 
+    if (index < 0) return;
     if (index !== activeIndex) {
       setActiveIndex(index);
     }
@@ -354,6 +355,7 @@ export const MediaCaption = () => {
     };
   }, []);
 
+  if (!transcription) return null;
   if (!caption) return null;
 
   return (
@@ -507,8 +509,8 @@ export const Caption = (props: {
 
   let words = caption.text.split(" ");
   const ipas = caption.timeline.map((w) =>
-    w.timeline.map((t) =>
-      language.startsWith("en")
+    w.timeline?.map((t) =>
+      t.timeline && language.startsWith("en")
         ? convertWordIpaToNormal(
             t.timeline.map((s) => s.text),
             { mappings: ipaMappings }

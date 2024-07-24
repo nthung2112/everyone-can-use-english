@@ -217,7 +217,11 @@ export default withMermaid(
                         text: '2.2.15. w, j',
                         link: '/sounds-of-american-english/2.2.15-wj',
                       },
-                    ],
+                      {
+                        text: "2.2.16. Đánh vần",
+                        link: "/sounds-of-american-english/2.2.16-spellings",
+                      },
+                    ]
                   },
                   {
                     text: '2.3. Âm tiết',

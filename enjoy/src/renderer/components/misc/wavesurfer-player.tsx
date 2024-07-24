@@ -46,15 +46,12 @@ export const WavesurferPlayer = (props: {
   const onPlayClick = useCallback(() => {
     if (!wavesurfer) return;
 
-    wavesurfer.isPlaying() ? wavesurfer.pause() : wavesurfer.play();
+    wavesurfer.playPause();
   }, [wavesurfer]);
 
-  useEffect(() => {
-    // use the intersection observer to only create the wavesurfer instance
-    // when the player is visible
-    if (!entry?.isIntersecting) return;
+  const initialize = () => {
+    if (!containerRef.current) return;
     if (!src) return;
-    if (wavesurfer) return;
 
     const ws = WaveSurfer.create({
       container: containerRef.current,
@@ -73,7 +70,14 @@ export const WavesurferPlayer = (props: {
     });
 
     setWavesurfer(ws);
-  }, [src, entry]);
+  };
+
+  useEffect(() => {
+    if (!entry?.isIntersecting) return;
+    if (wavesurfer?.options?.url === src) return;
+
+    initialize();
+  }, [src, entry, containerRef]);
 
   useEffect(() => {
     if (!wavesurfer) return;

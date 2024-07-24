@@ -51,8 +51,6 @@ type MediaPlayerContextType = {
   regions: Regions | null;
   activeRegion: RegionType;
   setActiveRegion: (region: RegionType) => void;
-  editingRegion: boolean;
-  setEditingRegion: (editing: boolean) => void;
   renderPitchContour: (
     region: RegionType,
     options?: {
@@ -62,13 +60,15 @@ type MediaPlayerContextType = {
       data?: Chart["data"];
     }
   ) => void;
+  editingRegion: boolean;
+  setEditingRegion: (editing: boolean) => void;
   pitchChart: Chart;
   // Transcription
   transcription: TranscriptionType;
   generateTranscription: (params?: {
     originalText?: string;
     language?: string;
-    service?: WhisperConfigType["service"];
+    service?: WhisperConfigType["service"] | "upload";
     isolate?: boolean;
   }) => Promise<void>;
   transcribing: boolean;
@@ -194,9 +194,10 @@ export const MediaPlayerProvider = ({
   const getCachedSegmentIndex = async () => {
     if (!media) return;
 
-    const index = await EnjoyApp.cacheObjects.get(
-      `${media.mediaType.toLowerCase()}-${media.id}-last-segment-index`
-    );
+    const cachedId = `${media.mediaType.toLowerCase()}-${
+      media.id
+    }-last-segment-index`;
+    const index = await EnjoyApp.cacheObjects.get(cachedId);
 
     return index || 0;
   };
@@ -204,10 +205,10 @@ export const MediaPlayerProvider = ({
   const setCachedSegmentIndex = (index: number) => {
     if (!media) return;
 
-    return EnjoyApp.cacheObjects.set(
-      `${media.mediaType.toLowerCase()}-${media.id}-last-segment-index`,
-      index
-    );
+    const cachedId = `${media.mediaType.toLowerCase()}-${
+      media.id
+    }-last-segment-index`;
+    return EnjoyApp.cacheObjects.set(cachedId, index);
   };
 
   const { notes, createNote } = useNotes({
@@ -262,6 +263,9 @@ export const MediaPlayerProvider = ({
     if (!region) return;
     if (!waveform?.frequencies?.length) return;
     if (!wavesurfer) return;
+
+    const caption = transcription?.result?.timeline?.[currentSegmentIndex];
+    if (!caption) return;
 
     const { repaint = true, containerClassNames = [] } = options || {};
     const duration = wavesurfer.getDuration();
@@ -319,7 +323,6 @@ export const MediaPlayerProvider = ({
       const regionDuration = region.end - region.start;
 
       const labels = new Array(data.length).fill("");
-      const caption = transcription?.result?.timeline?.[currentSegmentIndex];
       if (region.id.startsWith("segment-region")) {
         caption.timeline.forEach((segment: TimelineEntry) => {
           const index = Math.round(
@@ -350,7 +353,7 @@ export const MediaPlayerProvider = ({
 
         let phones: TimelineEntry[] = [];
         words.forEach((word: TimelineEntry) => {
-          word.timeline.forEach((token: TimelineEntry) => {
+          word.timeline?.forEach((token: TimelineEntry) => {
             phones = phones.concat(token.timeline);
           });
         });
@@ -520,6 +523,7 @@ export const MediaPlayerProvider = ({
    */
   useEffect(() => {
     if (!activeRegion) return;
+    if (!wavesurfer) return;
 
     renderPitchContour(activeRegion);
   }, [wavesurfer, activeRegion]);
@@ -560,7 +564,7 @@ export const MediaPlayerProvider = ({
   /* cache last segment index */
   useEffect(() => {
     if (!media) return;
-    if (!currentSegmentIndex) return;
+    if (typeof currentSegmentIndex !== "number") return;
 
     setCachedSegmentIndex(currentSegmentIndex);
   }, [currentSegmentIndex]);
@@ -605,10 +609,10 @@ export const MediaPlayerProvider = ({
           minPxPerSec,
           transcription,
           regions,
-          renderPitchContour,
           pitchChart,
           activeRegion,
           setActiveRegion,
+          renderPitchContour,
           editingRegion,
           setEditingRegion,
           generateTranscription,

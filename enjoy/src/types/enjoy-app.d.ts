@@ -128,6 +128,8 @@ type EnjoyAppType = {
     switchLanguage: (language: string) => Promise<void>;
     getDefaultHotkeys: () => Promise<Record<string, string> | undefined>;
     setDefaultHotkeys: (records: Record<string, string>) => Promise<void>;
+    getApiUrl: () => Promise<string>;
+    setApiUrl: (url: string) => Promise<void>;
   };
   fs: {
     ensureDir: (path: string) => Promise<boolean>;
@@ -178,7 +180,6 @@ type EnjoyAppType = {
     update: (id: string, params: any) => Promise<RecordingType | undefined>;
     destroy: (id: string) => Promise<void>;
     upload: (id: string) => Promise<void>;
-    assess: (id: string, language?: string) => Promise<void>;
     stats: (params: { from: string; to: string }) => Promise<{
       count: number;
       duration: number;
@@ -227,6 +228,7 @@ type EnjoyAppType = {
     createSpeech: (id: string, configuration?: any) => Promise<SpeechType>;
   };
   speeches: {
+    findOne: (where: any) => Promise<SpeechType>;
     create: (
       params: {
         sourceId: string;
@@ -250,6 +252,11 @@ type EnjoyAppType = {
       transcript: string,
       options?: any
     ) => Promise<AlignmentResult>;
+    alignSegments: (
+      input: string | Uint8Array,
+      timeline: Timeline,
+      options?: any
+    ) => Promise<Timeline>;
     transcode: (input: string) => Promise<string>;
     check: () => Promise<boolean>;
   };
@@ -290,6 +297,7 @@ type EnjoyAppType = {
     cancelAll: () => void;
     dashboard: () => Promise<DownloadStateType[]>;
     removeAllListeners: () => void;
+    printAsPdf: (content: string, savePath?: string) => Promise<void>;
   };
   cacheObjects: {
     get: (key: string) => Promise<any>;

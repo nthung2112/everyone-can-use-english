@@ -34,7 +34,7 @@ import { useHotkeys } from "react-hotkeys-hook";
 import cloneDeep from "lodash/cloneDeep";
 import debounce from "lodash/debounce";
 import { AlignmentResult } from "echogarden/dist/api/API.d.js";
-import { TimelineEntry } from "echogarden/dist/utilities/Timeline";
+import { TimelineEntry } from "echogarden/dist/utilities/Timeline.d.js";
 
 const PLAYBACK_RATE_OPTIONS = [0.75, 0.8, 0.9, 1.0];
 export const MediaPlayerControls = () => {
@@ -57,7 +57,7 @@ export const MediaPlayerControls = () => {
     setTranscriptionDraft,
   } = useContext(MediaPlayerProviderContext);
   const { EnjoyApp } = useContext(AppSettingsProviderContext);
-  const { currentHotkeys, enabled } = useContext(
+  const { currentHotkeys } = useContext(
     HotKeysSettingsProviderContext
   );
   const [playMode, setPlayMode] = useState<"loop" | "single" | "all">("single");
@@ -67,11 +67,7 @@ export const MediaPlayerControls = () => {
   const playOrPause = () => {
     if (!wavesurfer) return;
 
-    if (wavesurfer.isPlaying()) {
-      wavesurfer.pause();
-    } else {
-      wavesurfer.play();
-    }
+    wavesurfer.playPause();
   };
   const debouncedPlayOrPause = debounce(playOrPause, 100);
 
@@ -255,6 +251,10 @@ export const MediaPlayerControls = () => {
       .getRegions()
       .find((r) => r.id === `segment-region-${currentSegmentIndex}`);
 
+    const activeRegionDebouncePlay = debounce(() => {
+      activeRegion?.play();
+    }, 100);
+
     const subscriptions = [
       wavesurfer.on("finish", () => {
         if (playMode !== "loop") return;
@@ -305,7 +305,7 @@ export const MediaPlayerControls = () => {
         if (playMode === "loop") {
           wavesurfer.pause();
           setTimeout(() => {
-            activeRegion.play();
+            activeRegionDebouncePlay();
           }, 500);
         } else if (playMode === "single") {
           wavesurfer.pause();
@@ -328,8 +328,12 @@ export const MediaPlayerControls = () => {
     if (!wavesurfer) return;
 
     const segment = transcription.result.timeline[currentSegmentIndex];
+    if (!segment) {
+      setCurrentSegmentIndex(0);
+      return;
+    }
     wavesurfer.seekTo(
-      Math.floor((segment.startTime / wavesurfer.getDuration()) * 1e8) / 1e8
+      Math.ceil((segment.startTime / wavesurfer.getDuration()) * 1e8) / 1e8
     );
   }, [decoded, transcription?.id, wavesurfer]);
 
@@ -369,7 +373,7 @@ export const MediaPlayerControls = () => {
     if (currentTime < activeRegion.start || currentTime > activeRegion.end) {
       wavesurfer.setScrollTime(activeRegion.start);
       wavesurfer.seekTo(
-        Math.floor((activeRegion.start / wavesurfer.getDuration()) * 1e8) / 1e8
+        Math.ceil((activeRegion.start / wavesurfer.getDuration()) * 1e8) / 1e8
       );
     }
   }, [wavesurfer, decoded, playMode, activeRegion, currentTime]);

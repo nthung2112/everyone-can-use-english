@@ -1,5 +1,5 @@
 import settings from "electron-settings";
-import { LIBRARY_PATH_SUFFIX, DATABASE_NAME } from "@/constants";
+import { LIBRARY_PATH_SUFFIX, DATABASE_NAME, WEB_API_URL } from "@/constants";
 import { ipcMain, app } from "electron";
 import path from "path";
 import fs from "fs-extra";
@@ -92,6 +92,11 @@ const userDataPath = () => {
   return userData;
 };
 
+const apiUrl = () => {
+  const url: string = settings.getSync("apiUrl") as string;
+  return process.env.WEB_API_URL || url || WEB_API_URL;
+};
+
 export default {
   registerIpcHandlers: () => {
     ipcMain.handle("settings-get", (_event, key) => {
@@ -176,6 +181,14 @@ export default {
     ipcMain.handle("settings-set-default-hotkeys", (_event, records) => {
       return settings.setSync("defaultHotkeys", records);
     });
+
+    ipcMain.handle("settings-get-api-url", (_event, url) => {
+      return settings.getSync("apiUrl");
+    });
+
+    ipcMain.handle("settings-set-api-url", (_event, url) => {
+      return settings.setSync("apiUrl", url);
+    });
   },
   cachePath,
   libraryPath,
@@ -184,5 +197,6 @@ export default {
   whisperConfig,
   language,
   switchLanguage,
+  apiUrl,
   ...settings,
 };
