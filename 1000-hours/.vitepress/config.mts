@@ -139,8 +139,8 @@ export default withMermaid(
                         link: '/sounds-of-american-english/2.1.7-u',
                       },
                       {
-                        text: '2.1.8. ɑː/ɔː',
-                        link: '/sounds-of-american-english/2.1.8-ɔ',
+                        text: "2.1.8. ɑː/ɔː/ɔːr",
+                        link: "/sounds-of-american-english/2.1.8-ɔ",
                       },
                       {
                         text: '2.1.9. aɪ... əʊ',
@@ -216,10 +216,6 @@ export default withMermaid(
                       {
                         text: '2.2.15. w, j',
                         link: '/sounds-of-american-english/2.2.15-wj',
-                      },
-                      {
-                        text: "2.2.16. Đánh vần",
-                        link: "/sounds-of-american-english/2.2.16-spellings",
                       },
                     ]
                   },
@@ -300,6 +296,44 @@ export default withMermaid(
                     link: '/sounds-of-american-english/3.2-emotions',
                   },
                 ],
+              },
+              {
+                text: "4. 而后",
+                collapsed: true,
+                link: "/sounds-of-american-english/4-whats-next",
+                items: [
+                  {
+                    text: "4.1. 多音拼写",
+                    link: "/sounds-of-american-english/4.1-multisounds",
+                  },
+                  {
+                    text: "4.2. 组合词汇",
+                    link: "/sounds-of-american-english/4.2-compounds",
+                  },
+                  {
+                    text: "4.3. 词根词缀",
+                    collapsed: false,
+                    link: "/sounds-of-american-english/4.3-components",
+                    items: [
+                      {
+                        text: "4.3.1. 常见前缀",
+                        link: "/sounds-of-american-english/4.3.1-prefixes",
+                      },
+                      {
+                        text: "4.3.2. 常见后缀",
+                        link: "/sounds-of-american-english/4.3.2-suffixes",
+                      },
+                      {
+                        text: "4.3.3. 常见词根",
+                        link: "/sounds-of-american-english/4.3.3-roots",
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                text: "5. 总结",
+                link: "/sounds-of-american-english/5-sumup",
               },
             ],
           },

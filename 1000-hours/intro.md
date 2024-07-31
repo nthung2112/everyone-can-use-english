@@ -72,6 +72,10 @@ AI hung dữ. Tương lai đang gầm rú tới. Có quá nhiều cuộc thảo 
 
 —— Tôi đi đây.
 
-<span style="text-align: right;">**Lý Tiếu Lai** _2024_ Tết Nguyên Đán tại Bắc Kinh</span>
+<span style="text-align: right;">**李笑来** *2024* 春节 于 北京</span>
 
-[^*]: Hệ số Gini (Gini coefficient), là chỉ số do học giả người Ý Corrado Gini định nghĩa vào đầu thế kỷ 20 dựa trên đường cong Lorenz để đánh giá mức độ công bằng của phân phối thu nhập hàng năm, là giá trị tỷ lệ giữa 0 và 1. Hệ số Gini càng nhỏ, phân phối thu nhập hàng năm càng công bằng; hệ số Gini càng lớn, phân phối thu nhập hàng năm càng không công bằng.
+
+
+
+
+[^*]: 基尼系数（Gini coefficient），是 20 世纪初意大利学者科拉多·基尼根据洛伦兹曲线所定义的判断年收入分配公平程度的指标，是比例数值，在 0 和 1 之间。基尼系数越小，年收入分配越平均；基尼系数越大，年收入分配越不平均。
