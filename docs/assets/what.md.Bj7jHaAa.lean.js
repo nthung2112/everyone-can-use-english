@@ -1,1 +1,0 @@
-import{_ as n,c as h,o as t,a5 as g}from"./chunks/framework.GA2e1Mwe.js";const k=JSON.parse('{"title":"Điều gì tốt nhất cho trí não?","description":"","frontmatter":{},"headers":[],"relativePath":"what.md","filePath":"what.md"}'),c={name:"what.md"},i=g("",23),o=[i];function a(r,u,m,l,p,s){return t(),h("div",null,o)}const y=n(c,[["render",a]]);export{k as __pageData,y as default};

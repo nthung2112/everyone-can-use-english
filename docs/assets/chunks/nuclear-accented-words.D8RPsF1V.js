@@ -1,0 +1,1 @@
+const s="/everyone-can-use-english/audios/marm1.wav",e="/everyone-can-use-english/audios/marm2.wav",a="/everyone-can-use-english/audios/marm3.wav",n="/everyone-can-use-english/audios/marm4.wav",o="/everyone-can-use-english/images/nuclear-accented-words.svg";export{s as _,e as a,a as b,n as c,o as d};
