@@ -387,33 +387,42 @@ export const useTranscribe = () => {
         );
         reco.stopContinuousRecognitionAsync();
 
-        const transcript = results
-          .map((result) => result.DisplayText)
-          .join(" ")
-          .trim();
+        try {
+          const timeline: Timeline = [];
+          results.forEach((result) => {
+            if (!result.DisplayText) return;
 
-        const timeline: Timeline = [];
-        results.forEach((result) => {
-          const best = take(sortedUniqBy(result.NBest, "Confidence"), 1)[0];
-          const firstWord = best.Words[0];
-          const lastWord = best.Words[best.Words.length - 1];
+            const best = take(sortedUniqBy(result.NBest, "Confidence"), 1)[0];
+            if (!best.Words) return;
+            if (!best.Confidence || best.Confidence < 0.5) return;
 
-          timeline.push({
-            type: "sentence",
-            text: best.Display,
-            startTime: firstWord.Offset / 10000000.0,
-            endTime: (lastWord.Offset + lastWord.Duration) / 10000000.0,
-            timeline: [],
+            const firstWord = best.Words[0];
+            const lastWord = best.Words[best.Words.length - 1];
+
+            timeline.push({
+              type: "sentence",
+              text: best.Display,
+              startTime: firstWord.Offset / 10000000.0,
+              endTime: (lastWord.Offset + lastWord.Duration) / 10000000.0,
+              timeline: [],
+            });
           });
-        });
 
-        resolve({
-          engine: "azure",
-          model: "whisper",
-          text: transcript,
-          timeline,
-          tokenId: id,
-        });
+          const transcript = timeline
+            .map((result) => result.text)
+            .join(" ")
+            .trim();
+
+          resolve({
+            engine: "azure",
+            model: "whisper",
+            text: transcript,
+            timeline,
+            tokenId: id,
+          });
+        } catch (err) {
+          reject(err);
+        }
       };
 
       reco.startContinuousRecognitionAsync();
