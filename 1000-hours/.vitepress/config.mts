@@ -308,33 +308,33 @@ export default withMermaid(
                 ],
               },
               {
-                text: '4. 而后',
+                text: '4. Tiếp theo',
                 collapsed: true,
                 link: '/sounds-of-american-english/4-whats-next',
                 items: [
                   {
-                    text: '4.1. 多音拼写',
+                    text: '4.1. Chính tả đa âm',
                     link: '/sounds-of-american-english/4.1-multisounds',
                   },
                   {
-                    text: '4.2. 组合词汇',
+                    text: '4.2. Từ ghép',
                     link: '/sounds-of-american-english/4.2-compounds',
                   },
                   {
-                    text: '4.3. 词根词缀',
+                    text: '4.3. Gốc từ và tiền tố, hậu tố',
                     collapsed: false,
                     link: '/sounds-of-american-english/4.3-components',
                     items: [
                       {
-                        text: '4.3.1. 常见前缀',
+                        text: '4.3.1. Tiền tố phổ biến',
                         link: '/sounds-of-american-english/4.3.1-prefixes',
                       },
                       {
-                        text: '4.3.2. 常见后缀',
+                        text: '4.3.2. Hậu tố phổ biến',
                         link: '/sounds-of-american-english/4.3.2-suffixes',
                       },
                       {
-                        text: '4.3.3. 常见词根',
+                        text: '4.3.3. Gốc từ phổ biến',
                         link: '/sounds-of-american-english/4.3.3-roots',
                       },
                     ],
@@ -342,7 +342,7 @@ export default withMermaid(
                 ],
               },
               {
-                text: '5. 总结',
+                text: '5. Tóm lại',
                 link: '/sounds-of-american-english/5-sumup',
               },
             ],
