@@ -13,6 +13,7 @@ type EnjoyAppType = {
     createIssue: (title: string, body: string) => Promise<void>;
     onCmdOutput: (callback: (event, output: string) => void) => void;
     removeCmdOutputListeners: () => void;
+    diskUsage: () => Promise<DiskUsageType>;
     version: string;
   };
   window: {
@@ -159,6 +160,7 @@ type EnjoyAppType = {
       id: string,
       params: { startTime: number; endTime: number }
     ) => Promise<string>;
+    cleanUp: () => Promise<void>;
   };
   videos: {
     findAll: (params: any) => Promise<VideoType[]>;
@@ -171,6 +173,7 @@ type EnjoyAppType = {
       id: string,
       params: { startTime: number; endTime: number }
     ) => Promise<string>;
+    cleanUp: () => Promise<void>;
   };
   recordings: {
     findAll: (where: any) => Promise<RecordingType[]>;
@@ -350,5 +353,26 @@ type EnjoyAppType = {
       parameters?: any;
     }) => Promise<NoteType>;
     sync: (id: string) => Promise<NoteType>;
+  };
+  chats: {
+    findAll: (params: any) => Promise<ChatType[]>;
+    findOne: (params: any) => Promise<ChatType>;
+    create: (params: any) => Promise<ChatType>;
+    update: (id: string, params: any) => Promise<ChatType>;
+    destroy: (id: string) => Promise<void>;
+  };
+  chatAgents: {
+    findAll: (params: any) => Promise<ChatAgentType[]>;
+    findOne: (params: any) => Promise<ChatAgentType>;
+    create: (params: any) => Promise<ChatAgentType>;
+    update: (id: string, params: any) => Promise<ChatAgentType>;
+    destroy: (id: string) => Promise<void>;
+  };
+  chatMessages: {
+    findAll: (params: any) => Promise<ChatMessageType[]>;
+    findOne: (params: any) => Promise<ChatMessageType>;
+    create: (params: any) => Promise<ChatMessageType>;
+    update: (id: string, params: any) => Promise<ChatMessageType>;
+    destroy: (id: string) => Promise<ChatMessageType>;
   };
 };

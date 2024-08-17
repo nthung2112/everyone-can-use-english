@@ -69,7 +69,7 @@ type WhisperOutputType = {
     translate: boolean;
   };
   result: {
-    languate: string;
+    language: string;
   };
   systeminfo: string;
   transcription: TranscriptionResultSegmentType[];
@@ -183,3 +183,9 @@ type PlatformInfo = {
   arch: string;
   version: string;
 };
+
+type DiskUsageType = {
+  name: string;
+  path: string;
+  size: number;
+}[];

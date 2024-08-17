@@ -27,6 +27,8 @@ For download and usage instructions, please refer to [Documentation](https://100
   <img src="./enjoy/snapshots/assessment.png" alt="Home" width="800" />
 
   <img src="./enjoy/snapshots/course.png" alt="Home" width="800" />
+
+  <img src="./enjoy/snapshots/chat.png" alt="Home" width="800" />
 </div>
 
 ## 开发

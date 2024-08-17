@@ -47,6 +47,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     removeCmdOutputListeners: () => {
       ipcRenderer.removeAllListeners("app-on-cmd-output");
     },
+    diskUsage: () => {
+      return ipcRenderer.invoke("app-disk-usage");
+    },
     version,
   },
   window: {
@@ -280,6 +283,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     crop: (id: string, params: { startTime: number; endTime: number }) => {
       return ipcRenderer.invoke("audios-crop", id, params);
     },
+    cleanUp: () => {
+      return ipcRenderer.invoke("audios-clean-up");
+    },
   },
   videos: {
     findAll: (params: {
@@ -305,6 +311,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     },
     crop: (id: string, params: { startTime: number; endTime: number }) => {
       return ipcRenderer.invoke("videos-crop", id, params);
+    },
+    cleanUp: () => {
+      return ipcRenderer.invoke("videos-clean-up");
     },
   },
   recordings: {
@@ -618,6 +627,61 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     },
     sync: (id: string) => {
       return ipcRenderer.invoke("notes-sync", id);
+    },
+  },
+  chats: {
+    findAll: (params: { query?: string; offset?: number; limit?: number }) => {
+      return ipcRenderer.invoke("chats-find-all", params);
+    },
+    findOne: (params: any) => {
+      return ipcRenderer.invoke("chats-find-one", params);
+    },
+    create: (params: any) => {
+      return ipcRenderer.invoke("chats-create", params);
+    },
+    update: (id: string, params: any) => {
+      return ipcRenderer.invoke("chats-update", id, params);
+    },
+    destroy: (id: string) => {
+      return ipcRenderer.invoke("chats-destroy", id);
+    },
+  },
+  chatAgents: {
+    findAll: (params: { query?: string; offset?: number; limit?: number }) => {
+      return ipcRenderer.invoke("chat-agents-find-all", params);
+    },
+    findOne: (params: any) => {
+      return ipcRenderer.invoke("chat-agents-find-one", params);
+    },
+    create: (params: any) => {
+      return ipcRenderer.invoke("chat-agents-create", params);
+    },
+    update: (id: string, params: any) => {
+      return ipcRenderer.invoke("chat-agents-update", id, params);
+    },
+    destroy: (id: string) => {
+      return ipcRenderer.invoke("chat-agents-destroy", id);
+    },
+  },
+  chatMessages: {
+    findAll: (params: {
+      chatSessionId: string;
+      offset?: number;
+      limit?: number;
+    }) => {
+      return ipcRenderer.invoke("chat-messages-find-all", params);
+    },
+    findOne: (params: any) => {
+      return ipcRenderer.invoke("chat-messages-find-one", params);
+    },
+    create: (params: any) => {
+      return ipcRenderer.invoke("chat-messages-create", params);
+    },
+    update: (id: string, params: any) => {
+      return ipcRenderer.invoke("chat-messages-update", id, params);
+    },
+    destroy: (id: string) => {
+      return ipcRenderer.invoke("chat-messages-destroy", id);
     },
   },
 });
