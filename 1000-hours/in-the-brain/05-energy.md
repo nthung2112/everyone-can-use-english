@@ -1,13 +1,13 @@
-# 5. 一切都需要能量
+# 5. Mọi thứ đều cần năng lượng
 
-大脑在重量上大约只占人体的 2%，却要消耗掉 20% 以上的能量。
+Não chỉ chiếm khoảng 2% trọng lượng cơ thể nhưng tiêu tốn hơn 20% năng lượng.
 
-大脑几乎从不停止运转，哪怕在睡觉的时候，它依然在按照自己的进程运转。大脑工作的时候，很多神经元在同时发电，不是比喻，就是物理发电 —— 就好像电池发电的原理一样，这是大脑内各类物质之间不断发生的化学反应带来的结果。
+Não bộ gần như không bao giờ ngừng hoạt động, ngay cả khi đang ngủ, nó vẫn hoạt động theo tiến trình của riêng nó. Khi não làm việc, nhiều tế bào thần kinh đồng thời phát điện, không phải là phép ẩn dụ, mà là phát điện theo nghĩa vật lý — giống như nguyên lý phát điện của pin, kết quả của các phản ứng hóa học liên tục xảy ra giữa các chất trong não.
 
-过去人们还不太理解，可现在脑科学家们却可以对大脑耗能进行精确的量化评估，数据表明，脑力活动的耗能效率远比体力活动高，也就是说，脑力工作相对更累。全世界所有作家都有相同的下意识动作，写着写着就饿了，写着写着就站起来冲向冰箱…… 大脑格外需要糖和氧，那些化学反应和物理放电，就是需要不断补充糖和氧才能持续下去。
+Trước đây người ta chưa hiểu rõ, nhưng hiện nay các nhà khoa học não bộ có thể đánh giá chính xác mức tiêu tốn năng lượng của não, và dữ liệu cho thấy hiệu quả tiêu tốn năng lượng của hoạt động trí óc cao hơn nhiều so với hoạt động thể chất, tức là công việc trí óc tương đối mệt mỏi hơn. Tất cả các nhà văn trên thế giới đều có động tác vô thức giống nhau, viết một lúc thì thấy đói, viết tiếp thì đứng dậy chạy vào tủ lạnh... Não đặc biệt cần đường và oxy, các phản ứng hóa học và phát điện vật lý cần liên tục bổ sung đường và oxy để duy trì.
 
-大脑和身上的肌肉一样，累了就需要放松或者休息。与直觉相反的是，适当的体力活动往往更能起到放松大脑的作用。因为大脑对肢体支配太熟悉太自然了，几乎总是能以相当低的功耗就可以完成指定任务。再一次与直觉相反，若是躺在沙发上玩手机的话，那只是身体放松了，而大脑不仅没有休息，还是在继续超负荷工作。
+Não giống như các cơ bắp trên cơ thể, khi mệt mỏi thì cần thư giãn hoặc nghỉ ngơi. Ngược lại với trực giác, hoạt động thể chất hợp lý thường có tác dụng thư giãn não bộ. Bởi vì não đã quá quen thuộc và tự nhiên với việc điều khiển cơ thể, hầu như luôn hoàn thành nhiệm vụ với mức tiêu tốn năng lượng rất thấp. Ngược lại với trực giác, nếu nằm trên ghế sofa chơi điện thoại, cơ thể có thể được thư giãn, nhưng não không chỉ không nghỉ ngơi mà còn tiếp tục làm việc quá tải.
 
-用适当的体力活动放松大脑，还有另外一个好处。因为大脑的耗能占比太高，耗能功率太大，所以，大脑总是对糖过于贪婪。它其实不需要那么多糖，它只是觉得自己需要更多。问题在于，过多的糖对身体有害，会导致身体肥胖，大脑反应迟钝。相对于糖，其实大脑更需要的是氧，可又因为氧这个东西好像无处不在随时可以通过呼吸得到，大脑并不会对氧想对糖那样过分苛求。适当的体力活动，正好可以调控大脑对糖和氧的本末倒置，获得了更多实际必要的氧，消耗掉了相当一部分实际没必要的糖。
+Thực hiện hoạt động thể chất hợp lý để thư giãn não còn có một lợi ích khác. Vì não tiêu tốn năng lượng quá nhiều, và công suất tiêu tốn năng lượng quá lớn, nên não thường khao khát đường. Thực ra, não không cần nhiều đường như vậy, chỉ là nó cảm thấy mình cần nhiều hơn. Vấn đề là, đường quá nhiều có hại cho cơ thể, dẫn đến béo phì và phản ứng chậm chạp. So với đường, não thực sự cần oxy hơn, nhưng vì oxy dường như có mặt ở khắp mọi nơi và có thể được cung cấp qua hơi thở, não không yêu cầu oxy khắt khe như đường. Hoạt động thể chất hợp lý có thể điều chỉnh nhu cầu của não về đường và oxy, cung cấp nhiều oxy thực sự cần thiết, đồng thời tiêu tốn phần đường thực sự không cần thiết.
 
-对大脑来说，最重要的是睡眠。高质量的睡眠是大脑工作效率的基础保障。稳定的作息时间虽然重要，但，充足的睡眠时长以及足够的睡眠质量才是关键。保证睡眠质量的方式，简单且又便宜，在保证适当的体力活动之外，还要保证充足的日晒 —— 这会让大脑分泌足够的褪黑素。
+Đối với não, điều quan trọng nhất là giấc ngủ. Giấc ngủ chất lượng cao là nền tảng đảm bảo hiệu quả làm việc của não. Mặc dù thói quen ngủ ổn định rất quan trọng, nhưng thời gian ngủ đủ và chất lượng giấc ngủ mới là yếu tố quyết định. Cách đảm bảo chất lượng giấc ngủ là đơn giản và rẻ tiền, ngoài việc thực hiện hoạt động thể chất hợp lý, cần đảm bảo ánh sáng mặt trời đầy đủ — điều này sẽ giúp não sản xuất đủ melatonin.

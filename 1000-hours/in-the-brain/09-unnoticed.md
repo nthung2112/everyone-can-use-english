@@ -1,29 +1,27 @@
-# 9. 注意不到就不存在
+# 9. Cái gì không chú ý đến thì không tồn tại
 
-人们可以意识到自己正在思考，可以检查自己思考的过程，还可以判断自己的思考质量，关于思考的思考，有个专门的名词，元认知（*metarecognition*）。
+Con người có thể nhận thức rằng mình đang suy nghĩ, có thể kiểm tra quá trình suy nghĩ của mình, và có thể đánh giá chất lượng suy nghĩ của mình. Có một thuật ngữ chuyên môn cho việc suy nghĩ về suy nghĩ, gọi là nhận thức meta (_metarecognition_).
 
-元认知的存在与启动，本质上来看是注意力管理（*attention management*）—— 当你想办法关注自己的思考及其过程的时候，元认知就启动了。这就是注意力的神奇之处，它是大脑天生自带的神奇功能，它也决定了一个神奇的现象：
+Sự tồn tại và khởi động của nhận thức meta về bản chất là quản lý sự chú ý (_attention management_) — khi bạn cố gắng tập trung vào suy nghĩ của mình và quá trình của nó, nhận thức meta sẽ được kích hoạt. Đây chính là điều kỳ diệu của sự chú ý, một chức năng kỳ diệu bẩm sinh của não bộ, và nó quyết định một hiện tượng kỳ diệu:
 
-> **你注意不到的东西对你来说就不存在**。
+> **Những gì bạn không chú ý đến thì đối với bạn không tồn tại**.
 
-展现在我们所在的现实世界总是丰富多彩，但，我们的注意力被手中那一百平方厘米不到的屏幕所吸引之后，新鲜空气，灿烂阳光，蓝天白云，小鸟飞舞，人来人往，欢声笑语…… 这一切都会瞬间消失，我们身之所处变成了虚拟世界。
+Thực tế mà chúng ta đang sống luôn đa dạng và phong phú, nhưng khi sự chú ý của chúng ta bị thu hút bởi màn hình nhỏ hơn một trăm centimet vuông trong tay, không khí trong lành, ánh sáng mặt trời rực rỡ, bầu trời xanh, mây trắng, chim bay, người qua lại, tiếng cười vui vẻ... tất cả những điều đó đều biến mất ngay lập tức, thế giới xung quanh chúng ta trở thành một thế giới ảo.
 
-注意不到就不存在。
+Không chú ý đến thì không tồn tại.
 
-反过来也一样，不知道就注意不到。
+Ngược lại cũng vậy, không biết thì không chú ý đến.
 
-你不知道这个原理，你不知道大脑最擅长干的就是调用近似网络，近似地完成任务，那么，你就注意不到自己正在调用近似网络，你就不知道你自己正在那么干，你也不会知道你的所谓完成只不过是近似完成，当你最终把复杂任务搞砸了的时候，你只是一脸问号，脑子里根本就没有答案。
+Bạn không biết nguyên lý này, bạn không biết rằng não bộ giỏi nhất là sử dụng các mạng lưới gần giống, hoàn thành nhiệm vụ gần giống, thì bạn sẽ không chú ý đến việc bạn đang gọi các mạng lưới gần giống, bạn sẽ không biết bạn đang làm vậy, và bạn cũng sẽ không biết rằng cái gọi là hoàn thành của bạn chỉ là hoàn thành gần giống. Khi bạn cuối cùng làm hỏng nhiệm vụ phức tạp, bạn chỉ có thể ngơ ngác, trong đầu bạn không có câu trả lời.
 
-科学家们提出了一个极为重要的概念：刻意练习。按照他们一致的说法，刻意练习的关键在于**不断提高练习的难度**，**不断突破舒适区**，否则，更多的练习不仅不会带来进步，还会导致一定的退步。
+Các nhà khoa học đã đưa ra một khái niệm rất quan trọng: luyện tập có chủ đích. Theo sự đồng thuận của họ, chìa khóa của luyện tập có chủ đích là **liên tục nâng cao độ khó của luyện tập**, **liên tục vượt qua vùng an toàn**, nếu không, luyện tập nhiều hơn không chỉ không mang lại tiến bộ mà còn có thể gây ra sự lùi bước nhất định.
 
-练习就要**努力**，即，**短时间内足量重复**。那么刻意练习呢？关键在于哪里？我觉得：
+Luyện tập cần phải **nỗ lực**, tức là **lặp lại đủ lượng trong thời gian ngắn**. Vậy luyện tập có chủ đích thì sao? Chìa khóa nằm ở đâu? Tôi nghĩ:
 
-> **刻意练习关键在于，在练习的过程中要有组织有计划有系统地调用并集中自己的注意力，致力于新建连接新建网络，而不是调用近似连接近似网络**。
+> **Chìa khóa của luyện tập có chủ đích là trong quá trình luyện tập, phải tổ chức, lên kế hoạch và hệ thống hóa việc tập trung sự chú ý của mình vào việc xây dựng kết nối và mạng lưới mới, thay vì gọi các kết nối và mạng lưới gần giống**.
 
-这个说法的好处是，因为更加具体，所以更具备可操作性，更有指导意义。
+Lợi ích của cách nói này là vì nó cụ thể hơn, nên nó có tính khả thi và chỉ dẫn rõ ràng hơn.
 
-无论学什么，无论做什么，哪怕在起点上，就可以为目标制定一个 “**检查列表**”，罗列学好做好的关键衡量指标…… 这个列表就是启动元认知的关键，就是调用并集中注意力的目标。所以，别管学没学会，别管练没练好，要事先把这个列表烂熟于心，这样才能越来越轻松地调用注意力去关注、纠正、改良，直至成功验收。
+Dù học gì, dù làm gì, ngay cả từ điểm khởi đầu, bạn có thể lập một “**danh sách kiểm tra**” cho mục tiêu, liệt kê các chỉ số đánh giá quan trọng để học tốt và làm tốt... Danh sách này chính là chìa khóa để khởi động nhận thức meta, là mục tiêu để tập trung sự chú ý. Vì vậy, dù có học được hay không, dù luyện tập có tốt hay không, bạn phải nắm vững danh sách này trước, như vậy bạn mới có thể dễ dàng hơn trong việc tập trung sự chú ý để quan sát, sửa chữa, cải thiện, cho đến khi thành công được nghiệm thu.
 
-人们总以为这是老师要干的事情，而自己是学生，所以理直气壮地把这项最基础最关键的任务完全交给老师或者教练…… 想想看吧，这是不是又一个绝大多数人最终失败的重要原因？
-
-## 
+Người ta thường nghĩ rằng đây là việc của giáo viên, và bản thân là học sinh, vì vậy mà tự tin giao hoàn toàn nhiệm vụ cơ bản và quan trọng này cho giáo viên hoặc huấn luyện viên... Hãy nghĩ xem, liệu đây có phải là một trong những lý do quan trọng khiến hầu hết mọi người cuối cùng thất bại không?

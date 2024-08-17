@@ -1,15 +1,15 @@
-# 7. 短时间内足量重复
+# 7. Lặp lại đủ lượng trong thời gian ngắn
 
-一切的学习，本质上来看，都是在创建新的连接，构建新的局域网 —— 这很是耗费能量，需要大量的化学反应和物理放电，需要糖和氧。
+Tất cả việc học, về bản chất, đều là tạo ra kết nối mới và xây dựng mạng cục bộ mới — điều này tiêu tốn nhiều năng lượng, cần nhiều phản ứng hóa học và phóng điện vật lý, cần đường glucose và oxy.
 
-单个神经元，被神经胶质细胞支撑在特定的位置，原本可能与邻近的某个神经元之间相互绝缘。但，相邻的两个神经元可能因为什么原因长出更多的突触，而那些突触可以慢慢延伸，直至两个神经元的突触连接在一起，形成可供电流通过的通路 —— 连接！这个过程不仅难度高，要耗费大量的能量，并且耗费的时间弄不好也很长。
+Một tế bào thần kinh đơn lẻ, được hỗ trợ ở một vị trí cụ thể bởi các tế bào thần kinh đệm, có thể ban đầu được cách ly khỏi các tế bào thần kinh lân cận. Tuy nhiên, các tế bào thần kinh lân cận có thể mọc thêm nhiều mối nối, và những mối nối này có thể từ từ kéo dài cho đến khi kết nối các tế bào thần kinh lại với nhau, tạo thành một con đường cho dòng điện đi qua — kết nối! Quá trình này không chỉ khó khăn mà còn tiêu tốn rất nhiều năng lượng và thời gian.
 
-创建新连接，构建新局域网，对大脑来说，最划算的办法就是**短时间内足量重复**。凡事都一样，刚开始可能不会做，开始做的时候很笨拙，但，做得多了也就熟练了。可问题在于，做得多，有两种方式，在很长时间里重复相同的数量，在很短的时间里重复相同的数量 —— 显然，后者更划算，这不仅事关**效率**，更关键的是**效果**。
+Để tạo ra kết nối mới và xây dựng mạng cục bộ mới, cách hiệu quả nhất đối với não bộ là **lặp lại đủ lượng trong thời gian ngắn**. Mọi việc đều như nhau, lúc đầu có thể không làm được, khi bắt đầu làm thì rất vụng về, nhưng làm nhiều thì sẽ quen. Vấn đề là, làm nhiều có hai cách, lặp lại số lượng giống nhau trong thời gian dài, hoặc lặp lại số lượng giống nhau trong thời gian ngắn — rõ ràng, cách sau hiệu quả hơn, không chỉ liên quan đến **hiệu suất**, mà còn quan trọng hơn là **hiệu quả**.
 
-专业的弦乐演奏者都会 “轮指” —— 几个手指以均匀的节奏但以极快的速度地拨动琴弦…… 这显然很有难度，因为最终绝大多数人的手指做不出这样的动作。其实，任何人都能做到，大约一天三个小时差不多一个月多一点就可以练成。可是，如果每天 5 分钟，练上 1200 天行不行呢？估计不行 —— 更重要的是，虽然每天只练 5 分钟好像很容易，但，连续练 1200 天却可能难到不可能的地步。同样差不多 100 小时的练习，在越短的天数里越集中地完成，不仅效率更高，效果也越好。
+Các nghệ sĩ đàn dây chuyên nghiệp thường "quay ngón tay" — vài ngón tay gẩy dây đàn với nhịp độ đều nhưng với tốc độ cực nhanh... Điều này rõ ràng rất khó khăn, vì cuối cùng phần lớn người không thể thực hiện được động tác như vậy. Thực ra, bất kỳ ai cũng có thể làm được, khoảng ba giờ mỗi ngày, sau một tháng rưỡi là có thể thành thạo. Nhưng, nếu mỗi ngày chỉ luyện tập 5 phút, kéo dài trong 1200 ngày thì sao? Có lẽ không thể — quan trọng là, mặc dù chỉ luyện tập 5 phút mỗi ngày có vẻ dễ dàng, nhưng liên tục luyện tập trong 1200 ngày lại có thể khó khăn đến mức gần như không thể. Số giờ luyện tập tương tự 100 giờ, nếu hoàn thành trong thời gian ngắn hơn và tập trung hơn, không chỉ hiệu quả hơn mà còn tốt hơn.
 
-这个现象的根源在于，你在耗时费力练习的同时，大脑在默默地执行**用进废退**。把时间拉得太长，频率搞得太低，重复次数太少，会使大脑自动降低此项活动的重要性，不认为它是必要的，不认为它是必需的，于是，无形之中形成了一个越来越大的阻力。
+Nguyên nhân của hiện tượng này là trong khi bạn đang luyện tập tốn thời gian và công sức, não bộ đang âm thầm thực hiện **sử dụng hoặc từ bỏ**. Kéo dài thời gian quá lâu, tần suất quá thấp, số lần lặp lại quá ít sẽ khiến não bộ tự động giảm tầm quan trọng của hoạt động này, không coi đó là cần thiết, không coi đó là thiết yếu, do đó, hình thành một trở ngại ngày càng lớn một cách vô hình.
 
-另外，人们普遍对**足量**有严重的误解。小朋友从开始尝试到能够吐字清晰地喊妈妈，需要尝试的次数，不是十次八次，不是几十次，不是几百次，而是至少 5,000 次以上。**知道**只需要见识一次就可以，可是**做到**却需要大脑新建连接新建网络，这不只需要时间，更需要的是重复，并且还是远超大多数人误以为的重复次数。
+Ngoài ra, mọi người thường có sự hiểu lầm nghiêm trọng về **đủ lượng**. Trẻ nhỏ từ lúc bắt đầu cố gắng đến khi có thể nói rõ từ "mẹ" cần thử nhiều lần, không phải mười lần tám lần, không phải vài chục lần, không phải vài trăm lần, mà là ít nhất hơn 5.000 lần. **Biết** chỉ cần thấy một lần là đủ, nhưng **làm được** thì cần não bộ tạo ra kết nối mới và mạng lưới mới, điều này không chỉ cần thời gian, mà còn cần lặp lại, và lặp lại nhiều hơn so với sự hiểu lầm của đa số người về số lần lặp lại.
 
-有意义的学习，往往是复杂且又系统的，我们都知道心急不得，不应该急于求成。但，所有细节上的专项**练习**，最好是专项**集训**，重复数量要足够多，重复频率要足够高足够密，即，**短时间内足量重复** —— 这也是我对所谓**努力**的定义。
+Học tập có ý nghĩa thường phức tạp và hệ thống, chúng ta đều biết không nên nóng vội, không nên cầu thành sớm. Tuy nhiên, tất cả các bài tập chuyên sâu về chi tiết, tốt nhất là huấn luyện chuyên sâu, số lần lặp lại phải đủ nhiều, tần suất lặp lại phải cao và dày đặc, tức là **lặp lại đủ lượng trong thời gian ngắn** — đây cũng là định nghĩa của tôi về **nỗ lực**.

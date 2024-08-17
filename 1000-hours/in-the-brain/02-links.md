@@ -1,15 +1,15 @@
-# 2. 一切都是连接
+# 2. Mọi thứ đều là kết nối
 
-我们能做的一切，对大脑来说，都只不过是 “**神经元间连接**”。
+Mọi thứ chúng ta có thể làm, đối với não bộ, chỉ đơn giản là “**kết nối giữa các tế bào thần kinh**”.
 
-当然，我们能够完成的一切动作，无论是肢体动作还是思考过程，都复杂到不可能仅仅动用两个神经元间的连接就可以完成 —— 每一个我们认为轻而易举的动作，对大脑来说，都是一个又一个实际上非常庞大且又复杂的，由众多神经元连接起来构成的 “**基础功能局域网**”（学名 “**神经回路**”）相互通讯相互协作的结果。
+Tất nhiên, tất cả các hành động mà chúng ta thực hiện, dù là hành động cơ thể hay quá trình suy nghĩ, đều phức tạp đến mức không thể chỉ dựa vào kết nối giữa hai tế bào thần kinh mà hoàn thành — mỗi hành động mà chúng ta cho là dễ dàng thực hiện, đối với não bộ, thực sự là kết quả của sự phối hợp và giao tiếp giữa nhiều “**mạng lưới chức năng cơ bản**” được tạo thành từ rất nhiều kết nối giữa các tế bào thần kinh (tên khoa học là “**mạch thần kinh**”).
 
-而众多的 “基础功能局域网” 还可以灵活地组合，形成 “**高级功能局域网**” 完成更为复杂更为精巧的任务……
+Và nhiều “mạng lưới chức năng cơ bản” có thể linh hoạt kết hợp để tạo thành “**mạng lưới chức năng cao cấp**” nhằm hoàn thành những nhiệm vụ phức tạp hơn và tinh vi hơn...
 
-大脑内的神经元实在太多了，多到每个人都终生用不完的地步 —— 这就是为什么大脑具备极强**可塑性**的原因。即便大脑的某一部分损坏了，大脑还有充足的未启用神经元完全可以重新学会损坏的那一部分曾经拥有的功能 —— 弄不好可以学得更好。
+Số lượng tế bào thần kinh trong não bộ quá nhiều, đến mức mỗi người đều không thể sử dụng hết trong suốt đời mình — đó là lý do tại sao não bộ có khả năng **dẻo dai** mạnh mẽ. Ngay cả khi một phần nào đó của não bị tổn thương, não vẫn có đủ tế bào thần kinh chưa được sử dụng để có thể học lại các chức năng mà phần bị tổn thương từng có — thậm chí còn có thể học tốt hơn.
 
-大脑内的神经元通过相互连接构成了一个四通八达的网络。在这个网络里，不存在所谓的 “孤岛”，只不过是远近而已，只不过是直接间接而已，每个 “基础功能局域网” 之间最终都可以相互通讯。
+Các tế bào thần kinh trong não bộ kết nối với nhau tạo thành một mạng lưới rộng khắp. Trong mạng lưới này, không tồn tại cái gọi là “đảo cô lập”, chỉ có khoảng cách gần hay xa, trực tiếp hay gián tiếp mà thôi. Cuối cùng thì tất cả các “mạng lưới chức năng cơ bản” đều có thể giao tiếp với nhau.
 
-这就意味着说，在大脑里，没有 “用不上的局域网”…… 任何技能，只要的确被大脑掌握，那么，本质上来看，它其实都是被拆解成很多个 “基础功能局域网” 之后存在于整个网络之中，随时组合起来调用。关键在于，这些基础功能局域网还随时可能用其它的方式组合起来，完成新的功能…… 所谓的 “融会贯通”，就是这样的过程。
+Điều này có nghĩa là trong não bộ, không có “mạng lưới không sử dụng được”... Bất kỳ kỹ năng nào, nếu thực sự được não bộ nắm bắt, về bản chất, nó đã được chia nhỏ thành nhiều “mạng lưới chức năng cơ bản” tồn tại trong toàn bộ mạng lưới và có thể được gọi ra kết hợp bất kỳ lúc nào. Điều quan trọng là, các mạng lưới chức năng cơ bản này có thể được kết hợp lại theo các cách khác nhau để thực hiện các chức năng mới... Cái gọi là “hiểu sâu rộng” chính là quá trình này.
 
-对大脑来说，不可能存在学了之后竟然用不上的技能，学得越多越好，学得越多越快。人们生活中感受到的 “学了之后用不上”，其实是一种幻觉，因为对大脑来说，那原本应该是 “从来都没学会过”。
+Đối với não bộ, không thể tồn tại kỹ năng nào đã học mà lại không sử dụng được, học càng nhiều càng tốt, học càng nhanh càng tốt. Cảm giác “học rồi nhưng không sử dụng được” trong cuộc sống thực tế là một ảo giác, bởi vì đối với não bộ, đó vốn dĩ là “chưa từng học được”.

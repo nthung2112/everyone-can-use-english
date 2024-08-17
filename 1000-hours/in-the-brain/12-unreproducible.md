@@ -1,17 +1,17 @@
-# 12. 有限排它不可再生
+# 12. Tài nguyên hữu hạn không thể tái tạo
 
-注意力是相当有限且又排它甚至还不可再生的资源。钱可以攒，时间可以省，但注意力这个东西，攒不下来的同时也省不下。
+Sự chú ý là một tài nguyên vô cùng hạn chế, thậm chí không thể tái tạo và có tính loại trừ. Tiền có thể tiết kiệm, thời gian có thể tiết kiệm, nhưng sự chú ý thì không thể tích lũy hay tiết kiệm được.
 
-注意力高度集中，对大脑来说是一项超级耗能的活动，因为它意味着大脑需要调动多个区域且相互之间要高度协同，集中的化学反应，集中的物理放电 —— 需要不断补充糖和氧。但，人的整体体力有限，也就决定了注意力的上限。
+Sự tập trung cao độ là một hoạt động tiêu tốn năng lượng cực kỳ lớn đối với não bộ, vì điều đó có nghĩa là não phải huy động nhiều khu vực và phối hợp chặt chẽ với nhau, với các phản ứng hóa học tập trung, các phát xạ vật lý tập trung — cần liên tục cung cấp glucose và oxy. Nhưng, thể lực tổng thể của con người có hạn, điều đó cũng xác định giới hạn của sự chú ý.
 
-从印刷术普及开始，到电子媒介的兴起，再到互联网吞噬整个世界，媒体统治了世界。我们的注意力被各路人马争夺，变成了极为稀缺的资源。连整个经济系统，都变得将其称呼为 “注意力经济” 比将其称呼为 “商品经济” 更为恰当。
+Kể từ khi in ấn trở nên phổ biến, đến sự trỗi dậy của phương tiện truyền thông điện tử, rồi đến Internet nuốt chửng toàn thế giới, các phương tiện truyền thông đã thống trị thế giới. Sự chú ý của chúng ta bị nhiều bên cạnh tranh, trở thành một tài nguyên cực kỳ khan hiếm. Thậm chí, toàn bộ hệ thống kinh tế đã trở nên thích hợp hơn khi được gọi là “kinh tế chú ý” thay vì “kinh tế hàng hóa”.
 
-移动互联网 2010 年前后崛起，仅仅十年不到的时间里，就大幅度降低了整个人类的注意广度（Attention Span），有统计调查表明，现在的人，普遍的注意广度不超过 1.92 分钟，他们在一整天 16 个小时的清醒时间里，拿起手机至少 500 次……
+Sự trỗi dậy của Internet di động trước và sau năm 2010, trong chưa đầy mười năm, đã làm giảm đáng kể phạm vi chú ý của con người. Các thống kê cho thấy, hiện tại, phạm vi chú ý của hầu hết mọi người không quá 1,92 phút, và trong suốt 16 giờ tỉnh táo của một ngày, họ cầm điện thoại ít nhất 500 lần...
 
-2 分钟不到的注意广度，无法完成任何有意义的学习，更不用提学习之后那更为重要的练习了。一般来说，注意力集中时长不超过 25 分钟左右就实际上聊胜于无 —— 否则，对大脑来说，新建连接就是不可能的，更别提什么新建网络了。可实际上，学习任何新技能，在一天的时间里可能需要 5 ～ 10 个甚至更多的注意力集中的 25 分钟。
+Phạm vi chú ý dưới 2 phút không đủ để hoàn thành bất kỳ việc học có ý nghĩa nào, chưa nói đến việc luyện tập quan trọng hơn sau khi học. Thông thường, thời gian tập trung chú ý không vượt quá khoảng 25 phút thực sự là không đáng kể — nếu không, việc tạo kết nối mới là không thể, chưa kể đến việc xây dựng mạng lưới mới. Thực tế, việc học bất kỳ kỹ năng mới nào trong một ngày có thể cần từ 5 đến 10 lần hoặc nhiều hơn nữa các khoảng thời gian tập trung 25 phút.
 
-人类的大脑进化了几十万年才成为今天的样子。大脑的超级可塑性，原本是这几十万年里进化的绝对优势。突然之间，在智能设备成为新的人体器官，媒体统治的注意力经济时代，大脑可塑性变成了极其危险的功能，它可以被塑造得多好，那么，更大程度上，它就可以被破坏得多狠。
+Não bộ của con người đã phát triển hàng trăm nghìn năm để trở thành hình dạng ngày nay. Tính dẻo dai tuyệt vời của não bộ vốn là lợi thế tuyệt đối trong hàng trăm nghìn năm phát triển. Đột ngột, trong thời đại thiết bị thông minh trở thành cơ quan mới của cơ thể và phương tiện truyền thông thống trị nền kinh tế chú ý, tính dẻo dai của não bộ trở thành một chức năng cực kỳ nguy hiểm, nó có thể được tạo ra tốt đến mức nào, thì cũng có thể bị phá hủy nghiêm trọng đến mức đó.
 
-只不过是十年时间，相对于几十万年的历史，这真是转瞬之间，白马尚未来得及过隙，一代青少年中绝大多大脑的大脑皮层就已经成了废墟。也许我们可以重建，但，哪怕拆除并清理那些废墟就有可能耗尽所有的资源…… 非常无奈。
+Chỉ trong vòng mười năm, so với lịch sử hàng trăm nghìn năm, thật sự là trong chớp mắt, não bộ của thế hệ thanh thiếu niên đã trở thành đống đổ nát. Có thể chúng ta có thể xây dựng lại, nhưng ngay cả việc tháo dỡ và dọn dẹp những đống đổ nát đó cũng có thể tiêu tốn tất cả các nguồn lực... Thật đáng tiếc.
 
-保护自己的注意力，注定是下一代人最核心的生存技能 —— 只可惜，绝大多数人并不知道，所以也不在意。
+Bảo vệ sự chú ý của bản thân chắc chắn sẽ là kỹ năng sống cốt lõi nhất của thế hệ tiếp theo — tiếc rằng, hầu hết mọi người không biết điều đó, vì vậy cũng không quan tâm.

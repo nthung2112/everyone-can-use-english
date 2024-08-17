@@ -1,13 +1,13 @@
-## 13. 一切都是化学反应
+## 13. Mọi thứ đều là phản ứng hóa học
 
-一切的念头，无论是基础的想法，还是高级的决策，甚至无法说明的各种情绪，其实都是大脑这个物理上存在的器官里分泌的化学物质之间发生的化学反应…… 于是，很多时候，很多念头其实相当随机，并且转瞬即逝。
+Mọi suy nghĩ, dù là ý tưởng cơ bản hay quyết định cao cấp, thậm chí là những cảm xúc không thể giải thích được, thực chất đều là những phản ứng hóa học giữa các chất hóa học được tiết ra trong cơ quan vật lý của não bộ... Vì vậy, nhiều khi, nhiều suy nghĩ thực sự khá ngẫu nhiên và thoáng qua.
 
-当我们从梦中醒来，如果保持原来的姿势闭上眼继续睡过去，那么就很有可能回到原来的梦境（或者起码是类似的梦境）—— 可如果换了姿势就回不去了。这是因为换姿势会使大脑里的各种化学物质改变位置……
+Khi chúng ta tỉnh dậy từ giấc mơ, nếu giữ nguyên tư thế và nhắm mắt tiếp tục ngủ, rất có thể chúng ta sẽ trở lại giấc mơ gốc (hoặc ít nhất là giấc mơ tương tự) — nhưng nếu thay đổi tư thế, chúng ta sẽ không thể quay lại. Điều này là vì việc thay đổi tư thế sẽ làm thay đổi vị trí của các chất hóa học trong não bộ...
 
-日常生活中，当我们的脑子里闯入令我们不适的念头时，我们会下意识地使劲**晃晃脑袋**，希望能够摆脱它 —— 这一点都不荒唐，因为这样的动作真的能起作用，因为大脑里的化学物质，哪怕是细微的位置上的变化，也可能导致很不一样的化学反应…… 于是，晃晃脑袋，化学反应变了，念头真有可能变，或者真有可能消失。
+Trong cuộc sống hàng ngày, khi một suy nghĩ không thoải mái xâm nhập vào đầu chúng ta, chúng ta thường vô thức lắc đầu mạnh mẽ, hy vọng có thể loại bỏ nó — điều này không phải là vô lý, vì hành động này thực sự có hiệu quả, vì các chất hóa học trong não bộ, ngay cả sự thay đổi nhỏ trong vị trí cũng có thể dẫn đến phản ứng hóa học khác biệt... Vì vậy, lắc đầu, phản ứng hóa học thay đổi, suy nghĩ thực sự có thể thay đổi hoặc biến mất.
 
-同样的道理，当我们紧张时，需要大口深呼吸 —— 也可以解释为大脑内部化学反应突然变得相对过于剧烈，于是需要大量的能量补充，氧和糖，否则就无法继续正常工作。
+Tương tự, khi chúng ta cảm thấy căng thẳng, cần phải hít thở sâu — điều này cũng có thể được giải thích là phản ứng hóa học trong não bộ trở nên quá dữ dội, vì vậy cần phải bổ sung nhiều năng lượng, oxy và glucose, nếu không thì không thể tiếp tục làm việc bình thường.
 
-化学反应可能随机且并不稳定，所以，**跟着感觉走**其实非常可怕。这就是为什么我们要习惯于认真审视我们自身每个念头的根本原因了。我们不希望也不可能过于随机且过于不稳定地生活。我们挣扎着寻找方向并保持方向，就是为了摆脱随机，寻求稳定。
+Phản ứng hóa học có thể ngẫu nhiên và không ổn định, vì vậy, việc **đi theo cảm giác** thực sự là rất đáng sợ. Đây chính là lý do tại sao chúng ta cần thói quen xem xét nghiêm túc từng suy nghĩ của chính mình. Chúng ta không muốn và không thể sống quá ngẫu nhiên và không ổn định. Chúng ta đấu tranh để tìm hướng đi và duy trì hướng đi, chính là để thoát khỏi sự ngẫu nhiên, tìm kiếm sự ổn định.
 
-大脑内的各种化学反应，主要结果就是不同的神经元之间的物理放电，使它们相互连接，相互通讯，最终以某种方式协调各个身体器官。某一系列化学反应及其对应的念头，如果反复发生的话，就会被强化，直至物理器官形成固定的工作流程。事实上，人们有太多未经自我审核的念头和与之相应的习惯。
+Các phản ứng hóa học trong não bộ chủ yếu dẫn đến các phát xạ vật lý giữa các neuron, làm chúng kết nối và giao tiếp với nhau, cuối cùng điều phối các cơ quan cơ thể theo một cách nào đó. Một chuỗi phản ứng hóa học và các suy nghĩ tương ứng của nó, nếu xảy ra lặp đi lặp lại, sẽ được củng cố, cho đến khi các cơ quan vật lý hình thành quy trình làm việc cố định. Thực tế, mọi người có quá nhiều suy nghĩ chưa được tự kiểm duyệt và thói quen tương ứng với chúng.

@@ -1,19 +1,19 @@
-# 10. 熟练就是卸载负担
+# 10. Thành thạo chính là giảm bớt gánh nặng
 
-大脑里的一切都存在于网络之中，每个任务都会被拆分成很多子任务，而后经过大脑对流程的自动优化，尽快完成。毫无疑问，大脑肯定是多线程工作的，不然就会被拖死。
+Mọi thứ trong não bộ đều tồn tại trong mạng lưới, mỗi nhiệm vụ sẽ được phân nhỏ thành nhiều nhiệm vụ con, và sau đó được tối ưu hóa tự động bởi não để hoàn thành càng nhanh càng tốt. Không còn nghi ngờ gì nữa, não bộ chắc chắn làm việc đa luồng, nếu không sẽ bị kéo xuống bởi khối lượng công việc.
 
-可问题在于，注意力更多情况下是单线程的。它常常一次只能注意一个东西，如果有多个需要注意，那么它就得挨个来…… 有时候它也可能同时注意两个甚至三个东西（更多肯定不行了），但，只要其中一个足够突出，其它的就会瞬间沉入背景。
+Vấn đề là, sự chú ý thường là đơn luồng. Nó thường chỉ có thể chú ý đến một thứ tại một thời điểm, nếu có nhiều thứ cần chú ý, nó phải lần lượt xử lý từng cái... Đôi khi nó cũng có thể chú ý đến hai hoặc ba thứ cùng một lúc (nhiều hơn chắc chắn không thể), nhưng chỉ cần một cái đủ nổi bật, những cái khác sẽ ngay lập tức chìm vào nền.
 
-看看 1970 年认知心理学先驱尤里克·奈瑟（Ulric Neisser）的实验就知道了。一群人在舞台上传球，观看者被要求对传球的次数计数…… 在这个过程中有个打扮成大猩猩的人出现在舞台，做了几个夸张的动作，才走下去 —— 结果，所有人都没看到那只大猩猩，因为大家的注意力都被引导到那只传来传去的球上了。
+Hãy xem thí nghiệm của nhà tâm lý học nhận thức tiên phong Ulric Neisser vào năm 1970. Một nhóm người trên sân khấu đang chuyền bóng, người xem được yêu cầu đếm số lần chuyền bóng... Trong quá trình đó, có một người hóa trang thành con khỉ lớn xuất hiện trên sân khấu, thực hiện vài động tác cường điệu rồi rời đi — kết quả là, tất cả mọi người đều không thấy con khỉ lớn đó vì sự chú ý của họ bị hướng vào quả bóng chuyền qua lại.
 
-当我们习得一个新技能的时候，它可能需要我们完成多个任务，并且多个任务之间还可能需要相互协调。比如，蛙泳，这个对初学者相对最友好的游泳姿势。它需要起码三个动作的协调，上臂的动作，下肢的动作，用嘴巴呼吸的动作。这时候，我们的大脑就会忙不过来，因为关注这个的时候，就顾不上那个，关注那个的时候，又忘了这个……
+Khi chúng ta học một kỹ năng mới, nó có thể yêu cầu chúng ta thực hiện nhiều nhiệm vụ, và các nhiệm vụ này có thể cần phối hợp với nhau. Ví dụ, bơi ếch, tư thế bơi tương đối thân thiện nhất với người mới học. Nó cần ít nhất ba động tác phối hợp: động tác của cánh tay, động tác của chân, và động tác thở bằng miệng. Lúc này, não bộ của chúng ta sẽ bận rộn vì khi chú ý đến cái này, chúng ta không thể chú ý đến cái kia, và khi chú ý đến cái kia, lại quên cái này...
 
-我们逐个练，然后再尝试组合其中的两个 —— 这需要很长时间…… 直至熟练之后，再尝试组合所有动作 —— 这还需要很长时间…… 终于能熟练组合这三个动作了之后呢？就能游得很好很快吗？显然并非如此。这时候才发现，还有更多的细节需要注意，每个细节的微调都可能需要很多的时间。
+Chúng ta luyện tập từng bước một, rồi thử kết hợp hai động tác — điều này cần thời gian dài... Cho đến khi thành thạo, chúng ta thử kết hợp tất cả các động tác — điều này còn cần nhiều thời gian hơn... Cuối cùng, khi chúng ta có thể kết hợp ba động tác một cách thành thạo, chúng ta có thể bơi rất tốt và nhanh không? Rõ ràng là không. Lúc này chúng ta nhận ra rằng còn nhiều chi tiết cần chú ý, mỗi điều chỉnh nhỏ đều có thể mất nhiều thời gian.
 
-幸运的是，这时候我们已经有余力注意那些细节了 —— 但，更准确的说法是，**熟悉就是卸载负担**。但，熟练不是尽头，因为 **精通就是无负担**。
+May mắn thay, lúc này chúng ta đã có đủ sức để chú ý đến những chi tiết đó — nhưng nói chính xác hơn, **thành thạo chính là giảm bớt gánh nặng**. Tuy nhiên, sự thành thạo không phải là điểm kết thúc, vì **thành thục chính là không gánh nặng**.
 
-当我们对一个流程足够熟悉之后（当然是通过短时间内足量重复），还需要大量的重复（当然还是通过短时间内足量重复）…… 终于，完成这个流程就可以下意识完成甚至无意识完成了，不用再像最初那样，要记住步骤，注意衔接，核实质量…… 于是，我们那几乎只能**单线程**的注意力就相当于把这一部分负担彻底卸载掉了，同时需要做别的事情的时候，就会感觉轻松自如。
+Khi chúng ta quen thuộc với một quy trình đủ mức (tất nhiên là thông qua lặp lại đủ lượng trong thời gian ngắn), chúng ta cần rất nhiều lần lặp lại (tất nhiên vẫn là thông qua lặp lại đủ lượng trong thời gian ngắn)... Cuối cùng, quy trình này có thể được thực hiện một cách tự giác hoặc thậm chí vô thức, không cần phải nhớ các bước, chú ý đến sự liên kết, kiểm tra chất lượng... Do đó, sự chú ý gần như chỉ có thể **đơn luồng** của chúng ta giống như đã giảm bớt hoàn toàn gánh nặng này, và khi cần làm việc khác, chúng ta sẽ cảm thấy thoải mái hơn.
 
-虽然我们的注意力几乎只能**单线程**工作，可实际上，这世界所有最重要的活动，本质上来看都是**多线程**的。
+Mặc dù sự chú ý của chúng ta gần như chỉ có thể **đơn luồng** làm việc, thực tế là, tất cả các hoạt động quan trọng nhất trên thế giới, về bản chất, đều là **đa luồng**.
 
-天下最大的技巧，只有少数人最终能掌握的所谓神技，本质上来看，其实都一样，都只不过是把多线程中的每一个线程都逐步通过大量的重复将其变成下意识甚至无意识即可完成的工作。就好像电脑上的现代操作系统那样，**把大量的线程彻底变成后台任务**。
+Những kỹ thuật lớn nhất, những kỹ năng mà chỉ có một số ít người cuối cùng có thể nắm vững, về bản chất, thực ra đều giống nhau, chúng chỉ là việc biến từng luồng trong đa luồng thành các công việc có thể hoàn thành một cách tự giác hoặc vô thức thông qua việc lặp lại nhiều lần. Giống như hệ điều hành hiện đại trên máy tính, **biến nhiều luồng thành các tác vụ nền hoàn toàn**.

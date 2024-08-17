@@ -1,23 +1,23 @@
-# 6. 用进废退循环利用
+# 6. Sử dụng hoặc mất đi: Vòng lặp tái sử dụng
 
-大脑天生具备**节能倾向**，它就是对节能异常痴迷，只要可能它就会启动**节能模式** —— 而且，无需问询、没得商量、也不提供可选设置，动不动就直接进入节能模式……
+Não bộ vốn có **xu hướng tiết kiệm năng lượng**, nó rất mê mẩn việc tiết kiệm năng lượng, bất cứ khi nào có thể, nó sẽ kích hoạt **chế độ tiết kiệm năng lượng** — và không cần hỏi ý kiến, không có sự thỏa thuận, cũng không cung cấp cài đặt tùy chọn, cứ thế mà vào chế độ tiết kiệm năng lượng...
 
-首先，大脑会自动且又严格地执行大自然的规律，**用进废退**。
+Trước tiên, não sẽ tự động và nghiêm ngặt thực hiện quy luật của tự nhiên, **sử dụng hoặc từ bỏ**.
 
-用得着的，不断进化，用不着的，就当它不存在。对大脑来说，它甚至不在乎某个东西是否属于自己的身体，只要用得足够多，大脑就会将其内化，认为是属于自己的。比如，你的手机，画家手里的笔，司机手中的方向盘，罗尼·奥沙利文手里的台球杆，足球场上 22 名运动员一起玩的球……
+Những thứ cần sử dụng sẽ liên tục tiến hóa, những thứ không cần sẽ coi như không tồn tại. Đối với não, nó thậm chí không quan tâm đến việc một thứ có thuộc về cơ thể của mình hay không, chỉ cần sử dụng đủ nhiều, não sẽ nội hóa và coi đó là của mình. Ví dụ, điện thoại của bạn, bút của họa sĩ, vô lăng của tài xế, gậy bi-a của Ronnie O'Sullivan, quả bóng mà 22 cầu thủ trên sân bóng đá cùng chơi...
 
-至于你身体上那些你自己并不常用或者并不在意的部位，比如，不会弹琴的手指，不会跑也跑不快的腿，不能分辨气味的鼻子，不能品尝味道的舌头，不能听清楚的耳朵，不能看清楚的眼睛…… 大脑对这类器官的态度是，随它去罢。
+Còn những bộ phận trên cơ thể mà bạn không thường xuyên sử dụng hoặc không quan tâm, chẳng hạn như ngón tay không biết chơi đàn, chân không thể chạy hoặc chạy không nhanh, mũi không phân biệt được mùi, lưỡi không nếm được vị, tai không nghe rõ, mắt không nhìn rõ... Não có thái độ như thế đối với các cơ quan này, để chúng tự do.
 
-因为大脑的节能倾向，因为用进废退的执行，大脑总是倾向于只**按需学习**。它觉得没用的东西，它不会为其耗费能量，别人说什么都没用。若是它自己真觉得必需，谁都拦不住。为什么？就是为了节能。
+Vì xu hướng tiết kiệm năng lượng của não, và việc thực hiện quy luật sử dụng hoặc từ bỏ, não luôn có xu hướng **học theo nhu cầu**. Nó sẽ không tiêu tốn năng lượng cho những thứ không cần thiết, những gì người khác nói cũng vô dụng. Nếu não thực sự cảm thấy cần thiết, không ai có thể ngăn cản. Tại sao? Đơn giản là để tiết kiệm năng lượng.
 
-大脑的节能倾向，还演化出了另外一个机制，**循环利用**。
+Xu hướng tiết kiệm năng lượng của não còn phát triển thêm một cơ chế khác, **tái sử dụng**.
 
-大脑学会的一切，本质上都是连接，都是局域网…… 可问题在于，当初这些连接和局域网的创建，可是耗费了很多能量的！所以，大脑往往不会断掉那些连接，废弃那些局域网 —— 必须回收，必须留作它用。
+Mọi thứ mà não học được về cơ bản đều là kết nối, đều là mạng cục bộ... Vấn đề là, việc tạo ra những kết nối và mạng cục bộ này đã tiêu tốn rất nhiều năng lượng! Vì vậy, não thường không cắt đứt các kết nối đó, không loại bỏ các mạng cục bộ đó — nó cần phải thu hồi, cần phải giữ lại để sử dụng.
 
-大脑在进行循环利用的时候，对神经元间连接的强度也有要求，当然是优先采用那些强度更高的连接，当然优先采用那些通讯效率更高的局域网…… 反过来，在需要的时候，有更多更强的神经元连接、通讯效率更高的局域网可供循环利用，只能意味着学得更好学得更快。
+Khi não thực hiện việc tái sử dụng, nó cũng có yêu cầu về độ mạnh của kết nối giữa các tế bào thần kinh, tất nhiên ưu tiên sử dụng các kết nối có độ mạnh cao hơn, tất nhiên ưu tiên các mạng cục bộ có hiệu quả truyền thông cao hơn... Ngược lại, khi cần thiết, có nhiều kết nối tế bào thần kinh mạnh mẽ hơn và mạng cục bộ có hiệu quả truyền thông cao hơn để tái sử dụng, chỉ có nghĩa là học nhanh hơn và tốt hơn.
 
-这也是为什么有一部分人越老学得越多越快越好的根本原因。与大多数人误以为的相反，大脑原本就应该也可以**学得越多越快越好**。大多数人之所以并非如此，不是因为大脑越老越差，而是因为他们从一开始就没有积累，仅此而已。
+Đây cũng là lý do tại sao một số người càng lớn tuổi càng học nhanh hơn và tốt hơn. Ngược lại với quan niệm sai lầm của hầu hết mọi người, não bộ thực ra nên **học càng nhiều càng nhanh càng tốt**. Phần lớn người không đạt được điều này không phải vì não càng già càng kém, mà chỉ đơn giản là vì họ không có sự tích lũy từ đầu.
 
-大脑**按需学习**的倾向，有时会阻止我们的学习 —— 因为在一个技能真正练好之前，大脑可能很难相信它的作用，这是很普遍的现象。但，大脑的**循环利用**机制，却总是在奖励学习，因为这个机制的存在，使得 “无论学什么最终都有用”，反正一切都是连接，一切都是网络，到最后实际产生的现象和效果是，学得越多，学得越快，学得越好。
+Xu hướng **học theo nhu cầu** của não đôi khi sẽ cản trở việc học của chúng ta — bởi vì trước khi một kỹ năng thực sự được thành thạo, não có thể rất khó để tin vào tác dụng của nó, đây là hiện tượng rất phổ biến. Nhưng cơ chế **tái sử dụng** của não thì luôn thưởng cho việc học, vì sự tồn tại của cơ chế này khiến “dù học gì cuối cùng cũng có ích”, vì mọi thứ đều là kết nối, mọi thứ đều là mạng lưới, và hiện tượng và hiệu quả thực tế cuối cùng là, học càng nhiều, học càng nhanh, học càng tốt.
 
-从结果上来看，循环利用机制其实是对**超额学习**的奖励。大多数人终生被按需学习所限制，只有少数人经过时间的考验之后被循环利用机制反复奖励。
+Từ góc độ kết quả, cơ chế tái sử dụng thực sự là phần thưởng cho **học vượt mức**. Phần lớn người bị hạn chế bởi việc học theo nhu cầu suốt đời, chỉ có một số ít người sau khi trải qua thời gian mới được cơ chế tái sử dụng thưởng lại nhiều lần.

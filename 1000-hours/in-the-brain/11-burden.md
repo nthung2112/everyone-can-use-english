@@ -1,13 +1,13 @@
-# 11. 被关注是最大负担
+# 11. Sự chú ý là gánh nặng lớn nhất
 
-有一个心理学名词，叫做聚光灯效应（*spotlight effect*）。如果你突然意识到所有人都在盯着你的走路姿势看的话，突然之间，你竟然有可能干脆不会走路了……
+Có một thuật ngữ tâm lý học gọi là hiệu ứng đèn sân khấu (_spotlight effect_). Nếu bạn đột nhiên nhận ra rằng mọi người đều đang nhìn vào dáng đi của bạn, bạn có thể ngay lập tức không thể đi lại được nữa...
 
-因为被关注，还同时被那么多人关注，你的大脑突然紧张起来，它希望自己不出任何错，每个细节都能做好…… 突然之间，那几乎只能单线程工作的注意力被多方同时瓜分，哪儿哪儿都不够用，于是，大脑彻底失去了对肢体的支配能力。它不是从此之后就再不能支配了，而是在这种情况下突然做不到了而已……
+Bởi vì sự chú ý, và còn được nhiều người chú ý cùng một lúc, não bộ của bạn đột nhiên căng thẳng, nó muốn mình không mắc lỗi, mọi chi tiết đều phải hoàn hảo... Đột nhiên, sự chú ý gần như chỉ có thể làm việc đơn luồng của bạn bị phân chia bởi nhiều hướng cùng một lúc, và cảm thấy không đủ sức, do đó, não bộ hoàn toàn mất khả năng điều khiển cơ thể. Nó không phải là không thể điều khiển từ đó trở đi, mà chỉ đơn giản là trong tình huống này không làm được...
 
-日常生活中，随处可见的聚光灯效应最多发生在比较过程中。当人们发现自己做得不如他人好的时候，会产生自己的差正在被所有人看到的错觉。大脑最怕死，社死可能是最可怕的死法 —— 天下最令人恐慌的事情排名第一的，比真实死亡更靠前的，竟然是当众讲演。
+Trong cuộc sống hàng ngày, hiệu ứng đèn sân khấu thường xảy ra nhiều nhất trong quá trình so sánh. Khi mọi người nhận thấy mình không làm tốt bằng người khác, họ có ảo tưởng rằng sự kém cỏi của mình đang được tất cả mọi người nhìn thấy. Não bộ sợ nhất là cái chết, và cái chết xã hội có thể là cách chết đáng sợ nhất — sự sợ hãi lớn nhất trong thế giới, đứng đầu danh sách, thậm chí còn đáng sợ hơn cái chết thực sự, là phát biểu trước công chúng.
 
-比较其实可以分为两种。第一种是人们习以为常的，“拿自己的当前的状态和他人当前的状态相互比较”。这种**横向比较**的缺陷在于，忽视了各自的当前状态其实是之前积累和改良的结果。一旦比较失败，就失去了动力，养成了习惯的话，就会形成 “固守型人格”（*fixed mindset*） —— 只做自己认为自己可以做好的事情…… 问题在于，自己能做好的事情并不多。并且，做得更好，除了要练得更多之外，从大脑结构来看，更依赖学得更多，大脑里没有孤岛，任何一个看起来毫不相干局域网其实都有可能发挥意想不到的作用。但，横向比较经常失败的结果只能是固步自封。
+So sánh có thể được chia thành hai loại. Loại thứ nhất là "so sánh trạng thái hiện tại của mình với trạng thái hiện tại của người khác" mà mọi người thường làm. Nhược điểm của **so sánh ngang hàng** là bỏ qua thực tế rằng trạng thái hiện tại của mỗi người thực sự là kết quả của việc tích lũy và cải thiện trước đó. Khi so sánh thất bại, bạn mất động lực, và nếu bạn đã hình thành thói quen, bạn sẽ trở thành "nhân cách cố định" (_fixed mindset_) — chỉ làm những việc mà bạn cho là bạn có thể làm tốt... Vấn đề là, những việc mà bạn có thể làm tốt không nhiều. Hơn nữa, để làm tốt hơn, ngoài việc luyện tập nhiều hơn, từ góc độ cấu trúc não, còn phụ thuộc nhiều hơn vào việc học nhiều hơn. Não bộ không có đảo biệt lập, bất kỳ mạng lưới nào có vẻ không liên quan đều có thể phát huy tác dụng bất ngờ. Nhưng, kết quả của việc so sánh ngang hàng thường xuyên thất bại chỉ dẫn đến sự trì trệ.
 
-真正有意义的比较，其实是 “拿自己当前的状态和自己过去的状态进行比较”。通过这种**纵向比较**，首先它无法让你忽视这期间努力的存在，更重要的是它让你清楚地感受到努力的作用。这个习惯会养成 “进取型人格”（*growth mindset*）。因为反复经历过从笨拙走到熟练的过程，不仅更加自信，也可以更加轻松地专注于自我修炼。与此同时，越发地不在意也没时间进行无谓的**横向比较**。所谓 “心无旁骛”，最大的 “骛” 可能就是很想比较了。
+So sánh thực sự có ý nghĩa là "so sánh trạng thái hiện tại của bạn với trạng thái trong quá khứ của chính bạn". Qua **so sánh dọc**, trước hết bạn không thể bỏ qua sự tồn tại của nỗ lực trong thời gian này, và quan trọng hơn là bạn cảm nhận rõ ràng sự tác động của nỗ lực. Thói quen này sẽ hình thành "nhân cách phát triển" (_growth mindset_). Bởi vì bạn đã trải qua quá trình từ vụng về đến thành thạo nhiều lần, bạn không chỉ tự tin hơn mà còn có thể tập trung vào việc tự cải thiện một cách dễ dàng hơn. Đồng thời, bạn ngày càng ít quan tâm và không có thời gian cho **so sánh ngang hàng** vô nghĩa. Cái gọi là "tâm không bị phân tâm", "phân tâm" lớn nhất có thể chính là rất muốn so sánh.
 
-有趣的是，越差的人求关注的欲望越强烈。越强的人越低调，其原因并非来自道德感，而是真的没时间，更是舍不得把宝贵的注意力花在其它地方。
+Điều thú vị là, những người kém hơn lại có ham muốn được chú ý mạnh mẽ hơn. Những người mạnh mẽ hơn lại thường khiêm tốn, lý do không phải đến từ cảm giác đạo đức, mà là thực sự không có thời gian, và không muốn lãng phí sự chú ý quý giá vào những thứ khác.

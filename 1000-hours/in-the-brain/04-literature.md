@@ -1,15 +1,15 @@
-# 4. 一切都是语文课
+# 4. Mọi thứ đều là bài học ngôn ngữ
 
-人类的高速发展，建立在文字基础之上。没有文字，人类就只能像其它动物那样，靠遗传和变异在这个世界里缓慢且有随机地发展。有了文字之后，人类不仅可以即时沟通，还可以跨区域、跨时代地沟通，并且还能进行越来越复杂的记录、传播、思考、沟通……
+Sự phát triển nhanh chóng của nhân loại được xây dựng trên nền tảng chữ viết. Nếu không có chữ viết, con người chỉ có thể phát triển chậm chạp và ngẫu nhiên như các loài động vật khác thông qua di truyền và biến đổi. Khi có chữ viết, con người không chỉ có thể giao tiếp ngay lập tức, mà còn có thể giao tiếp xuyên khu vực và thời đại, đồng thời thực hiện việc ghi chép, truyền bá, suy nghĩ và giao tiếp ngày càng phức tạp hơn...
 
-毫不夸张地讲，一切的文明，都建立在文字之上。
+Không ngoa khi nói rằng, tất cả nền văn minh đều được xây dựng trên chữ viết.
 
-每一次书写工具的改良，每一次文字的标准化，每一次传播工具的变革，都能同时引发整个世界巨大的进步。擅用文字的人越多，文字的传播就越多、思想的碰撞就越多，创新就越多……  根据梅特卡夫定律，一个网络的价值与该网络中的节点数量的平方成正比。这就是人类的发展曲线越来越陡峭的最根本原因。
+Mỗi lần cải tiến công cụ viết, mỗi lần chuẩn hóa chữ viết, mỗi lần cải cách công cụ truyền bá đều có thể dẫn đến sự tiến bộ lớn lao trên toàn thế giới. Số lượng người sử dụng chữ viết càng nhiều, sự truyền bá chữ viết càng rộng, sự va chạm ý tưởng càng nhiều, đổi mới càng nhiều... Theo định lý Metcalfe, giá trị của một mạng lưới tỷ lệ với bình phương số lượng nút trong mạng lưới đó. Đây là lý do cơ bản nhất giải thích tại sao đường cong phát triển của nhân loại ngày càng dốc.
 
-现在的人类不仅拥有语言文字，对其还有更为精确的划分：灵活但有些含混的**自然语言**，以及简单精确且毫无歧义的**人工语言**，在科学技术领域，比如，数学、物理、化学，逻辑、编程，人们所使用的都是人工语言。
+Hiện nay, con người không chỉ có ngôn ngữ chữ viết, mà còn phân chia chúng một cách chính xác hơn: ngôn ngữ **tự nhiên** linh hoạt nhưng có phần mơ hồ, và ngôn ngữ **nhân tạo** đơn giản, chính xác và không có sự hiểu lầm, được sử dụng trong các lĩnh vực khoa học kỹ thuật như toán học, vật lý, hóa học, logic và lập trình.
 
-曾经，有些人理解有误，非得把知识分为文科理科，好像它们是截然不同的两类东西，甚至有可能相互对立一样。然而对大脑来说，一切都是语文课，若是非说有什么差异的话，无非是一个可能使用自然语言更多，另外一个使用人工语言更多 —— 可问题在于，完全只用自然语言就完不成精巧复杂的工作，完全使用人工语言就无法更大面积传播。
+Từng có những người hiểu sai, cố phân chia kiến thức thành khoa học nhân văn và khoa học tự nhiên, như thể chúng là hai loại hoàn toàn khác biệt, thậm chí có thể đối lập nhau. Tuy nhiên, đối với não bộ, mọi thứ đều là bài học ngôn ngữ. Nếu phải nói có sự khác biệt, chỉ là một cái có thể sử dụng ngôn ngữ tự nhiên nhiều hơn, còn cái kia sử dụng ngôn ngữ nhân tạo nhiều hơn — nhưng vấn đề là, không thể hoàn thành công việc tinh vi và phức tạp chỉ bằng ngôn ngữ tự nhiên, và không thể truyền bá trên diện rộng chỉ bằng ngôn ngữ nhân tạo.
 
-所以，无论学什么知识，学什么技能，对大脑来说，其实都是语文课 —— 哪怕那些看起来完全属于体力范畴的技能，本质上也都是如此…… 大脑要理解，要总结，要归纳，要复习，要检索，要调用，要反思，更重要的是，总是要沟通 —— 这些都无一例外地依赖语言。
+Vì vậy, bất kể học kiến thức gì, kỹ năng gì, đối với não bộ, thực sự đều là bài học ngôn ngữ — ngay cả những kỹ năng hoàn toàn thuộc về thể lực cũng vậy... Não bộ cần hiểu, tổng hợp, hệ thống, ôn tập, tìm kiếm, gọi ra, suy ngẫm, và quan trọng nhất là giao tiếp — tất cả đều phụ thuộc vào ngôn ngữ.
 
-另外，从这个意义上来看，人类中有一部分早就把自己打造成了 “双语使用者”，他们可以同时熟练使用自然语言和人工语言。
+Hơn nữa, theo cách hiểu này, một phần trong số con người đã sớm trở thành “người sử dụng hai ngôn ngữ”, có thể thành thạo sử dụng cả ngôn ngữ tự nhiên và ngôn ngữ nhân tạo.
