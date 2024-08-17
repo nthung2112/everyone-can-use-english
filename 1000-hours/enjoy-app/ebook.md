@@ -1,3 +1,3 @@
-# 本地电子书
+# Sách điện tử cục bộ
 
-待开发，敬请期待。
+Đang phát triển, xin hãy chờ đợi.

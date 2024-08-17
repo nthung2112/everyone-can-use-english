@@ -1,80 +1,80 @@
-# 音频资源
+# Tài nguyên âm thanh
 
-利用音视频资源进行跟读训练是 Enjoy 的核心功能之一。
+Việc sử dụng tài nguyên âm thanh và video để luyện nghe là một trong những chức năng chính của Enjoy.
 
-## 添加音频资源
+## Thêm tài nguyên âm thanh
 
-Enjoy 支持添加本地的音频资源，和在线资源。在音频页面，点击 `添加资源`，在弹窗中输入网址，或者点击 `本地文件` 选择本地计算机的音频文件即可添加。
+Enjoy hỗ trợ thêm tài nguyên âm thanh từ máy tính cục bộ và từ trực tuyến. Trên trang âm thanh, nhấp vào `Thêm tài nguyên`, nhập URL trong cửa sổ pop-up, hoặc nhấp vào `Tệp cục bộ` để chọn tệp âm thanh từ máy tính của bạn để thêm vào.
 
-如果是在线资源，Enjoy 会将文件下载至默认的下载文件夹（`Downdoads` 或者 `我的下载`），然后再自动添加至 [资源库](./settings#资源库保存路径)。
+Nếu là tài nguyên trực tuyến, Enjoy sẽ tải tệp xuống thư mục tải xuống mặc định (tức là `Downloads` hoặc `Tải xuống của tôi`), sau đó tự động thêm vào [Thư viện tài nguyên](./settings#资源库保存路径).
 
-## 跟读音频
+## Luyện nghe âm thanh
 
-添加成功后，会自动跳转至音频播放页面。
+Sau khi thêm thành công, hệ thống sẽ tự động chuyển đến trang phát âm thanh.
 
-打开时，需要先解析音频波形数据（并生成 Pitch contour）和生成音频字幕（使用 [语音转文本服务](./settings#语音转文本服务)）。首次打开时，可能需要等待一些时间。所需数据生成成功之后，后续再次打开时的速度会比较快。
+Khi mở lần đầu tiên, cần phải phân tích dữ liệu sóng âm thanh (và tạo Pitch contour) và tạo phụ đề âm thanh (sử dụng [Dịch vụ chuyển giọng nói thành văn bản](./settings#语音转文本服务)). Việc tạo dữ liệu có thể mất một thời gian. Sau khi dữ liệu được tạo thành công, tốc độ mở lại sẽ nhanh hơn.
 
-::: tip 卡在加载页面怎么办？
-打开音频页面时，会先按照以下步骤进行加载：
+::: tip Làm gì nếu bị kẹt ở trang tải?
+Khi mở trang âm thanh, quy trình tải sẽ được thực hiện theo các bước sau:
 
-1. 解析音频波形数据
-2. 语音转文本
+1. Phân tích dữ liệu sóng âm thanh
+2. Chuyển giọng nói thành văn bản
 
-如果长时间卡在第一步，可能是因为音频太大（主要跟音频时长有关）导致加载时间过长，甚至失败。如果不是音频大小的原因，可能是出现了其他 bug，请联系开发者。
+Nếu bị kẹt lâu ở bước đầu tiên, có thể là do kích thước âm thanh quá lớn (chủ yếu liên quan đến thời gian của âm thanh) khiến thời gian tải quá lâu, thậm chí thất bại. Nếu không phải do kích thước âm thanh, có thể có lỗi khác, vui lòng liên hệ với nhà phát triển.
 
-如果第二步语音转文本失败，请检查是否在正在使用本地 whisper 组件进行语音转文本，在某些电脑上可能因为兼容性和未知问题导致无法使用。如果出现这种情况，请在 [语音转文本服务设置](./settings#语音转文本服务) 中改用其他语音转文本的云服务。
+Nếu bước hai chuyển giọng nói thành văn bản thất bại, hãy kiểm tra xem bạn có đang sử dụng mô-đun whisper cục bộ cho chuyển giọng nói thành văn bản không, vì có thể vì vấn đề tương thích và lỗi không xác định trên một số máy tính. Nếu gặp vấn đề này, vui lòng chọn dịch vụ chuyển giọng nói thành văn bản khác trong [Cài đặt dịch vụ chuyển giọng nói thành văn bản](./settings#语音转文本服务).
 :::
 
-## 播放
+## Phát
 
-点击播放键(或者快捷键 <kbd>Space</kbd>)即可播放或者暂停音频。
+Nhấp vào nút phát (hoặc phím tắt <kbd>Space</kbd>) để phát hoặc tạm dừng âm thanh.
 
-Enjoy 会将音频按照句子切分，默认播放模式为“播放单句”，以便逐句反复听练。
+Enjoy sẽ cắt âm thanh theo câu, chế độ phát mặc định là "Phát từng câu" để nghe và luyện tập từng câu.
 
-其他可选的播放模式有：
+Các chế độ phát khác bao gồm:
 
-- 单句循环
-- 播放所有
+- Lặp lại từng câu
+- Phát tất cả
 
-## 智能断句
+## Ngắt câu thông minh
 
-Enjoy 按照原音的停顿和标点符号，将当前句子分成几个断句，以便逐一反复练习。
+Enjoy phân chia câu hiện tại thành nhiều đoạn dựa trên điểm dừng của âm thanh và dấu câu, để luyện tập từng phần.
 
-你也可以通过点击当前句子的任意词语（或同时按下 <kbd>Shift</kbd> 进行多选）进行选中单词或者短语，进行听练。
+Bạn cũng có thể nhấp vào bất kỳ từ ngữ nào trong câu hiện tại (hoặc nhấn <kbd>Shift</kbd> để chọn nhiều từ) để chọn từ hoặc cụm từ để luyện nghe.
 
-## 录音
+## Ghi âm
 
-Enjoy 会将音频按照句子切分，用户以句子为单位进行跟读练习。在激活的音频句子下，点击红色的录音按钮(或者快捷键 <kbd>r</kbd>)，即可开始录音，用户可以模仿音频朗读当前句子作为练习。
+Enjoy sẽ cắt âm thanh theo câu, người dùng luyện tập đọc theo từng câu. Nhấp vào nút ghi âm đỏ (hoặc phím tắt <kbd>r</kbd>) dưới câu âm thanh đang hoạt động để bắt đầu ghi âm, người dùng có thể bắt chước âm thanh để đọc câu hiện tại như một bài luyện tập.
 
-![音频播放页面](/images/enjoy/audio-page.png)
-_\* 音频播放页面_
+![Trang phát âm thanh](/images/enjoy/audio-page.png)
+_\* Trang phát âm thanh_
 
-::: tip 录音权限
-在 Mac 电脑上，首次使用录音功能时，会弹窗请求麦克风的使用权限，请务必点允许，否则无法使用录音功能。
+::: tip Quyền ghi âm
+Trên máy Mac, khi lần đầu tiên sử dụng chức năng ghi âm, hệ thống sẽ yêu cầu quyền sử dụng micrô. Hãy chắc chắn nhấn cho phép, nếu không sẽ không thể sử dụng chức năng ghi âm.
 :::
 
-## 录音对比
+## So sánh ghi âm
 
-将录音的 Pitch contour 与原音对比，以便自纠发音。对比状态下，按下播放键，会同时播放录音和原音。
+So sánh Pitch contour của ghi âm với âm thanh gốc để tự chỉnh sửa phát âm. Trong chế độ so sánh, nhấn nút phát sẽ đồng thời phát ghi âm và âm thanh gốc.
 
-![录音对比](/images/enjoy/recording-comparing.png)
-_\* 录音于原音对比_
+![So sánh ghi âm](/images/enjoy/recording-comparing.png)
+_\* So sánh ghi âm với âm thanh gốc_
 
-## 发音评估
+## Đánh giá phát âm
 
-Enjoy 集成了微软 Azure 的发音评估功能，作为自我的发音检查参考。
+Enjoy tích hợp chức năng đánh giá phát âm của Microsoft Azure như một tham khảo cho việc tự kiểm tra phát âm.
 
-该功能会以**录音时的句子文本作为参考**，评估录音的发音情况，各指标的详细说明可以参考微软的 [官方文档](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-pronunciation-assessment?pivots=programming-language-javascript#scripted-assessment-results)。
+Chức năng này sử dụng **văn bản câu trong khi ghi âm** làm tham khảo để đánh giá tình trạng phát âm của ghi âm. Chi tiết các chỉ số có thể tham khảo [tài liệu chính thức của Microsoft](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-pronunciation-assessment?pivots=programming-language-javascript#scripted-assessment-results).
 
-![发音评估示例](/images/enjoy/pronouce-assessment.png)
-_\* 发音评估示例_
+![Ví dụ đánh giá phát âm](/images/enjoy/pronouce-assessment.png)
+_\* Ví dụ đánh giá phát âm_
 
-::: warning 发音评估的使用建议
-该功能是收费功能，每次使用均会在 Enjoy 账户的余额扣费，如果余额不足则需要 [充值](./settings#充值) 后才可继续使用。
+::: warning Đề xuất sử dụng chức năng đánh giá phát âm
+Chức năng này là dịch vụ trả phí, mỗi lần sử dụng sẽ trừ tiền trong tài khoản Enjoy. Nếu số dư không đủ, cần phải [nạp tiền](./settings#充值) để tiếp tục sử dụng.
 
-值得注意的是，发音评估更侧重于单词的发音是否正确，无法评估音调变化是否正确。
+Lưu ý rằng đánh giá phát âm tập trung vào việc phát âm từ có chính xác hay không, không đánh giá sự thay đổi âm điệu.
 :::
 
-## 修改音频信息
+## Chỉnh sửa thông tin âm thanh
 
-在音频页面上方，切换至列表模式，即可以对音频进行修改操作，例如修改音频标题，添加描述，和删除音频等。
+Trên trang âm thanh, chuyển sang chế độ danh sách để thực hiện các thao tác chỉnh sửa âm thanh, chẳng hạn như chỉnh sửa tiêu đề âm thanh, thêm mô tả và xóa âm thanh.

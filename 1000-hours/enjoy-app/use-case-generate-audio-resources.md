@@ -1,45 +1,45 @@
-# 使用案例：利用 AI 生成训练材料
+# Trường hợp sử dụng: Tạo tài liệu luyện tập bằng AI
 
-用外语说我们自己想说的话是学习外语的其中一个重要目的。市面上的口语书实际上并不实用，因为那些话大都不是我们想要说的，我们需要创建专属自己的口语书。使用 Enjoy 可以很容易做到这一点。
+Nói những gì chúng ta muốn bằng ngoại ngữ là một trong những mục tiêu quan trọng khi học ngoại ngữ. Những sách nói hiện có trên thị trường thường không thực tế, vì những câu đó không phải là những gì chúng ta muốn nói. Chúng ta cần tạo một cuốn sách nói riêng cho mình. Sử dụng Enjoy có thể dễ dàng thực hiện điều này.
 
-## 确保 AI 服务正常
+## Đảm bảo dịch vụ AI hoạt động bình thường
 
-在开始之前，先要确保 AI 服务可以正常使用，要么配置好自己的 [OpenAI 密钥](./settings#openai-配置)，要么使用 Enjoy 提供的 AI 服务并确保账户 [余额](./settings#充值) 充足。
+Trước khi bắt đầu, hãy đảm bảo rằng dịch vụ AI hoạt động bình thường. Bạn có thể cấu hình [khóa OpenAI](./settings#openai-配置) của riêng mình hoặc sử dụng dịch vụ AI do Enjoy cung cấp và đảm bảo rằng tài khoản [số dư](./settings#充值) đủ.
 
-## 创建英语教练
+## Tạo huấn luyện viên tiếng Anh
 
-点击 Enjoy 左侧栏的 `智能助手` 进入页面，点击 `新对话` 开始创建。
+Nhấp vào `Trợ lý thông minh` trên thanh bên trái của Enjoy để vào trang, sau đó nhấp vào `Cuộc trò chuyện mới` để bắt đầu tạo.
 
-角色定义选择预设的 `英语教练`。
+Chọn vai trò `Huấn luyện viên tiếng Anh` từ các thiết lập sẵn có.
 
-![选择 AI 角色](/images/enjoy/select-ai-role.png)
-_\* 选择 AI 角色_
+![Chọn vai trò AI](/images/enjoy/select-ai-role.png)
+_\* Chọn vai trò AI_
 
-具体配置里，根据具体情况，修改 AI 引擎 为 OpenAI 或者 Enjoy AI。如果使用 [OpenAI](./settings#openai-配置)，可能还需要检查配置 `接口地址`。
+Trong cấu hình chi tiết, tùy thuộc vào tình huống cụ thể, thay đổi động cơ AI thành OpenAI hoặc Enjoy AI. Nếu sử dụng [OpenAI](./settings#openai-配置), có thể cần kiểm tra cấu hình `Địa chỉ API`.
 
-将配置拉到最下面，`TTS 引擎` 也需要做相应配置。
+Kéo cấu hình xuống dưới cùng, cũng cần cấu hình `Động cơ TTS`.
 
-![对话设置](/images/enjoy/conversation-form.png)
-_\* 对话设置_
+![Cài đặt cuộc trò chuyện](/images/enjoy/conversation-form.png)
+_\* Cài đặt cuộc trò chuyện_
 
-配置完成后，点击下面的 `确认` 按钮，即可创建成功。
+Sau khi hoàn tất cấu hình, nhấp vào nút `Xác nhận` dưới cùng để tạo thành công.
 
-## 发送任意文字
+## Gửi bất kỳ văn bản nào
 
-智能助手的使用跟聊天窗口类似，将你想要说的话发给 `英语教练`，作为回复，AI 会将你的文字翻译成地道的纽约腔英语。
+Việc sử dụng trợ lý thông minh tương tự như cửa sổ trò chuyện. Gửi những gì bạn muốn nói cho `Huấn luyện viên tiếng Anh`, và AI sẽ dịch văn bản của bạn thành tiếng Anh với giọng New York chuẩn.
 
-## 生成语音
+## Tạo âm thanh
 
-如果你对 AI 的回复感到满意，点击信息下方的朗读图标，将其转化为语音。
+Nếu bạn hài lòng với phản hồi của AI, nhấp vào biểu tượng đọc bên dưới thông tin để chuyển đổi thành âm thanh.
 
-![英语教练对话](/images/enjoy/english-coach-gpt-conversation.png)
-_\* 英语教练对话_
+![Cuộc trò chuyện huấn luyện viên tiếng Anh](/images/enjoy/english-coach-gpt-conversation.png)
+_\* Cuộc trò chuyện huấn luyện viên tiếng Anh_
 
-## 跟读训练
+## Luyện tập theo dõi
 
-继而点击麦克风图标，将该语音加入资源库，进行跟读训练。
+Sau đó, nhấp vào biểu tượng micro để thêm âm thanh vào kho tài nguyên, để luyện tập theo dõi.
 
-![添加跟读训练](/images/enjoy/conversation-add-speech-to-audio.png)
-_\* 添加跟读训练_
+![Thêm luyện tập theo dõi](/images/enjoy/conversation-add-speech-to-audio.png)
+_\* Thêm luyện tập theo dõi_
 
-随后也可以在 [音频页面](./audios.md) 找到该材料，继续练习。
+Sau đó, bạn cũng có thể tìm tài liệu này trong [trang âm thanh](./audios.md) để tiếp tục luyện tập.

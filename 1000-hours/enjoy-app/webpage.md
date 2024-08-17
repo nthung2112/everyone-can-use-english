@@ -1,19 +1,19 @@
-# 在线文章
+# Bài viết trực tuyến
 
-点击左侧栏的 `文章` 进入。
+Nhấp vào `文章` ở thanh bên trái để vào.
 
-输入文章的网址，即可开始阅读。
+Nhập URL của bài viết để bắt đầu đọc.
 
-![文章阅读页面](/images/enjoy/story-page.png)
-_\* 文章阅读页面_
+![Trang đọc bài viết](/images/enjoy/story-page.png)
+_\* Trang đọc bài viết_
 
-## 提取关键词汇
+## Trích xuất từ khóa
 
-打开文章后，Enjoy 将会智能提取该文章的关键词汇，并在文中标注。该功能需要 AI 引擎的支持，在 [默认 AI 引擎](./settings.md#默认-ai-引擎) 可以设置。
+Khi mở bài viết, Enjoy sẽ tự động trích xuất các từ khóa của bài viết và đánh dấu chúng trong văn bản. Tính năng này cần sự hỗ trợ của động cơ AI, có thể được thiết lập trong [động cơ AI mặc định](./settings.md#默认-ai-引擎).
 
-![关键词汇](/images/enjoy/story-key-vocabulary.png)
-_\* 智能提取关键词汇_
+![Từ khóa](/images/enjoy/story-key-vocabulary.png)
+_\* Trích xuất từ khóa tự động_
 
-## 查单词
+## Tra từ
 
-在正文中选中任意单词或者短语，即可激活查单词服务，同样需要 [AI 引擎](./settings.md#默认-ai-引擎) 的支持。
+Chọn bất kỳ từ hoặc cụm từ nào trong văn bản để kích hoạt dịch vụ tra từ, cũng cần sự hỗ trợ của [động cơ AI](./settings.md#默认-ai-引擎).

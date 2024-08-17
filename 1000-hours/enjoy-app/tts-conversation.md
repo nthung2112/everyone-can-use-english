@@ -1,5 +1,5 @@
-# TTS 服务
+# Dịch vụ TTS
 
-当 AI 类型选择 `TTS` 时，该对话将提供文本转语音（Text to Speech）服务，即 AI 会将你发出的任意文本转化成语音（音频文件）。生成的语音，可以直接添加至资源库进行跟读练习。
+Khi loại AI được chọn là `TTS`, cuộc trò chuyện đó sẽ cung cấp dịch vụ chuyển văn bản thành giọng nói (Text to Speech), tức là AI sẽ chuyển đổi bất kỳ văn bản nào bạn gửi thành giọng nói (tệp âm thanh). Âm thanh được tạo ra có thể được thêm trực tiếp vào kho tài nguyên để luyện tập theo dõi.
 
-在设置里可以修改语音的角色。
+Bạn có thể thay đổi vai trò của giọng nói trong cài đặt.

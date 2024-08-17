@@ -1,7 +1,7 @@
-# Enjoy 简介
+# Giới thiệu về Enjoy
 
-AI 是当今世界上最好的外语老师，Enjoy 做 **AI 最好的助教**。
+AI là giáo viên ngoại ngữ tốt nhất hiện nay, Enjoy là **trợ giảng tốt nhất của AI**.
 
-::: warning 重要提示
-Enjoy App 的开发仍处于早期的快速迭代阶段，文档可能落后于开发，导致功能描述可能不符，以最新发布的软件版本为准。
+::: warning Lưu ý quan trọng
+Việc phát triển Enjoy App vẫn đang trong giai đoạn phát triển nhanh, tài liệu có thể không kịp cập nhật với các phiên bản phát hành mới, do đó mô tả tính năng có thể không chính xác. Hãy dựa vào phiên bản phần mềm phát hành mới nhất.
 :::

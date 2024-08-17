@@ -1,60 +1,60 @@
-# 下载安装
+# Tải về và Cài đặt
 
-Enjoy App 是一个跨平台的桌面应用，可以在 Windows、Mac 和 Linux 等电脑设备上运行。
+Enjoy App là một ứng dụng desktop đa nền tảng, có thể chạy trên các thiết bị máy tính như Windows, Mac và Linux.
 
-请根据电脑设备的操作系统，下载相应的版本安装使用。
+Hãy tải về phiên bản phù hợp với hệ điều hành của máy tính bạn để cài đặt và sử dụng.
 
-当前最新版本：[v0.4.0](https://github.com/zuodaotech/everyone-can-use-english/releases/latest)
+Phiên bản mới nhất hiện tại: [v0.4.0](https://github.com/zuodaotech/everyone-can-use-english/releases/latest)
 
 ## Windows
 
-支持 Windows 10 以上版本。
+Hỗ trợ các phiên bản Windows 10 trở lên.
 
-[点击下载](https://dl.enjoy.bot/app/win32/x64/Enjoy-0.4.0%20Setup.exe)
+[Nhấp để tải về](https://dl.enjoy.bot/app/win32/x64/Enjoy-0.4.0%20Setup.exe)
 
-下载后，双击即可安装。
+Sau khi tải về, nhấp đúp vào tệp để cài đặt.
 
-::: tip Windows 10 安装报错怎么办？
-Windows 10 系统在安装时可能会报错：
+::: tip Làm gì nếu cài đặt trên Windows 10 báo lỗi?
+Hệ điều hành Windows 10 có thể báo lỗi khi cài đặt:
 
 ```
 A JavaScript error occurred in the main process
 ```
 
-这是由于缺少某些依赖导致，可以尝试以下步骤解决：
+Điều này thường do thiếu một số phụ thuộc. Bạn có thể thử các bước sau để khắc phục:
 
-1. 升级系统，将操作系统升级到最新版本；
-2. 下载 [vs_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) 安装。
+1. Cập nhật hệ điều hành lên phiên bản mới nhất;
+2. Tải [vs_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) và cài đặt.
 
-然后再尝试安装 Enjoy。
+Sau đó thử cài đặt lại Enjoy.
 :::
 
 ## Mac
 
-根据使用 Mac 电脑的芯片不同，需要下载不同的版本。
+Tùy thuộc vào loại chip của máy Mac, bạn cần tải về phiên bản phù hợp.
 
-- [Silicon 芯片版本(arm64)](https://dl.enjoy.bot/app/darwin/arm64/Enjoy-0.4.0-arm64.dmg)
-- [Intel 芯片版本(x64)](https://dl.enjoy.bot/app/darwin/x64/Enjoy-0.4.0-x64.dmg)
+- [Phiên bản Silicon (arm64)](https://dl.enjoy.bot/app/darwin/arm64/Enjoy-0.4.0-arm64.dmg)
+- [Phiên bản Intel (x64)](https://dl.enjoy.bot/app/darwin/x64/Enjoy-0.4.0-x64.dmg)
 
-::: info 如何查看本机配置
-M1 以后的 Mac 电脑型号(M1、M2、M3)，均为 Silicon 芯片。
+::: info Làm sao để kiểm tra cấu hình máy
+Các máy Mac từ M1 trở đi (M1, M2, M3) đều sử dụng chip Silicon.
 
-如果你不清楚自己电脑的具体型号，可以点击屏幕左上方的  符号，在弹出来的菜单中，选择第一个选项 “关于本机（About This Mac）”，在弹出的窗口中，即可看到本机的硬件和系统配置。
+Nếu bạn không chắc chắn về mô hình máy của mình, hãy nhấp vào biểu tượng  ở góc trên bên trái màn hình, trong menu hiện ra, chọn tùy chọn đầu tiên “About This Mac”, trong cửa sổ hiện ra, bạn có thể xem cấu hình phần cứng và hệ thống của máy.
 
-如果显示的是 _Apple M 系列_，即为 Silicon 芯片。
+Nếu hiển thị là _Apple M Series_, thì máy của bạn sử dụng chip Silicon.
 :::
 
-::: warning 警告
-推荐使用 macOS 12 及以上版本，macOS 11 可能无法使用部分功能。
+::: warning Cảnh báo
+Khuyến nghị sử dụng macOS 12 trở lên, macOS 11 có thể không hỗ trợ một số tính năng.
 :::
 
 ## Linux
 
-请根据不同发行版本选用安装文件。
+Chọn tệp cài đặt phù hợp với bản phân phối của bạn.
 
-- [下载 deb 版本](https://dl.enjoy.bot/app/linux/x64/enjoy_0.4.0_amd64.deb)
-- [下载 zip 版本](https://dl.enjoy.bot/app/linux/x64/Enjoy-linux-x64-0.4.0.zip)
+- [Tải về phiên bản deb](https://dl.enjoy.bot/app/linux/x64/enjoy_0.4.0_amd64.deb)
+- [Tải về phiên bản zip](https://dl.enjoy.bot/app/linux/x64/Enjoy-linux-x64-0.4.0.zip)
 
-## 历史版本
+## Phiên bản lịch sử
 
-所有历史版本均可在 [这里](https://github.com/zuodaotech/everyone-can-use-english/releases) 找到。
+Tất cả các phiên bản lịch sử có thể tìm thấy [tại đây](https://github.com/zuodaotech/everyone-can-use-english/releases).
