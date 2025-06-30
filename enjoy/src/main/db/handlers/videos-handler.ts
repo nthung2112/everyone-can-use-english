@@ -5,6 +5,7 @@ import downloader from "@main/downloader";
 import log from "@main/logger";
 import { t } from "i18next";
 import youtubedr from "@main/youtubedr";
+import youtubedlp from "@main/yt-dlp";
 import { pathToEnjoyUrl } from "@main/utils";
 
 const logger = log.scope("db/handlers/videos-handler");
@@ -43,10 +44,7 @@ class VideosHandler {
     return videos.map((video) => video.toJSON());
   }
 
-  private async findOne(
-    _event: IpcMainEvent,
-    where: WhereOptions<Attributes<Video>>
-  ) {
+  private async findOne(_event: IpcMainEvent, where: WhereOptions<Attributes<Video>>) {
     const video = await Video.findOne({
       where: {
         ...where,
@@ -77,7 +75,7 @@ class VideosHandler {
     if (uri.startsWith("http")) {
       try {
         if (youtubedr.validateYtURL(uri)) {
-          file = await youtubedr.autoDownload(uri);
+          file = await youtubedlp.autoDownload(uri);
         } else {
           file = await downloader.download(uri, {
             webContents: event.sender,
@@ -104,11 +102,7 @@ class VideosHandler {
       });
   }
 
-  private async update(
-    _event: IpcMainEvent,
-    id: string,
-    params: Attributes<Video>
-  ) {
+  private async update(_event: IpcMainEvent, id: string, params: Attributes<Video>) {
     const { name, description, metadata, language, coverUrl, source } = params;
 
     const video = await Video.findByPk(id);
