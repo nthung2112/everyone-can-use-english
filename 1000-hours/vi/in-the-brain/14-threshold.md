@@ -1,0 +1,15 @@
+## 14. Ngưỡng an toàn quyết định kết quả
+
+Trước đây chúng ta đã đề cập rằng, não bộ “say mê tiết kiệm năng lượng”, và chúng ta cũng đã nói về việc “não bộ rất sợ chết” — lý do là vì não bộ cần đảm bảo sự an toàn của toàn bộ cơ thể, vì cuối cùng, não bộ phải được các cơ quan khác hỗ trợ mới có ý nghĩa.
+
+Vì vậy, não bộ sẽ không cho phép bạn làm việc quá sức. Giống như động cơ ô tô nếu hoạt động ở mức công suất 100% thì không lâu nữa có thể sẽ hỏng. Do đó, kỹ sư sẽ đặt ra một ngưỡng an toàn cho động cơ, chẳng hạn như công suất tối đa có thể sử dụng là 70% của công suất tối đa thực tế... Như vậy mới đảm bảo an toàn và duy trì ổn định lâu dài.
+
+Đây cũng là lý do tại sao não bộ chỉ có xu hướng “học tập theo nhu cầu” sau khi thực hiện cơ chế “sử dụng theo cách cũ”. Về bản năng, nó sẽ không chọn việc học vượt quá nhu cầu. Học tập vượt quá nhu cầu, theo một nghĩa nào đó, là một kỹ năng học được, nó chỉ có thể được kích hoạt khi bạn vô tình cảm thấy hứng thú.
+
+Những kết quả tiến hóa tích lũy qua hàng trăm nghìn năm không phù hợp với thời đại bùng nổ kiến thức này. Não bộ bên trong là một mạng lưới phức tạp hơn cả dải Ngân Hà nhiều lần, kiến thức là một mạng lưới không gian vô tận và không ngừng mở rộng. Toàn bộ thế giới đang thay đổi liên tục, xu hướng là sự thay đổi ngày càng nhanh và lớn hơn. Thực tế, não bộ rất khó để thích ứng với những thay đổi này, và càng không thích ứng được với tốc độ thay đổi như vậy.
+
+Những điều không thích ứng nhất có thể chính là những ngưỡng an toàn mà não bộ đã mặc định. Trong hàng trăm nghìn năm qua, sự sống luôn là vấn đề, vì vậy não bộ phải ưu tiên bảo vệ sự sống. Đột nhiên, sự sống không còn là vấn đề, môi trường sống cực kỳ an toàn, chi phí sinh hoạt ngày càng thấp... Trong trường hợp này, nếu tuân theo tất cả các ngưỡng an toàn mà não bộ đã thiết lập qua hàng trăm nghìn năm kinh nghiệm, thì có lẽ chỉ còn lại sự hoàn toàn buông xuôi, không cần làm gì cả. Một ngày ba bữa cơm, mỗi bữa một cốc sữa, hai quả trứng và nửa quả táo là đủ để sinh tồn.
+
+Vì vậy, trong cuộc sống hàng ngày, bạn có thể phát huy không phải là tiềm năng thực sự của bạn, mà là tất cả khả năng bạn có thể phát huy dưới ngưỡng an toàn mà não bộ đã thiết lập cho bạn. Khi sự sống trở nên dễ dàng hơn, ngưỡng an toàn mà não bộ thiết lập cho chính mình cũng ngày càng thấp. Nhưng tiềm năng của con người thực sự lớn đến mức nào? Không thể đo lường chính xác. Nhưng chắc chắn là lớn hơn nhiều so với những gì bạn nghĩ.
+
+Liệu có nên tìm cách điều chỉnh ngưỡng an toàn mà não bộ đã thiết lập không? Đây là một câu hỏi hay.

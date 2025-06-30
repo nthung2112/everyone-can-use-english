@@ -1,0 +1,19 @@
+# 10. Thành thạo chính là giảm bớt gánh nặng
+
+Mọi thứ trong não bộ đều tồn tại trong mạng lưới, mỗi nhiệm vụ sẽ được phân nhỏ thành nhiều nhiệm vụ con, và sau đó được tối ưu hóa tự động bởi não để hoàn thành càng nhanh càng tốt. Không còn nghi ngờ gì nữa, não bộ chắc chắn làm việc đa luồng, nếu không sẽ bị kéo xuống bởi khối lượng công việc.
+
+Vấn đề là, sự chú ý thường là đơn luồng. Nó thường chỉ có thể chú ý đến một thứ tại một thời điểm, nếu có nhiều thứ cần chú ý, nó phải lần lượt xử lý từng cái... Đôi khi nó cũng có thể chú ý đến hai hoặc ba thứ cùng một lúc (nhiều hơn chắc chắn không thể), nhưng chỉ cần một cái đủ nổi bật, những cái khác sẽ ngay lập tức chìm vào nền.
+
+Hãy xem thí nghiệm của nhà tâm lý học nhận thức tiên phong Ulric Neisser vào năm 1970. Một nhóm người trên sân khấu đang chuyền bóng, người xem được yêu cầu đếm số lần chuyền bóng... Trong quá trình đó, có một người hóa trang thành con khỉ lớn xuất hiện trên sân khấu, thực hiện vài động tác cường điệu rồi rời đi — kết quả là, tất cả mọi người đều không thấy con khỉ lớn đó vì sự chú ý của họ bị hướng vào quả bóng chuyền qua lại.
+
+Khi chúng ta học một kỹ năng mới, nó có thể yêu cầu chúng ta thực hiện nhiều nhiệm vụ, và các nhiệm vụ này có thể cần phối hợp với nhau. Ví dụ, bơi ếch, tư thế bơi tương đối thân thiện nhất với người mới học. Nó cần ít nhất ba động tác phối hợp: động tác của cánh tay, động tác của chân, và động tác thở bằng miệng. Lúc này, não bộ của chúng ta sẽ bận rộn vì khi chú ý đến cái này, chúng ta không thể chú ý đến cái kia, và khi chú ý đến cái kia, lại quên cái này...
+
+Chúng ta luyện tập từng bước một, rồi thử kết hợp hai động tác — điều này cần thời gian dài... Cho đến khi thành thạo, chúng ta thử kết hợp tất cả các động tác — điều này còn cần nhiều thời gian hơn... Cuối cùng, khi chúng ta có thể kết hợp ba động tác một cách thành thạo, chúng ta có thể bơi rất tốt và nhanh không? Rõ ràng là không. Lúc này chúng ta nhận ra rằng còn nhiều chi tiết cần chú ý, mỗi điều chỉnh nhỏ đều có thể mất nhiều thời gian.
+
+May mắn thay, lúc này chúng ta đã có đủ sức để chú ý đến những chi tiết đó — nhưng nói chính xác hơn, **thành thạo chính là giảm bớt gánh nặng**. Tuy nhiên, sự thành thạo không phải là điểm kết thúc, vì **thành thục chính là không gánh nặng**.
+
+Khi chúng ta quen thuộc với một quy trình đủ mức (tất nhiên là thông qua lặp lại đủ lượng trong thời gian ngắn), chúng ta cần rất nhiều lần lặp lại (tất nhiên vẫn là thông qua lặp lại đủ lượng trong thời gian ngắn)... Cuối cùng, quy trình này có thể được thực hiện một cách tự giác hoặc thậm chí vô thức, không cần phải nhớ các bước, chú ý đến sự liên kết, kiểm tra chất lượng... Do đó, sự chú ý gần như chỉ có thể **đơn luồng** của chúng ta giống như đã giảm bớt hoàn toàn gánh nặng này, và khi cần làm việc khác, chúng ta sẽ cảm thấy thoải mái hơn.
+
+Mặc dù sự chú ý của chúng ta gần như chỉ có thể **đơn luồng** làm việc, thực tế là, tất cả các hoạt động quan trọng nhất trên thế giới, về bản chất, đều là **đa luồng**.
+
+Những kỹ thuật lớn nhất, những kỹ năng mà chỉ có một số ít người cuối cùng có thể nắm vững, về bản chất, thực ra đều giống nhau, chúng chỉ là việc biến từng luồng trong đa luồng thành các công việc có thể hoàn thành một cách tự giác hoặc vô thức thông qua việc lặp lại nhiều lần. Giống như hệ điều hành hiện đại trên máy tính, **biến nhiều luồng thành các tác vụ nền hoàn toàn**.

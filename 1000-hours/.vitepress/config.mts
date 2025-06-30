@@ -429,6 +429,478 @@ export default withMermaid(
           },
         ],
 
+        "/vi/": [
+          {
+            text: "Tóm tắt ngắn gọn",
+            collapsed: true,
+            link: "/vi/intro",
+            items: [
+              {
+                text: "1. Có nên rèn luyện trí não không?",
+                link: "/vi/why",
+              },
+              {
+                text: "2. Cái gì là tốt nhất cho trí não?",
+                link: "/vi/what",
+              },
+            ],
+          },
+          {
+            text: "Nhiệm vụ luyện tập",
+            collapsed: true,
+            items: [
+              {
+                text: "1. Khởi động nhiệm vụ",
+                link: "/vi/training-tasks/kick-off",
+              },
+              {
+                text: "2. Phương pháp luyện tập",
+                link: "/vi/training-tasks/procedures",
+              },
+              {
+                text: "3. Trí tuệ nhân tạo",
+                collapsed: false,
+                link: "/vi/training-tasks/ai",
+                items: [
+                  {
+                    text: "3.1. Khả năng ngôn ngữ cơ bản",
+                    link: "/vi/training-tasks/language",
+                  },
+                  {
+                    text: "3.2. Khó khăn ở người trưởng thành",
+                    link: "/vi/training-tasks/predicaments",
+                  },
+                  {
+                    text: "3.3. Hỗ trợ từ trí tuệ nhân tạo",
+                    link: "/vi/training-tasks/revolution",
+                  },
+                  {
+                    text: "3.4. Nhiệm vụ không quá cao cấp",
+                    link: "/vi/training-tasks/ground",
+                  },
+                  {
+                    text: "3.5. Hiệu quả cực kỳ ấn tượng",
+                    link: "/vi/training-tasks/wonder",
+                  },
+                ],
+              },
+              {
+                text: "4. Điều bất ngờ",
+                link: "/vi/training-tasks/surprise",
+              },
+            ],
+          },
+          {
+            text: "Phát âm và tạo giọng",
+            link: "/vi/sounds-of-american-english/0-intro",
+            collapsed: true,
+            items: [
+              {
+                text: "1. Cơ bản",
+                link: "/vi/sounds-of-american-english/1-basics",
+                items: [
+                  {
+                    text: "1.1. Âm vị ngữ âm",
+                    link: "/vi/sounds-of-american-english/1.1-phonemes",
+                  },
+                  {
+                    text: "1.2. Chữ cái tiếng Anh",
+                    link: "/vi/sounds-of-american-english/1.2-alphabets",
+                  },
+                ],
+              },
+              {
+                text: "2. Cơ quan phát âm",
+                link: "/vi/sounds-of-american-english/2-articulators",
+              },
+              {
+                text: "3. Giải thích chi tiết các âm vị",
+                collapsed: true,
+                link: "/vi/sounds-of-american-english/3-details",
+                items: [
+                  {
+                    text: "3.1. Nguyên âm",
+                    collapsed: true,
+                    link: "/vi/sounds-of-american-english/3.1-vowels",
+                    items: [
+                      {
+                        text: "3.1.1. ə/ɚ/ɝː",
+                        link: "/vi/sounds-of-american-english/3.1.1-ə",
+                      },
+                      {
+                        text: "3.1.2. ʌ/ɑː/ɑːr",
+                        link: "/vi/sounds-of-american-english/3.1.2-ɑ",
+                      },
+                      {
+                        text: "3.1.3. ɪ/i/iː/ɪr",
+                        link: "/vi/sounds-of-american-english/3.1.3-i",
+                      },
+                      {
+                        text: "3.1.4. ʊ/u/uː/ʊr",
+                        link: "/vi/sounds-of-american-english/3.1.4-u",
+                      },
+                      {
+                        text: "3.1.5. e/æ/er",
+                        link: "/vi/sounds-of-american-english/3.1.5-e",
+                      },
+                      {
+                        text: "3.1.6. ɒ/ɑː/ɔː/ɔːrː",
+                        link: "/vi/sounds-of-american-english/3.1.6-ɔ",
+                      },
+                      {
+                        text: "3.1.7. aɪ... oʊ",
+                        link: "/vi/sounds-of-american-english/3.1.7-aɪ",
+                      },
+                    ],
+                  },
+                  {
+                    text: "3.2. Phụ âm",
+                    collapsed: true,
+                    link: "/vi/sounds-of-american-english/3.2-consonants",
+                    items: [
+                      {
+                        text: "3.2.1. p/b",
+                        link: "/vi/sounds-of-american-english/3.2.1-pb",
+                      },
+                      {
+                        text: "3.2.2. t/d",
+                        link: "/vi/sounds-of-american-english/3.2.2-td",
+                      },
+                      {
+                        text: "3.2.3. k/g",
+                        link: "/vi/sounds-of-american-english/3.2.3-kg",
+                      },
+                      {
+                        text: "3.2.4. f/v",
+                        link: "/vi/sounds-of-american-english/3.2.4-fv",
+                      },
+                      {
+                        text: "3.2.5. s/z",
+                        link: "/vi/sounds-of-american-english/3.2.5-sz",
+                      },
+                      {
+                        text: "3.2.6. θ/ð",
+                        link: "/vi/sounds-of-american-english/3.2.6-θð",
+                      },
+                      {
+                        text: "3.2.7. ʃ/ʒ",
+                        link: "/vi/sounds-of-american-english/3.2.7-ʃʒ",
+                      },
+                      {
+                        text: "3.2.8. tʃ/dʒ",
+                        link: "/vi/sounds-of-american-english/3.2.8-tʃdʒ",
+                      },
+                      {
+                        text: "3.2.9. tr/dr",
+                        link: "/vi/sounds-of-american-english/3.2.9-trdr",
+                      },
+                      {
+                        text: "3.2.10. ts/dz",
+                        link: "/vi/sounds-of-american-english/3.2.10-tsdz",
+                      },
+                      {
+                        text: "3.2.11. m, n, ŋ",
+                        link: "/vi/sounds-of-american-english/3.2.11-mnŋ",
+                      },
+                      {
+                        text: "3.2.12. l, r",
+                        link: "/vi/sounds-of-american-english/3.2.12-lr",
+                      },
+                      {
+                        text: "3.2.13. w, j",
+                        link: "/vi/sounds-of-american-english/3.2.13-wj",
+                      },
+                      {
+                        text: "3.2.14. h",
+                        link: "/vi/sounds-of-american-english/3.2.14-h",
+                      },
+                    ],
+                  },
+                  {
+                    text: "3.3. Các biến thể",
+                    link: "/vi/sounds-of-american-english/3.3-variations",
+                  },
+                ],
+              },
+              {
+                text: "4. Dòng chảy ngôn ngữ tự nhiên",
+                collapsed: true,
+                link: "/vi/sounds-of-american-english/4-natural-speech",
+                items: [
+                  {
+                    text: "4.1. Âm tiết",
+                    link: "/vi/sounds-of-american-english/4.1-syllables",
+                  },
+                  {
+                    text: "4.2. Từ ngữ",
+                    link: "/vi/sounds-of-american-english/4.2-words",
+                  },
+                  {
+                    text: "4.3. Nhóm ý nghĩa",
+                    link: "/vi/sounds-of-american-english/4.3-grouping",
+                  },
+                  {
+                    text: "4.4. Liên kết âm",
+                    link: "/vi/sounds-of-american-english/4.4-linking",
+                  },
+                  {
+                    text: "4.5. Câu",
+                    link: "/vi/sounds-of-american-english/4.5-sentences",
+                  },
+                ],
+              },
+              {
+                text: "5. Trên nền tảng cơ bản",
+                link: "/vi/sounds-of-american-english/5-above-ground",
+              },
+              {
+                text: "6. Xây dựng từ vựng",
+                collapsed: true,
+                link: "/vi/sounds-of-american-english/6-vocabulary",
+                items: [
+                  {
+                    text: "6.1. Ghi nhớ từ hiệu quả",
+                    link: "/vi/sounds-of-american-english/6.1-effectiveness",
+                  },
+                  {
+                    text: "6.2. Chính tả đa âm",
+                    link: "/vi/sounds-of-american-english/6.2-polyphonic-spellings",
+                  },
+                  {
+                    text: "6.3. Các từ ghép phổ biến",
+                    link: "/vi/sounds-of-american-english/6.3-compound-words",
+                  },
+                  {
+                    text: "6.4. Các tiền tố và hậu tố thường gặp",
+                    link: "/vi/sounds-of-american-english/6.4-parts-of-words",
+                  },
+                ],
+              },
+              {
+                text: "7. Từ đó trở đi",
+                link: "/vi/sounds-of-american-english/7-whats-next",
+              },
+              {
+                text: "8. Phụ lục",
+                collapsed: true,
+                link: "/vi/sounds-of-american-english/8-appendix",
+                items: [
+                  {
+                    text: "8.1. Nhập ký hiệu âm vị và ký hiệu đặc biệt",
+                    link: "/vi/sounds-of-american-english/8.1-inputting-phonemes-and-symbols",
+                  },
+                  {
+                    text: "8.2. Lấy ký hiệu âm vị CEPD",
+                    link: "/vi/sounds-of-american-english/8.2-cepd-phonetics-and-sound",
+                  },
+                  {
+                    text: "8.3. Luyện tập âm vị",
+                    link: "/vi/sounds-of-american-english/8.3-phoneme-exercises",
+                  },
+                  {
+                    text: "8.4. Luyện phát âm hàng ngày",
+                    link: "/vi/sounds-of-american-english/8.4-daily-speech-exercises",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            text: "Bên trong não bộ",
+            collapsed: true,
+            items: [
+              {
+                text: "1. Không gian nhỏ thế giới lớn",
+                link: "/vi/in-the-brain/01-inifinite",
+              },
+              {
+                text: "2. Mọi thứ đều là kết nối",
+                link: "/vi/in-the-brain/02-links",
+              },
+              {
+                text: "3. Mọi thứ giống như tiết thể dục",
+                link: "/vi/in-the-brain/03-sports",
+              },
+              {
+                text: "4. Mọi thứ cũng là môn ngôn ngữ",
+                link: "/vi/in-the-brain/04-literature",
+              },
+              {
+                text: "5. Mọi thứ đều cần năng lượng",
+                link: "/vi/in-the-brain/05-energy",
+              },
+              {
+                text: "6. Dùng đi trước rồi mất, kết hợp tái sử dụng",
+                link: "/vi/in-the-brain/06-use-or-lose",
+              },
+              {
+                text: "7. Lặp lại đủ liều lượng trong thời gian ngắn",
+                link: "/vi/in-the-brain/07-repitition",
+              },
+              {
+                text: "8. Cạnh tranh giữa mạng lưới mới và cũ",
+                link: "/vi/in-the-brain/08-compitition",
+              },
+              {
+                text: "9. Không chú ý thì không tồn tại",
+                link: "/vi/in-the-brain/09-unnoticed",
+              },
+              {
+                text: "10. Thành thạo là giảm tải gánh nặng",
+                link: "/vi/in-the-brain/10-unloading",
+              },
+              {
+                text: "11. Bị chú ý là gánh nặng lớn nhất",
+                link: "/vi/in-the-brain/11-burden",
+              },
+              {
+                text: "12. Giới hạn, loại trừ và không thể tái sinh",
+                link: "/vi/in-the-brain/12-unreproducible",
+              },
+              {
+                text: "13. Mọi thứ đều là phản ứng hóa học",
+                link: "/vi/in-the-brain/13-chemical",
+              },
+              {
+                text: "14. Ngưỡng an toàn quyết định kết quả",
+                link: "/vi/in-the-brain/14-threshold",
+              },
+            ],
+          },
+          {
+            text: "Tự luyện tập",
+            collapsed: true,
+            link: "/vi/self-training/00-intro",
+            items: [
+              {
+                text: "1. Dùng binh đánh trận",
+                link: "/vi/self-training/01-fight",
+              },
+              {
+                text: "2. Chỉ có thể tự học",
+                link: "/vi/self-training/02-last-resort",
+              },
+              {
+                text: "3. Học khô cứng và luyện tập chăm chỉ",
+                link: "/vi/self-training/03-trials-and-errors",
+              },
+              {
+                text: "4. Vượt qua mê cung",
+                link: "/vi/self-training/04-maze",
+              },
+              {
+                text: "5. Tự sửa lỗi",
+                link: "/vi/self-training/05-correction",
+              },
+              {
+                text: "6. Tự thúc đẩy",
+                link: "/vi/self-training/06-motives",
+              },
+              {
+                text: "7. Tự động viên",
+                link: "/vi/self-training/07-encouraging",
+              },
+              {
+                text: "8. Tự giám sát",
+                link: "/vi/self-training/08-supervising",
+              },
+              {
+                text: "9. Lập kế hoạch tự chủ",
+                link: "/vi/self-training/09-planning",
+              },
+              {
+                text: "10. Quay về cơ bản",
+                link: "/vi/self-training/10-going-back",
+              },
+            ],
+          },
+          {
+            text: "Ứng dụng Enjoy",
+            collapsed: true,
+            link: "/vi/enjoy-app/",
+            items: [
+              {
+                text: "Bắt đầu nhanh",
+                collapsed: false,
+                items: [
+                  {
+                    text: "Giới thiệu Enjoy",
+                    link: "/vi/enjoy-app/",
+                  },
+                  {
+                    text: "Tải và cài đặt",
+                    link: "/vi/enjoy-app/install",
+                  },
+                  {
+                    text: "Cài đặt phần mềm",
+                    link: "/vi/enjoy-app/settings",
+                  },
+                ],
+              },
+              {
+                text: "Luyện đọc theo",
+                collapsed: false,
+                items: [
+                  {
+                    text: "Tài nguyên âm thanh",
+                    link: "/vi/enjoy-app/audios",
+                  },
+                  {
+                    text: "Tài nguyên video",
+                    link: "/vi/enjoy-app/videos",
+                  },
+                ],
+              },
+              {
+                text: "Văn bản đọc",
+                collapsed: false,
+                items: [
+                  {
+                    text: "Bài viết trực tuyến",
+                    link: "/vi/enjoy-app/webpage",
+                  },
+                  {
+                    text: "Sách điện tử nội bộ",
+                    link: "/vi/enjoy-app/ebook",
+                  },
+                ],
+              },
+              {
+                text: "Trợ lý thông minh",
+                collapsed: false,
+                items: [
+                  {
+                    text: "Giới thiệu",
+                    link: "/vi/enjoy-app/ai-assistant",
+                  },
+                  {
+                    text: "Dịch vụ GPT",
+                    link: "/vi/enjoy-app/gpt-conversation",
+                  },
+                  {
+                    text: "Dịch vụ TTS",
+                    link: "/vi/enjoy-app/tts-conversation",
+                  },
+                ],
+              },
+              {
+                text: "Khác",
+                collapsed: false,
+                items: [
+                  {
+                    text: "Câu hỏi thường gặp",
+                    link: "/vi/enjoy-app/faq",
+                  },
+                  {
+                    text: "Sử dụng AI để tạo tài liệu luyện tập",
+                    link: "/vi/enjoy-app/use-case-generate-audio-resources",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+
         "/enjoy-app/": [
           {
             text: "快速开始",
@@ -525,6 +997,21 @@ export default withMermaid(
       },
       toc: {
         level: [1, 2, 3],
+      },
+    },
+
+    locales: {
+      root: {
+        label: "简体中文",
+        lang: "zh-CN",
+      },
+      vi: {
+        label: "Vietnamese",
+        lang: "vi",
+        link: "/vi", // default /vi/ -- shows on navbar translations menu, can be external
+        title: "1000 Giờ",
+        description:
+          "Với 1000 giờ tập trung, bạn có thể thành thạo bất kỳ kỹ năng nào mình mong muốn...",
       },
     },
   })
