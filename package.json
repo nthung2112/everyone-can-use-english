@@ -3,7 +3,8 @@
   "workspaces": [
     "enjoy",
     "1000-hours",
-    "1000h-portal"
+    "1000h-portal",
+    "server"
   ],
   "scripts": {
     "start:enjoy": "echo 'Please use `yarn enjoy:start` instead'",
@@ -23,7 +24,11 @@
     "docs:dev": "yarn workspace 1000-hours dev",
     "docs:build": "yarn workspace 1000-hours build",
     "docs:preview": "yarn workspace 1000-hours preview",
-    "portal:generate": "yarn workspace 1000h-portal generate"
+    "portal:generate": "yarn workspace 1000h-portal generate",
+    "server:dev": "yarn workspace server dev",
+    "server:start": "yarn workspace server start",
+    "server:typecheck": "yarn workspace server typecheck",
+    "server:lint": "yarn workspace server lint"
   },
   "packageManager": "yarn@4.6.0",
   "engines": {
