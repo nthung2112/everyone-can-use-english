@@ -1,81 +1,71 @@
 # Giải thích ngắn gọn
 
-Ban đầu chỉ cần một câu nói là có thể giải thích đầy đủ:
+Thực ra chỉ cần một câu là đã đủ để nói rõ ràng:
 
-> **Dành 1000 giờ chú ý của bạn để rèn luyện bất kỳ kỹ năng nào bạn cần**...
+> **Dành trọn 1000 giờ tập trung chú ý, bạn sẽ thành thạo bất kỳ kỹ năng nào mình cần…**
 
-Nhưng, vẫn cần thiết để làm rõ thêm một chút chi tiết.
+Tuy nhiên, vẫn cần giải thích thêm một chút cho rõ hơn.
 
-"**Dành chú ý của bạn**" nghĩa là bạn chỉ có thể dựa vào chính mình, ai cũng như vậy, miễn là khả năng thực sự có ích, cuối cùng chỉ có thể học qua tự học. Người đổ sự chú ý vào thời gian là ai, khả năng phát triển sẽ chỉ thuộc về người đó - vì vậy, trong việc học, người khác không bao giờ có thể giúp bạn, ngay cả khi đó là cha mẹ của bạn, những người sẵn sàng hy sinh mạng sống vì bạn.
+“**Dùng sự chú ý của bạn**” có nghĩa là bạn chỉ có thể dựa vào chính mình, tất cả đều như nhau, bất cứ kỹ năng nào thực sự hữu ích cuối cùng chỉ có thể tự học mà thành. Ai dành thời gian với sự chú ý của ai, người đó mới xây dựng được năng lực — nên trong việc học, chẳng ai giúp được gì bạn thật sự, kể cả cha mẹ bạn có hy sinh cả tính mạng cũng vậy.
 
-"**1000 giờ**" nhìn qua không nhiều, và thực sự không nhiều. Nhưng, nó có yêu cầu về mật độ. Mỗi ngày 1 giờ cần khoảng 3 năm để tích lũy đủ 1000 giờ; trong khi mỗi ngày 3 giờ chỉ cần 1 năm để tích lũy đủ... Trước hết, hiệu quả của cái sau cao hơn cái trước không biết bao nhiêu lần, thứ hai, cái trước thực tế khó thực hiện hơn và khó kiên trì hơn. Vì vậy, nếu không thể làm **ít nhất 3 giờ mỗi ngày**, thì thà không làm còn hơn.
+“**1000 giờ**” nghe thì có vẻ ít, và thực tế cũng không nhiều. Nhưng nó có yêu cầu về mật độ. Nếu mỗi ngày chỉ 1 giờ, bạn cần đến khoảng 3 năm mới đủ; còn mỗi ngày 3 giờ thì chỉ mất 1 năm. Thứ nhất, cách làm thứ hai hiệu quả hơn rất nhiều; thứ hai, cách làm thứ nhất còn khó thực hiện và khó duy trì. Vậy nên, nếu không thể tập tối thiểu 3 giờ mỗi ngày, thà đừng làm còn hơn.
 
-"**Có thể**" nghĩa là không có ngoại lệ. "Dành 1000 giờ chú ý của bạn" là điều kiện cần và đủ để "rèn luyện bất kỳ kỹ năng nào bạn cần". Nếu điều kiện cần và đủ được thỏa mãn, kết quả sẽ xảy ra như vậy.
+“**Thì sẽ**” nghĩa là không có ngoại lệ. “Dùng sự chú ý của bạn tập đủ 1000 giờ” là điều kiện đủ và điều kiện cần để “thành thạo bất kỳ kỹ năng bạn cần”. Khi thỏa mãn điều kiện đủ và cần, kết quả tất yếu phải xảy ra.
 
-"**Rèn luyện**", không phải từ sách vở "biết" hoặc "học được" ở đâu đó, không phải thi "đạt" hoặc "xuất sắc", thậm chí không chỉ là "làm tốt", mà là "**thành thạo**" - điều mà rất ít người đạt được.
+“**Thành thạo**” không phải là “biết” trên sách vở hay ở chỗ nào đó, cũng không phải “đậu” hay “xuất sắc” trong kỳ thi, thậm chí không chỉ là “làm tốt”, mà là “**thành thạo đỉnh cao**” — điều mà rất ít người làm được.
 
-"**Kỹ năng bạn cần**" - nếu không thực sự cần, bạn sẽ không học tốt hoặc không rèn luyện được. Trong điều này, bạn có rất nhiều kinh nghiệm. Ngay cả khi thực sự cần, nhưng bạn không nhận ra, hoặc tạm thời không cảm thấy, thì bạn vẫn sẽ không học tốt hoặc không rèn luyện được, ít nhất là tạm thời không học tốt hoặc rèn luyện được. Bạn có nhiều kinh nghiệm hơn trong việc này, mặc dù các kỹ năng cần thiết nhất trong cuộc sống không nhiều, nhưng hầu như đều giống nhau, bạn nhận ra cần nó nhưng chưa bao giờ làm tốt nó, đừng nói đến **thành thạo**... Tất nhiên, hầu hết mọi người đều như bạn, sống tạm bợ cả đời.
+“**Kỹ năng bạn cần**” — nếu không thật sự cần, bạn sẽ không học và không luyện được. Về điểm này bạn rất có kinh nghiệm. Cho dù thật sự cần nhưng bạn không nhận ra hay chưa cảm nhận được thì cũng không thể học và luyện tốt, ít nhất là chưa thể. Bạn cũng biết rằng, những kỹ năng cần thiết nhất trong cuộc đời dù không nhiều, nhưng gần như mọi người đều biết là cần mà chưa bao giờ làm tốt nổi, chứ chưa nói đến việc **thành thạo**… Dĩ nhiên, đa số người cũng y như bạn, sống qua ngày một cách tạm bợ.
 
-"**Bất kỳ**" nghĩa là, mặc dù, chúng ta chọn **tiếng Anh** làm **mục tiêu đào tạo mẫu để tăng cường trí não**, nhưng bạn thực sự có thể sử dụng cùng cách để nắm vững **bất kỳ** kỹ năng nào bạn cần.
+“**Bất kỳ**” nghĩa là dù chúng ta chọn **tiếng Anh** làm ví dụ minh họa cho quá trình tập luyện để rèn trí não, bạn hoàn toàn có thể dùng đúng phương pháp đó để làm chủ bất kỳ kỹ năng nào cần thiết.
 
-Không có vấn đề khi chúng ta chọn tiếng Anh làm mục tiêu đào tạo mẫu, nhưng khi bạn nghe rằng mục tiêu là "**rèn luyện tiếng Anh thành ngôn ngữ đầu tiên trong một năm**", bạn có thể sẽ hơi sốc, không dám tin, thậm chí có thể vì không tin mà phát sinh cảm giác khinh miệt hoặc ghét bỏ. Mặc dù điều này rất bình thường, nhưng tôi cần phải nhắc nhở bạn rằng, không cần thiết phải đi sâu vào vấn đề này: thực ra điều bạn khinh miệt hoặc ghét bỏ, nhìn một cách tương đối, có thể là chính bạn - vì mục tiêu này bản thân nó không thể làm hại bạn.
+Việc chọn tiếng Anh làm ví dụ minh họa là có nhiều lý do.
 
-Chọn tiếng Anh làm **mục tiêu đào tạo mẫu để tăng cường trí não** có nhiều lý do.
+Lý do trực tiếp nhất là tiếng Anh thực sự hữu dụng, bởi hầu hết kiến thức và trí tuệ nhân loại đều được ghi chép và truyền tải bằng tiếng Anh. Lý do khác là với người không dùng tiếng Anh làm tiếng mẹ đẻ, thành thạo tiếng Anh đồng nghĩa với thu nhập cao hơn, có rất nhiều thống kê chứng minh điều này.
 
-Lý do trực tiếp nhất tất nhiên là tiếng Anh thực sự hữu ích, sau tất cả, phần lớn kiến thức và trí tuệ của nhân loại được ghi lại và truyền bá bằng tiếng Anh. Một lý do khác là đối với những người không phải là người nói tiếng Anh mẹ đẻ, việc thành thạo tiếng Anh đồng nghĩa với thu nhập cao hơn, điều này được hỗ trợ bởi vô số dữ liệu thống kê.
+Nhưng quan trọng nhất, **thành thạo và không ngừng nâng cao khả năng sử dụng ngôn ngữ tự nhiên** chính là cách tốt nhất để **rèn luyện trí não** — không cần nói thêm “một trong những cách” vì đó chính là **cách tốt nhất**. Ngôn ngữ tự nhiên là hệ thống kiến thức phức tạp và toàn diện nhất con người có thể tiếp xúc cả đời, tất cả kỹ năng khác đều dựa trên nền tảng này, học hay luyện đều không có giới hạn. Do đó ai cũng có thể, và đáng ra nên, dành cả đời để phát triển khả năng làm chủ ngôn ngữ tự nhiên của mình.
 
-Tuy nhiên, lý do quan trọng nhất là, **nắm vững và không ngừng nâng cao khả năng sử dụng ngôn ngữ tự nhiên**, là cách **tăng cường trí não** tốt nhất - không cần phải thêm "một trong những" vào sau tuyên bố này, vì nó là **cách tốt nhất để tăng cường trí não**. **Ngôn ngữ tự nhiên** là kiến thức phức tạp và có hệ thống nhất mà con người có thể gặp phải trong suốt cuộc đời, tất cả các kiến thức và kỹ năng khác đều xây dựng trên cơ sở đó, không có giới hạn. Vì vậy, mọi người đều có thể, và thực tế cũng nên, dành cả đời để phát triển và nâng cao khả năng sử dụng ngôn ngữ tự nhiên.
+Trong luyện tiếng Anh, một trong những lựa chọn là đào tạo nền tảng **phát âm** (một lựa chọn khác là **mở rộng trí nhớ**); nguyên nhân chủ yếu vì đây là ví dụ điển hình cho kiến thức kiểu “biết không đồng nghĩa làm được”, và “làm được” chỉ có thể dựa vào số lần luyện tập lặp đi lặp lại đủ nhiều trong thời gian ngắn — bởi vì bên trong não bộ, các “nơ-ron thần kinh” sẽ xây dựng các kết nối và mạng lưới mới.
 
-Và, trong quá trình thực hành **tiếng Anh**, một trong những lựa chọn của chúng ta là **hình thành âm thanh cơ bản** (lựa chọn khác là **mở rộng trí nhớ**); lý do chính là, đây là kiến thức điển hình của **biết không đồng nghĩa với làm**, **làm được** chỉ có thể nhờ vào cách **lặp đi lặp lại đủ trong thời gian ngắn** - điều này dựa trên **sự kết nối và hình thành mạng lưới mới giữa các tế bào thần kinh** trong **não bộ**.
+Vì lý do này, **bài tập này phù hợp với bất kỳ ai**, không phân biệt giới tính, tuổi tác, chủng tộc hay quốc tịch. Dù bạn là người bản xứ tiếng Anh, vẫn có thể dùng cách này để học một ngôn ngữ khác và rèn trí não. Luyện ngôn ngữ tự nhiên với trí não giống như chạy bộ với cơ thể.
 
-Cũng vì lý do này, **cuộc đào tạo này thực sự phù hợp với bất kỳ ai**, không phân biệt giới tính, tuổi tác, chủng tộc hoặc quốc tịch. Ngay cả khi tiếng Anh là tiếng mẹ đẻ của bạn, bạn có thể sử dụng phương pháp tương tự để học một ngôn ngữ khác như một cách để tăng cường trí não. Việc rèn luyện ngôn ngữ tự nhiên đối với tăng cường trí não, cũng giống như chạy bộ đối với thể hình.
+Mặc dù bài tập lấy tiếng Anh làm ví dụ minh họa, **trình độ tiếng mẹ đẻ của bạn chắc chắn sẽ được nâng cao đáng kể trong quá trình luyện tập**. Tuy nhiên, trình độ thứ hai của bạn sẽ bị giới hạn bởi trình độ tiếng mẹ đẻ. Nhưng ngược lại, khi bạn cố gắng luyện tiếng Anh thành ngôn ngữ thứ nhất, tiếng mẹ đẻ của bạn chắc chắn sẽ mạnh lên — ngôn ngữ mới sẽ bổ trợ ngôn ngữ ban đầu.
 
-Mặc dù cuộc đào tạo này sử dụng **tiếng Anh** làm mục tiêu mẫu, nhưng trong quá trình đó, trình độ **ngôn ngữ mẹ đẻ** của bạn sẽ chỉ tăng lên. Mặc dù, trình độ ngôn ngữ thứ hai của bạn **chắc chắn** sẽ bị hạn chế bởi ngôn ngữ đầu tiên. Tuy nhiên, ngược lại, trong quá trình bạn cố gắng rèn luyện ngôn ngữ thứ hai thành ngôn ngữ đầu tiên, ngôn ngữ đầu tiên của bạn sẽ chỉ mạnh hơn. Ngôn ngữ mới sẽ **nuôi dưỡng ngược lại** ngôn ngữ bạn đã nắm vững trước đó.
+Bài tập này sẽ thay đổi cấu trúc não của bạn. Trong quá trình luyện tập, vùng **chất xám** sẽ ngày càng dày đặc hơn, thể tích **chất xám** ngày càng lớn hơn, vùng phủ **chất trắng** cũng mở rộng hơn. Nếu chụp MRI chức năng (fMRI), bạn hoàn toàn có thể nhìn thấy những thay đổi này bằng mắt thường.
 
-Cuộc đào tạo này sẽ thay đổi trực tiếp **cấu trúc não bộ** của bạn. Trong quá trình hoàn thành cuộc đào tạo này, bên trong não bộ của bạn, **mật độ chất xám** sẽ trở nên ngày càng cao hơn, **thể tích chất xám** sẽ trở nên ngày càng lớn hơn, **diện tích bao phủ chất trắng** cũng sẽ ngày càng rộng hơn. Nếu quét bằng thiết bị fMRI (chụp cộng hưởng từ chức năng), tất cả những điều này đối với bạn đều là những thay đổi có thể thấy bằng mắt thường.
+Những thay đổi cấu trúc não như vậy sẽ ảnh hưởng sâu rộng chứ không chỉ là có thêm một ngoại ngữ hay nâng cao khả năng sử dụng ngôn ngữ tự nhiên. Mật độ chất xám dày hơn, thể tích lớn hơn, vùng phủ chất trắng rộng hơn — ví dụ như bạn nâng cấp phần cứng cho não mình: CPU xử lý nhanh hơn, bộ nhớ lớn hơn, băng thông cao hơn... Não bạn sẽ làm việc hiệu quả hơn mọi việc. Học nhanh hơn, tốt hơn và càng học càng nhiều, tạo thành **vòng tuần hoàn tốt đẹp**, **học càng nhiều càng nhanh càng tốt**.
 
-Sự thay đổi cấu trúc não bộ như vậy sẽ tạo ra ảnh hưởng to lớn đối với một người, không chỉ là việc nắm vững một ngoại ngữ hoặc nâng cao khả năng sử dụng ngôn ngữ tự nhiên, mà còn mang lại những thay đổi rất rộng và sâu sắc.
+Mặc dù hầu hết người ta không tập thể thao, nhưng không ai phủ nhận lợi ích và sự cần thiết của thể dục. Thực ra, **rèn trí não còn quan trọng hơn rèn thể lực** — chỉ cần suy nghĩ một chút là thấy điều này không thể chối cãi. Việc có rèn trí não hay không cũng tùy mỗi người, giống như rèn thể lực, nhưng cần nhắc rằng đừng tới lúc thân thể hỏng mới tập luyện — còn não bộ hỏng rồi mới luyện thì đã quá muộn.
 
-Mật độ chất xám cao hơn, thể tích chất xám lớn hơn, diện tích bao phủ chất trắng rộng hơn - ví dụ, điều này giống như bạn nâng cấp phần cứng cho não bộ của mình, CPU nhanh hơn, bộ nhớ lớn hơn, băng thông cao hơn... Vì vậy, não bộ của bạn làm gì cũng hiệu quả hơn. Học cái gì cũng nhanh hơn và tốt hơn, do đó chỉ có thể học càng nhiều càng nhanh và tốt hơn, đi vào **chu kỳ phát triển tốt**, **học càng nhiều càng nhanh càng tốt**.
+Nào, việc rèn trí não thay đổi cấu trúc não, tăng mật độ và thể tích chất xám, mở rộng vùng phủ chất trắng, có thể phòng tránh các bệnh về não như Parkinson. Đồng thời, tăng mật độ và thể tích chất xám, mở rộng vùng phủ chất trắng còn giúp chống trầm cảm...
 
-Mặc dù hầu hết mọi người không tập thể dục, nhưng cũng không phủ nhận lợi ích và sự cần thiết của việc tập thể dục. Tuy nhiên, **tăng cường trí não quan trọng hơn tập thể dục** - chỉ cần suy nghĩ một chút là biết điều này không thể tranh cãi. Về việc có nên tăng cường trí não hay không, giống như việc có nên tập thể dục hay không, hoàn toàn là lựa chọn cá nhân, nhưng cần phải nhắc nhở: không thể giống như hầu hết mọi người trong phòng tập thể dục, chỉ đến khi cơ thể bị hỏng mới nghĩ đến việc tập thể dục - nếu não bộ bị hỏng rồi mới nghĩ đến việc tăng cường trí não, thì đã quá muộn rồi, đúng không?
+Giá trị của bài tập này chắc chắn không giới hạn trong phạm vi đó.
 
-Đúng vậy, tăng cường trí não thay đổi cấu trúc não bộ, mật độ chất xám cao hơn, thể tích chất xám lớn hơn, diện tích bao phủ chất trắng rộng hơn, có thể ngăn ngừa hiệu quả các bệnh não người già khác nhau, như hội chứng Parkinson. Đồng thời, mật độ chất xám cao hơn, thể tích chất xám lớn hơn, diện tích bao phủ chất trắng rộng hơn, cũng có thể chống trầm cảm...
+Với trẻ em, đây là cơ hội để các em thực sự **học cách học**. Khoa học kỹ thuật phát triển khiến cuộc sống ngày càng dễ dàng hơn, nhu cầu học tập cũng giảm xuống. Nhưng nếu mong sống không chỉ là tồn tại mà còn tốt hơn, thì chỉ còn cách dùng **học tập** để **nắm lấy** — tất nhiên, chúng tôi sẽ chứng minh, chỉ có thể thông qua **tự học**. Một trí não khỏe mạnh sẽ đảm bảo cuộc sống tốt hơn.
 
-Ý nghĩa của cuộc đào
+Không ông bố bà mẹ nào không quan tâm điểm số **trong trường** của con mình. Thực ra, với não bộ, học gì cũng chỉ là một dạng **giờ học thể dục** — vì đều là rèn luyện trí não, xây dựng các kết nối và mạng lưới mới giữa các nơ-ron thần kinh. Đồng thời, nhìn nhận cho cùng, mọi môn học trong trường đều là **môn ngữ** cả. Khoa học tuy dùng nhiều **ngôn ngữ nhân tạo**, nhưng ngôn ngữ nhân tạo chỉ là tập con của ngôn ngữ tự nhiên. Vậy nên việc nâng cao năng lực sử dụng ngôn ngữ tự nhiên tất nhiên sẽ giúp cải thiện kết quả thi cử mọi môn. Đừng bao giờ nghi ngờ điều này nếu không sẽ ảnh hưởng điểm số đấy.
 
-tạo này không thể chỉ giới hạn ở đây.
+Với cha mẹ, việc tăng tiềm năng và năng lực học tập của con cái sẽ giúp nhìn thấy kết quả thực tế, đó chính là giảm đáng kể chi phí giáo dục. Không chỉ **tốn ít tiền hơn**, mà còn **bớt lo lắng hơn**. Quan trọng hơn, cha mẹ nào hoàn tất bài tập này đều chắc chắn sẽ nhận được sự **tôn trọng** của con — còn có gì quý giá và thiết thực hơn thế với cha mẹ?
 
-Đối với trẻ em, đây là cơ hội thực sự để **học cách học**. Sự tiến bộ liên tục của công nghệ dẫn đến việc sinh tồn của con người ngày càng dễ dàng, sự cần thiết của việc học thực sự ngày càng ít. Tuy nhiên, nếu ngoài sống ra, còn muốn sống tốt hơn, tốt hơn một chút, thì chỉ có thể thông qua **học tập** để **đạt được** - tất nhiên, chúng tôi sẽ chứng minh rằng, thực tế chỉ có thể thông qua **tự học**. Rõ ràng, não bộ mạnh mẽ hơn tự nhiên sẽ đảm bảo cuộc sống tốt hơn.
+Sự tôn trọng dù xuất phát từ đâu cũng đều ảnh hưởng thầm lặng lên diện mạo con người. Tôn trọng là thành quả của thành tích, là thái độ người ta có được, là nền tảng của sự tự tin. Tôn trọng thực sự làm đẹp người. Người ta từng nói bạn phải chịu trách nhiệm về dung mạo sau tuổi 40, xét góc độ này thì rất hợp lý. Đôi mắt tập trung, phong thái điềm tĩnh, dáng vẻ bình hòa... đều bắt nguồn từ cấu trúc não đã khác hẳn. Từ góc độ này, bài luyện tập chính là “**thay đổi diện mạo tận gốc**” theo nghĩa đen.
 
-Không có cha mẹ nào không quan tâm đến **điểm thi ở trường** của con cái. Thực ra, đối với não bộ, học bất cứ điều gì cuối cùng đều là **môn thể dục** - dù sao cũng là tăng cường trí não, dù sao cũng là kết nối mới giữa các tế bào thần kinh. Đồng thời, nhìn một cách cơ bản, tất cả các khóa học trong trường đều là **môn ngữ văn**. Khoa học mặc dù sử dụng **ngôn ngữ nhân tạo** nhiều hơn, nhưng ngôn ngữ nhân tạo chỉ là một phần của ngôn ngữ tự nhiên. Vì vậy, việc nâng cao khả năng sử dụng ngôn ngữ tự nhiên chắc chắn sẽ cải thiện điểm thi của bất kỳ môn học nào. Đừng nghi ngờ điều này, nếu không sẽ lãng phí điểm số.
+Ý nghĩa lớn hơn với cha mẹ là, bất kỳ người bình thường nào trải qua bài tập một cách trọn vẹn đều sẽ có một cái nhìn **hoàn toàn khác** về **hệ thống giáo dục hiện tại** — nói rõ là giáo dục trên bình diện **toàn cầu** — từ đó có những **đánh giá** khác biệt… và đưa ra nhiều **quyết định** thay đổi, ảnh hưởng không chỉ đến **hướng đi** của mình hoặc con mà còn có thể tác động sâu rộng đến **vận mệnh cả gia tộc**.
 
-Đối với cha mẹ, sự gia tăng tiềm năng và khả năng học tập của con cái, kết quả thực tế và trực tiếp nhất, tất nhiên là giảm đáng kể chi phí giáo dục. Không chỉ **tiết kiệm tiền**, mà còn **giảm bớt lo lắng**. Quan trọng hơn, là cha mẹ, hoàn thành cuộc đào tạo này, chắc chắn sẽ nhận được **sự tôn trọng** của con cái - đối với cha mẹ, điều gì quan trọng hơn và thực tế hơn điều này?
+Đặc biệt cần nhấn mạnh, bài luyện trí não này cũng là bài luyện **sự chú ý** và **khả năng phán đoán**.
 
-Bất kể sự tôn trọng đến từ đâu, nó sẽ ảnh hưởng ngầm đến diện mạo của một người. Sự tôn trọng chỉ có thể là kết quả của thành tích, là thái độ thắng lợi, là nền tảng của sự tự tin. Sự tôn trọng thực sự làm đẹp. Có người từng nói, người ta phải chịu trách nhiệm cho diện mạo của mình sau 40 tuổi, từ góc độ này rất có lý. Ánh mắt tập trung, hành động thảnh thơi, tư thế bình thản... tất cả đều xuất phát từ cấu trúc não bộ hoàn toàn khác biệt. Theo nghĩa này, cuộc đào tạo này hoàn toàn là "thay đổi diện mạo" theo nghĩa đen.
+**Sự chú ý** là nguồn gốc và bảo đảm cho mọi **năng suất lao động**. Cuối cùng, năng lực của một người hoàn toàn phụ thuộc vào **khả năng kiểm soát sự chú ý của chính mình**. Sự khác biệt giữa người với người chỉ có vậy: xem họ tập trung được bao lâu và có biết phải tập trung vào đâu không... Phần lớn các khác biệt còn lại đều là hệ quả của năng lực này.
 
-Cuộc đào tạo này đối với cha mẹ, ý nghĩa lớn hơn là, bất kỳ người bình thường nào trải qua đầy đủ, sẽ có **quan điểm** hoàn toàn khác về **hệ thống giáo dục hiện tại** - tôi nói là **hệ thống giáo dục toàn cầu** - tự nhiên sẽ có **phán đoán** khác nhau... dẫn đến nhiều **quyết định** khác nhau, cuối cùng ảnh hưởng không chỉ đến **hướng đi** của mình hoặc con cái, thậm chí có thể là **số phận cả gia đình**.
+Muốn biết phải tập trung vào đâu, cần có **khả năng phán đoán**. Khả năng phán đoán không bẩm sinh, điều bẩm sinh chỉ là bản năng sinh tồn. Phán đoán là học được, luyện được. Ban đầu phán đoán chủ yếu dựa vào trực giác nên chưa đủ, cần cha mẹ giúp đỡ, rèn luyện, định hình… nhưng cuối cùng phải tự thân phát triển. Học càng nhiều phán đoán càng tốt; phán đoán càng tốt học càng nhanh và nhiều. Mọi người không tự nhiên trưởng thành ở một độ tuổi cố định. Có nhiều người luôn là “trẻ con to xác” với đặc điểm chung là cực kỳ thiếu phán đoán.
 
-Cuối cùng, cần phải đề cập rằng, cuộc đào tạo tăng cường trí não này đồng thời là đào tạo **chú ý** và đào tạo **phán đoán**.
+**Khả năng phán đoán là cốt lõi và thành quả của mọi trí tuệ**. Muốn trí tuệ càng ngày càng lớn hay ngu ngốc mãi tăng; phán đoán càng ngày càng mạnh hay ngày càng yếu — sự chênh lệch ở đây lớn như trời với đất. Nếu dùng chỉ số **Gini** để mô tả, sự phân bố phán đoán giữa con người gần như là 1, rất bất bình đẳng.
 
-**Chú ý** là nguồn gốc và đảm bảo của mọi **năng suất**. Cuối cùng, khả năng của một người hoàn toàn phụ thuộc vào khả năng **kiểm soát chú ý của mình**. Sự khác biệt cốt lõi giữa người với người chỉ là điều này, xem anh ta có thể tập trung chú ý của mình bao lâu, xem anh ta có biết nên tập trung chú ý vào đâu... Hầu hết các sự khác biệt khác cuối cùng là kết quả của sự khác biệt về khả năng này.
+Khoảng năm 2021, sự bùng nổ của **trí tuệ nhân tạo** kéo ta từ thời đại **thông tin** sang thời đại **thông minh**. Vào thời đại này, năng lực cạnh tranh lớn nhất của cá nhân là gì? Chỉ có thể là **phán đoán**. Người có phán đoán biết cách dùng AI làm công cụ để phát triển nhanh hơn; không có phán đoán thì coi AI là cách lười biếng để đánh lừa người khác. AI vừa là lý do để người ta tiến bộ không ngừng, vừa là cớ để phần lớn người ta thỏa hiệp sống qua ngày.
 
-Biết nên tập trung chú ý vào đâu cần **phán đoán**. Phán đoán không phải là bẩm sinh, cái bẩm sinh chỉ là khao khát sống sót. Phán đoán chỉ có thể học và luyện tập. Phán đoán ban đầu chỉ dựa vào trực giác, không đủ, vì vậy cần sự trợ giúp, nuôi dưỡng, hình thành từ cha mẹ... Nhưng cuối cùng phải dựa vào bản thân để phát triển. Học càng nhiều, phán đoán càng mạnh; phán đoán càng mạnh, học càng nhiều càng nhanh và tốt hơn. Người ta không tự động trưởng thành khi đến độ tuổi nhất định. Có những người lớn chưa trưởng thành khắp nơi, họ phổ biến và có đặc điểm chung là thiếu phán đoán nghiêm trọng.
+Theo tôi, đây không chỉ là một cuộc tự rèn luyện cá nhân.
 
-**Phán đoán là nền tảng và kết quả của mọi trí tuệ**. Nếu không thì sự ngu ngốc sẽ ngày càng nhiều hơn; phán đoán hoặc ngày càng mạnh mẽ hơn, hoặc ngày càng yếu đi - sự "chênh lệch giàu nghèo" trong việc này luôn là khác biệt rất lớn. Nếu sử dụng **chỉ số Gini**[^*] để mô tả, chỉ số Gini về phán đoán trong dân số cao hơn nhiều so với 0, gần bằng 1, trong việc này, không có sự phân bổ công bằng.
+AI phát triển dữ dội, tương lai sắp đến. Về mối đe dọa của AI đối với loài người, tác động của nó trên các ngành nghề, nỗi lo thất nghiệp… người ta bàn nhiều. Nhưng tôi thấy nhiều hơn là hy vọng mà ta có thể hướng tới. AI có thể giúp ta thoát khỏi tình trạng “ao làng” lâu nay, giúp ta mạnh hơn. Tuy nhiên, bên cạnh đó là **khủng hoảng** và **cạm bẫy**, ta cũng cần chạy trốn mà cố gắng. Một sơ suất có thể khiến ta bị AI hạ thấp trí tuệ, một sơ suất có thể khiến ta bị thời đại bỏ rơi.
 
-Khoảng năm 2021, sự bùng nổ của **trí tuệ nhân tạo**, đã kéo chúng ta từ **thời đại thông tin** vào **thời đại trí tuệ** ngay lập tức. Trong thời đại trí tuệ, khả năng cạnh tranh lớn nhất của cá nhân là gì? Chỉ có thể là **phán đoán**. Những người có phán đoán có cơ hội sử dụng trí tuệ nhân tạo như một công cụ để phát triển nhanh hơn, trong khi những người không có phán đoán sẽ sử dụng trí tuệ nhân tạo như một công cụ để lười biếng và lừa dối người khác. Trí tuệ nhân tạo đã trở thành lý do cho sự tiến bộ không ngừng của một số ít người, và sự sa ngã hạnh phúc của phần lớn người khác.
+— Tôi sẽ lên đường.
 
-Theo tôi, đây không chỉ là một cuộc tự đào tạo.
+<span style="text-align: right;">**Lý Tiếu Lai** _Mùa xuân 2024, Bắc Kinh_</span>
 
-AI hung dữ. Tương lai đang gầm rú tới. Có quá nhiều cuộc thảo luận về mối đe dọa của trí tuệ nhân tạo đối với loài người, và tác động của nó đến các ngành nghề, đặc biệt là nỗi sợ mất việc làm. Nhưng tôi thấy nhiều hơn là **hy vọng** mà chúng ta có thể tiến tới. Bất ngờ, trí tuệ nhân tạo có thể giúp chúng ta thoát khỏi sự lúng túng "cao mắt, thấp tay" lâu dài, có thể trở nên mạnh mẽ hơn nhờ trí tuệ nhân tạo. Tuy nhiên, đằng sau hy vọng lớn lao cũng theo sau là **khủng hoảng** và **bẫy**, chúng ta cũng cần chạy trốn như điên. Một chút bất cẩn có thể khiến trí tuệ nhân tạo làm giảm trí thông minh của chúng ta, một chút bất cẩn có thể khiến chúng ta bị bỏ lại bởi thời đại vì lười biếng.
-
-—— Tôi đi đây.
-
-<span style="text-align: right;">**李笑来** *2024* 春节 于 北京</span>
-
-
-
-
-
-[^*]: 基尼系数（Gini coefficient），是 20 世纪初意大利学者科拉多·基尼根据洛伦兹曲线所定义的判断年收入分配公平程度的指标，是比例数值，在 0 和 1 之间。基尼系数越小，年收入分配越平均；基尼系数越大，年收入分配越不平均。
+[^*]: Chỉ số Gini do học giả Ý Corrado Gini sáng tạo đầu thế kỷ 20 dựa trên đường Lorenz, thể hiện mức độ công bằng trong phân phối thu nhập hàng năm từ 0 đến 1. Chỉ số càng thấp thì thu nhập càng phân phối đồng đều; càng cao thì càng bất bình đẳng.

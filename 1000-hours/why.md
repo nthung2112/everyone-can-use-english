@@ -1,55 +1,55 @@
-# 要不要健脑？
+# Có nên rèn luyện trí não không?
 
-两百多年前，人类经历了一场**工业革命**。在接下来的时间里直至今天，这场革命对人类的**体力**到底造成了什么样的影响呢？
+Hơn hai trăm năm trước, loài người trải qua một cuộc **cách mạng công nghiệp**. Vậy trong suốt quãng thời gian sau đó cho đến nay, cuộc cách mạng này đã ảnh hưởng như thế nào đến **thể lực** của con người?
 
-突然之间，很多人不需要再像以前那样每天做在今天看起来绝对是超量的体力劳动了…… 结果呢？结果异常明显且又不可否认：绝大多数人的体力都变差了。几代人之后，绝大多数人若是有机会坐时光机穿梭回两百年前，干脆就是**非弱即残**，一定是那个时代里最令人看不起的所谓**手无缚鸡之力之辈**。
+Đột nhiên, nhiều người không còn phải làm những công việc thể lực khắc nghiệt như trước đây nữa… Kết quả thì sao? Rất rõ ràng và không thể phủ nhận: phần lớn thể lực của con người ngày càng suy yếu. Sau vài thế hệ, nếu có cơ hội được ngược thời gian trở về 200 năm trước, hầu hết chúng ta sẽ được coi như những người “yếu đuối tột cùng”, thậm chí là “bất lực đến mức không thể làm gì” trong mắt người thời đó.
 
-当然，这个事实一直很隐蔽，因为科技的发展，物资的丰富，医疗技术的进步，营养供给的充足，这一切都造就了另外一个结果，人们的平均寿命增加了，从十九世纪末差不多 30 岁不到，到了二十一世纪初接近 80 岁…… 谁会觉得现代人的体力比古代人差很多又有什么了不起的呢？
+Tất nhiên, thực tế này không rõ ràng bởi sự phát triển công nghệ, vật chất dồi dào, tiến bộ y tế và dinh dưỡng đầy đủ đã tạo nên một kết quả khác: tuổi thọ bình quân của con người tăng lên, từ chưa đầy 30 tuổi cuối thế kỷ 19 lên gần 80 tuổi đầu thế kỷ 21... Ai mà nghĩ rằng thể lực người hiện đại kém xa người xưa thì có gì to tát chứ?
 
-让我们看看光谱的两端，一方面是绝大多数人的**体力沉沦**…… 另外一方面呢？有另外一群人却与此同时通过**主动锻炼**获得了古代人绝对不可能拥有的体力。
+Hãy nhìn hai thái cực: một bên là phần đông người bị suy giảm **thể lực**… bên kia là nhóm người khác lại luyện tập **chủ động** và đạt được thành tích mà xưa kia con người không thể có.
 
-作为现代人，我们中的绝大多数，能一口气做 20 个俯卧撑的，可能就属于至少前 20% 的人群了；古代人也许体力整体上比我们好，但，估计他们当中能一口气做 100 个俯卧撑的也并不是特别多…… 你能猜到现在世界纪录保持者能连续做多少个俯卧撑吗？1980 年，日本的吉田实（*Minoru Yoshida*）不停地做了 10,507 个俯卧撑。1993 年，美国的查尔斯·塞尔维齐奥（*Charles Servizio*）在 21 小时 21 分钟内做了 46,001 个俯卧撑……
+Trong số chúng ta, nếu ai có thể chống đẩy liên tục 20 lần thì có thể thuộc nhóm 20% khỏe nhất; người xưa thể lực tổng thể có thể tốt hơn, nhưng chắc cũng hiếm người làm nổi 100 lần chống đẩy trong một lần… Còn bạn có đoán nổi kỷ lục gia thế giới hiện nay có thể làm bao nhiêu lần chống đẩy liên tiếp không? Năm 1980, Minoru Yoshida (Nhật Bản) hoàn thành 10.507 lần chống đẩy; năm 1993, Charles Servizio (Mỹ) làm 46.001 lần chống đẩy trong 21 giờ 21 phút…
 
-不仅是**体力**的所谓**极限**在不停地被突破，更重要的是，虽然依然占总人口的比例极低，但，从绝对数量上来看，其实是越来越多的人练出了越来越强的体力。
+Không chỉ các giới hạn **về thể lực** liên tục bị phá vỡ, điều quan trọng hơn là mặc dù tỉ lệ người luyện tập chủ động còn rất thấp, số lượng tuyệt đối người có thành tích vượt xa trước đây lại ngày càng tăng.
 
-1908 年的奥运会马拉松纪录是 2 小时 55 分 18 秒。100 多年后的今天，新的纪录大约是 2 小时 2 分 57 秒，同样的距离少用了 50 多分钟，也就是说，时间缩短了 30%。100 年前，全球只有一个人能跑 2 小时 55 分 18 秒；哪怕是 3 小时 5 分钟，实际上也没几个…… 可现在呢？每年参加波士顿马拉松赛的选手大约有 3 万名，都是因为能超过最低成绩，3 小时 5 分钟，才得以参赛。
+Lấy ví dụ khác, kỷ lục marathon Olympic năm 1908 là 2 giờ 55 phút 18 giây. Hơn 100 năm sau, kỷ lục mới vào khoảng 2 giờ 2 phút 57 giây, bớt hơn 50 phút, tương đương giảm 30% thời gian. Cách đây 100 năm, trên toàn thế giới chỉ có một người chạy được dưới 2 giờ 55 phút 18 giây; dưới 3 giờ 5 phút cũng cực hiếm… Hiện nay, mỗi năm có hơn 30.000 vận động viên đủ điều kiện tham gia giải Boston Marathon vì đạt thành tích dưới 3 giờ 5 phút — điều không tưởng cách đây hơn một thế kỷ.
 
-这就是那次惊天动地的**工业革命**在随后的时间里给人类**体力**带来的影响：
+Đó là tác động sâu sắc về **thể lực** mà cuộc **cách mạng công nghiệp** đã mang lại cho con người:
 
-> * 更大比例的人的体力变得越来越差（比如从 20% 增加到了 90%）
-> * 自主锻炼的人群比例越来越低（比如，从 20% 降到了 10%）
-> * 但，自主锻炼的群体中，更大比例的人获得了比过往更好的成绩（比如，从 20% 中的 20% 提高到了 10% 中的 80%）
-> * 自主锻炼的群体中，最佳成绩在过去万万不能不可想象（比如，4.6 万个俯卧撑）
-> * 第一和第二的距离在持续拉长，且足够令人震惊（比如，第二可能只能做到 2 万个俯卧撑）
+> - Tỉ lệ lớn người có thể lực ngày càng giảm (tăng từ 20% lên đến 90%)
+> - Tỉ lệ người tự chủ luyện tập giảm thấp (từ 20% xuống còn 10%)
+> - Nhưng trong nhóm người luyện tập, tỉ lệ người đạt thành tích cao hơn ngày càng tăng (từ 20% trong 20% lên 80% trong 10%)
+> - Thành tích tối ưu không thể tưởng tượng trước đây nay đã đạt được (ví dụ: 46.000 lần chống đẩy)
+> - Khoảng cách giữa người số 1 và người số 2 ngày càng nới rộng, rất kinh ngạc (người số 2 có thể chỉ làm được 20.000 lần chống đẩy)
 
-以此为参照，再让我们想象一下人工智能的突然出现和迅猛发展会对人类的**脑力**产生什么样的影响呢？
+Lấy đó làm chuẩn, hãy tưởng tượng sự bùng nổ và phát triển nhanh chóng của trí tuệ nhân tạo sẽ tác động thế nào lên **trí lực** của con người?
 
-正如工业革命之后生存必需对人类**体力**的要求越来越低一样，生存必需对人类**脑力**的要求其实也在持续降低。生物界统一的基本原则随时会在任何地方发挥作用：**用进废退** —— 显然，这个原则每时每刻都在改变人类的大脑。
+Giống như sau cách mạng công nghiệp, yêu cầu tối thiểu về **thể lực** để tồn tại ngày càng giảm, thì yêu cầu về **trí lực** cũng đang giảm dần. Nguyên tắc phổ quát của sinh vật học luôn đúng mọi lúc mọi nơi: **"Dùng gì thì phát triển, không dùng thì teo lại"** — rõ ràng nguyên tắc này đang từng phút từng giây thay đổi não bộ con người.
 
-这不是人工智能时代的特殊现象，这是已经持续了很多年的趋势。过去的三五十年里，商品社会高度发展的原因之一，就是被普遍应用的**傻瓜化设计原则** —— 采用这个原则设计商品或者服务，不需要消费者学习，不需要消费者思考，它们都是拿来就可以直接用的东西，所以才是真正有潜力大卖的商品或服务。
+Đây không phải hiện tượng riêng của thời đại AI mà là xu hướng đã tồn tại nhiều năm. Trong 30-50 năm qua, xã hội hàng hóa phát triển cao đã phổ biến nguyên tắc thiết kế “đơn giản hóa cho kẻ ngốc” — thiết kế sản phẩm, dịch vụ sao cho người dùng không cần học hay suy nghĩ mà có thể dùng ngay. Đó là công thức để sản phẩm dễ bán và phổ biến.
 
-现在，这个早已出现并发挥作用的趋势正在被人工智能无限放大 —— 因为人工智能降低了**所有学习的难度**…… 也就是说，哪怕迫不得已需要学习，哪怕迫不得已需要思考，也因为人工智能的加持而变得容易，换言之，学习成本和思考成本因此极大降低。用进废退，必须用只能进，无需用则自然废。
+Giờ đây, AI càng làm cho xu hướng này gia tăng vô tận — vì trí tuệ nhân tạo giúp giảm đáng kể **độ khó của việc học**... Có nghĩa là dù bạn buộc phải học và suy nghĩ, nhờ AI mà việc đó dễ dàng hơn nhiều, chi phí học và suy nghĩ giảm mạnh. Dùng gì phát triển đó, không dùng thì tự nhiên suy giảm.
 
-于是，**人工智能出现与发展对人类脑力的普遍影响**，其实是与**工业革命对人类体力的普遍影响**要么平行要么一致：
+Vậy nên, tác động chung của sự xuất hiện và phát triển AI với **trí lực con người** hoàn toàn song song hoặc phù hợp với tác động của cách mạng công nghiệp lên **thể lực**:
 
-> * 更大比例的人的脑力会变得越来越差
-> * 自主锻炼的人群比例越来越低
-> * 但，自主锻炼的群体中，会有更大比例的人能够获得了比过往更好的成绩
-> * 自主锻炼的群体中，最佳成绩在过去万万不能不可想象
-> * 第一和第二的距离在持续拉长，且足够令人震惊
+> - Phần lớn người có trí lực ngày càng giảm
+> - Tỉ lệ người chủ động luyện trí lực giảm
+> - Nhưng trong nhóm luyện tập, tỉ lệ người có thành tích vượt trội ngày càng tăng
+> - Thành tích tối ưu trong nhóm luyện tập nay vượt xa điều không tưởng trước đây
+> - Khoảng cách giữa người số 1 và số 2 ngày càng mở rộng, cực kỳ ấn tượng
 
-其实，这样的趋势，在人工智能**突然出现**之前早就已经如此了。
+Trên thực tế, xu hướng này đã tồn tại từ trước khi AI bùng nổ.
 
-2015 年，印度的拉吉维尔·米纳（*Rajveer Meena*）成为公认的纪录保持者，他背诵了 π 的前 7 万位数字，累计背诵时间长达 9 小时 7 分钟；而日本的原口彰（*Akira Haraguchi*）声称自己背诵了更令人难以置信的 10 万位数字，是 42 年前所有人背诵数字的近 200 倍。再比如，印度的维卡斯·夏尔马（*Vikas Sharma*）能在一分钟内计算出 12 个大数的根，每个数都有 20 到 51 个数字，根的范围从第 17 根到第 50 根不等，他的速度比许多人把数字输入计算器之后读出答案还要快。
+Năm 2015, Rajveer Meena (Ấn Độ) ghi danh kỷ lục thế giới khi nhớ được 70.000 chữ số đầu tiên của số π trong 9 giờ 7 phút; Akira Haraguchi (Nhật) tự nhận đã nhớ tới 100.000 chữ số π, gấp gần 200 lần những gì người khác từng làm 42 năm trước. Vikas Sharma (Ấn Độ) có thể nhanh chóng tính căn bậc 17 đến 50 của 12 số lớn mỗi số có 20-51 chữ số trong một phút, nhanh hơn nhiều người dùng máy tính rồi đọc kết quả.
 
-**记得住 π 的前 7 万位数字**或者**快速心算某个 51 位大数的第 50 根**是**超级脑力**的惊人例子，就好像**4.6 万个俯卧撑**一样，能够让我们看到**极限**不断被突破的实例。但，这样的例子或多或少会让绝大多数**坚定地自认为是普通人**的读者或者听众感到淡漠，误以为跟自己毫无关系。
+**Nhớ 70.000 số π hay nhanh tính căn bậc 50 của số 51 chữ số** là ví dụ ấn tượng về **siêu trí tuệ**, giống như đạt 46.000 lần chống đẩy là ví dụ về siêu thể lực — minh chứng cho giới hạn liên tục bị phá vỡ. Tuy nhiên chẳng mấy ai trong số đọc giả hay người nghe cảm thấy những thành tích đó liên quan đến mình, vì đa phần tự cho mình là người bình thường.
 
-一旦养成习惯，**健身**只不过是生活里的一个必要组成部分。即便是那些并没有**健身习惯**的人也知道自己未能养成的这个习惯事实上非常重要，没有人会执拗地认为健身有害从而反对健身。同样的道理，一旦养成习惯，**健脑**也只不过是生活里的一个必要组成部分，并且相对于健身显然更为重要，无论有没有**健脑习惯**都不可能有人认为健脑有害因此需要坚决反对健脑。
+Một khi luyện tập định hình thói quen, **tập thể dục** chỉ là một phần thiết yếu của cuộc sống. Ngay cả người không có thói quen rèn thể lực cũng biết thói quen đó quan trọng chứ không ai phản đối điều đó. Tương tự, một khi thành thói quen, **rèn trí não** cũng chỉ là phần thiết yếu cuộc sống, thậm chí quan trọng hơn tập thể dục nhiều; dù có hay không thói quen rèn trí não, chẳng ai nghĩ nó có hại mà phản đối.
 
-**要不要健脑**和**要不要健身**一样，只能是个体的**主动选择**。号召大家健身的作用聊胜于无。只要到健身房里看看就知道了…… 早早养成健身习惯的人，哪怕没有健身房，哪怕不用交钱请教练，也一直在练，不练不行，谁都拦不住。而那些要在健身房里花钱请教练却又坚持不了多久的人，绝大多数都是那些发现自己的身体竟然已经坏掉了才不得不去健身的人。
+**Có nên rèn luyện trí não hay không**, giống như câu hỏi với thể dục, cuối cùng là sự **lựa chọn chủ động của cá nhân**. Việc kêu gọi ai cũng tập thể dục chỉ có ý nghĩa nhỏ. Hãy đến phòng gym và quan sát… những người sớm hình thành thói quen luôn tập đều, dù không phải trả tiền, không cần huấn luyện viên, không phòng tập riêng, họ không tập là không được, ai cũng không cản họ nổi. Ngược lại, nhiều người trả tiền thuê huấn luyện viên cũng tập không lâu vì chỉ khi phát hiện mình đã bị tổn thương sức khỏe mới bắt đầu tập.
 
-区别在于，身体变差了或者坏掉了很容易发现，可脑子变差了甚至坏掉了呢？对此人们往往无法自知 —— 当然，现在也没有足够的医疗技术与设备可以用来随时提醒。于是，健脑的人早早就开始健脑，一直健脑，拦都拦不住，而不健脑的人弄不好到死都不会想到过自己竟然有健脑的必要。
+Điểm khác biệt là, cơ thể suy giảm hay tổn thương thì dễ nhận biết; còn não suy giảm hoặc tổn thương thì đa phần không ai tự biết — hơn nữa hiện chưa có đủ thiết bị y tế để cảnh báo kịp lúc. Do đó, người luyện trí não sớm thì luôn duy trì, người không luyện thì có thể cả đời cũng không nghĩ mình cần rèn trí não.
 
-显然，我们有必要天天**健脑**，正如我们实际上有必要天天**健身**一样 —— 只不过人群中主动健身的占比非常低，且事实上越来越低。更为显然却竟然更多被忽视的是，**健脑**比**健身**更重要，哪怕不健身也要健脑，不是吗？当然，归根结底，这是你自己的选择，人生的一切，终归都是自己选的。
+Rõ ràng, chúng ta cần luyện **trí não hằng ngày** y như luyện **thể lực hằng ngày** — chỉ có điều tỉ lệ người rèn thể lực rất thấp và còn giảm; điều còn bị bỏ qua nhiều hơn là rèn trí não quan trọng hơn thể lực, thậm chí không tập thể dục cũng nên rèn trí não, đúng không? Tất nhiên, đó cuối cùng vẫn là lựa chọn của bạn, mọi việc trong đời đều là do bạn quyết định.
 
-值得注意的是，早期建立的健身习惯，往往并不是孩子自身的选择，而是父母的主动选择，因为那时他们尚不具备完善的**主动选择能力**。**健身习惯越早建立越好**。越是早期，习惯养成越是容易，与此同时，越是早期养成的习惯越是难以撼动。同样的道理，**健脑习惯也是越早建立越好**，可它和健身习惯一样，不大可能是孩子自身的主动选择，只能靠父母的主动。在这一点上，很显然，为人父母，越早觉醒越好。
+Đáng lưu ý, thói quen tập thể dục hình thành sớm thường không phải do chính trẻ chọn mà do cha mẹ quyết định vì lúc đó trẻ chưa phát triển đủ khả năng **lựa chọn chủ động**. **Tập thể dục càng sớm càng tốt**. Càng sớm thì thói quen càng dễ hình thành và càng khó bị lung lay. Tương tự, **thói quen rèn trí não cũng cần được xây dựng càng sớm càng tốt**, cũng không thể do trẻ tự chọn mà phải từ cha mẹ chủ động. Rõ ràng, làm cha mẹ, càng sớm thức tỉnh càng tốt.
