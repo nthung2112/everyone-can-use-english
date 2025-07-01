@@ -1014,5 +1014,7 @@ export default withMermaid(
           "Với 1000 giờ tập trung, bạn có thể thành thạo bất kỳ kỹ năng nào mình mong muốn...",
       },
     },
+
+    ignoreDeadLinks: true,
   })
 );
