@@ -7,10 +7,8 @@ import {
 import { toast } from "@renderer/components/ui";
 import { chatMessagesReducer } from "@renderer/reducers";
 import { ChatOpenAI } from "@langchain/openai";
-import {
-  ChatPromptTemplate,
-  MessagesPlaceholder,
-} from "@langchain/core/prompts";
+import { ChatOllama } from "@langchain/ollama";
+import { ChatPromptTemplate, MessagesPlaceholder } from "@langchain/core/prompts";
 import { BufferMemory, ChatMessageHistory } from "langchain/memory";
 import { ConversationChain } from "langchain/chains";
 import { LLMResult } from "@langchain/core/outputs";
@@ -26,16 +24,11 @@ import {
 } from "@/types/enums";
 
 export const useChatSession = (chatId: string) => {
-  const { EnjoyApp, user, apiUrl, learningLanguage } = useContext(
-    AppSettingsProviderContext
-  );
+  const { EnjoyApp, user, apiUrl, learningLanguage } = useContext(AppSettingsProviderContext);
   const { currentGptEngine, ttsConfig } = useContext(AISettingsProviderContext);
   const { openai } = useContext(AISettingsProviderContext);
   const { addDblistener, removeDbListener } = useContext(DbProviderContext);
-  const [chatMessages, dispatchChatMessages] = useReducer(
-    chatMessagesReducer,
-    []
-  );
+  const [chatMessages, dispatchChatMessages] = useReducer(chatMessagesReducer, []);
   const [chat, setChat] = useState<ChatType>(null);
 
   const fetchChat = async () => {
@@ -97,8 +90,7 @@ export const useChatSession = (chatId: string) => {
 
       fetchChat();
     } else if (model === "ChatAgent") {
-      if ((chat?.members || []).findIndex((m) => m.userId === record.id) === -1)
-        return;
+      if ((chat?.members || []).findIndex((m) => m.userId === record.id) === -1) return;
 
       fetchChat();
     } else if (model === "ChatMessage") {
@@ -164,9 +156,7 @@ export const useChatSession = (chatId: string) => {
 
   const askAgentInConversation = async (member: ChatMemberType) => {
     const pendingMessage = chatMessages.find(
-      (m) =>
-        m.role === ChatMessageRoleEnum.USER &&
-        m.state === ChatMessageStateEnum.PENDING
+      (m) => m.role === ChatMessageRoleEnum.USER && m.state === ChatMessageStateEnum.PENDING
     );
     if (!pendingMessage) return;
 
@@ -223,18 +213,12 @@ export const useChatSession = (chatId: string) => {
 
   const askAgentInGroup = async (member: ChatMemberType) => {
     const pendingMessage = chatMessages.find(
-      (m) =>
-        m.role === ChatMessageRoleEnum.USER &&
-        m.state === ChatMessageStateEnum.PENDING
+      (m) => m.role === ChatMessageRoleEnum.USER && m.state === ChatMessageStateEnum.PENDING
     );
 
     const historyBufferSize = member.config.gpt.historyBufferSize || 10;
     const history = chatMessages
-      .filter(
-        (m) =>
-          m.role === ChatMessageRoleEnum.AGENT ||
-          m.role === ChatMessageRoleEnum.USER
-      )
+      .filter((m) => m.role === ChatMessageRoleEnum.AGENT || m.role === ChatMessageRoleEnum.USER)
       .slice(-historyBufferSize)
       .map((message) => {
         const timestamp = dayjs(message.createdAt).fromNow();
@@ -288,9 +272,7 @@ export const useChatSession = (chatId: string) => {
 
   const askAgentInTts = async (member: ChatMemberType) => {
     const pendingMessage = chatMessages.find(
-      (m) =>
-        m.role === ChatMessageRoleEnum.USER &&
-        m.state === ChatMessageStateEnum.PENDING
+      (m) => m.role === ChatMessageRoleEnum.USER && m.state === ChatMessageStateEnum.PENDING
     );
     if (!pendingMessage) return;
 
@@ -354,6 +336,14 @@ export const useChatSession = (chatId: string) => {
         presencePenalty,
         n: numberOfChoices,
       });
+    } else if (engine === "ollama") {
+      return new ChatOllama({
+        maxRetries: 0,
+        model: model,
+        temperature,
+        frequencyPenalty,
+        presencePenalty,
+      });
     } else {
       throw new Error(t("aiEngineNotSupported"));
     }
@@ -372,9 +362,7 @@ export const useChatSession = (chatId: string) => {
     );
   };
 
-  const buildAgentMember = async (
-    agentId: string
-  ): Promise<ChatMemberDtoType> => {
+  const buildAgentMember = async (agentId: string): Promise<ChatMemberDtoType> => {
     const agent = await EnjoyApp.chatAgents.findOne({ where: { id: agentId } });
     if (!agent) {
       throw new Error(t("models.chatAgent.notFound"));
