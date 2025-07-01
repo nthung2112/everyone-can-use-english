@@ -1016,5 +1016,6 @@ export default withMermaid(
     },
 
     ignoreDeadLinks: true,
+    base: "/everyone-can-use-english/",
   })
 );
