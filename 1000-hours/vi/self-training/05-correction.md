@@ -1,54 +1,54 @@
-# 5. 自我纠正
+# 5. Tự chỉnh sửa bản thân
 
-**自学**的核心之一是**自我纠正能力**。
+Một trong những yếu tố cốt lõi của **tự học** chính là **khả năng tự sửa lỗi**.
 
-做得好的人都一模一样，做得差的人千奇百怪 —— 因为每个人的错误都非常个性化。自我纠错难就难在这里，个性化错误的主要特征就是细小且又繁杂，并且常常连自己都觉得出其不意乘其不备。
+Những người làm tốt đều giống nhau, còn những người làm kém thì mỗi người một kiểu — bởi vì lỗi lầm của mỗi người mang tính cá nhân rất cao. Thách thức của việc tự sửa lỗi nằm ở đây, những lỗi cá nhân thường rất nhỏ nhặt, phức tạp và thường đến một cách bất ngờ khiến chính bản thân cũng không ngờ đến.
 
-自我纠错就好像给自己剃光头一样，看起来不是什么难事，结果总是莫名其妙地残留着几根要过段时间才能被发现…… 不要误以为别人帮你剃光头就完美了，没用的，你自己去过几次理发店就知道了，到最后总是可能会有幸存的那么几根。
+Tự sửa lỗi giống như tự cạo trọc đầu mình vậy, nghe thì không khó, nhưng cuối cùng vẫn luôn có vài sợi tóc sót lại mà phải sau một thời gian dài mới nhận ra... Đừng tưởng khi người khác cạo trọc đầu cho bạn là hoàn hảo, không có đâu, bạn chỉ cần đến vài lần tiệm cắt tóc là biết, cuối cùng lúc nào cũng có vài sợi sót lại.
 
-全面纠错只能靠自己，别无他选。反过来也一样。但凡一个人拥有足够强的**自我纠正能力**，那么他就是自己最好的老师、教练、同学、朋友。可问题在于，**自我纠正能力**如何培养，它又从何而来呢？
+Việc sửa lỗi toàn diện chỉ có thể dựa vào chính mình, không có lựa chọn nào khác. Ngược lại cũng vậy. Khi một người sở hữu khả năng **tự sửa lỗi** đủ mạnh, họ chính là thầy giáo, huấn luyện viên, bạn học và bạn bè tốt nhất của bản thân. Vấn đề là, làm sao phát triển được **khả năng tự sửa lỗi**? Nó bắt nguồn từ đâu?
 
-先说一个与我们自身大脑有关的现象：
+Trước hết hãy nói về một hiện tượng liên quan tới bộ não của chúng ta:
 
-> * 你注意不到的事情，对你来说就不存在；
-> * 你并不知道的事情，你就无法注意得到……
+> - Những thứ bạn không chú ý đến thì với bạn như không tồn tại;
+> - Những thứ bạn không biết thì không thể nhận ra được...
 
-很多人不是不花时间，也不是不努力，但，最终沦为无用功，问题出在哪里？
+Rất nhiều người không phải là không dành thời gian hay không cố gắng, nhưng cuối cùng lại rơi vào tình trạng làm việc vô ích, lý do nằm ở đâu?
 
-关键在于后一点。很多人的所谓练习之所以最终无效无用，是因为练习的过程中没有把注意力集中在要点上。在整个练习的过程中，因为不知道自己需要注意的要点都是什么，所以，无法注意到在那些要点上出现的错误和偏差 —— **不知道就注意不到**。
+Chìa khóa nằm ở điểm sau. Lý do mà nhiều người tập luyện mãi mà không hiệu quả chính là vì họ không tập trung vào các điểm quan trọng trong quá trình luyện tập. Suốt quá trình đó, vì không biết điểm cần chú ý là gì, nên họ không phát hiện ra những lỗi sai và lệch lạc ở các điểm mấu chốt — **không biết thì không thể chú ý**.
 
-知道不一定能做到也不一定能做好，但不知道肯定做不到做不好。
+Biết chưa chắc đã làm được hoặc làm tốt, nhưng không biết thì tuyệt đối không thể làm được.
 
-每个人都一样，记忆力没有自己想象得那么好。不是什么东西看一遍就记得住的。基础知识也好方法论也罢，都写在教材里 —— 知识获取本身现在既方便又便宜。可问题在于，谁都一样，都做不到只看一遍就能全都记住，不是吗？
+Ai cũng vậy, trí nhớ không tốt như ta tưởng. Không có thứ gì chỉ nhìn một lần là nhớ được tất cả. Dù là kiến thức cơ bản hay phương pháp luận đều nằm trong tài liệu — kiến thức giờ đây tra cứu rất dễ dàng và rẻ tiền. Vấn đề là, ai cũng không thể chỉ nhìn một lượt mà nhớ hết mọi thứ, đúng không?
 
-全都记住了还不一定能做好呢…… 但，这恰恰是很多人没反应过来的关键：
+Nhớ hết rồi cũng chưa chắc làm tốt được… Nhưng điều nhiều người không nhận ra chính là:
 
-> 就算暂时做不到，就算暂时做不好，**要点一定要尽早烂熟于心**。
+> Dù tạm thời không làm được hay không làm tốt, **phải sớm thành thạo các điểm mấu chốt**.
 
-不只是一般的记住，而是烂熟于心，翻过来掉过去，每个细节都能随时调用，每个细节之间的关联都清楚，每个细节都能说清楚讲明白，而不仅仅是能想起来…… 就好像那些经验丰富的老师一样 —— 对，自学就是自己教自己，在自己这个学生还做不好甚至做不到的时候，自己这个老师要先认真备课，否则自己拿什么教自己啊？不提前认真备课，自己拿什么监督自己调整自己呢？
+Không chỉ là nhớ đại khái, mà là phải nắm rất rõ, hiểu sâu sắc từng chi tiết, có thể gọi ra bất cứ lúc nào, hiểu rõ mối liên hệ giữa các chi tiết, nói được rõ ràng và chi tiết — không chỉ là nhớ được thôi... Giống như những thầy cô giàu kinh nghiệm vậy — đúng vậy, tự học chính là tự làm thầy dạy mình, khi học sinh là mình còn chưa làm tốt hoặc chưa làm được thì thầy phải chuẩn bị bài thật kỹ, nếu không thầy lấy gì mà dạy cho mình? Không chuẩn bị bài trước thì sao mà giám sát, điều chỉnh chính mình?
 
-烂熟于心的方法再朴素不过了，**反复阅读教材** —— 我们也是用同样的方法探索迷宫走出迷宫的……
+Cách để thành thạo nhất vô cùng đơn giản, đó là **đọc đi đọc lại tài liệu** — chúng ta cũng dùng cách này để khám phá và bước ra khỏi mê cung...
 
-我们想要塑造我们的语音，也只能是同样的方式。你要花一整年时间才能搞定呢，但，在第一个月里，语音教材要只字不差地阅读，并且还要反复阅读。你会越读越快的，不出一周的时间，你会发现完整过一遍只需要一点点的时间，一天能过很多遍。继续。不仅每天过很多遍，还要尝试着自己给自己讲课，看看能不能系统完整地讲清楚 —— 验收系统性和完整性。也可以尝试给别人讲，比如，给自家的孩子讲；还可以尝试带着他们做一样的事情，让他们给你讲，你来提问，你来验收系统性和完整性。
+Với phát âm cũng vậy, bạn phải dành cả năm trời để chinh phục, nhưng trong tháng đầu tiên, hãy đọc tài liệu phát âm không sót một chữ và đọc lặp đi lặp lại. Bạn sẽ đọc ngày càng nhanh, chưa đến một tuần bạn sẽ thấy chỉ cần rất ít thời gian cho một lượt đọc đầy đủ nội dung, có thể đọc nhiều lượt trong một ngày. Hãy tiếp tục làm như vậy. Không chỉ vậy, bạn còn có thể thử giảng lại cho bản thân xem có thể giải thích rõ ràng, hệ thống và đầy đủ không — kiểm tra tính hệ thống và toàn diện. Cũng có thể thử giảng cho người khác, ví dụ như cho con mình nghe; hoặc cùng họ làm việc tương tự, để họ dạy bạn, bạn đặt câu hỏi, bạn kiểm tra tính hệ thống và toàn diện.
 
-把所有要点烂熟于心，并不能保证你自动做到或者自动做好，因为你的大脑只是牢牢记住了那些要点，至于做到或者做好，那就要通过短时间内足量重复的练习在自己的大脑内部新建连接新建网络、强化连接强化网络…… 必要时还要借助生学硬练呢。
+Khi đã thuộc lòng tất cả các điểm quan trọng, không đảm bảo bạn sẽ tự động làm được hoặc làm tốt, vì bộ não bạn chỉ thực sự ghi nhớ các điểm đó; còn muốn làm tốt hoặc làm được thì phải qua luyện tập lặp lại nhiều lần trong khoảng thời gian ngắn để tạo kết nối, xây dựng mạng lưới mới bên trong não, tăng cường kết nối đó... Khi cần, còn phải dựa vào học và luyện tập nghiêm túc.
 
-不一样的地方在于，**一旦你知道了你就注意得到**。对于那些要点你越是烂熟于心，你越是能够轻松地注意到在关键点上你做不到的地方，你做不好的地方 —— 这时候，那些方法论才开始真正发挥作用，你可以调用你的注意力系统且又完整地进行突破，要么暴力破解要么逐步微调。
+Khác biệt nằm ở chỗ: **một khi bạn biết thì sẽ nhận ra được**. Càng thuộc lòng các điểm quan trọng, bạn càng dễ dàng phát hiện những chỗ bạn chưa làm được hoặc làm chưa tốt — lúc đó, phương pháp luận mới thực sự phát huy tác dụng, bạn có thể tập trung chú ý toàn diện để vượt qua khó khăn, bằng cách phá vỡ bạo lực hoặc điều chỉnh dần dần.
 
-可是，如果你不知道的话，你的注意力就压根没有目标可以集中，它就会跑到鬼知道的什么地方，进而你的所有练习都可能毫无作用，因为你的时间里并没有被你的注意力填满 —— **只有用注意力填满的时间才具有真正的价值**。
+Nếu bạn không biết, sự tập trung của bạn chẳng có mục tiêu nào để hướng tới, nó sẽ lang thang đến những chỗ không thể đoán trước, dẫn đến luyện tập của bạn có thể trở nên vô nghĩa, vì thời gian bạn bỏ ra không được chú ý lấp đầy — **chỉ thời gian được lấp đầy bởi sự chú ý mới thực sự có giá trị**.
 
-绝大多数人对自我纠正能力培养的过程充满了误解。
+Đa phần mọi người đều rất hiểu nhầm về quá trình rèn luyện khả năng tự sửa lỗi.
 
-实际情况是，绝大多数人从未自己把教材阅读很多遍，他们顶多听老师讲一遍，可说实话，大多并没有听全。或者，另外一些的确认真听讲了，却又到此为止了，觉得自己已经足够尽力…… 说实话，他们的自我感觉也的确有点根据，毕竟他们已经比绝大多数人强多了。极少数人可能读了很多遍，甚至自己也做了很多归纳总结，但，不知道从知道到做到依然还需要很多**生学硬练**，所以也没有走到尽头，虽然已经成绩不错。
+Thực tế là, hầu hết mọi người chưa từng đọc kỹ tài liệu nhiều lần, họ chỉ nghe thầy cô giảng một lần — thật lòng thì hầu hết cũng không nghe hết. Hoặc một số ít người có vẻ nghe đủ rồi, nhưng đến đó là dừng, nghĩ rằng mình đã cố gắng hết sức... Thành thật mà nói, cảm nhận của họ cũng có cơ sở, vì ít nhất họ đã hơn đa số rất nhiều. Hiếm người đọc nhiều lượt, thậm chí còn tự tổng hợp, nhưng từ biết đến làm được vẫn cần rất nhiều **luyện tập nghiêm túc và kỹ lưỡng**, nên chưa đạt đến đỉnh, dù thành tích đã khá tốt.
 
-最大的误解在于，如果不认真提醒的话，绝大多数人会误以为自己**做不到**将教材烂熟于心。其实，人类的记忆力都是很强的，并且都一样，都是越练越强。别说一本教材了，只要肯弄，多少本教材都一样可以做到烂熟于心，花时间而已的事情，和智商全无关联。可反过来，一旦认定自己做不到，那就真的做不到了。
+Sự hiểu nhầm lớn nhất là, nếu không được nhắc nhở kỹ, đa phần sẽ nghĩ mình **không thể** thuộc lòng tài liệu. Nhưng thực ra, trí nhớ con người rất mạnh và đều như nhau, càng luyện thì càng giỏi. Không chỉ một cuốn sách, mà rất nhiều cuốn đều có thể thành thạo nếu chịu khó làm — chỉ là chuyện dành thời gian thôi, không liên quan đến IQ. Ngược lại, một khi bạn tin rằng mình làm không được, thì thật sự sẽ không làm được.
 
-除了误以为自己做不到之外，还有另外一种常见的误解，觉得**没必要**。如果仅仅是为了考试，甚至只不过是及格万岁，那连我都会同意，不仅的确没有任何必要，甚至干脆就不应该浪费那个时间。但是，如果是为了健脑，为了锻炼自己的大脑，锻炼自己的注意力，想要拥强兵为强将，那怎么可能没必要呢？这哪儿是必不必要的事情，这干脆是**不得已**的事情啊，大家的脑子都一样，都是这样，用进废退。
+Ngoài việc nghĩ mình không làm được, một sai lầm phổ biến khác là cho rằng **không cần thiết**. Nếu chỉ học để thi, thậm chí chỉ để qua điểm, tôi cũng sẽ đồng ý, việc đó đúng là không cần thiết, thậm chí chẳng nên phí thời gian. Nhưng nếu là để rèn luyện trí não, tăng khả năng tập trung, muốn có “binh lính mạnh mẽ” để trở thành “tướng giỏi”, thì làm sao có thể không cần? Đây đâu phải chuyện cần hay không cần, mà là chuyện **bắt buộc phải làm** — bộ não ai cũng giống ai, luyện tập sẽ phát triển, không luyện tập sẽ thoái hóa.
 
-学校的负作用之一就是阻断学生的自我纠正能力。在学校里，验证自我能力的方式只有粗暴且又粗糙的考试。并且，学校里的考试实际上并不要求也不敢要求所有学生都尽善尽美，反过来造成的是学生糊弄过关的习惯。不同的考试成绩，在学生心理上引发的，更多并不是自我检讨自我纠正，而是相互攀比。甚至会不知不觉产生扭曲，成绩比不过就比别的什么，无论是什么，只要能找到自以为是的优势就可以…… 固守型人格在不断发展，彻底消灭进取型人格。
+Một trong những tác hại của trường học là làm suy giảm khả năng tự sửa lỗi của học sinh. Trong trường học, phương pháp xác nhận năng lực chỉ có những kỳ thi thô thiển và cứng nhắc. Hơn nữa, các kỳ thi không đòi hỏi hay dám đòi hỏi tất cả học sinh đều hoàn hảo, khiến học sinh hình thành thói quen làm cho xong cho qua. Kết quả điểm số khác nhau khiến học sinh không tập trung vào việc tự kiểm tra và sửa lỗi, mà chỉ so sánh với nhau. Thậm chí có thể dẫn đến sự méo mó không nhận ra, họ không giỏi điểm số thì tìm kiếm cái khác để làm thế mạnh — bất kể là gì, miễn sao có điểm mà họ cho là ưu thế... Tính cách bảo thủ phát triển mạnh mẽ, dần tiêu diệt tính xông pha.
 
-说一千道一万都没用，自己经历过一遍就知道了。对这其中种种好处的体验，就好像是司马光说的那样，**由俭入奢易由奢入俭难** —— 你都住过五星酒店了，再让你回去住街边小旅馆，着实困难。如果你是父母，体验过一次之后，你就舍不得自家的孩子竟然没有体验过。
+Nói nhiều đến đâu cũng không bằng trải qua một lần sẽ hiểu. Trải nghiệm những lợi ích đó giống như Sima Guang từng nói, **dễ từ tiết kiệm lên sang trọng, khó từ sang trọng xuống tiết kiệm** — khi đã từng ở khách sạn 5 sao rồi, muốn trở lại sống trong khách sạn nhỏ ven đường quả thật rất khó khăn. Nếu bạn là cha mẹ, trải qua một lần rồi bạn sẽ không nỡ để con mình chưa từng trải qua điều đó.
 
-再回头望过去，你会慨叹，这么简单的道理自己怎么没早一点知道。如果你小时候就被如此告知，甚至被人拉去体验过一回，你还有什么学不会学不好的呢？学校里的那点东西，直到本科毕业之前，也都没什么实际的难度。若是早就知道这样简单却又重要的方式，人生一定会有很大的不同吧？
+Nhìn lại, bạn sẽ thở dài tự hỏi tại sao lại không biết sớm hơn những điều đơn giản đến thế. Nếu từ nhỏ biết điều này, thậm chí được ai đó kéo đi trải nghiệm một lần, có gì mà không học được, không làm tốt được? Những gì học ở trường, cho đến trước khi tốt nghiệp đại học, cũng không quá khó khăn. Nếu sớm biết được cách học đơn giản nhưng quan trọng này, cuộc đời hẳn đã khác nhiều.
 
-如果你的孩子很小就懂得用这样的方式培养**自我纠正能力**，他们的自学能力一定相当出众，并且还会不断发展。用得着花那么多钱去请辅导老师吗？完全没必要。这种体验只要带着自家孩子经历过一次，就价值千万 —— 按照 2020 年的人均收入当作现值计算，一个人一生的价值在下一代寿命不断增加的基础上，怎么也得超过一千万人民币。学得好做得好，一千万美金也不一定挡得住。当然，做不到这一点的，就算往教育里砸进去再多的金钱再多的时间，弄不好也会变成一千万俄罗斯卢布。
+Nếu con bạn từ nhỏ đã biết dùng cách này để rèn luyện **khả năng tự sửa lỗi**, kỹ năng tự học của chúng chắc chắn sẽ rất xuất sắc và ngày càng phát triển. Còn cần phải tốn nhiều tiền thuê gia sư không? Hoàn toàn không cần thiết. Chỉ một lần cho trải nghiệm này cùng con, giá trị có thể lên tới hàng chục triệu — tính theo thu nhập bình quân năm 2020 làm giá trị hiện tại, giá trị cả đời của một người, trên cơ sở tuổi thọ thế hệ sau ngày càng tăng, chắc chắn không dưới hàng chục triệu nhân dân tệ. Học tốt, làm tốt, tới mức vài chục triệu USD cũng chưa chắc đã mua nổi. Tất nhiên, nếu không làm được điều này, dù có đổ bao nhiêu tiền bạc và thời gian vào giáo dục cũng có thể chỉ là đổ tiền qua cửa sổ.

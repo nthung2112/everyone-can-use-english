@@ -1,80 +1,80 @@
-# 6. 自主驱动
+# 6. Chủ động tự thúc đẩy
 
-一百多年前，英国有个生理学家，名字叫做阿奇博尔德·希尔（Archibald Hill），1886 年出生，1922 年获得诺贝尔医学奖。把自己的大部分职业生涯时间都投入到了一个他个人感兴趣的问题上：
+Hơn một trăm năm trước, ở Anh có một nhà sinh lý học tên là Archibald Hill, sinh năm 1886, năm 1922 ông nhận giải Nobel Y học. Ông dành phần lớn sự nghiệp của mình để nghiên cứu một câu hỏi cá nhân rất yêu thích:
 
-> 人究竟能跑多快、多久、多远？
+> Con người có thể chạy nhanh, chạy lâu và chạy xa đến mức nào?
 
-因为他自己就是个热爱跑步的人。希尔起初的认知也很直观：
+Bởi vì ông vốn là người mê chạy bộ. Nhận thức ban đầu của Hill rất trực quan:
 
-> 最好的跑步成绩，源自于运动员的肌肉机能，而其中，绝大部分是心脏机能。
+> Thành tích chạy tốt nhất đến từ chức năng cơ bắp của vận động viên, trong đó phần lớn phụ thuộc vào chức năng tim.
 
-换言之，心肌功能越强大，跑步能力越强…… 所以，想要把自己的跑步成绩逼到理论极限，那就等同于把自己的心脏机能逼到极限。换言之，如果我的心脏能比你的心脏向跑步肌肉输送更为充足的血液，我就能跑得比你更快。谁的心脏机能最强，谁的跑步成绩就最高。希尔的几乎所有实验数据都支持这个结论。
+Nói cách khác, chức năng cơ tim càng mạnh mẽ thì khả năng chạy càng tốt... Vì vậy, muốn đẩy thành tích chạy lên giới hạn lý thuyết thì cũng chính là đẩy chức năng tim tới giới hạn. Nói cách khác, nếu tim tôi có thể cung cấp máu đến cơ bắp nhiều hơn tim bạn, tôi sẽ chạy nhanh hơn bạn. Ai có chức năng cơ tim mạnh nhất, người đó có thành tích chạy tốt nhất. Hầu hết dữ liệu thí nghiệm của Hill đều ủng hộ kết luận này.
 
-很多年之后，有人读到了希尔的论文之后，想到个好主意 —— 这个看似简单直观的**理论**是可以赚钱的！赛马！只要掌握了每一个参赛马匹的心脏机能数据，就可以**合理**预测每一匹马的比赛成绩，不是吗？说干就干！
+Nhiều năm sau, một người đọc các công trình của Hill và có ý tưởng hay — lý thuyết đơn giản và trực quan này hoàn toàn có thể kiếm tiền! Đua ngựa! Chỉ cần nắm được thông số chức năng tim của từng con ngựa đua, ta có thể **dự đoán hợp lý** thành tích thi đấu của chúng, phải không? Vậy thì làm ngay thôi!
 
-结果呢？赔的一塌糊涂。在赛马场上，跑得最快的马，从来都不一定是心脏机能最强的那匹马，无论尝试多少次，相对于心脏机能这项指标来看，能跑第一更像是随机的，反正不是心脏机能决定的。
+Kết quả? Thua lỗ nặng nề. Ở trường đua ngựa, con ngựa chạy nhanh chưa chắc đã có chức năng tim mạnh nhất, dù thử bao nhiêu lần, khả năng sinh tim dường như không quyết định thành tích, vì cơ bản nó là ngẫu nhiên chứ không phải do chức năng tim.
 
-又过了很多年，有人不服气，决定用马拉松比赛的数据核实希尔的理论 —— 很多人不知道的是，马拉松比赛也有人下注的…… 事实上，对赌徒来说，天下的一切事情都可能成为赌博标的。
+Lại nhiều năm sau, có người không phục, quyết định dùng dữ liệu từ các giải marathon để kiểm chứng lý thuyết của Hill — nhiều người không biết rằng marathon cũng có đặt cược... Thực tế với các tay cược, mọi chuyện trên đời đều có thể thành trò cá cược.
 
-结果呢？还是一样，希尔的理论得不到真实数据的支持。忍不住用这个理论作为依据下注的人同样赔得一塌糊涂。
+Kết quả vẫn vậy, không có dữ liệu thật nào ủng hộ lý thuyết của Hill. Ai dùng lý thuyết này để đánh cược cũng đều thua to.
 
-又过了很多年，希尔终于弄清了事情的原委，也因此彻底改变了科学家们对运动表现 —— 甚至任何工作表现 —— 的看法。
+Nhiều năm sau nữa, Hill cuối cùng đã tìm ra nguyên nhân sự việc và hoàn toàn thay đổi cách các nhà khoa học nhìn nhận về hiệu suất thể thao — thậm chí là mọi hiệu suất công việc.
 
-> 运动成绩不仅仅是你的体能的表现 —— 准确地讲，是你的大脑在那一特定的时刻面对特定的风险与回报是否肯于接纳的表现。
+> Thành tích thể thao không chỉ là biểu hiện sức bền của bạn — chính xác hơn, là biểu hiện của việc não bạn có đồng ý chấp nhận rủi ro và lợi ích tại thời điểm nhất định ấy hay không.
 
-许多年后，脑科学家们对此的解释更为清楚：
+Nhiều năm sau, các nhà khoa học thần kinh giải thích rõ hơn:
 
-> 大脑的首要任务是确保你的生存，即，回避死亡。
+> Nhiệm vụ trọng yếu nhất của não là bảo đảm sự sống còn của bạn, tức là né tránh cái chết.
 
-如果你的身体不顾一切地开足马力，那么你很快就会筋疲力尽，不堪一击。所以，你的大脑会设定一个效能上的**效能阈值**，比如，75% 就是你的大脑允许你的身体能够发挥的最大效率，太高了有危险，不划算，相对于风险来说，回报不够高 —— 当然，太低了也不划算。这就好像你开的汽车里有个**调速器**，也是这样的，它不会允许你的汽车速度达到**峰值**，否则你的发动机很快就会报废……
+Nếu cơ thể bạn chạy hết công suất một cách mù quáng, bạn sẽ mau chóng kiệt sức, dễ bị tổn thương. Vì vậy não sẽ đặt ra một **ngưỡng hiệu suất** cho bạn, ví dụ như 75% là mức hiệu quả tối đa mà não cho phép cơ thể vận hành, cao hơn mức đó rất nguy hiểm, không kinh tế, vì rủi ro quá lớn còn lợi ích không đủ — dĩ nhiên mức thấp quá cũng không có lợi. Giống như chiếc xe bạn chạy có bộ điều chỉnh tốc độ, nó sẽ không cho phép xe chạy đến vận tốc cực đại, nếu không động cơ sẽ hỏng ngay.
 
-但，在赛场上，有很多其它因素存在，比如，马会被骑手**吓着**，然后，它的大脑对风险回报的看法会发生变化，有可能把阈值从 75% 提高到 90%，甚至 100%…… 于是，它的速度就不一样了。更直接的效果是，也许其他的马心脏机能相对更强，但，当某一匹马虽然心脏机能不一定最强，可当它的**效能阈值**被抬高到一定程度的时候，其它的马就比不上它了。
+Nhưng trên sân đấu thì có nhiều yếu tố khác nữa, như ngựa sẽ bị người cưỡi làm cho **sợ**, não nó sẽ điều chỉnh lại góc nhìn rủi ro - lợi ích, có thể nâng ngưỡng từ 75% lên 90%, thậm chí 100%... Lúc đó, tốc độ sẽ khác. Kết quả trực tiếp là: dù có những con ngựa khác chức năng tim tốt hơn, nhưng khi ngưỡng hiệu suất của con ngựa kia được đẩy cao, thì các con ngựa khác không thể so bì được.
 
-在马拉松比赛里也是如此。比如，有的人是为了自己比赛，有的人是为了家庭，有的人是为了国家比赛，所以对**回报**的看法不同；再比如，比赛的奖金对每个选手的**诱惑程度**是不一样的，所以，每个人的大脑对**回报**的看法不同…… 与此同时，每个人的大脑对**风险**的看法与感受也不相同…… 到最后，真正决定成绩的，在心脏机能基础之上，是那属于每个人都不一样的**效能阈值**。
+Trong marathon cũng vậy. Ví dụ có người chạy vì bản thân, có người chạy vì gia đình, có người chạy vì tổ quốc nên mỗi người có cách đánh giá **lợi ích** khác nhau; hoặc giải thưởng cũng có mức hấp dẫn khác nhau với từng vận động viên, nên mỗi bộ não phản ánh cách nhìn về **lợi ích** không giống nhau... Đồng thời, cách mỗi người đánh giá và cảm nhận **rủi ro** cũng khác biệt... Cuối cùng, bên cạnh chức năng tim, yếu tố quyết định thành tích chính là **ngưỡng hiệu suất** riêng biệt của từng người.
 
-更为惊人的是，有些时候，那个**效能阈值**有可能超出**100%**…… 看似不可能。你肯定听说过那个惊人的故事，在战争中，一位母亲为了救出自己的孩子，徒手掀起一辆翻倒的吉普车，还能腾出一只手把压在车下的孩子一点一点拉出来…… 这就好像电脑的 CPU 其实可以短时间**超频**工作一样，人们在特殊的情况下，在回报与风险比例惊人的情况下，会爆发出难以想象的 “潜能”。
+Thậm chí còn kinh ngạc hơn, đôi khi ngưỡng này vượt qua 100%... Nghe có vẻ không thể. Chắc bạn đã nghe câu chuyện cảm động: Trong chiến tranh, một người mẹ nâng cả chiếc xe jeep bị lật để cứu con mình, dùng tay kéo từng chút đứa trẻ bị kẹt dưới xe... Giống như CPU máy tính có thể chạy **ép xung** tạm thời, con người trong những tình huống đặc biệt, khi tỉ lệ lợi ích trên rủi ro cực kỳ cao, có thể bùng nổ sức mạnh tiềm ẩn không tưởng.
 
-某种意义上，阿奇博尔德·希尔的研究，开启了一个新的领域，叫做**专业**（Expertise）—— 一代又一代的科学家在研究为什么有些人比另外一些人更专业、甚至最专业，他们究竟是如何做到的，以及人们如何才能达到那样的顶峰…… 到了 2018 年，牛津出版了一本书，叫做《牛津专业手册》（The Oxford Handbook of Expertise），专门介绍科学家们在这个领域里的研究成果 —— 其实是一本读起来比较艰涩的 “论文集”。
+Về mặt nào đó, nghiên cứu của Archibald Hill mở ra một lĩnh vực mới gọi là **chuyên môn** (Expertise) — bao thế hệ nhà khoa học nghiên cứu tại sao có người lại chuyên nghiệp hơn người khác, thậm chí là đạt đến tầm cỡ hàng đầu, họ đã làm cách nào, và liệu ta có thể đạt tới đó hay không... Đến năm 2018, Oxford xuất bản một cuốn sách mang tên _The Oxford Handbook of Expertise_, tổng hợp các nghiên cứu khoa học trong lĩnh vực này — thực ra đó là một tuyển tập nghiên cứu khá khó đọc.
 
-这本书里最惊人的结论之一就是：
+Một trong những kết luận gây sốc nhất trong sách là:
 
-> 到最后，无论在哪个领域 —— 你能想到的所有领域，包括但不限于，跑步、足球、篮球、骑马、下棋、弹奏、唱歌、跳舞、手术、手艺、生产、组织、管理、多语、科学、技术、创作，等等等等 —— 都一样，达到超群水准甚至巅峰水准的核心关键，并不在于**天分**（Talents），也不在于**技巧**（Techniques），而是在于**动力**（Motivations）—— 并且总是如此 —— 就是那个**大脑对风险回报比评估之后决定是否接纳的程度**，因为你的大脑会根据它决定你的身体效能的**效能阈值**，这才是影响你最终表现的最关键因素。
+> Cuối cùng, trong bất kỳ lĩnh vực nào — bạn có thể nghĩ đến tất cả các lĩnh vực như chạy bộ, bóng đá, bóng rổ, cưỡi ngựa, đánh cờ, biểu diễn, ca hát, nhảy múa, phẫu thuật, thủ công, sản xuất, tổ chức, quản lý, đa ngôn ngữ, khoa học, kỹ thuật, sáng tạo... — đều giống nhau, yếu tố quyết định sự xuất sắc hay tới đỉnh cao không phải là **thiên bẩm** (Talents), cũng không phải là **kỹ thuật** (Techniques), mà là **động lực** (Motivations) — và luôn là vậy — chính là mức độ não bạn chấp nhận dựa trên đánh giá tỉ lệ rủi ro-lợi ích, vì bộ não đặt ra **ngưỡng hiệu suất** cho cơ thể, đó chính là yếu tố quan trọng nhất ảnh hưởng đến kết quả cuối cùng của bạn.
 
-按照排序来看，惊人或者过人的成绩，主要根源，按照重要性排列的话，在于：
+Sắp xếp theo thứ tự quan trọng, thành tích xuất sắc, vượt người thường chủ yếu phụ thuộc vào:
 
-> * 动机
-> * 专注
-> * 策略
-> * 其它
+> - Động lực
+> - Tập trung
+> - Chiến lược
+> - Các yếu tố khác
 
-最重要的因素，其实是**强大的动机**，或者说**强大的欲望**—— 想要做好、想要超群、想要成功、甚至想要杰出的欲望。这是大脑的工作机制决定的，因为出于自我保护的机制和需求，大脑会根据风险和回报确定一个可接受的**效能阈值**，让你的身体及其机能在一定的范围内工作。也就是说，在不知不觉之间，你的大脑为你设定的**效能阈值**，不管合理与否，在暗中决定了你任何工作的最终**表现**或者**成绩**。
+Yếu tố quan trọng nhất chính là **động lực mạnh mẽ**, hay nói cách khác là **khao khát mãnh liệt** — khao khát làm tốt, khao khát xuất sắc, khao khát thành công, thậm chí khao khát vĩ đại. Đây là điều được quyết định bởi cơ chế hoạt động của não; vì để bảo vệ bản thân, não dựa trên rủi ro và lợi ích để xác định **ngưỡng hiệu suất** chấp nhận được, khiến cơ thể vận hành trong giới hạn nhất định. Có nghĩa là, vô thức, ngưỡng hiệu suất do não bạn thiết lập, dù hợp lý hay không, âm thầm quyết định **thành tích** hay **hiệu suất** cuối cùng của bạn trong mọi công việc.
 
-再进一步，你的大脑为你设定的**效能阈值**，其实是你的**认知**—— 你的所有知识、经验、见识，以及整个社会对你的影响构成的总和 —— 所决定的。可问题在于，你的**认知**正确吗？充分吗？深入吗？…… 一连串的疑问。
+Bước sâu hơn, ngưỡng hiệu suất do não bạn thiết lập thực ra là do **nhận thức** — tổng hợp của mọi kiến thức, kinh nghiệm, hiểu biết của bạn và ảnh hưởng xã hội với bạn — quyết định. Vấn đề là, nhận thức của bạn có chính xác không? Có đầy đủ không? Có sâu sắc không?… Rất nhiều nghi vấn.
 
-其实，我们甚至没必要争论**自己的认知是否正确**…… 因为，从历史上来看，别说你我了，整个人类的**认知**就没有**正确**过，人类的**认知**一直是在**发展**的，不断改良、不断进步的，没有什么**正确**，顶多只有**越来越接近正确**，没有什么**充分**，只有**越来越充分**，没有什么**深入**，只有**越来越深入**……
+Thực ra, ta không cần tranh luận liệu **nhận thức của bản thân có đúng không**... Bởi vì theo lịch sử, đừng nói đến bạn, toàn bộ nhận thức của nhân loại chưa bao giờ là **đúng hoàn toàn**, nhận thức của nhân loại luôn trong trạng thái **phát triển**, liên tục cải tiến, không có gì gọi là đúng tuyệt đối, chỉ có dần tiệm cận với đúng, không có điều gì gọi là đầy đủ, chỉ có ngày càng đầy đủ hơn, không có điều gì gọi là sâu sắc, chỉ có ngày càng sâu sắc hơn...
 
-换言之，我们每个人的**认知**，在每时每刻都有可能**瞬间**就变成**落后的认知**，在必要的时候，必须**改良**—— 在**认知**这个至关重要的方面态度固执，拒绝改良拒绝进步的人，历史上也好，现实中也罢，比比皆是，无所不在，永远占绝大多数。至于为什么，对他们来说，就好像是张洪量的歌词那样，“没有理由没有原因”，只不过是前一句歌词要反过来，“莫名我就讨厌你”—— 绝大多数人讨厌改变。
+Nói cách khác, nhận thức của mỗi chúng ta bất cứ lúc nào cũng có thể trở thành **nhận thức lỗi thời**, và khi cần thiết phải **cải tiến** — với nhận thức vốn cực kỳ quan trọng ấy, ai kiên quyết bảo thủ, từ chối cải tiến hay tiến bộ, trong lịch sử và hiện tại đều rất nhiều, ở khắp mọi nơi, luôn chiếm đa số. Còn vì sao, thì với họ là như lời bài hát của Trương Hồng Lượng: “Không lý do, không nguyên nhân” — mà câu trước song song là “Không hiểu sao tôi lại ghét bạn” — đại đa số mọi người đều ghét sự thay đổi.
 
-其实呢，绝大多数人讨厌改变，也同样是受自我大脑影响的 —— 还是出于同样的根源，大脑的自我保护机制。大脑的首要任务是保证自我生存，所以，在能够**生存**的状态下，一切最好都保持不变…… 问题在于说，这种**认知**在原始时代再正确不过了，**生存**本身已经是天大的难题，在那样的环境里，一切的**追求**只不过是充足的食物而已……
+Thực tế, đa số ghét thay đổi cũng chính do ảnh hưởng của não — cùng gốc rễ đó, cơ chế tự bảo vệ bản thân của não. Nhiệm vụ trọng yếu của não là giữ sự sống còn, nên khi đang trong trạng thái **có thể tồn tại**, mọi thứ tốt nhất không nên thay đổi... Vấn đề là, nhận thức này từng rất đúng thời kỳ nguyên thủy, khi **sống còn** đã là vấn đề khó khăn bậc nhất, và trong môi trường đó, mọi **theo đuổi** chỉ là chuyện có đủ thức ăn.
 
-唐代的诗人杜甫，自家房子被毁之后，放声大哭，“安得广厦千万间，大庇天下寒士俱欢颜，风雨不动安如山…… 说实话，**居者有其屋**，其实一直以来都是很奢侈的。哪怕是**人人都可以吃饱**也只不过是发达国家最近一小段时间才勉强做到的事情 —— 解放后，中国曾经经历过所谓的**三年困难时期**（1959-1961），那期间有几千万人非正常死亡…… 这只不过是 60 年前的事情而已。当然，即便是今天，世界上还有很多落后地区，依然没有消灭**贫穷**和**饥饿**”。
+Nhà thơ Đường thời Đỗ Phủ, khi nhà mình bị cháy, khóc nức nở rằng: "Giá mà có hàng vạn tòa nhà rộng lớn, che chở người nghèo khắp thiên hạ, mưa gió không lay động, yên như núi..." Thật sự, việc **mọi người có mái nhà của riêng** bao giờ cũng là điều xa xỉ. Ngay cả chuyện **mọi người đều ăn đủ no** cũng chỉ mới được các quốc gia phát triển đạt được gần đây — sau giải phóng, Trung Quốc từng trải qua cái gọi là **3 năm khó khăn** (1959-1961), trong thời gian đó hàng chục triệu người chết không bình thường... Đây chỉ là chuyện cách đây 60 năm mà thôi. Dù vậy, cho đến nay trên thế giới vẫn còn nhiều vùng nghèo khó, chưa loại bỏ được **đói nghèo** và **thiếu ăn**.
 
-仅仅短短几十年不过百年而已的温饱，很难一下子改变人类几十万年来通过基因积累的**习惯**，从人类进化历史的角度去看，大多数人的大脑在**温饱**不是问题，也就是说，**生存不是问题的情况下**，**追求**的欲望并不是很高，甚至，从底层感受上来看，**更多更高的追求**好像没有必要，相对于过去，人们对某个目标或者方向产生**极高追求**的难度，实在是相对太高了，一方面总是感觉没必要，另外一方面更是感觉完全不可及甚至干脆不可望 ——**盼望的望**，**不可望**，就是**压根看不到**—— 人们常说，什么东西**可望不可及**，而我们刚刚说的**极高追求**，望都望不到。
+Chỉ vài chục năm với mức sống đủ ăn no, chưa thể dễ dàng thay đổi những **thói quen** được tích lũy qua hàng trăm nghìn năm gen người. Nhìn từ góc độ tiến hoá, đại đa số não bộ con người khi đã **không còn lo sống còn**, tức là **khi sống còn không phải vấn đề**, thì thật ra **mong muốn** không còn cao nữa, thậm chí ở mức sâu sắc nhất, **khát vọng ngày càng cao** như không cần thiết. So với trước đây, con người ngày nay khó đạt được **khát vọng vô cùng mãnh liệt** vào một mục tiêu hay hướng đi nào đó, vì vừa cảm thấy không cần thiết, lại vừa cảm thấy không thể đạt đến hoặc thậm chí không thể mong đợi — **mong đợi mà không thể mong đợi được**, nghĩa là **hoàn toàn không thể nhìn thấy** — người ta thường nói gì đó vừa **mong muốn lại vừa xa vời**, còn điều chúng ta nói về **khát vọng mãnh liệt** này thì còn không thể nhìn thấy nổi.
 
-对**大脑自我保护机制**的深入了解，有助于极大提高任何**学习成绩**。这就是**认知改变**带来的**生活改变**。
+Hiểu thấu đáo về **cơ chế tự bảo vệ của não** giúp nâng cao đáng kể bất kỳ **thành tích học tập** nào. Đó chính là sự **thay đổi nhận thức** dẫn đến **thay đổi cuộc sống**.
 
-我们刚刚经历的，就是**认知改变**、**认知改良**、**认知进步**…… 在此之前，我们不知道决定自己专业程度、工作学习成绩的最大最重要的因素竟然并不是我们之前强调过的**专注**—— 尽管**专注**在当时看起来无比的重要；也不是一直以来被所有人都认为最重要的**策略**，竟然是**动机**，那个被**大脑自我保护机制**所设定的**效能阈值**……
+Chúng ta vừa trải qua một trải nghiệm về **thay đổi nhận thức**, **cải tiến nhận thức**, **tiến bộ nhận thức**... Trước đó, ta không biết yếu tố quan trọng nhất quyết định trình độ chuyên môn và thành tích học tập lại không phải là **tập trung** — dù lúc đó tập trung có vẻ cực kỳ quan trọng; cũng không phải là **chiến lược** được mọi người coi là thiết yếu bấy lâu, mà chính là **động lực** — cái ngưỡng hiệu suất do **cơ chế bảo vệ não** đặt ra...
 
-我们还发现，**满足于温饱**，竟然是绝大多数人**习惯性拒绝改变**的根源，又，竟然还是出自同样的根源，那个无比重要的**大脑自我保护机制**，既然温饱不是问题了，生存不是问题了，绝大多数人的**效能阈值**被设定为极低的一个刻度上…… 从这个角度望过去，所谓**懒惰**或者**好吃懒做**的**人性**，其实是有所来历有所解释的。
+Chúng ta còn phát hiện, việc **chấp nhận sống đủ no** chính là nguồn gốc của việc đại đa số người **từ chối thay đổi một cách có ý thức**, cũng lại xuất phát từ cùng bản chất gây ra bởi **cơ chế bảo vệ não**. Khi đã không còn lo chuyện sống còn, hầu hết mọi người tự thiết lập **ngưỡng hiệu suất** quá thấp... Nhìn từ góc độ này, bản chất **lười biếng** hay **tham ăn lười làm** của con người cũng có căn nguyên và lời giải thích.
 
- —— 可问题在于，今天，我们事实上生活在一个相对于短短几十年前**充满了无限可能性的时代**，若是我们的大脑把自己的**效能阈值**设置得那么低，实在是太不划算了吧？
+— Nhưng vấn đề là, hôm nay chúng ta thật sự sống trong một kỷ nguyên đầy **khả năng vô tận** so với chỉ vài chục năm trước đây, nếu não bạn vẫn giữ ngưỡng hiệu suất thấp như thế, thật sự là quá lãng phí.
 
-懂得这个道理之后，才会明白这才是最本质的**自我驱动**：
+Khi hiểu được điều này, ta mới thấm thía được đó chính là bản chất thật sự của **tự thúc đẩy bản thân**:
 
-> 不断上调大脑为自己设定的**效能阈值**。
+> Liên tục nâng cao **ngưỡng hiệu suất** mà não bạn đặt ra cho chính mình.
 
-这是花钱买不来的东西。
+Đó là thứ tiền bạc không mua được.
 
-这也是学校和学校里的老师们无能为力的领域，别说他们了，因为这是必须自己对自己做的事情，连父母亲人都无能为力。
+Cũng là lĩnh vực mà trường học và các thầy cô giáo không thể can thiệp, thậm chí những người thân trong gia đình cũng không thể giúp bạn.
 
-如果你是家长，虽然你必须教会自家孩子的事情可能很多，但，**学会调整大脑为自己设定的效能阈值**，在那长长的列表上，理论上应该排名第一。
+Nếu bạn là phụ huynh, dù bạn phải dạy rất nhiều điều cho con, thì việc **dạy con điều chỉnh ngưỡng hiệu suất não tự đặt cho mình** trên danh sách đó về mặt lý thuyết nên đứng hàng đầu.

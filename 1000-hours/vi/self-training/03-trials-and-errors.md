@@ -1,87 +1,87 @@
-# 3. 生学硬练
+# 3. Học Tự Nhiên và Luyện Tập Chăm Chỉ
 
-无论我们做什么事情，大脑都要协调很多的器官才能够完成，它不仅要协调大脑外的各种器官，它还要协调自身内部的多个部位。无论是大脑外部的种种器官还是内部的各个部位，对大脑来说，都是大脑自身内部无数个**局域网**的联动……
+Dù làm việc gì, não bộ cũng phải điều phối nhiều cơ quan để thực hiện. Nó không chỉ điều phối các cơ quan bên ngoài não mà còn phối hợp nhiều vùng bên trong não. Những phần này tương tự như vô số **mạng nội bộ cục bộ** liên kết hoạt động với nhau…
 
-这些局域网都是逐步建立起来的 —— 每一个都是通过学习建立，通过大量重复使用强化。无论我们想要学什么，第一步总是注意力集中地观察 —— 调用任何必要的感官，视觉、听觉或触觉等等  —— 然后我们才开始尝试……
+Những mạng nội bộ này được xây dựng dần theo thời gian — mỗi mạng được thiết lập qua quá trình học tập và củng cố nhờ lặp đi lặp lại nhiều lần. Dù chúng ta định học gì, bước đầu tiên luôn là tập trung chú ý quan sát — kích hoạt mọi giác quan cần thiết như thị giác, thính giác, xúc giác — rồi mới bắt đầu thử làm…
 
-几乎总是一模一样的流程：一旦开始**尝试**，首先遇到的肯定是**不可能**，要经过**反复尝试**之后才会遇到**可能**，可能之后马上遇到的是**笨拙**，再过一段时间才可能是**熟练**，而后可能是漫长的**停滞**，要经过很多刻意练习之后才可能**精通**……
-
-```mermaid
-flowchart LR
-impossible([不可能])-..->possible([可能])-->clumsiness([笨拙])-..->adaptness([熟练])-->plateau([停滞])-..->mastery([精通])
-```
-
-这之中最重要且又最难的，当然是从**不可能**到**可能**的跨越，那可是 0 到 1 的突破。
-
-核心的难度首先在于，**我们的观察永远不大可能完整**。举个例子，我的母语之一是朝鲜语，所以我能发出齿龈颤音（[Voiced alveolar trill](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_trills)）。我家有个小朋友小名叫都都（dū dū），平日里我逗他玩的时候，会故意用齿龈颤音喊他名字：
-
-<audio controls><source src="/audios/dudu.mp3">Your browser does not support the audio element.</source></audio>
-
-他们觉得很有趣，也想发出同样的声音。可在接下来的很长一段时间里，他们就是发不出这个音。他们会反复尝试，但就是做不到。他们发出的可能是用嘴唇发出来的颤音 —— 只不过，在那一瞬间他们自己也知道那不是他们听到的那种颤音。他们会继续想办法，换各种各样的方式尝试，但依然不行……
-
-主要原因在于，他们看不到我的舌尖是如何在齿龈部位颤动的 —— 这就是无法完整观察造成的难度。另外，我还真讲不清楚我到底是怎么做到的，我会误以为我从小就会…… 实际上并非如此，当初的我和我现在的孩子一样，刚开始怎么也发不出这个声音，很久之后才能发出那种声音，但，我早就忘了自己其实是通过无数次尝试才习得的，竟然误以为那是一种天生的能力。
-
-幸亏，在 Wikipedia 上，有这种齿龈颤音的完整且又系统的讲解 —— 有 37 种语言的翻译，其中，英文版是 [Voiced alveolar trill](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_trills)，中文版是[齿龈颤音](https://zh.wikipedia.org/?curid=274842)…… 不仅有详尽的文字讲解，还有慢动作视频演示：
-
-<video controls width="480"> <source src="/videos/voiced-alveolar-trill.mp4" type="video/mp4"></source>Your browser does not support the video tag. </video>
-
-现在，不仅观察完整，方法论也很系统…… 可是，看过之后就能做到吗？显然还是不可能。大脑内暂时还没有对应的可供调用的基础功能性局域网，需要新建。并且需要的还不止一两个，别看只是这么小小的一个动作，实际上却需要远比想象多得多的基础功能性局域网相互协调。新建连接新建网络就是需要时间，无论观察完不完整、方法论存不存在，时间总是不可跨越。
-
-那如何才能**突破**呢？
-
-在我长大的年代里，香港连续剧在中国大火，又由于那个时候可看的东西少，往往是一部剧全国都在追…… 在某部武侠剧里，一个**武林高手**在镜头面前有个特写，观众们看到的是，他的耳朵竟然会动！第二天，全班同学都互相问，你的耳朵能动吗？大家都不行…… 在此之前，每个人的耳朵都没动过，也没想到过要动。过了几天，有个同学说他**会动耳朵**了！大家惊讶地看他表演…… 再过几天，班上很多同学都**学**会了怎么**动**耳朵…… 当然，谁都说不明白**如何动耳朵**的**方法论**，都是一样的措辞，“多试试就可以了”。
-
-就是这样 —— **多试试就可以了**。
-
-在新疆，所有人在很小的时候就**学**会了**晃脖子**，那是一种其他民族的人少有能做出的动作。你去问他们，到底应该怎么晃脖子，他们真说不清楚，就算偶尔有人说得很清楚，你也学不会…… 真的**学不会**吗？肯定能学会，至于**方法论**么，不是没必要，而是它能起的作用并没有想象得那么大。
-
-很少有人能**动鼻尖**，生活中，也没有什么这样的 **“需求”** …… 但，两个版本的《家有仙妻》的主演，无论是电视剧版里的伊丽莎白·蒙哥马利还是电影里的妮可·基德曼都学会了这个动作 —— 怎么学会的？跟 “动耳朵”、“晃脖子” 一样，**“多试试”** 就可以了。
-
-突破的关键在于**不停地尝试**，一个方式不行就再换另外一个方式。反正新建连接新建网络就是需要时间，用什么填满那些时间呢？试错 —— 这可是大自然用来进化的唯一有效策略。进而，为什么可以不断尝试？又，为什么愿意不断失败不断尝试？因为它**肯定可能** —— 别人能做到，我也能做到……
-
-这才是人生最凶悍的学习方式，我称其为**生学硬练** —— 不断试错直至可能，不断重复直至熟练：
-
-> 因为肯定可能，所以才愿意不断尝试；失败很正常，换个方式接着尝试，直到可能。
-
-一切的学习，对大脑来说都一样，最初 0 到 1 的突破，根本就没办法靠方法论解决，都只能靠生学硬练闯过去…… 等这一关过了，再把不可能变为可能之后，从笨拙走向熟练的过程中，方法论才开始有机会发挥作用。
+Quy trình này gần như luôn giống nhau: khi bắt đầu **thử nghiệm**, điều đầu tiên gặp phải chắc chắn là **không thể làm được**, phải trải qua **lặp lại nhiều lần thử**, rồi mới có thể có **khả năng làm được**, sau khả năng là cảm giác **vụng về**, rồi từng bước chuyển sang **thành thạo**, tiếp theo là giai đoạn **đình trệ** kéo dài, sau cùng mới có thể đạt đến bậc **thành thạo hoàn hảo** (thông thạo).
 
 ```mermaid
 flowchart LR
-
-impossible([不可能])-..->possible([可能])-->clumsiness([笨拙])-->adaptness([熟练])-->plateau([停滞])-.->mastery([精通])
-possible-->|方法论辅助|adaptness
-impossible-.->|生学硬练|possible
-adaptness-.->|生学硬练|mastery
+impossible([Không thể]) -..-> possible([Có thể]) --> clumsiness([Vụng về]) -..-> adaptness([Thành thạo]) --> plateau([Đình trệ]) -..-> mastery([Thành thạo hoàn hảo])
 ```
 
-可问题在于，方法论这个东西，即便有用，也常常并不能独立起作用。举个例子，我告诉你 <span class="pho">ŋ</span> 这个音后面跟着元音的时候会变成 <span class="pho">n</span>（[2.2.13.](../sounds-of-american-english/2.2.13-mnŋ)）—— 你当然瞬间能够理解，甚至能够记住，可是，下一次你开口说的时候，就能做到吗？十有八九做不到。这种例子比比皆是，绝大多数英语语法知识点对第二语言习得者来说都是这样的，考场上基本上都能把题做对，可是一开口说，一动手写，就接二连三出错，即便在出错过后瞬间还能够自我意识到……
+Điều khó nhất và cũng quan trọng nhất trong quá trình này chính là bước **vượt từ không thể sang có thể** — đó là bước đột phá từ con số 0 lên 1.
+
+Khó khăn cốt yếu trước hết là do **khả năng quan sát của chúng ta không bao giờ đủ hoàn chỉnh**. Ví dụ, một trong những ngôn ngữ mẹ đẻ của tôi là tiếng Triều Tiên, nên tôi phát âm được âm rung đầu lưỡi (voiced alveolar trill). Tôi có một đứa cháu nhỏ tên là Đô Đô, khi chơi đùa thường gọi tên cháu bằng âm rung đầu lưỡi đó:
+
+<audio controls><source src="/audios/dudu.mp3">Trình duyệt của bạn không hỗ trợ đoạn âm thanh này.</source></audio>
+
+Chúng rất thích thú và cũng muốn phát âm giống như vậy. Nhưng suốt thời gian dài, chúng không thể làm được. Lũ trẻ cố thử nhiều lần nhưng không thành công. Chúng tạo ra âm rung dùng môi, nhưng chính bản thân chúng biết đó không phải âm âm lưỡi mà chúng nghe. Chúng tiếp tục thử đủ cách nhưng vẫn không thể.
+
+Việc khó khăn chủ yếu là do chúng không thể quan sát được lưỡi tôi rung thế nào ở phần răng lợi — đó là nguyên nhân gây ra khó khăn do không có quan sát đầy đủ. Thêm nữa, tôi cũng không giải thích rõ làm sao để làm được điều đó, tôi thường nghĩ mình sinh ra đã làm được... Nhưng thật ra thì không. Tôi ban đầu cũng như bọn trẻ, nhiều lần thử mới phát được âm đó, rồi quên mất bản thân cần luyện bao lâu để đạt được — lầm tưởng đó là năng lực thiên phú.
+
+May mắn là Wikipedia có giải thích đầy đủ, hệ thống về âm rung này — có bản dịch sang 37 thứ tiếng, trong đó tiếng Anh gọi là [Voiced alveolar trill](https://en.wikipedia.org/wiki/Voiced_dental,_alveolar_and_postalveolar_trills), tiếng Trung là [齿龈颤音](https://zh.wikipedia.org/?curid=274842)… Không chỉ có văn bản chi tiết mà còn có video minh hoạ slow motion:
+
+<video controls width="480"> <source src="/videos/voiced-alveolar-trill.mp4" type="video/mp4"></source>Trình duyệt của bạn không hỗ trợ video này.</video>
+
+Giờ đây, không chỉ có quan sát đầy đủ, mà phương pháp cũng rất hệ thống… Thế nhưng xem xong video liệu làm được ngay? Rõ ràng chưa chắc. Trong não chưa có mạng chức năng tương ứng để điều phối — cần phải xây dựng mới hoàn toàn. Và không chỉ một hay hai, dù đây chỉ là động tác nhỏ, thực tế cần phối hợp mạng chức năng rất phức tạp. Việc xây dựng mạng kết nối mới cần thời gian, dù quan sát chưa hoàn chỉnh hay có phương pháp, thời gian vẫn không thể né tránh.
+
+Vậy làm sao để **đột phá**?
+
+Thời tôi còn bé, phim truyền hình Hồng Kông rất hot ở Trung Quốc, lúc đó xem phim ít nên cả nước đều xem một bộ phim… Trong một bộ phim võ hiệp, có một cảnh quay cận thận cảnh một cao thủ võ lâm mà mọi người chú ý là tai anh ta cử động! Ngày hôm sau, cả lớp hỏi nhau: Bạn có thể cử động tai không? Mọi người đều không thể… Trước đó ai cũng chưa từng cử động tai hay nghĩ đến chuyện đó. Mấy ngày sau có một bạn nói cậu ta làm được, mọi người tới xem và kinh ngạc… Vài ngày tiếp theo, nhiều bạn trong lớp cũng học được cử động tai… Dĩ nhiên, không ai giải thích nổi **phương pháp cử động tai**, câu trả lời đều là: “Cứ thử đi là được”.
+
+Chính là như vậy — **Cứ thử đi là được**.
+
+Ở Tân Cương, trẻ em từ nhỏ đều được **học lắc cổ**, đó là cử động hiếm gặp trong các dân tộc khác. Hỏi họ cách lắc cổ thế nào, chẳng ai nói rõ, thậm chí có người mô tả cụ thể thì bạn cũng không thể học được… Liệu có thật là không thể học? Dĩ nhiên là học được, còn về mặt **phương pháp** thì không phải không quan trọng mà chỉ là chưa được đánh giá cao.
+
+Rất ít người có thể **cử động đầu mũi**, trong đời chẳng ai cần làm thế… Nhưng diễn viên chính trong hai phiên bản phim “Gia Hữu Tiên Tỷ” dù là Elizabeth Montgomery trong bản truyền hình hay Nicole Kidman trong bản điện ảnh đều học được — học thế nào? Cũng là **“cứ thử đi là được”**.
+
+Chìa khoá để đột phá là **thử liên tục**, cách này không được thì thử cách khác. Dù sao xây dựng kết nối mới, mạng lưới mới vẫn cần thời gian. Dùng gì để lấp đầy thời gian đó? Thử sai — đây là chiến lược tiến hóa duy nhất mà thiên nhiên ban tặng. Vậy vì sao chúng ta có thể liên tục thử? Vì ta **chắc chắn có khả năng** — người khác làm được, mình cũng làm được…
+
+Đó là cách học dữ dội nhất trong đời, tôi gọi là **học tự nhiên luyện tập chăm chỉ** (生学硬练) — thử sai không ngừng cho tới khi có thể, luyện tập không ngừng cho đến khi thành thục:
+
+> Vì chắc chắn có thể nên mới dám thử liên tục; thất bại là bình thường, chuyển cách rồi tiếp tục thử, cho tới khi thành công.
+
+Mọi việc học đối với não bộ đều vậy, đột phá đầu tiên từ 0 thành 1 không thể dựa vào phương pháp luận mà chỉ có cách học tự nhiên luyện tập chăm chỉ mới vượt qua… Khi đã vượt bước đó, biến không thể thành có thể, quá trình từ vụng về đến thành thạo mới có cơ hội dùng đến phương pháp luận.
 
 ```mermaid
 flowchart LR
 
-impossible([不可能])-..->possible([可能])-->clumsiness([笨拙])-->adaptness([熟练])-->plateau([停滞])-.->mastery([精通])
-possible-->|方法论辅助 + 生学硬练|adaptness
-impossible-.->|生学硬练|possible
-adaptness-.->|生学硬练|mastery
+impossible([Không thể]) -..-> possible([Có thể]) --> clumsiness([Vụng về]) --> adaptness([Thành thạo]) --> plateau([Đình trệ]) -.-> mastery([Thành thạo hoàn hảo])
+possible --|Hỗ trợ phương pháp luận|--> adaptness
+impossible -.-> |Học tự nhiên luyện tập chăm chỉ| possible
+adaptness -.-> |Học tự nhiên luyện tập chăm chỉ| mastery
 ```
 
-很多重要的知识和技能就是这样，知道根本没有用，哪怕熟练也不够用，必须精通才真正有用 —— 因为必须做到能够下意识无意识都能做对的地步。大脑里必须为了这个所谓**知道**要建立新的连接和网络，并且还要不断强化，强化到一定地步才能够下意识甚至无意识地正确处理这种情况 —— 熟练只是卸载了部分负担，这需要极大量的重复，最好还是短期内足量重复；必须精通才能彻底卸载负担，这还需要极大量的重复，最好还是短期内足量重复…… 只有精通，大脑才能彻底无负担地同时做其他的事情……  说来说去，这不全都只能靠生学硬练嘛？
-
-所以，生学硬练实际上贯穿着整个学习过程 —— 从始至终，任何时候都可能需要生学硬练，关键的时候尤其如此。之前的说法也应该调整一下了，所谓的生学硬练，应该是**不断试错直至可能，不断重复直至精通** —— 而不只是熟练而已。
-
-**生学硬练，原本是我们与生俱来的能力**。毫无疑问，在最初的几年里，无论什么都是我们通过生学硬练掌握的。理论上来讲，自然语言处理，是人类的大脑终生能够处理的最高级最复杂的任务（没有之一）；与之相应的，自然语言习得，显然是我们这一生能够遇到的最复杂最艰难但又必须完成的学习任务。但是，自然语言习得的最基础部分，**语音塑造**和**记忆扩展**，却能在还没上学还不识字的过程中就逐步完成 —— 全靠生学硬练。
-
-即便是到了很多所谓高级的领域，也还是一样的。有人能手把手教，当然很好。但总有一些是身边没有人会的，那怎么办？看书，然后自己学、自己练。有没有可能连书都找不到呢？当然。没有人可以在身边手把手教，书里也找不到，那怎么办？到最后永远都能仰仗的，再一次只能是生学硬练……
-
-随着时间的推移，绝大多数人竟然彻底忘记了自己曾经拥有过的生学硬练的本领。这背后的根源虽然有点微妙但也格外简单。
+Nhưng vấn đề là, phương pháp luận dù có hữu ích, thường không thể hoạt động độc lập. Ví dụ, tôi nói với bạn âm <span class="pho">ŋ</span> khi đi kèm với nguyên âm thì sẽ biến thành <span class="pho">n</span> (xem [2.2.13.](../sounds-of-american-english/2.2.13-mnŋ)) — bạn hiển nhiên có thể hiểu ngay và nhớ kỹ, nhưng lần sau khi nói, bạn có thể làm được không? Đa phần là không. Rất nhiều kiến thức ngữ pháp tiếng Anh cũng như vậy đối với người học thứ hai, ở phòng thi họ làm bài đúng, nhưng khi mở miệng nói hay viết là mắc lỗi liên tục, dù họ có thể nhận ra lỗi ngay khi mắc.
 
 ```mermaid
 flowchart LR
-start([起点])----->|已流逝的时间越来越多|now([当下])-->|剩下时间越来越少|ending([终点])
+
+impossible([Không thể]) -..-> possible([Có thể]) --> clumsiness([Vụng về]) --> adaptness([Thành thạo]) --> plateau([Đình trệ]) -.-> mastery([Thành thạo hoàn hảo])
+possible --|Hỗ trợ phương pháp luận + Học tự nhiên luyện tập chăm chỉ|--> adaptness
+impossible -.-> |Học tự nhiên luyện tập chăm chỉ| possible
+adaptness -.-> |Học tự nhiên luyện tập chăm chỉ| mastery
 ```
 
-每个人的时间都有限，刚开始的时候并不觉得，所以很难在意**效率**。随着岁数的增加，过去的占比越来越高，未来的占比越来越少，效率的重要性就显得越来越大，于是，越来越渴求一切可能会提高效率的方法论…… 越来越痴迷于方法论，甚至不惜欺骗自己去相信那些只是胡搞瞎搞但就是敢坚称自己有效的所谓方法论。甚至，开始莫名其妙地鄙视生学硬练。与此同时，一切需要生学硬练的，都直接跳过，借口说那需要一些自己没有的天赋，所以自己永远学不会 —— 倒是可以因此轻松原谅自己，以效率为名。
+Nhiều kiến thức và kỹ năng quan trọng là vậy: biết thôi chưa đủ, dù thành thạo cũng chưa đủ, phải thật sự tinh thông mới xứng đáng — bởi vì phải đạt đến trình độ có thể làm đúng một cách vô thức, tự nhiên. Trong não phải xây dựng thêm kết nối và mạng lưới mới cho cái gọi là “biết”, rồi tiếp tục củng cố đến mức có thể xử lý vô thức những tình huống đó — thành thạo chỉ giảm bớt gánh nặng phần nào, điều này đòi hỏi lặp lại vô số lần, tốt nhất là tập với cường độ lớn trong thời gian ngắn; còn muốn tinh thông thì cần lặp lại nhiều hơn nữa, cũng phải tập ngắn hạn và cường độ cao… Chỉ khi tinh thông, não mới hoàn toàn không gánh nặng và có thể làm được nhiều việc khác đồng thời… Tóm lại, tất cả đều phải dựa vào học tự nhiên luyện tập chăm chỉ.
 
-绝大多数人的问题只不过是，对自己要求太低，对世界要求太高。特别擅长糊弄自己，然后也习惯了糊弄世界…… 这个世界说实话倒也挺宽容，一般不会马上反击，可它总有忍不住的时候，万一它反手一个耳光扇过来，没有人能承受得住。
+Cho nên, học tự nhiên luyện tập chăm chỉ xuyên suốt toàn bộ quá trình học — từ đầu đến cuối, bất kỳ lúc nào cũng cần, đặc biệt là lúc quan trọng. Cách nói trước đây nên chỉnh lại: học tự nhiên luyện tập chăm chỉ nghĩa là **thử sai đến khi có thể, luyện tập đến khi tinh thông** — chứ không chỉ là thành thạo.
 
-生学硬练也有技巧：**变着花样不断搞**。**试错**，总是需要不断地换新方式去尝试，然而，**重复**，也需要不断地换着方式重复，从各个角度、从各个层面去重复，变着花样去重复。只要你肯不断变花样，原本看起来无比枯燥的生学硬练就会变得趣味丛生，其乐无穷。
+**Học tự nhiên luyện tập chăm chỉ vốn là năng lực bẩm sinh của ta**. Không nghi ngờ gì, trong vài năm đầu đời, mọi thứ đều được ta học bằng cách này. Về lý thuyết, xử lý ngôn ngữ tự nhiên là nhiệm vụ cao cấp và phức tạp nhất mà não người có thể giải quyết (không một cái gì khác vượt qua được); tương ứng, việc tiếp thu ngôn ngữ tự nhiên là nhiệm vụ học tập khó khăn nhất và phải hoàn thiện suốt đời. Nhưng phần cơ bản nhất trong việc tiếp thu ngôn ngữ tự nhiên — **hình thành phát âm** và **mở rộng trí nhớ** — lại có thể hoàn thành từ lúc chưa biết chữ, chưa đến trường — hoàn toàn dựa vào học tự nhiên luyện tập chăm chỉ.
+
+Ngay cả khi đã bước sang nhiều lĩnh vực được coi là “cao cấp”, nguyên tắc vẫn vậy. Có người dạy tận tay thì tốt, nhưng luôn có những điều không ai biết trong môi trường xung quanh, vậy thì làm sao? Đọc sách rồi tự học tự luyện. Có khi không tìm thấy sách thì sao? Dĩ nhiên. Không ai dạy tận tay, sách cũng không có, cuối cùng chỉ còn cách duy nhất là học tự nhiên luyện tập chăm chỉ...
+
+Thời gian trôi qua, hầu hết mọi người quên mất năng lực học tự nhiên luyện tập chăm chỉ vốn có. Nguyên nhân tuy tế nhị nhưng lại rất đơn giản.
+
+```mermaid
+flowchart LR
+start([Bắt đầu]) ----->|Thời gian đã trôi qua nhiều hơn| now([Hiện tại]) -->|Thời gian còn lại ngày càng ít| ending([Kết thúc])
+```
+
+Mỗi người đều có thời gian giới hạn, lúc đầu không cảm thấy nên không bận tâm tới **hiệu quả**. Theo tuổi tác tăng, phần thời gian đã qua chiếm nhiều hơn, thời gian tương lai ngày càng hiếm, hiệu quả càng quan trọng. Do đó ta ngày càng khao khát mọi cách có thể nâng cao hiệu quả… Rồi mê mải với các phương pháp luận, thậm chí tự thuyết phục mình tin vào những phương pháp không ra gì nhưng dám tuyên bố hiệu quả. Thậm chí còn xem thường học tự nhiên luyện tập chăm chỉ. Song song đó bỏ qua tất cả việc cần học tự nhiên luyện tập chăm chỉ, lý do là do cần tài năng bản thân không có nên sẽ không học được — rồi tự an ủi, vừa lòng với việc này dưới danh nghĩa hiệu quả.
+
+Vấn đề của đa số người chỉ đơn giản là đặt tiêu chuẩn quá thấp cho bản thân mà đặt tiêu chuẩn quá cao cho thế giới. Họ rất giỏi lừa bản thân, và đã quen cách lừa thế giới… Thực ra, thế giới cũng khá dễ tính, thường không phản ứng ngay, nhưng rồi cũng có lúc “nổi đóa”, nếu nó một lần cho bạn cái “bạt tai”, ai cũng khó mà chịu nổi.
+
+Học tự nhiên luyện tập chăm chỉ cũng có bí quyết: **liên tục thay đổi cách làm**. **Thử sai** cần liên tục đổi hướng cách làm; trong khi đó, **lặp lại** cũng nên thay đổi cách thức để làm mới, lặp lại đa chiều, đa góc cạnh. Chỉ cần bạn chịu đổi mới, học tự nhiên luyện tập chăm chỉ vốn khô khan sẽ trở nên thú vị vô cùng.
