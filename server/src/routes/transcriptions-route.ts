@@ -8,6 +8,7 @@ import {
   notesTable,
 } from "../db/schema";
 import { eq, and, desc } from "drizzle-orm";
+import { extractUserIdFromToken } from "../utils/jwt";
 
 const transcriptionsRoute = new Hono();
 
@@ -65,26 +66,27 @@ transcriptionsRoute.post("/", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
-
-    // When JWT is implemented:
-    // const userId = extractUserIdFromToken(authHeader);
-    // const newTranscription = await db
-    //   .insert(transcriptionsTable)
-    //   .values({
-    //     id: crypto.randomUUID(),
-    //     userId,
-    //     targetId: target_id,
-    //     targetType: target_type,
-    //     targetMd5: target_md5,
-    //     content,
-    //     language,
-    //     engine,
-    //     status: status || "pending",
-    //     result: result ? JSON.stringify(result) : null,
-    //   })
-    //   .returning();
-    // return c.json(newTranscription[0]);
+    try {
+      const userId = extractUserIdFromToken(authHeader);
+      const newTranscription = await db
+        .insert(transcriptionsTable)
+        .values({
+          id: crypto.randomUUID(),
+          userId,
+          targetId: target_id,
+          targetType: target_type,
+          targetMd5: target_md5,
+          content,
+          language,
+          engine,
+          status: status || "pending",
+          result: result ? JSON.stringify(result) : null,
+        })
+        .returning();
+      return c.json(newTranscription[0]);
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Create transcription error:", error);
     return c.json({ error: "Internal server error" }, 500);

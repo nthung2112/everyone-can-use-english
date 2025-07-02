@@ -2,6 +2,7 @@ import { Hono } from "hono";
 import { db } from "../db/index";
 import { paymentsTable, usersTable } from "../db/schema";
 import { eq, desc, and } from "drizzle-orm";
+import { extractUserIdFromToken } from "../utils/jwt";
 
 const paymentsRoute = new Hono();
 
@@ -17,31 +18,32 @@ paymentsRoute.get("/", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
+    try {
+      const userId = extractUserIdFromToken(authHeader);
+      const whereConditions = [eq(paymentsTable.userId, userId)];
+      if (payment_type) {
+        whereConditions.push(eq(paymentsTable.paymentType, payment_type));
+      }
 
-    // When JWT is implemented:
-    // const userId = extractUserIdFromToken(authHeader);
-    // const whereConditions = [eq(paymentsTable.userId, userId)];
-    // if (payment_type) {
-    //   whereConditions.push(eq(paymentsTable.paymentType, payment_type));
-    // }
-    //
-    // const payments = await db
-    //   .select()
-    //   .from(paymentsTable)
-    //   .where(and(...whereConditions))
-    //   .orderBy(desc(paymentsTable.createdAt))
-    //   .limit(limit)
-    //   .offset(offset);
-    //
-    // return c.json({
-    //   payments,
-    //   pagination: {
-    //     page: parseInt(page),
-    //     items: parseInt(items),
-    //     hasNext: payments.length === limit,
-    //   },
-    // });
+      const payments = await db
+        .select()
+        .from(paymentsTable)
+        .where(and(...whereConditions))
+        .orderBy(desc(paymentsTable.createdAt))
+        .limit(limit)
+        .offset(offset);
+
+      return c.json({
+        payments,
+        pagination: {
+          page: parseInt(page),
+          items: parseInt(items),
+          hasNext: payments.length === limit,
+        },
+      });
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Get payments error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -58,21 +60,22 @@ paymentsRoute.get("/:id", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
+    try {
+      const userId = extractUserIdFromToken(authHeader);
+      const payment = await db
+        .select()
+        .from(paymentsTable)
+        .where(and(eq(paymentsTable.id, paymentId), eq(paymentsTable.userId, userId)))
+        .limit(1);
 
-    // When JWT is implemented:
-    // const userId = extractUserIdFromToken(authHeader);
-    // const payment = await db
-    //   .select()
-    //   .from(paymentsTable)
-    //   .where(and(eq(paymentsTable.id, paymentId), eq(paymentsTable.userId, userId)))
-    //   .limit(1);
-    //
-    // if (payment.length === 0) {
-    //   return c.json({ error: "Payment not found" }, 404);
-    // }
-    //
-    // return c.json(payment[0]);
+      if (payment.length === 0) {
+        return c.json({ error: "Payment not found" }, 404);
+      }
+
+      return c.json(payment[0]);
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Get payment error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -94,23 +97,24 @@ paymentsRoute.post("/", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
-
-    // When JWT is implemented:
-    // const userId = extractUserIdFromToken(authHeader);
-    // const newPayment = await db
-    //   .insert(paymentsTable)
-    //   .values({
-    //     id: crypto.randomUUID(),
-    //     userId,
-    //     amount,
-    //     reconciledCurrency: reconciled_currency || "USD",
-    //     processor,
-    //     paymentType: payment_type,
-    //     status: "pending",
-    //   })
-    //   .returning();
-    // return c.json(newPayment[0]);
+    try {
+      const userId = extractUserIdFromToken(authHeader);
+      const newPayment = await db
+        .insert(paymentsTable)
+        .values({
+          id: crypto.randomUUID(),
+          userId,
+          amount,
+          reconciledCurrency: reconciled_currency || "USD",
+          processor,
+          paymentType: payment_type,
+          status: "pending",
+        })
+        .returning();
+      return c.json(newPayment[0]);
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Create payment error:", error);
     return c.json({ error: "Internal server error" }, 500);

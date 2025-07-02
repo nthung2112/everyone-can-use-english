@@ -1,7 +1,8 @@
 import { Hono } from "hono";
 import { db } from "../db/index";
 import { speechTokensTable } from "../db/schema";
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
+import { extractUserIdFromToken } from "../utils/jwt";
 
 const speechRoute = new Hono();
 
@@ -16,29 +17,30 @@ speechRoute.post("/tokens", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
-
-    // When JWT is implemented:
-    // const userId = extractUserIdFromToken(authHeader);
-    // const newToken = await db
-    //   .insert(speechTokensTable)
-    //   .values({
-    //     id: Math.floor(Math.random() * 1000000), // Generate random ID
-    //     userId,
-    //     purpose: purpose || "speech",
-    //     targetType: target_type,
-    //     targetId: target_id,
-    //     input,
-    //     token: crypto.randomUUID(),
-    //     region: "us-east-1", // Default region
-    //     state: "active",
-    //   })
-    //   .returning();
-    // return c.json({
-    //   id: newToken[0].id,
-    //   token: newToken[0].token,
-    //   region: newToken[0].region,
-    // });
+    try {
+      const userId = extractUserIdFromToken(authHeader);
+      const newToken = await db
+        .insert(speechTokensTable)
+        .values({
+          id: Math.floor(Math.random() * 1000000), // Generate random ID
+          userId,
+          purpose: purpose || "speech",
+          targetType: target_type,
+          targetId: target_id,
+          input,
+          token: crypto.randomUUID(),
+          region: "us-east-1", // Default region
+          state: "active",
+        })
+        .returning();
+      return c.json({
+        id: newToken[0].id,
+        token: newToken[0].token,
+        region: newToken[0].region,
+      });
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Generate speech token error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -61,21 +63,22 @@ speechRoute.put("/tokens/:id", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
+    try {
+      const userId = extractUserIdFromToken(authHeader);
+      const updatedToken = await db
+        .update(speechTokensTable)
+        .set({ state })
+        .where(and(eq(speechTokensTable.id, tokenId), eq(speechTokensTable.userId, userId)))
+        .returning();
 
-    // When JWT is implemented:
-    // const userId = extractUserIdFromToken(authHeader);
-    // const updatedToken = await db
-    //   .update(speechTokensTable)
-    //   .set({ state })
-    //   .where(and(eq(speechTokensTable.id, tokenId), eq(speechTokensTable.userId, userId)))
-    //   .returning();
-    //
-    // if (updatedToken.length === 0) {
-    //   return c.json({ error: "Token not found or access denied" }, 404);
-    // }
-    //
-    // return c.json(updatedToken[0]);
+      if (updatedToken.length === 0) {
+        return c.json({ error: "Token not found or access denied" }, 404);
+      }
+
+      return c.json(updatedToken[0]);
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Update speech token error:", error);
     return c.json({ error: "Internal server error" }, 500);

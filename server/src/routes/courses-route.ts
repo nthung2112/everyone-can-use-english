@@ -8,6 +8,7 @@ import {
   usersTable,
 } from "../db/schema";
 import { eq, desc, and } from "drizzle-orm";
+import { extractUserIdFromToken } from "../utils/jwt";
 
 const coursesRoute = new Hono();
 
@@ -169,33 +170,33 @@ coursesRoute.post("/:courseId/chapters/:id/finish", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
+    try {
+      const userId = extractUserIdFromToken(authHeader);
 
-    // When JWT is implemented:
-    // const userId = extractUserIdFromToken(authHeader);
-    //
-    // // Check if user is enrolled in the course
-    // const enrollment = await db
-    //   .select()
-    //   .from(enrollmentsTable)
-    //   .where(and(eq(enrollmentsTable.courseId, courseId), eq(enrollmentsTable.userId, userId)))
-    //   .limit(1);
-    //
-    // if (enrollment.length === 0) {
-    //   return c.json({ error: "User not enrolled in this course" }, 403);
-    // }
-    //
-    // // Mark chapter as completed
-    // await db
-    //   .insert(chapterCompletionsTable)
-    //   .values({
-    //     userId,
-    //     courseId,
-    //     chapterId,
-    //   })
-    //   .onConflictDoNothing();
-    //
-    // return c.json({ message: "Chapter completed successfully" });
+      // Check if user is enrolled in the course
+      const enrollment = await db
+        .select()
+        .from(enrollmentsTable)
+        .where(and(eq(enrollmentsTable.courseId, courseId), eq(enrollmentsTable.userId, userId)))
+        .limit(1);
+
+      if (enrollment.length === 0) {
+        return c.json({ error: "User not enrolled in this course" }, 403);
+      }
+
+      // Mark chapter as completed
+      await db
+        .insert(chapterCompletionsTable)
+        .values({
+          enrollmentId: enrollment[0].id,
+          chapterId: chapterId.toString(),
+        })
+        .onConflictDoNothing();
+
+      return c.json({ message: "Chapter completed successfully" });
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Finish chapter error:", error);
     return c.json({ error: "Internal server error" }, 500);

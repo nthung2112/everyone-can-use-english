@@ -1,7 +1,8 @@
 import { Hono } from "hono";
 import { db } from "../db/index";
-import { segmentsTable, notesTable } from "../db/schema";
-import { eq, desc, and } from "drizzle-orm";
+import { segmentsTable, usersTable } from "../db/schema";
+import { eq, and } from "drizzle-orm";
+import { extractUserIdFromToken } from "../utils/jwt";
 
 const segmentsRoute = new Hono();
 
@@ -67,24 +68,21 @@ segmentsRoute.post("/", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
-
-    // When JWT is implemented:
-    // const newSegment = await db
-    //   .insert(segmentsTable)
-    //   .values({
-    //     id: crypto.randomUUID(),
-    //     targetId: target_id,
-    //     targetType: target_type,
-    //     segmentIndex: segment_index,
-    //     startTime: start_time,
-    //     endTime: end_time,
-    //     text,
-    //     translation,
-    //     metadata: metadata ? JSON.stringify(metadata) : null,
-    //   })
-    //   .returning();
-    // return c.json(newSegment[0]);
+    const newSegment = await db
+      .insert(segmentsTable)
+      .values({
+        id: crypto.randomUUID(),
+        targetId: target_id,
+        targetType: target_type,
+        segmentIndex: segment_index,
+        startTime: start_time,
+        endTime: end_time,
+        text,
+        translation,
+        metadata: metadata ? JSON.stringify(metadata) : null,
+      })
+      .returning();
+    return c.json(newSegment[0]);
   } catch (error) {
     console.error("Create segment error:", error);
     return c.json({ error: "Internal server error" }, 500);

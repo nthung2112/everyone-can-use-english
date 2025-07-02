@@ -2,6 +2,7 @@ import { Hono } from "hono";
 import { db } from "../db/index";
 import { usersTable, followsTable } from "../db/schema";
 import { eq, desc, and } from "drizzle-orm";
+import { extractUserIdFromToken } from "../utils/jwt";
 
 // create common route for authentication and user management
 const usersRoute = new Hono();
@@ -218,25 +219,26 @@ usersRoute.post("/:id/follow", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
+    try {
+      const currentUserId = extractUserIdFromToken(authHeader);
 
-    // When JWT is implemented:
-    // const currentUserId = extractUserIdFromToken(authHeader);
-    //
-    // if (currentUserId === targetUserId) {
-    //   return c.json({ error: "Cannot follow yourself" }, 400);
-    // }
-    //
-    // const newFollow = await db
-    //   .insert(followsTable)
-    //   .values({
-    //     followerId: currentUserId,
-    //     followingId: targetUserId,
-    //   })
-    //   .onConflictDoNothing()
-    //   .returning();
-    //
-    // return c.json({ message: "User followed successfully" });
+      if (currentUserId === targetUserId) {
+        return c.json({ error: "Cannot follow yourself" }, 400);
+      }
+
+      const newFollow = await db
+        .insert(followsTable)
+        .values({
+          followerId: currentUserId,
+          followingId: targetUserId,
+        })
+        .onConflictDoNothing()
+        .returning();
+
+      return c.json({ message: "User followed successfully" });
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Follow user error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -253,19 +255,22 @@ usersRoute.delete("/:id/unfollow", async (c) => {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
+    try {
+      const currentUserId = extractUserIdFromToken(authHeader);
 
-    // When JWT is implemented:
-    // const currentUserId = extractUserIdFromToken(authHeader);
-    //
-    // await db
-    //   .delete(followsTable)
-    //   .where(and(
-    //     eq(followsTable.followerId, currentUserId),
-    //     eq(followsTable.followingId, targetUserId)
-    //   ));
-    //
-    // return c.json({ message: "User unfollowed successfully" });
+      await db
+        .delete(followsTable)
+        .where(
+          and(
+            eq(followsTable.followerId, currentUserId),
+            eq(followsTable.followingId, targetUserId)
+          )
+        );
+
+      return c.json({ message: "User unfollowed successfully" });
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Unfollow user error:", error);
     return c.json({ error: "Internal server error" }, 500);
