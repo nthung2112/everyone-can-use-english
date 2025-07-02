@@ -2,7 +2,6 @@ import { Hono } from "hono";
 import { db } from "../db/index";
 import { usersTable, followsTable } from "../db/schema";
 import { eq, desc, and } from "drizzle-orm";
-import { extractUserIdFromToken } from "../utils/jwt";
 
 // create common route for authentication and user management
 const usersRoute = new Hono();
@@ -214,31 +213,22 @@ usersRoute.post("/:id/follow", async (c) => {
   try {
     const targetUserId = c.req.param("id");
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId: currentUserId } = c.get("jwtPayload");
+
+    if (currentUserId === targetUserId) {
+      return c.json({ error: "Cannot follow yourself" }, 400);
     }
 
-    try {
-      const currentUserId = extractUserIdFromToken(authHeader);
+    const newFollow = await db
+      .insert(followsTable)
+      .values({
+        followerId: currentUserId,
+        followingId: targetUserId,
+      })
+      .onConflictDoNothing()
+      .returning();
 
-      if (currentUserId === targetUserId) {
-        return c.json({ error: "Cannot follow yourself" }, 400);
-      }
-
-      const newFollow = await db
-        .insert(followsTable)
-        .values({
-          followerId: currentUserId,
-          followingId: targetUserId,
-        })
-        .onConflictDoNothing()
-        .returning();
-
-      return c.json({ message: "User followed successfully" });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({ message: "User followed successfully", data: newFollow[0] || null });
   } catch (error) {
     console.error("Follow user error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -250,27 +240,15 @@ usersRoute.delete("/:id/unfollow", async (c) => {
   try {
     const targetUserId = c.req.param("id");
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId: currentUserId } = c.get("jwtPayload");
 
-    try {
-      const currentUserId = extractUserIdFromToken(authHeader);
+    await db
+      .delete(followsTable)
+      .where(
+        and(eq(followsTable.followerId, currentUserId), eq(followsTable.followingId, targetUserId))
+      );
 
-      await db
-        .delete(followsTable)
-        .where(
-          and(
-            eq(followsTable.followerId, currentUserId),
-            eq(followsTable.followingId, targetUserId)
-          )
-        );
-
-      return c.json({ message: "User unfollowed successfully" });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({ message: "User unfollowed successfully" });
   } catch (error) {
     console.error("Unfollow user error:", error);
     return c.json({ error: "Internal server error" }, 500);

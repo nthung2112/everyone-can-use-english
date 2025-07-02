@@ -1,8 +1,7 @@
 import { Hono } from "hono";
 import { db } from "../db/index";
-import { segmentsTable, usersTable } from "../db/schema";
+import { segmentsTable } from "../db/schema";
 import { eq, and } from "drizzle-orm";
-import { extractUserIdFromToken } from "../utils/jwt";
 
 const segmentsRoute = new Hono();
 

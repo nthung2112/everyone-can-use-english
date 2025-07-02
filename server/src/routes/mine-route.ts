@@ -5,39 +5,25 @@ import {
   videosTable,
   recordingsTable,
   pronunciationAssessmentsTable,
-  notesTable,
-  segmentsTable,
   storiesTable,
   starredStoriesTable,
   documentsTable,
   meaningsTable,
 } from "../db/schema";
 import { eq, desc, and } from "drizzle-orm";
-import { extractUserIdFromToken } from "../utils/jwt";
 
 const mineRoute = new Hono();
 
 // Get usage statistics
 mineRoute.get("/usages", async (c) => {
   try {
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
-
-    try {
-      const userId = extractUserIdFromToken(authHeader);
-      
-      // Return usage statistics for the user
-      const usageData = [
-        { label: "Recordings", data: [10, 15, 20, 25, 30] },
-        { label: "Transcriptions", data: [5, 8, 12, 18, 22] },
-        { label: "Pronunciations", data: [3, 6, 9, 12, 15] },
-      ];
-      return c.json(usageData);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    // Return usage statistics for the user
+    const usageData = [
+      { label: "Recordings", data: [10, 15, 20, 25, 30] },
+      { label: "Transcriptions", data: [5, 8, 12, 18, 22] },
+      { label: "Pronunciations", data: [3, 6, 9, 12, 15] },
+    ];
+    return c.json(usageData);
   } catch (error) {
     console.error("Get usages error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -54,34 +40,25 @@ mineRoute.post("/audios", async (c) => {
       return c.json({ error: "Filename and original_filename are required" }, 400);
     }
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId } = c.get("jwtPayload");
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    const newAudio = await db
+      .insert(audiosTable)
+      .values({
+        id: crypto.randomUUID(),
+        userId,
+        filename,
+        originalFilename: original_filename,
+        filesize: filesize || null,
+        duration: duration || null,
+        format: format || null,
+        md5: md5 || null,
+        url: url || null,
+        metadata: metadata ? JSON.stringify(metadata) : null,
+      })
+      .returning();
 
-      const newAudio = await db
-        .insert(audiosTable)
-        .values({
-          id: crypto.randomUUID(),
-          userId,
-          filename,
-          originalFilename: original_filename,
-          filesize: filesize || null,
-          duration: duration || null,
-          format: format || null,
-          md5: md5 || null,
-          url: url || null,
-          metadata: metadata ? JSON.stringify(metadata) : null,
-        })
-        .returning();
-
-      return c.json(newAudio[0]);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json(newAudio[0]);
   } catch (error) {
     console.error("Sync audio error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -93,33 +70,22 @@ mineRoute.delete("/audios/:id", async (c) => {
   try {
     const audioId = c.req.param("id");
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId } = c.get("jwtPayload");
+
+    // Verify user owns the audio
+    const existingAudio = await db
+      .select()
+      .from(audiosTable)
+      .where(and(eq(audiosTable.id, audioId), eq(audiosTable.userId, userId)))
+      .limit(1);
+
+    if (existingAudio.length === 0) {
+      return c.json({ error: "Audio not found or you don't have permission to delete it" }, 404);
     }
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    await db.delete(audiosTable).where(eq(audiosTable.id, audioId));
 
-      // Verify user owns the audio
-      const existingAudio = await db
-        .select()
-        .from(audiosTable)
-        .where(and(eq(audiosTable.id, audioId), eq(audiosTable.userId, userId)))
-        .limit(1);
-
-      if (existingAudio.length === 0) {
-        return c.json({ error: "Audio not found or you don't have permission to delete it" }, 404);
-      }
-
-      await db
-        .delete(audiosTable)
-        .where(eq(audiosTable.id, audioId));
-
-      return c.json({ message: "Audio deleted successfully", id: audioId });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({ message: "Audio deleted successfully", id: audioId });
   } catch (error) {
     console.error("Delete audio error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -136,34 +102,25 @@ mineRoute.post("/videos", async (c) => {
       return c.json({ error: "Filename and original_filename are required" }, 400);
     }
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId } = c.get("jwtPayload");
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    const newVideo = await db
+      .insert(videosTable)
+      .values({
+        id: crypto.randomUUID(),
+        userId,
+        filename,
+        originalFilename: original_filename,
+        filesize: filesize || null,
+        duration: duration || null,
+        format: format || null,
+        md5: md5 || null,
+        url: url || null,
+        metadata: metadata ? JSON.stringify(metadata) : null,
+      })
+      .returning();
 
-      const newVideo = await db
-        .insert(videosTable)
-        .values({
-          id: crypto.randomUUID(),
-          userId,
-          filename,
-          originalFilename: original_filename,
-          filesize: filesize || null,
-          duration: duration || null,
-          format: format || null,
-          md5: md5 || null,
-          url: url || null,
-          metadata: metadata ? JSON.stringify(metadata) : null,
-        })
-        .returning();
-
-      return c.json(newVideo[0]);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json(newVideo[0]);
   } catch (error) {
     console.error("Sync video error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -175,33 +132,22 @@ mineRoute.delete("/videos/:id", async (c) => {
   try {
     const videoId = c.req.param("id");
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId } = c.get("jwtPayload");
+
+    // Verify user owns the video
+    const existingVideo = await db
+      .select()
+      .from(videosTable)
+      .where(and(eq(videosTable.id, videoId), eq(videosTable.userId, userId)))
+      .limit(1);
+
+    if (existingVideo.length === 0) {
+      return c.json({ error: "Video not found or you don't have permission to delete it" }, 404);
     }
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    await db.delete(videosTable).where(eq(videosTable.id, videoId));
 
-      // Verify user owns the video
-      const existingVideo = await db
-        .select()
-        .from(videosTable)
-        .where(and(eq(videosTable.id, videoId), eq(videosTable.userId, userId)))
-        .limit(1);
-
-      if (existingVideo.length === 0) {
-        return c.json({ error: "Video not found or you don't have permission to delete it" }, 404);
-      }
-
-      await db
-        .delete(videosTable)
-        .where(eq(videosTable.id, videoId));
-
-      return c.json({ message: "Video deleted successfully", id: videoId });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({ message: "Video deleted successfully", id: videoId });
   } catch (error) {
     console.error("Delete video error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -218,31 +164,22 @@ mineRoute.post("/recordings", async (c) => {
       return c.json({ error: "Filename is required" }, 400);
     }
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId } = c.get("jwtPayload");
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    const newRecording = await db
+      .insert(recordingsTable)
+      .values({
+        id: crypto.randomUUID(),
+        userId,
+        filename,
+        duration: duration || null,
+        metadata: metadata ? JSON.stringify(metadata) : null,
+        targetType: target_type || null,
+        targetId: target_id || null,
+      })
+      .returning();
 
-      const newRecording = await db
-        .insert(recordingsTable)
-        .values({
-          id: crypto.randomUUID(),
-          userId,
-          filename,
-          duration: duration || null,
-          metadata: metadata ? JSON.stringify(metadata) : null,
-          targetType: target_type || null,
-          targetId: target_id || null,
-        })
-        .returning();
-
-      return c.json(newRecording[0]);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json(newRecording[0]);
   } catch (error) {
     console.error("Sync recording error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -254,33 +191,25 @@ mineRoute.delete("/recordings/:id", async (c) => {
   try {
     const recordingId = c.req.param("id");
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId } = c.get("jwtPayload");
+
+    // Verify user owns the recording
+    const existingRecording = await db
+      .select()
+      .from(recordingsTable)
+      .where(and(eq(recordingsTable.id, recordingId), eq(recordingsTable.userId, userId)))
+      .limit(1);
+
+    if (existingRecording.length === 0) {
+      return c.json(
+        { error: "Recording not found or you don't have permission to delete it" },
+        404
+      );
     }
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    await db.delete(recordingsTable).where(eq(recordingsTable.id, recordingId));
 
-      // Verify user owns the recording
-      const existingRecording = await db
-        .select()
-        .from(recordingsTable)
-        .where(and(eq(recordingsTable.id, recordingId), eq(recordingsTable.userId, userId)))
-        .limit(1);
-
-      if (existingRecording.length === 0) {
-        return c.json({ error: "Recording not found or you don't have permission to delete it" }, 404);
-      }
-
-      await db
-        .delete(recordingsTable)
-        .where(eq(recordingsTable.id, recordingId));
-
-      return c.json({ message: "Recording deleted successfully", id: recordingId });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({ message: "Recording deleted successfully", id: recordingId });
   } catch (error) {
     console.error("Delete recording error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -292,29 +221,25 @@ mineRoute.get("/recordings/:id/assessment", async (c) => {
   try {
     const recordingId = c.req.param("id");
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId } = c.get("jwtPayload");
+
+    // Get assessment for the recording
+    const assessment = await db
+      .select()
+      .from(pronunciationAssessmentsTable)
+      .where(
+        and(
+          eq(pronunciationAssessmentsTable.recordingId, recordingId),
+          eq(pronunciationAssessmentsTable.userId, userId)
+        )
+      )
+      .limit(1);
+
+    if (assessment.length === 0) {
+      return c.json({ error: "Assessment not found" }, 404);
     }
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
-
-      // Get assessment for the recording
-      const assessment = await db
-        .select()
-        .from(pronunciationAssessmentsTable)
-        .where(and(eq(pronunciationAssessmentsTable.recordingId, recordingId), eq(pronunciationAssessmentsTable.userId, userId)))
-        .limit(1);
-
-      if (assessment.length === 0) {
-        return c.json({ error: "Assessment not found" }, 404);
-      }
-
-      return c.json(assessment[0]);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json(assessment[0]);
   } catch (error) {
     console.error("Get recording assessment error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -325,40 +250,40 @@ mineRoute.get("/recordings/:id/assessment", async (c) => {
 mineRoute.post("/pronunciation_assessments", async (c) => {
   try {
     const body = await c.req.json();
-    const { recording_id, target_text, result, accuracy, fluency, completeness, pronunciation, prosody } = body;
+    const {
+      recording_id,
+      target_text,
+      result,
+      accuracy,
+      fluency,
+      completeness,
+      pronunciation,
+      prosody,
+    } = body;
 
     if (!recording_id || !result) {
       return c.json({ error: "Recording ID and result are required" }, 400);
     }
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId } = c.get("jwtPayload");
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    const newAssessment = await db
+      .insert(pronunciationAssessmentsTable)
+      .values({
+        id: crypto.randomUUID(),
+        userId,
+        recordingId: recording_id,
+        targetText: target_text || null,
+        result: typeof result === "string" ? result : JSON.stringify(result),
+        accuracy: accuracy || null,
+        fluency: fluency || null,
+        completeness: completeness || null,
+        pronunciation: pronunciation || null,
+        prosody: prosody || null,
+      })
+      .returning();
 
-      const newAssessment = await db
-        .insert(pronunciationAssessmentsTable)
-        .values({
-          id: crypto.randomUUID(),
-          userId,
-          recordingId: recording_id,
-          targetText: target_text || null,
-          result: typeof result === 'string' ? result : JSON.stringify(result),
-          accuracy: accuracy || null,
-          fluency: fluency || null,
-          completeness: completeness || null,
-          pronunciation: pronunciation || null,
-          prosody: prosody || null,
-        })
-        .returning();
-
-      return c.json(newAssessment[0]);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json(newAssessment[0]);
   } catch (error) {
     console.error("Sync pronunciation assessment error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -372,33 +297,24 @@ mineRoute.get("/stories", async (c) => {
     const offset = (parseInt(page) - 1) * parseInt(items);
     const limit = parseInt(items);
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId } = c.get("jwtPayload");
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    const stories = await db
+      .select()
+      .from(storiesTable)
+      .where(eq(storiesTable.userId, userId))
+      .orderBy(desc(storiesTable.createdAt))
+      .limit(limit)
+      .offset(offset);
 
-      const stories = await db
-        .select()
-        .from(storiesTable)
-        .where(eq(storiesTable.userId, userId))
-        .orderBy(desc(storiesTable.createdAt))
-        .limit(limit)
-        .offset(offset);
-
-      return c.json({
-        stories,
-        pagination: {
-          page: parseInt(page),
-          items: parseInt(items),
-          hasNext: stories.length === limit,
-        },
-      });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({
+      stories,
+      pagination: {
+        page: parseInt(page),
+        items: parseInt(items),
+        hasNext: stories.length === limit,
+      },
+    });
   } catch (error) {
     console.error("Get user stories error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -415,27 +331,18 @@ mineRoute.post("/stories", async (c) => {
       return c.json({ error: "Story ID is required" }, 400);
     }
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId } = c.get("jwtPayload");
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    // Create a starred story record
+    const starredStory = await db
+      .insert(starredStoriesTable)
+      .values({
+        userId,
+        storyId: story_id,
+      })
+      .returning();
 
-      // Create a starred story record
-      const starredStory = await db
-        .insert(starredStoriesTable)
-        .values({
-          userId,
-          storyId: story_id,
-        })
-        .returning();
-
-      return c.json(starredStory[0]);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json(starredStory[0]);
   } catch (error) {
     console.error("Star story error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -447,23 +354,14 @@ mineRoute.delete("/stories/:id", async (c) => {
   try {
     const storyId = c.req.param("id");
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId } = c.get("jwtPayload");
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    // Delete the starred story record
+    const deleted = await db
+      .delete(starredStoriesTable)
+      .where(and(eq(starredStoriesTable.userId, userId), eq(starredStoriesTable.storyId, storyId)));
 
-      // Delete the starred story record
-      const deleted = await db
-        .delete(starredStoriesTable)
-        .where(and(eq(starredStoriesTable.userId, userId), eq(starredStoriesTable.storyId, storyId)));
-
-      return c.json({ message: "Story unstarred successfully", id: storyId });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({ message: "Story unstarred successfully", id: storyId });
   } catch (error) {
     console.error("Unstar story error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -480,31 +378,22 @@ mineRoute.post("/documents", async (c) => {
       return c.json({ error: "Filename, type, and md5 are required" }, 400);
     }
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
-    }
+    const { userId } = c.get("jwtPayload");
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    const newDocument = await db
+      .insert(documentsTable)
+      .values({
+        id: crypto.randomUUID(),
+        userId,
+        filename,
+        type,
+        md5,
+        url: url || null,
+        metadata: metadata ? JSON.stringify(metadata) : null,
+      })
+      .returning();
 
-      const newDocument = await db
-        .insert(documentsTable)
-        .values({
-          id: crypto.randomUUID(),
-          userId,
-          filename,
-          type,
-          md5,
-          url: url || null,
-          metadata: metadata ? JSON.stringify(metadata) : null,
-        })
-        .returning();
-
-      return c.json(newDocument[0]);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json(newDocument[0]);
   } catch (error) {
     console.error("Sync document error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -516,33 +405,22 @@ mineRoute.delete("/documents/:id", async (c) => {
   try {
     const documentId = c.req.param("id");
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId } = c.get("jwtPayload");
+
+    // Verify user owns the document
+    const existingDocument = await db
+      .select()
+      .from(documentsTable)
+      .where(and(eq(documentsTable.id, documentId), eq(documentsTable.userId, userId)))
+      .limit(1);
+
+    if (existingDocument.length === 0) {
+      return c.json({ error: "Document not found or you don't have permission to delete it" }, 404);
     }
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    await db.delete(documentsTable).where(eq(documentsTable.id, documentId));
 
-      // Verify user owns the document
-      const existingDocument = await db
-        .select()
-        .from(documentsTable)
-        .where(and(eq(documentsTable.id, documentId), eq(documentsTable.userId, userId)))
-        .limit(1);
-
-      if (existingDocument.length === 0) {
-        return c.json({ error: "Document not found or you don't have permission to delete it" }, 404);
-      }
-
-      await db
-        .delete(documentsTable)
-        .where(eq(documentsTable.id, documentId));
-
-      return c.json({ message: "Document deleted successfully", id: documentId });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({ message: "Document deleted successfully", id: documentId });
   } catch (error) {
     console.error("Delete document error:", error);
     return c.json({ error: "Internal server error" }, 500);
@@ -556,45 +434,36 @@ mineRoute.get("/meanings", async (c) => {
     const offset = (parseInt(page) - 1) * parseInt(items);
     const limit = parseInt(items);
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId } = c.get("jwtPayload");
+
+    // Build where conditions
+    let whereConditions = [eq(meaningsTable.userId, userId)];
+    if (source_id) {
+      whereConditions.push(eq(meaningsTable.sourceId, source_id));
+    }
+    if (source_type) {
+      whereConditions.push(eq(meaningsTable.sourceType, source_type));
+    }
+    if (status) {
+      whereConditions.push(eq(meaningsTable.status, status));
     }
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    const meanings = await db
+      .select()
+      .from(meaningsTable)
+      .where(and(...whereConditions))
+      .orderBy(desc(meaningsTable.createdAt))
+      .limit(limit)
+      .offset(offset);
 
-      // Build where conditions
-      let whereConditions = [eq(meaningsTable.userId, userId)];
-      if (source_id) {
-        whereConditions.push(eq(meaningsTable.sourceId, source_id));
-      }
-      if (source_type) {
-        whereConditions.push(eq(meaningsTable.sourceType, source_type));
-      }
-      if (status) {
-        whereConditions.push(eq(meaningsTable.status, status));
-      }
-
-      const meanings = await db
-        .select()
-        .from(meaningsTable)
-        .where(and(...whereConditions))
-        .orderBy(desc(meaningsTable.createdAt))
-        .limit(limit)
-        .offset(offset);
-
-      return c.json({
-        meanings,
-        pagination: {
-          page: parseInt(page),
-          items: parseInt(items),
-          hasNext: meanings.length === limit,
-        },
-      });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({
+      meanings,
+      pagination: {
+        page: parseInt(page),
+        items: parseInt(items),
+        hasNext: meanings.length === limit,
+      },
+    });
   } catch (error) {
     console.error("Get user meanings error:", error);
     return c.json({ error: "Internal server error" }, 500);

@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import { db } from "../db/index";
 import { usersTable } from "../db/schema";
 import { eq } from "drizzle-orm";
-import { generateJWT, verifyJWT, extractUserIdFromToken } from "../utils/jwt";
+import { generateJWT } from "../utils/jwt";
 
 // Define user type for authentication
 interface UserType {
@@ -169,39 +169,30 @@ sessionRouter.post("/device_code", async (c) => {
 // Get current user profile
 sessionRouter.get("/api/me", async (c) => {
   try {
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId } = c.get("jwtPayload");
+
+    const user = await db
+      .select({
+        id: usersTable.id,
+        name: usersTable.name,
+        email: usersTable.email,
+        avatar: usersTable.avatar,
+        points: usersTable.points,
+        balance: usersTable.balance,
+        locale: usersTable.locale,
+        settings: usersTable.settings,
+        createdAt: usersTable.createdAt,
+        updatedAt: usersTable.updatedAt,
+      })
+      .from(usersTable)
+      .where(eq(usersTable.id, userId))
+      .limit(1);
+
+    if (user.length === 0) {
+      return c.json({ error: "User not found" }, 404);
     }
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
-
-      const user = await db
-        .select({
-          id: usersTable.id,
-          name: usersTable.name,
-          email: usersTable.email,
-          avatar: usersTable.avatar,
-          points: usersTable.points,
-          balance: usersTable.balance,
-          locale: usersTable.locale,
-          settings: usersTable.settings,
-          createdAt: usersTable.createdAt,
-          updatedAt: usersTable.updatedAt,
-        })
-        .from(usersTable)
-        .where(eq(usersTable.id, userId))
-        .limit(1);
-
-      if (user.length === 0) {
-        return c.json({ error: "User not found" }, 404);
-      }
-
-      return c.json(user[0]);
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json(user[0]);
   } catch (error) {
     console.error("Get current user error:", error);
     return c.json({ error: "Internal server error" }, 500);

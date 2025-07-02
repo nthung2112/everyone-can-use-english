@@ -1,5 +1,9 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
+import { jwt } from "hono/jwt";
+import type { JwtVariables } from "hono/jwt";
+import { logger } from "hono/logger";
+
 import usersRoute from "./routes/users-route";
 import sessionRouter from "./routes/sessions-route";
 import commonRoute from "./routes/common-route";
@@ -17,7 +21,18 @@ import segmentsRoute from "./routes/segments-route";
 import notesRoute from "./routes/notes-route";
 import translationsRoute from "./routes/translations-route";
 
-const app = new Hono();
+// JWT secret - in production, this should come from environment variables
+const JWT_SECRET = process.env.JWT_SECRET || "your-super-secret-jwt-key-change-this-in-production";
+
+const app = new Hono<{ Variables: JwtVariables<{ userId: string; email: string }> }>();
+app.use(logger());
+
+app.use(
+  "/api/*",
+  jwt({
+    secret: JWT_SECRET,
+  })
+);
 
 // Add common route
 app.route("/", commonRoute);

@@ -5,10 +5,8 @@ import {
   chaptersTable,
   enrollmentsTable,
   chapterCompletionsTable,
-  usersTable,
 } from "../db/schema";
 import { eq, desc, and } from "drizzle-orm";
-import { extractUserIdFromToken } from "../utils/jwt";
 
 const coursesRoute = new Hono();
 
@@ -165,38 +163,29 @@ coursesRoute.post("/:courseId/chapters/:id/finish", async (c) => {
     const courseId = c.req.param("courseId");
     const chapterId = parseInt(c.req.param("id"));
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    const { userId } = c.get("jwtPayload");
+
+    // Check if user is enrolled in the course
+    const enrollment = await db
+      .select()
+      .from(enrollmentsTable)
+      .where(and(eq(enrollmentsTable.courseId, courseId), eq(enrollmentsTable.userId, userId)))
+      .limit(1);
+
+    if (enrollment.length === 0) {
+      return c.json({ error: "User not enrolled in this course" }, 403);
     }
 
-    try {
-      const userId = extractUserIdFromToken(authHeader);
+    // Mark chapter as completed
+    await db
+      .insert(chapterCompletionsTable)
+      .values({
+        enrollmentId: enrollment[0].id,
+        chapterId: chapterId.toString(),
+      })
+      .onConflictDoNothing();
 
-      // Check if user is enrolled in the course
-      const enrollment = await db
-        .select()
-        .from(enrollmentsTable)
-        .where(and(eq(enrollmentsTable.courseId, courseId), eq(enrollmentsTable.userId, userId)))
-        .limit(1);
-
-      if (enrollment.length === 0) {
-        return c.json({ error: "User not enrolled in this course" }, 403);
-      }
-
-      // Mark chapter as completed
-      await db
-        .insert(chapterCompletionsTable)
-        .values({
-          enrollmentId: enrollment[0].id,
-          chapterId: chapterId.toString(),
-        })
-        .onConflictDoNothing();
-
-      return c.json({ message: "Chapter completed successfully" });
-    } catch (jwtError) {
-      return c.json({ error: "Invalid or expired token" }, 401);
-    }
+    return c.json({ message: "Chapter completed successfully" });
   } catch (error) {
     console.error("Finish chapter error:", error);
     return c.json({ error: "Internal server error" }, 500);
