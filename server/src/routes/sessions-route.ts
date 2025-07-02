@@ -2,6 +2,14 @@ import { Hono } from "hono";
 import { db } from "../db/index";
 import { usersTable } from "../db/schema";
 import { eq } from "drizzle-orm";
+import { generateJWT, verifyJWT, extractUserIdFromToken } from "../utils/jwt";
+
+// Define user type for authentication
+interface UserType {
+  id: string;
+  name: string;
+  email: string;
+}
 
 // create common route for authentication and user management
 const sessionRouter = new Hono();
@@ -82,12 +90,21 @@ sessionRouter.post("/", async (c) => {
     }
 
     if (user) {
-      // TODO: Generate and return JWT token
-      return c.json({
-        id: user.id,
-        name: user.name,
+      // Generate JWT token
+      const token = generateJWT({
+        userId: user.id,
         email: user.email,
-        // Add other user fields as needed
+      });
+
+      return c.json({
+        user: {
+          id: user.id,
+          name: user.name,
+          email: user.email,
+        },
+        token,
+        tokenType: "Bearer",
+        expiresIn: "7d",
       });
     }
 
@@ -152,28 +169,39 @@ sessionRouter.post("/device_code", async (c) => {
 // Get current user profile
 sessionRouter.get("/api/me", async (c) => {
   try {
-    // TODO: Extract user ID from JWT token or session
-    // For now, we'll use a placeholder approach
-
     const authHeader = c.req.header("Authorization");
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
       return c.json({ error: "Authorization token required" }, 401);
     }
 
-    // TODO: Decode JWT token to get user ID
-    // For now, return error since JWT implementation is needed
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
+    try {
+      const userId = extractUserIdFromToken(authHeader);
 
-    // When JWT is implemented, the code would look like:
-    // const token = authHeader.substring(7);
-    // const decoded = verifyJWT(token);
-    // const userId = decoded.userId;
-    //
-    // const user = await db.select().from(usersTable).where(eq(usersTable.id, userId)).limit(1);
-    // if (user.length === 0) {
-    //   return c.json({ error: "User not found" }, 404);
-    // }
-    // return c.json(user[0]);
+      const user = await db
+        .select({
+          id: usersTable.id,
+          name: usersTable.name,
+          email: usersTable.email,
+          avatar: usersTable.avatar,
+          points: usersTable.points,
+          balance: usersTable.balance,
+          locale: usersTable.locale,
+          settings: usersTable.settings,
+          createdAt: usersTable.createdAt,
+          updatedAt: usersTable.updatedAt,
+        })
+        .from(usersTable)
+        .where(eq(usersTable.id, userId))
+        .limit(1);
+
+      if (user.length === 0) {
+        return c.json({ error: "User not found" }, 404);
+      }
+
+      return c.json(user[0]);
+    } catch (jwtError) {
+      return c.json({ error: "Invalid or expired token" }, 401);
+    }
   } catch (error) {
     console.error("Get current user error:", error);
     return c.json({ error: "Internal server error" }, 500);

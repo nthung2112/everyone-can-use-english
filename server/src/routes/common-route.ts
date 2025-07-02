@@ -14,33 +14,109 @@ commonRoute.get("/up", async (c) => {
   return c.json({ message: "Server is up and running" });
 });
 
-// Get current user profile
-commonRoute.get("/api/me", async (c) => {
+// Get configuration
+commonRoute.get("/api/config", async (c) => {
   try {
-    // TODO: Extract user ID from JWT token or session
-    // For now, we'll use a placeholder approach
+    // Return basic app configuration
+    const config = {
+      version: "1.0.0",
+      features: {
+        speechToText: true,
+        translation: true,
+        courses: true,
+        chat: true,
+        payments: true,
+      },
+      limits: {
+        maxFileSize: 50 * 1024 * 1024, // 50MB
+        maxTranscriptionLength: 3600, // 1 hour
+        maxChatMessages: 100,
+      },
+      supportedLanguages: ["en", "zh-CN", "es", "fr", "de", "ja", "ko"],
+      speechRegions: ["us-east-1", "us-west-2", "eu-west-1", "ap-southeast-1"],
+    };
 
-    const authHeader = c.req.header("Authorization");
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return c.json({ error: "Authorization token required" }, 401);
+    return c.json(config);
+  } catch (error) {
+    console.error("Get config error:", error);
+    return c.json({ error: "Internal server error" }, 500);
+  }
+});
+
+// Add OAuth state endpoint for authentication flow
+commonRoute.get("/api/oauth/state", async (c) => {
+  try {
+    const { provider } = c.req.query();
+
+    if (!provider || !["github", "google", "microsoft"].includes(provider)) {
+      return c.json({ error: "Invalid provider" }, 400);
     }
 
-    // TODO: Decode JWT token to get user ID
-    // For now, return error since JWT implementation is needed
-    return c.json({ error: "JWT token validation not implemented yet" }, 501);
+    // Generate OAuth state token
+    const state = crypto.randomUUID();
 
-    // When JWT is implemented, the code would look like:
-    // const token = authHeader.substring(7);
-    // const decoded = verifyJWT(token);
-    // const userId = decoded.userId;
-    //
-    // const user = await db.select().from(usersTable).where(eq(usersTable.id, userId)).limit(1);
-    // if (user.length === 0) {
-    //   return c.json({ error: "User not found" }, 404);
-    // }
-    // return c.json(user[0]);
+    // TODO: Store state in cache/database for validation
+    // For now, just return the state
+    return c.json({ state, provider });
   } catch (error) {
-    console.error("Get current user error:", error);
+    console.error("OAuth state error:", error);
+    return c.json({ error: "Internal server error" }, 500);
+  }
+});
+
+// Device code endpoint for device flow authentication
+commonRoute.post("/api/device/code", async (c) => {
+  try {
+    const body = await c.req.json();
+    const { client_id } = body;
+
+    if (!client_id) {
+      return c.json({ error: "Client ID is required" }, 400);
+    }
+
+    // Generate device code and user code
+    const deviceCode = crypto.randomUUID();
+    const userCode = Math.random().toString(36).substring(2, 8).toUpperCase();
+
+    // TODO: Store codes in cache/database with expiration
+    return c.json({
+      device_code: deviceCode,
+      user_code: userCode,
+      verification_uri: "https://example.com/device",
+      verification_uri_complete: `https://example.com/device?user_code=${userCode}`,
+      expires_in: 1800, // 30 minutes
+      interval: 5, // Poll every 5 seconds
+    });
+  } catch (error) {
+    console.error("Device code error:", error);
+    return c.json({ error: "Internal server error" }, 500);
+  }
+});
+
+// Send login code via phone/email
+commonRoute.post("/api/login/code", async (c) => {
+  try {
+    const body = await c.req.json();
+    const { phone_number, email } = body;
+
+    if (!phone_number && !email) {
+      return c.json({ error: "Phone number or email is required" }, 400);
+    }
+
+    // Generate verification code
+    const code = Math.floor(100000 + Math.random() * 900000).toString();
+
+    // TODO: Send code via SMS or email service
+    // TODO: Store code in cache/database with expiration
+
+    console.log(`Verification code for ${phone_number || email}: ${code}`);
+
+    return c.json({
+      message: "Verification code sent",
+      expires_in: 300, // 5 minutes
+    });
+  } catch (error) {
+    console.error("Send login code error:", error);
     return c.json({ error: "Internal server error" }, 500);
   }
 });
