@@ -1,15 +1,15 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
-import usersRoute from "./routes/users-route.js";
+import usersRoute from "./routes/users-route";
+import sessionRouter from "./routes/sessions-route";
+import commonRoute from "./routes/common-route";
 
 const app = new Hono();
 
-app.get("/", (c) => {
-  return c.text("Hello Hono!");
-});
-
 // add users route to app
-app.route("/users", usersRoute);
+app.route("/", commonRoute);
+app.route("/api/sessions", sessionRouter);
+app.route("/api/users", usersRoute);
 
 // set port
 const port = process.env.PORT ? Number(process.env.PORT) : 9000;

@@ -1,62 +1,55 @@
 import { Hono } from "hono";
-import { db } from "../db/index.js";
+import { db } from "../db/index";
 import { usersTable } from "../db/schema";
 import { eq } from "drizzle-orm";
 
-// create users route
+// create common route for authentication and user management
 const usersRoute = new Hono();
 
-// get all users
-usersRoute.get("/", async (c) => {
-  const users = await db.select().from(usersTable);
-  return c.json(users);
-});
-
-// create a new user
-usersRoute.post("/", async (c) => {
-  const { name, age, email } = await c.req.json();
-  const newUser = await db.insert(usersTable).values({ name, age, email });
-  return c.json(newUser);
-});
-
-// get a user by id
-usersRoute.get("/:id", async (c) => {
-  const { id } = c.req.param();
-  const user = await db
-    .select()
-    .from(usersTable)
-    .where(eq(usersTable.id, Number(id)));
-  return c.json(user);
-});
-
-// update a user by id
+// Update user profile
 usersRoute.put("/:id", async (c) => {
-  const { id } = c.req.param();
-  const { name, age, email } = await c.req.json();
-  const updatedUserResult = await db
-    .update(usersTable)
-    .set({ name, age, email })
-    .where(eq(usersTable.id, Number(id)));
+  try {
+    const userId = c.req.param("id");
+    const body = await c.req.json();
+    const { name, email, code } = body;
 
-  // error if not found
-  if (!updatedUserResult) {
-    return c.json({ error: "User not found" }, 404);
+    if (!userId) {
+      return c.json({ error: "User ID is required" }, 400);
+    }
+
+    // TODO: Verify that the requesting user has permission to update this profile
+    // This should check JWT token and ensure user can only update their own profile
+
+    const updateData: any = {};
+    if (name) updateData.name = name;
+    if (email) {
+      // Verify email ownership with code if provided
+      if (code) {
+        // TODO: Implement email verification logic
+        // For now, we'll accept the email change
+      }
+      updateData.email = email;
+    }
+
+    if (Object.keys(updateData).length === 0) {
+      return c.json({ error: "No valid fields to update" }, 400);
+    }
+
+    const updatedUser = await db
+      .update(usersTable)
+      .set(updateData)
+      .where(eq(usersTable.id, parseInt(userId)))
+      .returning();
+
+    if (updatedUser.length === 0) {
+      return c.json({ error: "User not found" }, 404);
+    }
+
+    return c.json(updatedUser[0]);
+  } catch (error) {
+    console.error("Update profile error:", error);
+    return c.json({ error: "Internal server error" }, 500);
   }
-
-  // else get updated user
-  const updatedUser = await db
-    .select()
-    .from(usersTable)
-    .where(eq(usersTable.id, Number(id)));
-
-  return c.json(updatedUser);
-});
-
-// delete a user by id
-usersRoute.delete("/:id", async (c) => {
-  const { id } = c.req.param();
-  const deletedUser = await db.delete(usersTable).where(eq(usersTable.id, Number(id)));
-  return c.json(deletedUser);
 });
 
 // export users route
