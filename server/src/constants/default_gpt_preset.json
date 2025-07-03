@@ -1,0 +1,23 @@
+{
+  "key": "custom",
+  "name": "default",
+  "engine": "enjoyai",
+  "configuration": {
+    "type": "gpt",
+    "model": "gpt-4o",
+    "baseUrl": "",
+    "roleDefinition": "",
+    "temperature": 0.2,
+    "numberOfChoices": 1,
+    "maxTokens": 2048,
+    "presencePenalty": 0,
+    "frequencyPenalty": 0,
+    "historyBufferSize": 0,
+    "tts": {
+      "baseUrl": "",
+      "engine": "enjoyai",
+      "model": "openai/tts-1",
+      "voice": "alloy"
+    }
+  }
+}

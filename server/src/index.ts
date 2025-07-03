@@ -1,6 +1,7 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { jwt } from "hono/jwt";
+import { cors } from "hono/cors";
 import type { JwtVariables } from "hono/jwt";
 import { logger } from "hono/logger";
 
@@ -26,13 +27,14 @@ const JWT_SECRET = process.env.JWT_SECRET || "your-super-secret-jwt-key-change-t
 
 const app = new Hono<{ Variables: JwtVariables<{ userId: string; email: string }> }>();
 app.use(logger());
+app.use("*", cors());
 
-app.use(
-  "/api/*",
-  jwt({
-    secret: JWT_SECRET,
-  })
-);
+// app.use(
+//   "/api/*",
+//   jwt({
+//     secret: JWT_SECRET,
+//   })
+// );
 
 // Add common route
 app.route("/", commonRoute);

@@ -1,0 +1,13 @@
+{
+  "key": "tts",
+  "name": "TTS",
+  "engine": "enjoyai",
+  "configuration": {
+    "type": "tts",
+    "tts": {
+      "engine": "enjoyai",
+      "model": "openai/tts-1",
+      "voice": "alloy"
+    }
+  }
+}

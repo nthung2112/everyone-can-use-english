@@ -1,7 +1,6 @@
 import { Hono } from "hono";
-import { db } from "../db/index";
-import { usersTable } from "../db/schema";
-import { eq } from "drizzle-orm";
+import { loadJsonFiles } from "../utils/files";
+const constants = loadJsonFiles("../constants");
 
 // create common route for authentication and user management
 const commonRoute = new Hono();
@@ -15,8 +14,25 @@ commonRoute.get("/up", async (c) => {
 });
 
 // Get configuration
-commonRoute.get("/api/config", async (c) => {
+commonRoute.get("/api/config/:key", async (c) => {
   try {
+    const { key } = c.req.param();
+
+    if (constants[key]) {
+      return c.json(constants[key]);
+    }
+
+    if (key === "bugsnag_api_key") {
+      return c.json({
+        bugsnag_api_key: "4bf3cc2e21ec8920740bd554e4f0424f",
+      });
+    }
+    if (key === "app_version") {
+      return c.json({
+        version: "0.7.9",
+      });
+    }
+
     // Return basic app configuration
     const config = {
       version: "1.0.0",
