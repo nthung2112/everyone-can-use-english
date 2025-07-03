@@ -14,8 +14,8 @@ import {
   BreadcrumbSeparator,
 } from "@renderer/components/ui";
 import { t } from "i18next";
-import { MediaShadowProvider } from "@renderer/context";
 import { useState } from "react";
+import { MediaShadowProvider } from "@renderer/context";
 
 export default () => {
   const { id } = useParams<{ id: string }>();
