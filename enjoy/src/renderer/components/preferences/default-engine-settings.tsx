@@ -16,24 +16,19 @@ import {
   FormLabel,
   FormMessage,
 } from "@renderer/components/ui";
-import {
-  AISettingsProviderContext,
-  AppSettingsProviderContext,
-} from "@renderer/context";
+import { AISettingsProviderContext, AppSettingsProviderContext } from "@renderer/context";
 import { useContext, useEffect, useState } from "react";
 import { GPT_PROVIDERS } from "@renderer/components";
 
 export const DefaultEngineSettings = () => {
-  const { currentGptEngine, setGptEngine, openai } = useContext(
-    AISettingsProviderContext
-  );
+  const { currentGptEngine, setGptEngine, openai } = useContext(AISettingsProviderContext);
   const { webApi } = useContext(AppSettingsProviderContext);
   const [providers, setProviders] = useState<any>(GPT_PROVIDERS);
   const [editing, setEditing] = useState(false);
 
   const gptEngineSchema = z
     .object({
-      name: z.enum(["enjoyai", "openai"]),
+      name: z.string(),
       models: z.object({
         default: z.string(),
         lookup: z.string().optional(),
@@ -53,13 +48,9 @@ export const DefaultEngineSettings = () => {
   });
 
   const modelOptions = () => {
-    if (form.watch("name") === "openai") {
-      const customModels = openai?.models?.split(",")?.filter(Boolean);
-
-      return customModels?.length ? customModels : providers.openai.models;
-    } else {
-      return providers.enjoyai.models;
-    }
+    const providerName = form.watch("name");
+    const provider = providers[providerName];
+    return provider?.models || [];
   };
 
   const onSubmit = async (data: z.infer<typeof gptEngineSchema>) => {
@@ -111,9 +102,7 @@ export const DefaultEngineSettings = () => {
                 render={({ field }) => (
                   <FormItem>
                     <div className="flex items-center space-x-2">
-                      <FormLabel className="min-w-max">
-                        {t("aiEngine")}:
-                      </FormLabel>
+                      <FormLabel className="min-w-max">{t("aiEngine")}:</FormLabel>
                       <Select
                         value={field.value}
                         disabled={!editing}
@@ -126,21 +115,21 @@ export const DefaultEngineSettings = () => {
                         }}
                       >
                         <SelectTrigger className="min-w-fit">
-                          <SelectValue
-                            placeholder={t("defaultAiEngine")}
-                          ></SelectValue>
+                          <SelectValue placeholder={t("defaultAiEngine")}></SelectValue>
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="enjoyai">EnjoyAI</SelectItem>
-                          <SelectItem value="openai">OpenAI</SelectItem>
+                          {Object.keys(providers).map((provider) => (
+                            <SelectItem key={provider} value={provider}>
+                              {providers[provider].name}
+                            </SelectItem>
+                          ))}
                         </SelectContent>
                       </Select>
                     </div>
                     <FormMessage />
                     <div className="text-xs text-muted-foreground">
                       {form.watch("name") === "openai" && t("openAiEngineTips")}
-                      {form.watch("name") === "enjoyai" &&
-                        t("enjoyAiEngineTips")}
+                      {form.watch("name") === "enjoyai" && t("enjoyAiEngineTips")}
                     </div>
                   </FormItem>
                 )}
@@ -151,18 +140,14 @@ export const DefaultEngineSettings = () => {
                 render={({ field }) => (
                   <FormItem>
                     <div className="flex items-center space-x-2">
-                      <FormLabel className="min-w-max">
-                        {t("defaultAiModel")}:
-                      </FormLabel>
+                      <FormLabel className="min-w-max">{t("defaultAiModel")}:</FormLabel>
                       <Select
                         value={field.value}
                         disabled={!editing}
                         onValueChange={field.onChange}
                       >
                         <SelectTrigger className="min-w-fit">
-                          <SelectValue
-                            placeholder={t("defaultAiModel")}
-                          ></SelectValue>
+                          <SelectValue placeholder={t("defaultAiModel")}></SelectValue>
                         </SelectTrigger>
                         <SelectContent>
                           {modelOptions().map((model: string) => (
@@ -184,18 +169,14 @@ export const DefaultEngineSettings = () => {
                     render={({ field }) => (
                       <FormItem>
                         <div className="flex items-center space-x-2">
-                          <FormLabel className="min-w-max">
-                            {t("lookupAiModel")}:
-                          </FormLabel>
+                          <FormLabel className="min-w-max">{t("lookupAiModel")}:</FormLabel>
                           <Select
                             value={field.value}
                             disabled={!editing}
                             onValueChange={field.onChange}
                           >
                             <SelectTrigger className="min-w-fit">
-                              <SelectValue
-                                placeholder={t("leaveEmptyToUseDefault")}
-                              ></SelectValue>
+                              <SelectValue placeholder={t("leaveEmptyToUseDefault")}></SelectValue>
                             </SelectTrigger>
                             <SelectContent>
                               {modelOptions().map((model: string) => (
@@ -215,18 +196,14 @@ export const DefaultEngineSettings = () => {
                     render={({ field }) => (
                       <FormItem>
                         <div className="flex items-center space-x-2">
-                          <FormLabel className="min-w-max">
-                            {t("translateAiModel")}:
-                          </FormLabel>
+                          <FormLabel className="min-w-max">{t("translateAiModel")}:</FormLabel>
                           <Select
                             value={field.value}
                             disabled={!editing}
                             onValueChange={field.onChange}
                           >
                             <SelectTrigger className="min-w-fit">
-                              <SelectValue
-                                placeholder={t("leaveEmptyToUseDefault")}
-                              ></SelectValue>
+                              <SelectValue placeholder={t("leaveEmptyToUseDefault")}></SelectValue>
                             </SelectTrigger>
                             <SelectContent>
                               {modelOptions().map((model: string) => (
@@ -246,18 +223,14 @@ export const DefaultEngineSettings = () => {
                     render={({ field }) => (
                       <FormItem>
                         <div className="flex items-center space-x-2">
-                          <FormLabel className="min-w-max">
-                            {t("analyzeAiModel")}:
-                          </FormLabel>
+                          <FormLabel className="min-w-max">{t("analyzeAiModel")}:</FormLabel>
                           <Select
                             value={field.value}
                             disabled={!editing}
                             onValueChange={field.onChange}
                           >
                             <SelectTrigger className="min-w-fit">
-                              <SelectValue
-                                placeholder={t("leaveEmptyToUseDefault")}
-                              ></SelectValue>
+                              <SelectValue placeholder={t("leaveEmptyToUseDefault")}></SelectValue>
                             </SelectTrigger>
                             <SelectContent>
                               {modelOptions().map((model: string) => (
@@ -277,18 +250,14 @@ export const DefaultEngineSettings = () => {
                     render={({ field }) => (
                       <FormItem>
                         <div className="flex items-center space-x-2">
-                          <FormLabel className="min-w-max">
-                            {t("extractStoryAiModel")}:
-                          </FormLabel>
+                          <FormLabel className="min-w-max">{t("extractStoryAiModel")}:</FormLabel>
                           <Select
                             value={field.value}
                             disabled={!editing}
                             onValueChange={field.onChange}
                           >
                             <SelectTrigger className="min-w-fit">
-                              <SelectValue
-                                placeholder={t("leaveEmptyToUseDefault")}
-                              ></SelectValue>
+                              <SelectValue placeholder={t("leaveEmptyToUseDefault")}></SelectValue>
                             </SelectTrigger>
                             <SelectContent>
                               {modelOptions().map((model: string) => (

@@ -6,6 +6,7 @@ const ONE_MINUTE = 1000 * 60; // 1 minute
 
 export class Client {
   public api: AxiosInstance;
+  public localApi: AxiosInstance;
   public baseUrl: string;
   public logger: any;
 
@@ -17,14 +18,7 @@ export class Client {
     onError?: (err: any) => void;
     onSuccess?: (res: any) => void;
   }) {
-    const {
-      baseUrl,
-      accessToken,
-      logger,
-      locale = "en",
-      onError,
-      onSuccess,
-    } = options;
+    const { baseUrl, accessToken, logger, locale = "en", onError, onSuccess } = options;
     this.baseUrl = baseUrl;
     this.logger = logger || console;
 
@@ -89,6 +83,29 @@ export class Client {
         return Promise.reject(err);
       }
     );
+
+    this.localApi = axios.create({
+      baseURL: "http://localhost:8888",
+      timeout: ONE_MINUTE,
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: accessToken ? `Bearer ${accessToken}` : undefined,
+        "Accept-Language": locale,
+      },
+    });
+
+    this.localApi.interceptors.response.use((response) => {
+      if (onSuccess) {
+        onSuccess(response);
+      }
+
+      this.logger.debug(
+        response.status,
+        response.config.method.toUpperCase(),
+        response.config.baseURL + response.config.url
+      );
+      return camelcaseKeys(response.data, { deep: true });
+    });
   }
 
   up() {
@@ -111,7 +128,7 @@ export class Client {
   }
 
   config(key: string): Promise<any> {
-    return this.api.get(`/api/config/${key}`);
+    return this.localApi.get(`/api/config/${key}`);
   }
 
   deviceCode(provider = "github"): Promise<{
@@ -139,11 +156,7 @@ export class Client {
     return this.api.put(`/api/users/${id}`, decamelizeKeys(params));
   }
 
-  loginCode(params: {
-    phoneNumber?: string;
-    email?: string;
-    mixinId?: string;
-  }): Promise<void> {
+  loginCode(params: { phoneNumber?: string; email?: string; mixinId?: string }): Promise<void> {
     return this.api.post("/api/sessions/login_code", decamelizeKeys(params));
   }
 
@@ -216,15 +229,7 @@ export class Client {
     page?: number;
     items?: number;
     userId?: string;
-    type?:
-      | "all"
-      | "recording"
-      | "medium"
-      | "story"
-      | "prompt"
-      | "text"
-      | "gpt"
-      | "note";
+    type?: "all" | "recording" | "medium" | "story" | "prompt" | "text" | "gpt" | "note";
     by?: "following" | "all";
   }): Promise<
     {
@@ -302,9 +307,7 @@ export class Client {
     return this.api.post("/api/transcriptions", decamelizeKeys(transcription));
   }
 
-  syncSegment(
-    segment: Partial<Omit<SegmentType, "audio" | "video" | "target">>
-  ) {
+  syncSegment(segment: Partial<Omit<SegmentType, "audio" | "video" | "target">>) {
     return this.api.post("/api/segments", decamelizeKeys(segment));
   }
 
@@ -347,9 +350,7 @@ export class Client {
     });
   }
 
-  syncPronunciationAssessment(
-    pronunciationAssessment: Partial<PronunciationAssessmentType>
-  ) {
+  syncPronunciationAssessment(pronunciationAssessment: Partial<PronunciationAssessmentType>) {
     if (!pronunciationAssessment) return;
 
     return this.api.post(
@@ -485,11 +486,7 @@ export class Client {
     return this.api.post("/api/payments", decamelizeKeys(params));
   }
 
-  payments(params?: {
-    paymentType?: string;
-    page?: number;
-    items?: number;
-  }): Promise<
+  payments(params?: { paymentType?: string; page?: number; items?: number }): Promise<
     {
       payments: PaymentType[];
     } & PagyResponseType
@@ -516,12 +513,7 @@ export class Client {
     });
   }
 
-  courses(params?: {
-    language?: string;
-    page?: number;
-    items?: number;
-    query?: string;
-  }): Promise<
+  courses(params?: { language?: string; page?: number; items?: number; query?: string }): Promise<
     {
       courses: CourseType[];
     } & PagyResponseType
@@ -579,10 +571,7 @@ export class Client {
     return this.api.put(`/api/enrollments/${id}`, decamelizeKeys(params));
   }
 
-  createLlmChat(params: {
-    agentId: string;
-    agentType: string;
-  }): Promise<LLmChatType> {
+  createLlmChat(params: { agentId: string; agentType: string }): Promise<LLmChatType> {
     return this.api.post("/api/chats", decamelizeKeys(params));
   }
 
@@ -598,10 +587,7 @@ export class Client {
       agentType?: string;
     }
   ): Promise<LlmMessageType> {
-    return this.api.post(
-      `/api/chats/${chatId}/messages`,
-      decamelizeKeys(params)
-    );
+    return this.api.post(`/api/chats/${chatId}/messages`, decamelizeKeys(params));
   }
 
   llmMessages(
@@ -628,11 +614,7 @@ export class Client {
     return this.api.delete(`/api/mine/documents/${id}`);
   }
 
-  translations(params?: {
-    md5?: string;
-    translatedLanguage?: string;
-    engine?: string;
-  }): Promise<
+  translations(params?: { md5?: string; translatedLanguage?: string; engine?: string }): Promise<
     {
       translations: TranslationType[];
     } & PagyResponseType
