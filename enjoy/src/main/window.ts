@@ -833,6 +833,27 @@ ${log}
       ],
     },
     {
+    label: 'View',
+    submenu: [
+        { label: 'Reload',
+            accelerator: 'CmdOrCtrl+R',
+            click(item, focusedWindow) { if (focusedWindow) (focusedWindow as BrowserWindow).webContents.reload(); }
+        },
+        { label: 'Toggle Developer Tools',
+            accelerator: process.platform === 'darwin' ? 'Alt+Command+I' : 'Ctrl+Shift+I',
+            click(item, focusedWindow) { 
+              if (focusedWindow) (focusedWindow as BrowserWindow).webContents.toggleDevTools(); 
+            }
+        },
+        { type: 'separator' },
+        { role: 'resetZoom' },
+        { role: 'zoomIn' },
+        { role: 'zoomOut' },
+        { type: 'separator' },
+        { role: 'togglefullscreen' },
+        { role: 'minimize' }
+    ]},
+    {
       label: "Help",
       submenu: [
         {
