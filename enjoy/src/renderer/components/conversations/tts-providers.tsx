@@ -740,4 +740,21 @@ export const TTS_PROVIDERS: { [key: string]: any } = {
     voices: ["alloy", "echo", "fable", "onyx", "nova", "shimmer"],
     configurable: ["model", "language", "voice", "baseUrl"],
   },
+  local: {
+    name: "Local TTS",
+    description: t("youNeedToSetupApiKeyBeforeUsingOpenAI"),
+    models: ["default"],
+    voices: [
+      "en-US-AriaNeural",
+      "en-US-AnaNeural",
+      "en-US-ChristopherNeural",
+      "en-US-EricNeural",
+      "en-US-GuyNeural",
+      "en-US-JennyNeural",
+      "en-US-MichelleNeural",
+      "en-US-RogerNeural",
+      "en-US-SteffanNeural",
+    ],
+    configurable: ["model", "language", "voice", "baseUrl"],
+  },
 };

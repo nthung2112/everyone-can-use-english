@@ -312,6 +312,7 @@ type EnjoyAppType = {
       }
     ) => Promise<SpeechType>;
     delete: (id: string) => Promise<void>;
+    generate: (param: any) => Promise<ArrayBuffer>;
   };
   echogarden: {
     getPackagesDir: () => Promise<string>;

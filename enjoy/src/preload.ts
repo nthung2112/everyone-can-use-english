@@ -534,6 +534,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     delete: (id: string) => {
       return ipcRenderer.invoke("speeches-delete", id);
     },
+    generate: (options: any) => {
+      return ipcRenderer.invoke("speeches-generate", options);
+    },
   },
   audiowaveform: {
     generate: (

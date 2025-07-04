@@ -9,6 +9,9 @@ import contextMenu from "electron-context-menu";
 import Bugsnag from "@bugsnag/electron";
 import { t } from "i18next";
 import { Client } from "./api";
+import WebSocket from "ws";
+
+global.WebSocket = WebSocket;
 
 const logger = log.scope("main");
 

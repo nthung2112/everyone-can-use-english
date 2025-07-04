@@ -5,6 +5,11 @@ import path from "path";
 import settings from "@main/settings";
 import { hashFile } from "@main/utils";
 import { Attributes, WhereOptions } from "sequelize";
+import { EdgeSpeechTTS } from "@lobehub/tts";
+import { Buffer } from "buffer";
+
+// Instantiate EdgeSpeechTTS
+const tts = new EdgeSpeechTTS({ locale: "en-US" });
 
 class SpeechesHandler {
   private async findOne(
@@ -61,16 +66,33 @@ class SpeechesHandler {
     await Speech.destroy({ where: { id } });
   }
 
+  private async handleGenerate(
+    event: IpcMainEvent,
+    params: {
+      input: string;
+      options: {
+        voice: string;
+      };
+    }
+  ) {
+    // Call create method to synthesize speech
+    const response = await tts.create(params);
+
+    return await response.arrayBuffer();
+  }
+
   register() {
     ipcMain.handle("speeches-find-one", this.findOne);
     ipcMain.handle("speeches-create", this.create);
     ipcMain.handle("speeches-delete", this.delete);
+    ipcMain.handle("speeches-generate", this.handleGenerate);
   }
 
   unregister() {
     ipcMain.removeHandler("speeches-find-one");
     ipcMain.removeHandler("speeches-create");
     ipcMain.removeHandler("speeches-delete");
+    ipcMain.removeHandler("speeches-generate");
   }
 }
 

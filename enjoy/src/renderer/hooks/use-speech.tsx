@@ -22,6 +22,13 @@ export const useSpeech = () => {
       buffer = await openaiTTS(params);
     } else if (model.startsWith("azure")) {
       buffer = await azureTTS(params);
+    } else {
+      buffer = await EnjoyApp.speeches.generate({
+        input: params.text,
+        options: {
+          voice: voice ?? "en-US-GuyNeural",
+        },
+      });
     }
 
     return EnjoyApp.speeches.create(

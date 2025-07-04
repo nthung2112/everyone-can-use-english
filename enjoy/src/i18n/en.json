@@ -868,7 +868,7 @@
     "numberOfChoicesDescription": "When greater than 1, it will generate multiple versions of text each time"
   },
   "tts": {
-    "engine": "TTS 引擎",
+    "engine": "TTS Engine",
     "model": "TTS Model",
     "voice": "TTS Voice",
     "language": "TTS Language"
