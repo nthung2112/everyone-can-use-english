@@ -967,6 +967,73 @@ export default withMermaid(
             link: "/intro",
           },
         ],
+
+        "/vi/enjoy-app/": [
+          {
+            text: "Bắt đầu nhanh",
+            collapsed: false,
+            items: [
+              { text: "Giới thiệu", link: "/vi/enjoy-app/" },
+              { text: "Tải xuống và cài đặt", link: "/vi/enjoy-app/install" },
+              { text: "Cài đặt phần mềm", link: "/vi/enjoy-app/settings" },
+              { text: "Cập nhật phiên bản", link: "/vi/enjoy-app/changelog" },
+            ],
+          },
+          {
+            text: "Theo dõi luyện tập",
+            collapsed: false,
+            items: [
+              { text: "Tài nguyên âm thanh", link: "/vi/enjoy-app/audios" },
+              { text: "Tài nguyên video", link: "/vi/enjoy-app/videos" },
+            ],
+          },
+          {
+            text: "Chat",
+            collapsed: false,
+            items: [
+              { text: "Giới thiệu", link: "/vi/enjoy-app/chat" },
+              { text: "Nói chuyện với Agent", link: "/vi/enjoy-app/chat-with-agent" },
+              { text: "Trò chuyện nhóm", link: "/vi/enjoy-app/chat-group" },
+              { text: "Copilot", link: "/vi/enjoy-app/chat-copilot" },
+            ],
+          },
+          {
+            text: "Đọc văn bản",
+            collapsed: false,
+            items: [
+              { text: "Giới thiệu", link: "/vi/enjoy-app/document" },
+              { text: "Tài liệu cục bộ", link: "/vi/enjoy-app/document-ebook" },
+              { text: "Bài viết trực tuyến", link: "/vi/enjoy-app/document-webpage" },
+            ],
+          },
+          {
+            text: "Trợ lý thông minh",
+            collapsed: false,
+            items: [
+              { text: "Giới thiệu", link: "/vi/enjoy-app/ai-assistant" },
+              { text: "Dịch vụ GPT", link: "/vi/enjoy-app/gpt-conversation" },
+              { text: "Dịch vụ TTS", link: "/vi/enjoy-app/tts-conversation" },
+            ],
+          },
+          {
+            text: "Khác",
+            collapsed: false,
+            items: [
+              {
+                text: "Câu hỏi thường gặp",
+                link: "/vi/enjoy-app/faq",
+              },
+              {
+                text: "Tạo tài liệu huấn luyện.",
+                link: "/vi/enjoy-app/use-case-generate-audio-resources",
+              },
+            ],
+          },
+          {
+            text: "Trở về",
+            link: "/vi/intro",
+          },
+        ],
       },
 
       socialLinks: [
